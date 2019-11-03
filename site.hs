@@ -4,7 +4,6 @@ import           Data.Monoid (mappend)
 import           Hakyll
 import           Text.Pandoc
 
-
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
@@ -67,9 +66,8 @@ postCtx =
 siteCtx :: Context String
 siteCtx =
     constField "baseurl" "http://localhost:8000" `mappend`
-    constField "site_description" "my beautiful blog" `mappend`
-    constField "instagram_username" "katychuang.nyc" `mappend`
-    constField "twitter_username" "katychuang" `mappend`
-    constField "github_username" "katychuang" `mappend`
-    constField "google_username" "katychuang" `mappend`
+    constField "site_description" "oneironomics" `mappend`
+    constField "twitter_username" "gjncs" `mappend`
+    constField "github_username" "gjoncas" `mappend`
+    constField "instagram_username" "gjoncas" `mappend`
     defaultContext
