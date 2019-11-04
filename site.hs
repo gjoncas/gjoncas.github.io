@@ -11,7 +11,7 @@ main = hakyll $ do
         route idRoute
         compile copyFileCompiler
 
-    match (fromList ["About.md", "Contact.markdown"]) $ do
+    match (fromList ["About.md", "Research.markdown","Projects.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/page.html" siteCtx
@@ -25,13 +25,13 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
-    create ["archive.html"] $ do
+    create ["blog.html"] $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Archives"            `mappend`
+                    constField "title" "Blog Archives"       `mappend`
                     siteCtx
 
             makeItem ""

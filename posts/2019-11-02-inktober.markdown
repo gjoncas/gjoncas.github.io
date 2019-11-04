@@ -3,7 +3,7 @@ title: Inktober Postscript
 ---
 
 I am not at all a visual thinker — only when I deeply understand something can I express it spatially.
-As a kind of meditation, I spent most of October making diagrams, from Althusser to engineering.
+As a form of meditation, I spent most of October making diagrams, from Althusser to engineering.
 
 To inaugurate my new blog, I\'ll go over some of the tricks I learned, and how Ti*k*Z (the software I use)
 has changed the way I think about diagrams and diagrammatic reasoning.
