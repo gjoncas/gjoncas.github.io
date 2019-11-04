@@ -3,12 +3,6 @@
 /* SPAN elements with the classes below are added by prettyprint. */
 .pln { color: #fff }  /* plain text */  /*changed from 000*/
 
-/* centers an image if it has #center after; via https://stackoverflow.com/questions/3912694 */
-img[src*='#center'] { 
-    display: block;
-    margin: auto;
-}
-
 @media screen {
   .str { color: #080 }  /* string content */
   .kwd { color: #008 }  /* a keyword */
