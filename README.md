@@ -1,8 +1,8 @@
-# CleanMagic for Hakyll
+## Theme Credits
 
 The design for this theme comes from [CleanMagicMedium-Jekyll](https://github.com/SpaceG/CleanMagicMedium-Jekyll) by Lucas Gatsas.<br>
-The code I started from is by [Katy Chuang](https://github.com/katychuang/CleanMagic-hakyll), who adapted CleanMagic for Hakyll.
-Cody by other users of CleanMagic-hakyll has also been very helpful: [Benedikt Mayer](https://github.com/benedikt-mayer/benedikt-mayer.github.io) and [Ismail Mustafa](https://ismailmustafa.github.io).
+The code I started from is by [Katy Chuang](https://github.com/katychuang/CleanMagic-hakyll), who adapted CleanMagic for Hakyll.<br>
+Code by other users of CleanMagic-hakyll was also helpful: [Benedikt Mayer](https://github.com/benedikt-mayer/benedikt-mayer.github.io) and [Ismail Mustafa](https://ismailmustafa.github.io).
 
 I am still having problems supporting Unicode characters, or even apostrophes.<br>
 I'd like to add support for LaTeX -- which should be possible, just a nightmare to code.<br>
@@ -38,7 +38,7 @@ It's slightly convoluted to go from editing to publishing and vice versa. I'm wr
 To more easily navigate the localhost:8000 site, change baseurl in `site.hs`. (Don't forget to change it back when publishing!)
 
 About.md, Contact.markdown, and the original index.html need to be in the main directory when editing & building.<br>
-When publishing, put these files in the pages folder, and replace them with the files from site_ (About, archive, Contact, index).<br>
+When publishing, put them in the pages folder, and replace them with the files from site_ (About, archive, Contact, index).<br>
 When editing, delete html versions of posts; when publishing, copy the html posts from site_ into the posts folder.
 
 There's probably a more efficient way to do this, but I'm just playing by ear here.
