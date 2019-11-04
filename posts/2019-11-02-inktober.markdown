@@ -20,7 +20,7 @@ This is very simple, but doesn\'t come up with other software. Nevertheless, giv
 
 I\'ve been asked about my internal taxonomy for the various diagrams in my collection. Curiously, a draftsman\'s view often yields very different insights than a philosophical view.
 
-![musical scales and pythagorean ratios](/static/img/diagrams/scale%20ratios.png)
+![](/static/img/diagrams/scale%20ratios.png#center)
 
 This diagram comes from the book *On Sonic Art* (Wishart, 1996: 74), titled \'\'Various tempered scales and their relationship to Pythagorean ratios\'\'. Mortifyingly, the author bodged up the ratios in the original. The reason I like this diagram is that the code is so elegant, and from what I call a draftsman`s perspective you can *see* this in the image itself.
 
@@ -32,7 +32,7 @@ So one of the key things I look for in making a diagram is iterativity (yuck, wh
 
 It\'s humbling to express ideas as a diagram. After so much Deleuzian rhetoric about unquantifiable intensities, it\'s almost humiliating to return to mere circles and lines as the building-blocks of thought.
 
-![voidflowers](/static/img/diagrams/voidflowers.png)
+![](/static/img/diagrams/voidflowers.png#center)
 
 Most of my \'original\' diagrams have come from experimenting with loops, often around a circle — such as my voidflowers above, with 36-fold symmetry.
 
@@ -54,7 +54,7 @@ This kind of notation is in theory quite basic, but I never heard of it because 
 
 To try something new, I made a 3D diagram with PGFplots, of a time spiral / Heyser corkscrew.
 
-![time spiral](/static/img/diagrams/time-spiral.png)
+![](/static/img/diagrams/time-spiral.png#center)
 
 This was an absolute nightmare, since it took forever to compile. The curves are still choppy, since my poor TeX installation can\'t smooth three at once.
 
@@ -70,7 +70,7 @@ I can\'t help but wonder how 3D diagrams could be used in philosophy for multiva
 
 As with so many things, I put off learning this for a long time, but it turned out to be easy. I feel like this opens the way to reproducing a lot of artistic line art, provided we don\'t demand an exact copy. In this spirit, I find that randomization helps very much in making Deleuze\'s diagrams feel much less mechanical, and more like the scribbled original.
 
-![deleuze foucault](/static/img/diagrams/deleuze-foucault.png)
+![](/static/img/diagrams/deleuze-foucault.png#center)
 
 This is a huge turning point for me. After starting out drawing simple diagrams with lines and arrows, it\'s all of a sudden possible to create elaborate whisps and knots that I had long considered to be beyond the scope of Ti*k*Z. Where I am is a whole new state of open-mindedness, seeking out new lines and forms, whose arrow is not only from idea to diagram but also from diagram to idea.
 
