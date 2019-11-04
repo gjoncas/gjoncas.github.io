@@ -1,9 +1,8 @@
 ---
-title: Home
-headerImg: beach.jpg
+title: Oneironomics
 ---
 <!-- Page Header -->
-<header class="intro-header" style="" alt="" title="">
+<header class="intro-header" style="background-image: url('/static/img/viczetas.jpg')" alt="" title="">
     <div class="container head">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -11,9 +10,9 @@ headerImg: beach.jpg
                     <div class="hero-block">
                         <img class="img-circle portfolio-link" src="$baseurl$/static/img/face.png" href="#portfolioModal1" data-toggle="modal" width="150" height="150" alt="" title="">
                     </div><br><br>
-                    <h1 id="top-title-font-weight-bold">title</h1>
+                    <h1 id="top-title-font-weight-bold"><span style="color:white">$site_title$</span></h1>
                     <!--    <hr class="small"> -->
-                    <span class="subheading" id="textfloat">$site_description$
+                    <span class="subheading" id="textfloat"><span style="color:white">$site_description$</span>
                         <br> <br>
                         <!-- ///// Fade Out Navbar Profile Picture -///// New Adding Front Profile Picture Mo. 6. April 2015 -->
                         <!--
@@ -30,28 +29,20 @@ headerImg: beach.jpg
 <div class="container front-end">
     <div class="row">
         <div class="posts">
-            <article>
-                <header class="intro-header" style="background-image: url('$baseurl$/static/img/sky.jpg')">
-                    <div class="post-meta">
-
-                    </div>
-                    <h1 class="post-title"><a href="#" id="post-title-h1" rel="bookmark" title="link" itemprop="url">title of your website</a></h1>
-                    <h1 class="post-title-readmore"><a href="#" rel="bookmark" title="title" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-                </header>
-
-            </article>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
 
-                        <p>Welcome to my blog!</p>
+                        <p>This is my personal website and blog, still under construction.</p>
 
-                        <p>I've reproduced a list of recent posts here for your reading pleasure:</p>
+                        <p><b>To Do:</b><br>revamp home page, add support for Unicode and LaTeX, embed images, 
+						add more info on papers & projects, add blogroll, add diagram gallery, add CV, 
+						change background to black(?), add support for comments(?).</p>
 
                         <h3>Recent Posts</h3>
                         $partial("templates/post-list.html")$
 
-                        <p>…or you can find more in the <a href="/archive.html">archives</a>.
+                        <p>As more posts arise, they’ll show up in the <a href="/archive.html">archives</a>.
 
                             <hr>
 

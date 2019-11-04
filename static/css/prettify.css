@@ -1,7 +1,7 @@
 /* Pretty printing styles. Used with prettify.js. */
 
 /* SPAN elements with the classes below are added by prettyprint. */
-.pln { color: #000 }  /* plain text */
+.pln { color: #fff }  /* plain text */  /*changed from 000*/
 
 @media screen {
   .str { color: #080 }  /* string content */

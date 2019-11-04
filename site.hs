@@ -11,7 +11,7 @@ main = hakyll $ do
         route idRoute
         compile copyFileCompiler
 
-    match (fromList ["about.md", "contact.markdown"]) $ do
+    match (fromList ["About.md", "Contact.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/page.html" siteCtx
@@ -66,8 +66,9 @@ postCtx =
 siteCtx :: Context String
 siteCtx =
     constField "baseurl" "http://localhost:8000" `mappend`
-    constField "site_description" "oneironomics" `mappend`
-    constField "twitter_username" "gjncs" `mappend`
-    constField "github_username" "gjoncas" `mappend`
+    constField "site_description"   "We are a way for capital to know itself." `mappend`
+    constField "site_title"         "Oneironomics" `mappend`
+    constField "twitter_username"   "gjncs" `mappend`
+    constField "github_username"    "gjoncas" `mappend`
     constField "instagram_username" "gjoncas" `mappend`
     defaultContext

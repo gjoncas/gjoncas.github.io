@@ -38,7 +38,6 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <!-- X-UA -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="X-UA-Compatible" content="IE=11" />
-    <link rel="author" title="Katy Chuang" href="https://plus.google.com/u/0/111391719267336703432/posts" />
 
 
     <meta name="google" content="notranslate" />
@@ -56,14 +55,14 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <link rel="shortcut icon" href="$baseurl$/static/img/ico.png" type="image/x-icon" />
     <!-- Blog Title -->
     $if(title)$
-    <title>$title$</title>
+    <title>Oneironomics | $title$</title>
     $else$
-    <title>My beautiful blog </title>
+    <title>Oneironomics</title>
     $endif$
     <!--     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 -->
     <!-- Property Metas -->
-    <meta property="og:image" content="$baseurl$/static/img/ix.png" />
+    <meta property="og:image" content="$baseurl$/static/img/ix.png" />  <!-- what image is this?-->
     $if(site_description)$
     <meta property="og:title" content="$site_description$" />
     <meta property="og:site_name" content="$site_description$" />
@@ -93,7 +92,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: #fff;
+            background-color: #000;
             /* change if the mask should have another color then white */
             z-index: 99;
             /* makes sure it stays on top */
@@ -104,9 +103,9 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
             height: 200px;
             position: absolute;
             left: 50%;
-            /* centers the loading animation horizontally one the screen */
+            /* centers the loading animation horizontally on the screen */
             top: 50%;
-            /* centers the loading animation vertically one the screen */
+            /* centers the loading animation vertically on the screen */
             background-image: url("/static/img/preloader.gif");
             /* path to your loading animation */
             background-repeat: no-repeat;
@@ -122,8 +121,8 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         }
 
         .navbar-inverse {
-            background-color: #FFF;
-            border-color: #FFFFFF;
+            background-color: #000;
+            border-color: #000000;
         }
     </style>
     <!--link rel="stylesheet" href="$baseurl$/static/css/prettify.css"-->
@@ -145,7 +144,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: #fff;
+            background-color: #000;
             /* change if the mask should have another color then white */
             z-index: 99;
             /* makes sure it stays on top */
