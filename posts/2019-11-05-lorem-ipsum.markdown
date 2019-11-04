@@ -1,6 +1,6 @@
 ---
-title: Tu Quoque
-author: Julius
+title: Lorem Ipsum
+author: Graham
 ---
 
 Vestibulum leo turpis, dignissim quis ultrices sit amet, iaculis ac ligula.

@@ -1,5 +1,5 @@
 ---
-title: Carpe Diem
+title: Empty Post
 ---
 
 Fusce tortor quam, egestas in posuere quis, porttitor vel turpis. Donec

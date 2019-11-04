@@ -67,7 +67,7 @@ siteCtx :: Context String
 siteCtx =
     constField "baseurl" "https://gjoncas.github.io" `mappend`
 --    constField "baseurl" "http://localhost:8000" `mappend`
-    constField "site_description"   "We are a way for capital to know itself." `mappend`
+    constField "site_description"   "from surreal to surrational" `mappend`
     constField "site_title"         "Oneironomics" `mappend`
     constField "twitter_username"   "gjncs" `mappend`
     constField "github_username"    "gjoncas" `mappend`

@@ -9,7 +9,7 @@ I'd like to add support for LaTeX -- which should be possible, just a nightmare 
 I wanted to change the menus to black, but I spent a ton of time on this and finally gave up.
 
 I'd love to integrate more elaborate features as I get better with Hakyll.<br>
-For now, it seems the best place to find tutorials is [here](https://jaspervdj.be/hakyll/tutorials.html).
+For now, it seems the best place to find tutorials is [here](https://jaspervdj.be/hakyll/tutorials.html). For help, see [here](https://help.github.com/en/github/working-with-github-pages).
 
 ## Building with Stack
 
