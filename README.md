@@ -1,65 +1,45 @@
 # CleanMagic for Hakyll
 
-This theme is a fork of [CleanMagicMedium-Jekyll](https://github.com/SpaceG/CleanMagicMedium-Jekyll) originally published by Lucas Gatsas.
+The design for this theme comes from [CleanMagicMedium-Jekyll](https://github.com/SpaceG/CleanMagicMedium-Jekyll) by Lucas Gatsas.<br>
+The code I started from is by [Katy Chuang](https://github.com/katychuang/CleanMagic-hakyll), who adapted CleanMagic for Hakyll.
+Cody by other users of CleanMagic-hakyll has also been very helpful: [Benedikt Mayer](https://github.com/benedikt-mayer/benedikt-mayer.github.io) and [Ismail Mustafa](https://ismailmustafa.github.io).
 
-## Installation instructions
+I am still having problems supporting Unicode characters, or even apostrophes.<br>
+I'd like to add support for LaTeX -- which should be possible, just a nightmare to code.<br>
+I wanted to change the menus to black, but I spent a ton of time on this and finally gave up.
 
-Note that this theme has specific design features that require a custom written [siteCtx context](https://github.com/katychuang/CleanMagic-hakyll/blob/master/site.hs#L68) that contains specific field values mapped to the template fields. For example, `$site_description$` in the template files is mapped to the constant field with the string, "my beautiful blog".
-
-```haskell
-siteCtx :: Context String
-siteCtx = 
-    constField "baseurl" "http://localhost:8000" `mappend` 
-    constField "site_description" "my beautiful blog" `mappend`
-    constField "instagram_username" "katychuang.nyc" `mappend`
-    constField "twitter_username" "katychuang" `mappend`
-    constField "github_username" "katychuang" `mappend`
-    constField "google_username" "katychuang" `mappend`
-    defaultContext
-```
-
-Once you have the field strings written as how you'd like it, make sure that you're connecting this function where your pages are being rendered, for example in creating the `index.html` page, you want to include it, similar to the following ([ref](https://github.com/katychuang/CleanMagic-hakyll/blob/master/site.hs#L54)): 
-
-```haskell
-match "index.html" $ do
-    route idRoute
-    compile $ do
-        posts <- recentFirst =<< loadAll "posts/*"
-        let indexCtx =
-                listField "posts" postCtx (return posts) `mappend`
-                constField "title" "Home"                `mappend`
-                siteCtx -- INCLUDE THE CUSTOM FUNCTION, it sends variable/values to the template in the lines below
-
-        getResourceBody
-            >>= applyAsTemplate indexCtx
-            >>= loadAndApplyTemplate "templates/default.html" indexCtx
-            >>= relativizeUrls
-```
+I'd love to integrate more elaborate features as I get better with Hakyll.<br>
+For now, it seems the best place to find tutorials is [here](https://jaspervdj.be/hakyll/tutorials.html).
 
 ## Building with Stack
 
-Building your site using stack is covered [here](https://jaspervdj.be/hakyll/tutorials/02-basics.html).
-
-A quick recap:
+A quick recap of how to construct the blog on my computer using the command line:
 
 ```
-$ stack build
-$ stack exec CleanMagic-hakyll build # or rebuild if you made changes to site.hs
+cd C:\Users\Graham\Documents\GitHub\gjoncas.github.io
+stack build
+stack exec CleanMagic-hakyll build  #or rebuild if you made changes to site.hs
 ```
 
-Then
+Then, for a preview of the site:
 ```
-$ stack exec CleanMagic-hakyll watch
+stack exec CleanMagic-hakyll watch
 ```
 
-And access the site at:
+Then access the site at:
 
 http://127.0.0.1:8000
 
---
 
-This theme features a top navigation bar, and an area for beautiful header background images. Clean and serene, it's sure to give your posts an extra polish.
+## Editing vs. Publishing
 
-![Preview](https://github.com/katychuang/hakyll-cssgarden/blob/master/gallery/images/cleanMagic_hakyll-index.png?raw=true)
+It's slightly convoluted to go from editing to publishing and vice versa. I'm writing this so I don't forget.
 
-![Preview](https://raw.githubusercontent.com/SpaceG/spaceg.github.io/5f240c5e8b3f8e2cb9f776688466de651d5d8958/img/intro-theme-1.png)
+To more easily navigate the localhost:8000 site, change baseurl in `site.hs`. (Don't forget to change it back when publishing!)
+
+About.md, Contact.markdown, and the original index.html need to be in the main directory when editing & building.<br>
+When publishing, put these files in the pages folder, and replace them with the files from site_ (About, archive, Contact, index).<br>
+When editing, delete html versions of posts; when publishing, copy the html posts from site_ into the posts folder.
+
+There's probably a more efficient way to do this, but I'm just playing by ear here.
+
