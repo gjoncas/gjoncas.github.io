@@ -2,6 +2,7 @@
 -------------
 
 ![](/static/img/linaia-cc.png)
+
 **Linaia-Agon** \[[code](https://github.com/gjoncas/Xenakis)\]<br>
 Iannis Xenakis\'s musical piece *Linaia-Agon* consists of four zero-sum games.<br>
 The games correspond to a mythical duel between Linus and Apollo.<br>
