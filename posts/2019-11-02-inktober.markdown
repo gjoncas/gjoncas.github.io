@@ -54,7 +54,7 @@ The key to this is a bit of high school math I’d long forgotten: polar coordin
 say, 45^o^. For this (*x*,*y*)-coordinate in Ti*k*Z, we write: `({r*cos(45)},{r*sin(45)})`, replacing *r* by the circle’s radius.
 
 This opens the way to some wonderful loops.
-For a simple example, we might draw spokes of a wheel: for spokes 0 to 8, we draw a line from (0,0) to `({r*cos(45\*n)},{r*sin(45*n)})`.
+For a simple example, we might draw spokes of a wheel: for spokes 0 to 8, we draw a line from (0,0) to `({r*cos(45*n)},{r*sin(45*n)})`.
 That is, we start from 0^o^; (the rightmost point), then to 45^o^, all the way to 45\*8=360.
 
 Polar coordinates have made my life so much easier, and I find myself genuinely becoming
@@ -85,7 +85,7 @@ An interesting aspect not clear from the photo alone is that now that the code i
 Oddly, PGFplots doesn’t truly have a 3D engine, but instead is only a clever manipulation of 2D diagrams.
 For actual 3D, there’s a package called Asymptote, which I’m in no hurry to learn.
 
-It’s worth remarking how most the philosophy diagrams I’ve made so far are fundamentally flat, with the magnificent exception of Lévi-Strauss.
+It’s worth remarking how most the philosophy diagrams I’ve made so far are fundamentally flat, with the magnificent exception of [Lévi-Strauss](https://github.com/gjoncas/Diagrammatic/raw/master/pics/levi-strauss.png).
 It’s common to see what [\@deepchimera](https://twitter.com/deepchimera/status/1185318659545337858) calls ‘Aristotelian’ diagrams, essentially a box with two axes and lots of labels.
 I haven’t seen a single philosophy diagram with an *x*-axis, *y*-axis *and* *z*-axis.
 
