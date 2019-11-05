@@ -119,7 +119,7 @@ Yet, the very thought of conceptual diagrams as a *skill* raises tons of interes
 Most diagrams are radically singular — we could never imagine coming up with it ourselves. 
 Further, diagrams span all human knowledge; I’ve found [beautiful examples](https://github.com/gjoncas/Artsy-Diagrams) 
 even in color TV manuals and books on negotiation. And yet, we all feel that some diagrams are better than others,
-implying the existence of diagrammatic principle, irreducible to mere standardizations (like bar charts).
+implying the existence of diagrammatic principles, irreducible to mere standardizations (like bar charts).
 
 I once [imagined](https://twitter.com/gjncs/status/1168738579981524994) a treatise on tesseractics, 
 starting from Greimas’ semiotic square and 2×2 matrices, building Lévi-Straussian intuition via graph-theoretic anthropology, 
