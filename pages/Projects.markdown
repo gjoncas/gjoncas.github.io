@@ -40,7 +40,7 @@ Plan to use in future research (based on my MA thesis) on China\'s poverty count
 
 ![](/static/img/genetic-algos-tiny.png)
 
-**Genetic Algorithms and Taxes** \[[slides](https://github.com/gjoncas/Computational-Economics/blob/master/genetic%20algorithms.pdf)\]<br>
+**Genetic Algorithms and Taxes** \[[survey](https://github.com/gjoncas/Computational-Economics/blob/master/genetic%20algorithms.pdf)\]<br>
 Genetic algorithms solve problems by computational Darwinism.<br>
 Solutions ‘compete’ with each other, judged by a fitness function.<br>
 Over generations, candidate solutions evolve toward an optimum.<br>

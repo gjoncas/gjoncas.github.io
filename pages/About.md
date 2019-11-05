@@ -1,7 +1,4 @@
-﻿oneironomics (n.) - the economics of dreams
-<br><br>
-
-We have been sold this lie: that quantitative is the opposite of qualitative.
+﻿We have been sold this lie: that quantitative is the opposite of qualitative.
 
 In some of the most singular products of human creativity we find a methodical reliance on numerical patterns, 
 entirely at variance with archetypes of *ex nihilo* ‘inspiration’. 
