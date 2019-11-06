@@ -27,7 +27,7 @@ I then further generalize this definition to patonymy (cf\. metonymy) and chaine
 To conclude, I conjecture various rich possibilities for a formal science of ‘pataphysics.
 
 **Chinese Logic: An Introduction** ([2017](https://github.com/gjoncas/Working-Papers/blob/master/chinese%20logic.pdf)) 
-([中文](https://github.com/gjoncas/Working-Papers/blob/master/%E4%B8%AD%E5%9B%BD%E9%80%BB%E8%BE%91.pdf))<br>
+\[[中文](https://github.com/gjoncas/Working-Papers/blob/master/%E4%B8%AD%E5%9B%BD%E9%80%BB%E8%BE%91.pdf)\]<br>
 This paper surveys formal approaches to the history of logic in China. The first section identifies group-theoretic structures in the *I Ching*, 
 and how they may provide hints of its deeper meaning. The second section identifies how Chinese grammar influenced Mohist logic,
 uses set theory to analyze Gongsun Long’s sophism “A white horse is not a horse”, identifies categories as a way to make sense of types 
@@ -42,16 +42,17 @@ if all games are combinations of Ø, this supports the thesis that numbers don�
 The essay concludes by highlighting applications and deflating the notion that “all the world’s a game.”
 
 **Avant-garde Philosophy of Economics** ([2015](https://github.com/gjoncas/Working-Papers/blob/master/avant-garde.pdf))
-
-* Khan uses literary theory to argue that economic models are (meta-)allegorical in structure.
-* Dupuy uses Lacanian psychoanalysis to make sense of ‘common knowledge’ in game theory.
-* Hoover wants to see what econometrics has to say about philosophical concepts like causality.
-* Epstein argues that agent-based models involve a different logic than normal economics.
-* Velupillai insists that the math behind economic theory can’t be translated into algorithms, and so we should replace the foundations of economics with kinds of math that can be.
-* Markose uses Gödel’s incompleteness theorem to identify self-referential economic scenarios where the traditional logic of economics doesn’t hold.
-* Parikh’s project of social software looks at societies by means of algorithmic & semantic tools.
-* Tohmé treats the cultural and behavioural elements of society as patching up the holes in what computers otherwise can’t calculate.
-* Winschel uses category theory (“the mathematics of mathematics”) to integrate different areas of economic theory and to make sense of reflexive economic structures.
+<ul>
+<li> Khan uses literary theory to argue that economic models are (meta-)allegorical in structure.</li>
+<li> Dupuy uses Lacanian psychoanalysis to make sense of ‘common knowledge’ in game theory.</li>
+<li> Hoover wants to see what econometrics has to say about philosophical concepts like causality.</li>
+<li> Epstein argues that agent-based models involve a different logic than normal economics.</li>
+<li> Velupillai insists that the math behind economic theory can’t be translated into algorithms, and so we should replace the foundations of economics with kinds of math that can be.</li>
+<li> Markose uses Gödel’s incompleteness theorem to identify self-referential economic scenarios where the traditional logic of economics doesn’t hold.</li>
+<li> Parikh’s project of social software looks at societies by means of algorithmic & semantic tools.</li>
+<li> Tohmé treats the cultural and behavioural elements of society as patching up the holes in what computers otherwise can’t calculate.</li>
+<li> Winschel uses category theory (“the mathematics of mathematics”) to integrate different areas of economic theory and to make sense of reflexive economic structures.</li>
+</ul>
 
 **The Political Economy of Ghostwriting** ([2015](https://github.com/gjoncas/Working-Papers/blob/master/ghostwriting.pdf))<br>
 This essay addresses ghostwriting in all its apparitions, from celebrity ‘autobiographies’ to its increased presence in music and online dating. 

@@ -53,7 +53,7 @@ https://www.twitter.com/LucasGatsas
     .navbar-custom .nav li a{font-family:'Open Sans';text-transform:uppercase;font-size:12px;font-weight:400;letter-spacing:1px}@media only screen and (min-width: 768px){.navbar-custom{border-bottom:1px solid transparent}
     .navbar-custom .navbar-brand{color:rgba(0,0,0,0.9);padding:20px} /*changed from rgba(255,255,255,0.9)*/
     .navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus{color:rgba(0,0,0,0.8)} /*changed from rgba(255,255,255,0.8)*/
-    .navbar-custom .nav li a{padding:20px}.navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{color:rgba(0,0,0,0.59)}}@media only screen and (min-width: 1170px){.navbar-custom{-webkit-transition:background-color .3s;-moz-transition:background-color .3s;transition:background-color .3s;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden}
+    .navbar-custom .nav li a{padding:20px}.navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{color:rgba(0,0,0,0.6)}}@media only screen and (min-width: 1170px){.navbar-custom{-webkit-transition:background-color .3s;-moz-transition:background-color .3s;transition:background-color .3s;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden}
     .navbar-custom.is-fixed{position:fixed;top:-65px;background-color:rgba(0,0,0,0.9)/*changed from rgba(255,255,255,0.9)*/;border-bottom/*when moving up&down*/:1px solid #000000;-webkit-transition:-webkit-transform .3s;-moz-transition:-moz-transform .3s;transition:transform .3s}
     .navbar-custom.is-fixed .navbar-brand{color:#404040}
     .navbar-custom.is-fixed .navbar-brand:hover,.navbar-custom.is-fixed .navbar-brand:focus{color:#777}
@@ -139,46 +139,46 @@ https://www.twitter.com/LucasGatsas
 /* The Colors  for the Social Icons (at bottom) */ 
 
 i.fa.fa-rss.fa-stack-1x.fa-inverse {
-background: white; /*changed from white*/
+background: white;
 color: gray;
 }
 i.fa.fa-twitter.fa-stack-1x.fa-inverse {
-background: white; /*changed from white*/
+background: white;
 color: gray;
 }
 i.fa.fa-google-plus.fa-stack-1x.fa-inverse {
-background: white; /*changed from white*/
+background: white;
 color: gray;
 }
 i.fa.fa-github.fa-stack-1x.fa-inverse {
-background: white; /*changed from white*/
+background: white;
 color: gray;
 }
 i.fa.fa-instagram.fa-stack-1x.fa-inverse {
-  background: white; /*changed from white*/
+  background: white;
   color: gray;
 }
 
 /* The Hovers for the Social Icons (at bottom) */ 
 
 i.fa.fa-rss.fa-stack-1x.fa-inverse:hover {
-background: white; /*changed from white*/
+background: white;
 color: rgb(179, 0, 0);
 }
 i.fa.fa-twitter.fa-stack-1x.fa-inverse:hover {
-background: white; /*changed from white*/
+background: white;
 color: rgb(179, 0, 0);
 }
 i.fa.fa-google-plus.fa-stack-1x.fa-inverse:hover {
-background: white; /*changed from white*/
+background: white;
 color: rgb(179, 0, 0);
 }
 i.fa.fa-github.fa-stack-1x.fa-inverse:hover {
-background: white; /*changed from white*/
+background: white;
 color: rgb(179, 0, 0);
 }
 i.fa.fa-instagram.fa-stack-1x.fa-inverse:hover {
-  background: white; /*changed from white*/
+  background: white;
   color: rgb(179, 0, 0);
 }
 
