@@ -53,7 +53,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <meta name="description" content="from surreal to surrational">
     
 
-    <meta name="keywords" content="Graham Joncas, gjoncas, philosophy of economics, surrationalism">
+    <meta name="keywords" content="Graham Joncas, gjoncas, philosophy of economics, computational economics">
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://gjoncas.github.io/static/img/ico.png" type="image/x-icon" />
     <!-- Blog Title -->
@@ -330,7 +330,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 <p>To inaugurate my new blog, I’ll go over some of the tricks I learned, and how Ti<em>k</em>Z (the software I use) has changed the way I think about diagrams and diagrammatic reasoning.</p>
 <h3 id="zero">0. Zero</h3>
 <p>Before anything else, the first thing to do when making a diagram is to find the zero-point. Since Ti<em>k</em>Z is based on Cartesian coordinates, all other points and lines are relative to (0,0).</p>
-<p>Sometimes it’s easy to decide, such as when a diagram is symmetric — with bilateral (left/right) symmetry, do the right side, then add a minus sign (-x,y) to get the left side.</p>
+<p>Sometimes it’s easy to decide, such as when a diagram is symmetric — with bilateral (left/right) symmetry, do the right side, then add a minus sign <code>(-x,y)</code> to get the left side.</p>
 <p>As an exercise, try to find the zero-point in the diagrams posted below. It’s not always easy. The key considerations are symmetry, integer values (especially in loops), and ease of reuse.</p>
 <p>This is very simple, but doesn’t come up with other software. Nevertheless, given any line diagram, I can now intuitively identify which zero-points would work best to replicate it.</p>
 <h3 id="iteration">1. Iteration</h3>
@@ -353,7 +353,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 <h3 id="point-free-notation">3. Point-free Notation</h3>
 <p>In what I’m calling ‘point-free’ notation, you only need to write one coordinate, and then for others you only need to write its difference from the previous coordinate. So for example, from the point <code>(x,y)</code> we might draw a line <code>(x,y)--++(1,2)</code>, where the <code>++</code> is the key to this notation, making the second coordinate equivalent to <code>(x+1,y+2)</code>.</p>
 <p>This comes in handy, for instance, when I have to re-use a shape: to move it, all I have to do is change the original coordinate. I feel like there are some very clever things one could do with this — possibly allowing loops that would otherwise be infeasible.</p>
-<p>This kind of notation is in theory quite basic, but I never heard of it because I didn’t read the Ti<em>k</em>Z manual cover-to-cover, but instead learend Ti<em>k</em>Z via a patchwork of StackExchange posts. If anyone else wants to learn Ti<em>k</em>Z, I’d recommend doing likewise; learn the basics <a href="https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ">here</a>, and the rest by personal projects, visiting <a href="http://tex.stackexchange.com">SE</a> when you get stuck.</p>
+<p>This kind of notation is in theory quite basic, but I never heard of it because I didn’t read the Ti<em>k</em>Z manual cover-to-cover, but instead learned Ti<em>k</em>Z via a patchwork of StackExchange posts. If anyone else wants to learn Ti<em>k</em>Z, I’d recommend doing likewise: learn the basics <a href="https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ">here</a>, and the rest by personal projects, visiting <a href="http://tex.stackexchange.com">TeX.SE</a> when you get stuck.</p>
 <h3 id="d-diagrams">4. 3D Diagrams</h3>
 <p>To try something new, I made a 3D diagram with PGFplots, of a time spiral / Heyser corkscrew.</p>
 <center>
@@ -371,8 +371,8 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 </center>
 <p>This is a huge turning point for me. After starting out drawing simple diagrams with lines and arrows, it’s all of a sudden possible to create elaborate whisps and knots that I had long considered to be beyond the scope of Ti<em>k</em>Z. Where I am is a whole new state of open-mindedness, seeking out new lines and forms, going not only from idea to diagram but also from diagram to idea.</p>
 <h3 id="diagrammatology">Diagrammatology</h3>
-<p>There is a tendency to think diagrams are meant to simplify. Diagrams can also complexify: taking ideas we think we know and revealing associations more rich than we realized.</p>
-<p>Diagrammatics in philosophy is sadly neglected, with few incentives to go to so much trouble. Still, I can imagine a <em>Journal of Diagrammatics</em> with each article explicating a single original diagram.</p>
+<p>There’s a tendency to think diagrams are meant to simplify. Diagrams can also complexify: taking ideas we think we know and revealing associations more rich than we realized.</p>
+<p>Diagrammatics in philosophy is sadly neglected, with few incentives to go to so much trouble. Still, I like to imagine a <em>Journal of Diagrammatics</em> with each article explicating a single original diagram.</p>
 <p>For my part, my goal is to be able to make nice, original diagrams to illustrate ideas. So my next step is making my own diagrams. I realize most of them will be awful at first. Yet, the very thought of conceptual diagrams as a <em>skill</em> raises tons of interesting questions.</p>
 <p>Most diagrams are radically singular — we could never imagine coming up with it ourselves. Further, diagrams span all human knowledge; I’ve found <a href="https://github.com/gjoncas/Artsy-Diagrams">beautiful examples</a> even in color TV manuals and books on negotiation. And yet, we all feel that some diagrams are better than others, implying the existence of diagrammatic principles, irreducible to mere standardizations (like bar charts).</p>
 <p>I once <a href="https://twitter.com/gjncs/status/1168738579981524994">imagined</a> a treatise on tesseractics, starting from Greimas’ semiotic square and 2×2 matrices, building Lévi-Straussian intuition via graph-theoretic anthropology, and then at last, visualizing(?) post-Hintonian hypercubic metamodels. I deeply want this book to be real. Maybe it can be.</p>
