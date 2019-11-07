@@ -1352,8 +1352,8 @@ kbd {
   color: #000; /*changed from fff*/
   background-color: #333;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .75); /*changed from rgba(0, 0, 0, .25)*/
-          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .75); /*changed from rgba(0, 0, 0, .25)*/
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25); /*changed from rgba(0, 0, 0, .25)*/
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25); /*changed from rgba(0, 0, 0, .25)*/
 }
 kbd kbd {
   padding: 0;
@@ -2789,8 +2789,8 @@ select[multiple].form-group-lg .form-control {
 .btn.active {
   background-image: none;
   outline: 0;
-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .875);  /*changed from rgba(0, 0, 0, .125)*/
-          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .875);  /*changed from rgba(0, 0, 0, .125)*/
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);  /*changed from rgba(0, 0, 0, .125)*/
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);  /*changed from rgba(0, 0, 0, .125)*/
 }
 .btn.disabled,
 .btn[disabled],

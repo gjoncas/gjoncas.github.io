@@ -204,7 +204,7 @@ a#blog-title-left-top{font-family:Georgia,times,arial;font-size:36px;font-weight
 
 /* Table Settings */
 table {
-  background-color: rgba(0, 0, 0, 0.9); /*changed from rgba(152, 152, 152, 0)*/
+  background-color: rgba(152, 152, 152, 0); /*changed from rgba(152, 152, 152, 0)*/
   text-align: initial;
 }
 

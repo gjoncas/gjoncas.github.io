@@ -58,7 +58,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <link rel="shortcut icon" href="https://gjoncas.github.io/static/img/ico.png" type="image/x-icon" />
     <!-- Blog Title -->
     
-    <title>Oneironomics | Empty Post</title>
+    <title>Oneironomics | A Rose for Emily</title>
     
     <!--     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 -->
@@ -308,11 +308,13 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1><span style="color:white">Empty Post</span></h1>
+                    <h1><span style="color:white">A Rose for Emily</span></h1>
+                    
+                    <h2 class="subheading">Digital Humanities with Prolog</h2>
                     
                     <span class="meta" style="color:white">
                         
-                        November  6, 2019
+                        November  7, 2019
                     </span>
                 </div>
             </div>
@@ -326,7 +328,76 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" align="justify">
 
-                <p>This is just filler for now. I'll write something later.</p>
+                <p>One of my more recent code projects replicated a paper by Burg, Boyle &amp; Lang (<a href="http://gen.lib.rus.ec/scimag/10.2307%2F30204830">2000</a>), which used constraint-solving to analyze the non-linear timeline in Faulkner’s story “<a href="http://xroads.virginia.edu/~drbr/wf_rose.html">A Rose for Emily</a>”.</p>
+<p>I like this paper because it’s quirky. Most digital humanities is confined to a handful of tools, such as statistically analyzing a corpus, or mapping characters’ social networks. Constraint-solving is a brand new tool, so the paper is evocative not only for its results, but also for the new possibilities it hints at.</p>
+<p>First I’ll go over the code part, then what it means for the story, then some speculative conclusions.</p>
+<h2 id="faulkner���s-non-linear-chronology">Faulkner’s Non-linear Chronology</h2>
+<p>Here I’m giving an informal overview of what the code does, which the reader can skim quickly to understand the results. For those more interested in the code, this <a href="https://github.com/gjoncas/A-Rose-for-Emily">repository</a> is the place to look.</p>
+<p>Here’s a table of the main events in the story. (It’s fine to just skim it for now.)</p>
+<center>
+<img src="../static/img/blog-posts/rose-events.png" />
+</center>
+<p>These events are given in the order they appear in the story, which clearly is highly nonlinear. However, Faulkner also includes various inter-temporal references. We can encode these as equations or inequalities — if <strong>A</strong> occurred 6 years before <strong>B</strong>, we get: <code>A+6=B</code>. All these references are listed in the table below. (I highly recommend skipping, but it will help later on.)</p>
+<center>
+<img src="../static/img/blog-posts/rose-intertemporal.png" />
+</center>
+<p>What the constraint solver does is to test possible years when each event could have occurred, which must satisfy the constraints, i.e. the series of intertemporal equations or inequalities. If the constraints are inconsistent, the program identifies the ‘minimal conflict set’, where removing any one will make the rest consistent (Burg, Boyle &amp; Lang, 2000: 385). If the constraints can be satisfied, the program outputs the range of years in which each event could have consistently occurred.</p>
+<p>If it helps, I think of constraint-solving by analogy with linear programming, a common tool in economics to allocate resources with different values (e.g. prices of goods being delivered, nutrients in a diet) subject to a budget constraint (travel costs, cost of each food item). The difference is that with constraint-solving we’re not trying to maximize anything, we just want consistency.</p>
+<p>To illustrate the possible chronologies given by the program, I (finally) made a diagram.</p>
+<center>
+<img src="../static/img/blog-posts/rose-diagram.png" />
+</center>
+<p>The top two lines are the order of events given in the story, versus a possible chronological ordering. The third line just rearranges the second line; it’s the order that would make all the red lines vertical. The bottom two lines illustrate possible orderings of events; there are 10 in all, but they’re quite repetitive. Among these, the only events whose order completely flips are <strong>E</strong> and <strong>F</strong>, hence the red X. The small blue brackets mean that these two events (could have) occurred in the same year.</p>
+<h2 id="computational-hermeneutics">Computational Hermeneutics</h2>
+<p>Now let’s see what this all means for how we interpret the story.</p>
+<p>The first thing to jump out when we run the code is that the following statements are inconsistent:</p>
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 13%" />
+<col style="width: 83%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>D - E &gt;= 8</td>
+<td>Eight or ten years pass between Emily’s last lessons and deputation visit</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>B &gt;= D</td>
+<td>Last time anyone else sees inside house is after or during deputation visit</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>E = B</td>
+<td>After China painting lessons end, no one but manservant sees inside house</td>
+</tr>
+</tbody>
+</table>
+<p>The first constraint comes from the sentence: “A deputation...knocked at the door [<strong>D</strong>] through which no visitor had passed since she ceased giving china-painting lessons [<strong>E</strong>] eight or ten years earlier” (1930: §1). The latter gives <code>D - E &gt;= 8</code>.</p>
+<p>However, later the story notes: “The front door closed upon the last [painting pupil] and remained closed for good” (1930: §4), with ‘for good’ implying <code>E = B</code>.</p>
+<p>There are several ways to reconcile these claims. One is that the deputation entered (or pupils exited) a door other than the front door. Another possibility is that there was an unspecified visit to the house following the deputation visit, and this person was the last to see inside the house.</p>
+<p>The original authors opt to remove the constraint <code>E = B</code> from the program, since this is the least specific temporal reference of the three, and may even have been an error on Faulkner’s part. This adjustment causes the program to work.</p>
+<p>Recalling the diagram above, the main variations among the different chronologies are whether the tax remission (<strong>C</strong>) occurs at the beginning of Emily’s china-painting lessons (<code>C = N</code>), in the middle (<code>N &lt; C &lt; E</code>), or at the end (<code>C = E</code>); whether Colonel Sartoris dies while Emily is still giving lessons (<code>F &lt;= E</code>) or after (<code>E &lt;= F</code>); and whether the deputation are the last people to see inside Emily’s house (<code>B = D</code>), or whether someone else is (<code>B &lt;= D</code>).</p>
+<p>More interestingly, it turns out that there’s a big debate in Faulkner scholarship about whether the year Emily’s taxes were remitted (<strong>C</strong>) is the same as the year of her father’s death (<code>C = H</code>), or whether the tax remission occurs at the time of the china-painting lessons (<code>N =&lt; C =&lt; E</code>). Burg, Boyle &amp; Lang’s (2000) program unequivocally supports the latter interpretation.</p>
+<p>Lastly, in an early draft of the story, Faulkner included the sentence “that day in 1904 when Colonel Sartoris...remitted her taxes dating from the death of her father 16 years back, on into perpetuity” (in Burg, Boyle &amp; Lang, 2000: 387). The authors set <code>C = 1904</code> in their program, but find it inconsistent. However, leaving <code>C = 1894</code>, they find that Emily’s father could have died 16 years before, i.e. <code>H = 1878</code> is consistent.</p>
+<h2 id="the-simplex-of-meaning">The Simplex of Meaning</h2>
+<p>In the rest of their paper, the authors try to narrow down the timeline to a single interpretation. The other time constraints imply that Emily must have been born between 1842 and 1856 (<code>1842 &lt;= K &lt;= 1856</code>), and the authors surmise that Faulkner set the story during 1924, the year he wrote it (2000: 385). This gives a birth date of <code>K = 1850</code>, from which they infer various other dates.</p>
+<p>Curiously, this fails to replicate in my version of the code. The main difference between my program and theirs is that mine uses integers (for years) and theirs uses real numbers. Yet, this in itself doesn’t explain the failure. I still haven’t managed to pin down the exact reason. Here’s a nice place to tinker with the code, if the reader is so inclined.</p>
+<p>More crucially, I think the idea of using a computer program to find the unique meaning of a text is an impoverished view of what the program <em>actually</em> does.</p>
+<p>Rather, the truly novel element of Burg, Boyle &amp; Lang’s approach is that they can model the <em>space of contested meanings</em> within a text.</p>
+<p>In the mathematical theory of linear programming, such a space is called a <em>simplex</em>. With only two variables, say Emily’s death (<strong>A</strong>) and birth (<strong>K</strong>), we know that she died at age 74 (Faulker, 1930: §4), so that <code>A = K+74</code>. Thus, our ‘simplex’ here is just a line, where the farther back <strong>K</strong> is, the farther back <strong>A</strong> is in turn. Further, suppose three variables (<em>x</em>, <em>y</em>, <em>z</em>) must add up to 3, and are greater than zero. Then the different combinations (including decimals) take the form of a triangle, whose vertices are (3,0,0), (0,3,0), and (0,0,3).</p>
+<center>
+<img src="../static/img/diagrams/simplex.png" />
+</center>
+<p>With large numbers of constraints, the simplex is an <em>n</em>-dimensional surface far beyond human visualization. In a very real sense, this monstrous geometrical object <em>is</em> the space of possible meaning for Faulkner’s chronology.</p>
+<p>While impossible to represent pictorially, one can imagine a series of dials, one for each constraint. Adjusting the date of one (e.g. Emily’s death <strong>A</strong>) forces all the other dials to adjust in turn. The key to look for would then be <em>discontinuities</em>: in adjusting one constraint, all the other constraints move incrementally, but then one or more suddenly ‘jump’ to a far away value. Such discontinuities in the space of meaning may likely be what gives rise to conflicting interpretations.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>“A Rose for Emily” is one of Faulkner’s most widely read stories, and it’s difficult to imagine how new insights might still be gleaned about it. Theus it’s a pleasant surprise that simply listing unambiguous temporal references in a computer program can clarify long-standing debates on the storyline.</p>
+<p>Burg, Boyle &amp; Lang (2000: 388) suggest their method may also be applied to <em>The Sound and the Fury</em>, or any story with a non-linear chronology, given enough inter-temporal constraints. Thinking geometrically, it would be fascinating to see if Faulkner’s simplexes have a ‘shape’ distinct from those of other authors.</p>
+<p>Another possibility is encoding multidimensional mathematical objects (e.g. a Klein bottle) as temporal constraints, then writing a story that satisfies them. Still further, one can imagine a detective story in which a temporal inconsistency is the key to solving the case.</p>
+<p>In sum, digital humanities should be a tool for expanding the meaning of a text, rather than identifying a single ‘correct’ meaning. By identifying different and equally valid interpretations of the timeline for “A Rose for Emily”, a digital approach to the text can thereby help foster debate rather than stifle it.</p>
 
                 <hr>
 

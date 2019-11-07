@@ -60,7 +60,7 @@ I trace out its phantasms in ancient and contemporary philosophy, from Aristotle
 anti-theory. Lastly, I argue that ‘spectrification’ of society (and the emergent spectra and spectralities arising in its wake) places 
 deeply into question the method of ‘textual analysis’ of capitalism.
 
-**“There is no economic world.”** ([2014](https://github.com/gjoncas/Working-Papers/blob/master/chinese%20logic.pdf))<br>
+**“There is no economic world.”** ([2014](https://github.com/gjoncas/Working-Papers/blob/master/no%20economic%20world.pdf))<br>
 This paper presents a unified theory of economics and philosophy.
 I argue that economics, defined as the science of non-conceptual social relations, is structurally incommensurate with discursive models,
 and that many of the alleged problems of economics come from trying to translate the former into the latter.
