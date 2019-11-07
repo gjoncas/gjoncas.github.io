@@ -41,7 +41,7 @@ If it helps, I think of constraint-solving by analogy with linear programming, a
 (e.g\. prices of goods being delivered, nutrients in a diet) subject to a budget constraint (travel costs, cost of each food item).
 The difference is that with constraint-solving we’re not trying to maximize anything, we just want consistency.
 
-To illustrate the possible chronologies given by the program, I (finally) made a diagram.
+To illustrate the possible chronologies given by the program, I made a little diagram.
 
 <center>![](/static/img/blog-posts/rose-diagram.png)</center>
 
@@ -108,10 +108,9 @@ This gives a birth date of `K = 1850`, from which they infer various other dates
 Curiously, this fails to replicate in my version of the code.
 The main difference between my program and theirs is that mine uses integers (for years) and theirs uses real numbers.
 Yet, this in itself doesn’t explain the failure. I still haven’t managed to pin down the exact reason.
-Here’s a nice place to tinker with the code, if the reader is so inclined.
+Here’s a nice place to tinker with the [code](https://github.com/gjoncas/A-Rose-for-Emily), if the reader is so inclined.
 
 More crucially, I think the idea of using a computer program to find the unique meaning of a text is an impoverished view of what the program *actually* does.
-
 Rather, the truly novel element of Burg, Boyle & Lang’s approach is that they can model the *space of contested meanings* within a text. 
 
 In the mathematical theory of linear programming, such a space is called a *simplex*. 
@@ -128,7 +127,7 @@ In a very real sense, this monstrous geometrical object *is* the space of possib
 While impossible to represent pictorially, one can imagine a series of dials, one for each constraint. 
 Adjusting the date of one (e.g\. Emily’s death **A**) forces all the other dials to adjust in turn. 
 The key to look for would then be *discontinuities*: in adjusting one constraint, all the other constraints move incrementally, 
-but then one or more suddenly ‘jump’ to a far away value. 
+but then one or more suddenly ‘jump’ to a far-away value. 
 Such discontinuities in the space of meaning may likely be what gives rise to conflicting interpretations.
 
 
@@ -136,7 +135,7 @@ Conclusion
 --------
 
 “A Rose for Emily” is one of Faulkner’s most widely read stories, and it’s difficult to imagine how new insights might still be gleaned about it. 
-Theus it’s a pleasant surprise that simply listing unambiguous temporal references  in a computer program can clarify long-standing debates on the storyline. 
+Thus it’s a pleasant surprise that simply listing unambiguous temporal references  in a computer program can clarify long-standing debates on the storyline. 
 
 Burg, Boyle & Lang (2000: 388) suggest their method may also be applied to *The Sound and the Fury*, 
 or any story with a non-linear chronology, given enough inter-temporal constraints. 

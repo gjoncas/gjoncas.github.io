@@ -22,7 +22,8 @@ By searching for negative cycles, the Bellman-Ford algorithm solves the problem 
 
 ![](/static/img/simplex-tiny.png)
 
-**A Rose for Emily** \[[code](https://github.com/gjoncas/A-Rose-for-Emily)\]<br>
+**A Rose for Emily** \[[code](https://github.com/gjoncas/A-Rose-for-Emily)\] 
+\[[blog](https://gjoncas.github.io/posts/2019-11-07-a-rose-for-emily.html)\]<br>
 Using constraint solving in Prolog to analyze non-linear timeslines in stories.<br>
 Faulkner\'s story contains various events, plus inter-temporal references.<br>
 Encode these as equations: if A happened 6 years before B, then A+6=B.<br>
