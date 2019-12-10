@@ -37,7 +37,7 @@ It's slightly convoluted to go from editing to publishing and vice versa. I'm wr
 
 To more easily navigate the localhost:8000 site, change baseurl in `site.hs`. (Don't forget to change it back when publishing!)
 
-About.md, Project.markdown, Research.markdown & the original index.html need to be in the main directory when editing & building.<br>
+About.md, Project.markdown, Research.markdown & the original index.html need to be in the main directory when editing.<br>
 When publishing, put them in the pages folder, and replace them with files from site_ (About, blog, index, Projects, Research).<br>
 When editing, delete html versions of posts; when publishing, copy the html posts from site_ into the posts folder.
 

@@ -53,12 +53,12 @@ An economics professor at Princeton wrote a paper on this, and it was actually p
 
 In a nutshell, Elaine has to decide how to allocate a scarce resource among time periods in the presence of uncertainty (about quality of men and so on). 
 Mutatis mutandis, that’s what people do when they allocate income throughout their lifetime. 
-So this is actually a classic economic problem, so given a decent specification (e.g\. how impatient Elaine is), 
+So this is actually a classic economic problem, thus given a decent specification (e.g\. how impatient Elaine is), 
 we can use mainstream tools such as dynamic programming to find numerical solutions — at least after a few minor tweaks.
 
 Unlike a sponge, we can reuse a tulpa, albeit with some kind of mental  processing cost. 
 Like with Elaine, we have to decide whether to assign a tulpa-slot now, or wait until someone better comes along. 
-Another curious difference is that in a sense, there arguably exists a market for tulpas, though its completeness depends on how fine-grained we want to get.
+Another curious difference is that in a sense, there exists a market for tulpas, though its completeness depends on how fine-grained we want to get.
 
 The main problem is that internal costs aren’t observable (time discounting, processing cost, etc.). 
 Nor is the general value that someone can bring to a relationship, though it would be interesting to experiment with different indexes here.
@@ -75,7 +75,7 @@ Data Structures & Compression
 By analogy with sponges, we treated tulpas as discrete, but that’s too simple.
 Tulpas overlap, as anyone can attest. 
 I once worked with an awful woman who looked just like a professor I was fond of, so I was far nicer to her than she deserved. 
-I’m sure there’s a whole underground network of irrational behaviour that tulpas account for.
+I’m sure there’s a whole subliminal network of irrational behaviour that tulpas account for.
 
 The simple fact is that all of us will encounter more than 150 people. Some of us do every day. 
 Most of us don’t actually have to *know* everybody enough to have an internal representation of them, 
@@ -105,7 +105,7 @@ The latter two typologies mesh nicely because there’s no overlap. In general, 
 This is where computer science comes in, notably its rich resources on compression such as error-correcting codes. 
 
 I hesitate to say much about this, as it’s not a kind of math I know well. 
-In a sense that’s the charm — our ‘tulpalgorithms’ for handling overlap deeply impact how we optimize. 
+In a sense that’s the charm — our ‘tulpalgorithms’ for handling overlap deeply impact how we optimize, differently from any other commodity. 
 Information theory should be crucial here, with tools such as Kolmogorov complexity to judge whether one encoding is better than another. 
 Unsurprisingly these are seldom used in economics, but they would help ground in theory what would otherwise be disparate simulations.
 
@@ -147,7 +147,7 @@ by watching a movie, I feel like I’m hanging out with my friend, helping me to
 So large social networks create tulpa externalities which can be positive or negative.
 
 Further, media personalities might crowd out acquaintances in meatspace, but on the other hand, there are such legions of them that they create myriad 
-new distinctions, which might motivate me to meiotically split a tulpa that otherwise would have contained several disparate people.
+new distinctions, which might motivate me to meiotically split a tulpa that otherwise would have contained several diverse people.
 
 Most fascinating of all is the idea that social networks force us to develop more efficient ways to mnemotechnically encode conflicting tulpas. 
 Are there different methods of reaching equilibrium (whatever that means here), such as regret minimization as compared to Nash equilibrium? 
@@ -156,9 +156,9 @@ Can we show that some methods are bad and we shouldn’t use them? Can we use eg
 Conclusion
 --------
 The sort of simulations I have in mind are entirely feasible, akin to iterated prisoner’s dilemma or Schelling’s model of segregation. 
-As hard as it would be to translate any insights from this into actionable strategies, 
+As hard as it would be to translate any insights from this into actionable results, 
 I can imagine textual analysis of ad copy into separate categories in order to identify opportunities for parasitism, 
-or comparing lexiconographic choices of various people in one’s twitter feed as a barometer of egregoro-dynamics. 
+or comparing lexical choices of various people in one’s twitter feed as a barometer of egregoro-dynamics. 
 
 One could even actively engineer one’s egregoric ecology by creating sensory associations of certain people with exotic animals or landmarks.
 People surely use such strategies already, in more or less watered-down ways.
