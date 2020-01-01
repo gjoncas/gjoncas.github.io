@@ -7,7 +7,7 @@ I just started my first real job, which is lovely and I like it a lot, but it’
 enter into a new social network, especially since throughout my life I haven’t known many people. 
 Curiously, this dovetails with a recent *idée fixe* of mine, namely: tulpas.
 
-The idea starts from [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number), inferred from brain size of primates, 
+The idea starts from [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number), extrapolated from brain size of primates, 
 that human social networks can sustain up to 150 people, and beyond this get too complex to handle.
 
 A *tulpa* is an internal representation of another person.<br>
@@ -53,7 +53,7 @@ An economics professor at Princeton wrote a paper on this, and it was actually p
 
 In a nutshell, Elaine has to decide how to allocate a scarce resource among time periods in the presence of uncertainty (about quality of men and so on). 
 Mutatis mutandis, that’s what people do when they allocate income throughout their lifetime. 
-So this is actually a classic economic problem, thus given a decent specification (e.g\. how impatient Elaine is), 
+So this is actually a classic economic problem; hence, given a decent specification (e.g\. how impatient Elaine is), 
 we can use mainstream tools such as dynamic programming to find numerical solutions — at least after a few minor tweaks.
 
 Unlike a sponge, we can reuse a tulpa, albeit with some kind of mental  processing cost. 
@@ -150,7 +150,7 @@ Further, media personalities might crowd out acquaintances in meatspace, but on 
 new distinctions, which might motivate me to meiotically split a tulpa that otherwise would have contained several diverse people.
 
 Most fascinating of all is the idea that social networks force us to develop more efficient ways to mnemotechnically encode conflicting tulpas. 
-Are there different methods of reaching equilibrium (whatever that means here), such as regret minimization as compared to Nash equilibrium? 
+Are there different methods of reaching equilibrium (whatever that means here), analogous to regret minimization as compared to Nash equilibrium? 
 Can we show that some methods are bad and we shouldn’t use them? Can we use egregorics to explain the persistence of seemingly irrational types of behaviour?
 
 Conclusion
