@@ -71,5 +71,5 @@ siteCtx =
     constField "site_title"         "Oneironomics" `mappend`
     constField "twitter_username"   "gjncs" `mappend`
     constField "github_username"    "gjoncas" `mappend`
-    constField "instagram_username" "gjoncas" `mappend`
+    constField "instagram_username" "j_nc_s" `mappend`
     defaultContext

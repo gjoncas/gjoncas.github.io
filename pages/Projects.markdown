@@ -97,7 +97,7 @@
             <td>Surveys research at MIT using convolutional neural nets to estimate GDP.</td>
         </tr>
         <tr>
-            <td>Use satellite images to predict GDP in countries without official surveys.<br>
+            <td>Shows how satellite images can proxy for GDP in countries without data.<br>
 			    Plan to use in research (based on my thesis) on China\'s poverty counties.</td>
         </tr>
     </tbody>

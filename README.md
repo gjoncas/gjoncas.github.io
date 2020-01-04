@@ -21,12 +21,12 @@ stack build
 stack exec CleanMagic-hakyll build  #or rebuild if you made changes to site.hs
 ```
 
-Then, for a preview of the site:
+Then, for a preview of the site (exit on cmd by pressing ctrl+C twice):
 ```
 stack exec CleanMagic-hakyll watch
 ```
 
-Then access the site at:
+Then access the site here:
 
 http://127.0.0.1:8000
 
