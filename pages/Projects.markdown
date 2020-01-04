@@ -1,49 +1,133 @@
 ﻿Code Projects
 -------------
 
-![](/static/img/linaia-cc.png)
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th><br>**Linaia-Agon** <span style="font-weight:normal">\[[code](https://github.com/gjoncas/Xenakis)\]</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5>![](/static/img/linaia-cc.png)</td>
+            <td>Iannis Xenakis\'s musical piece *Linaia-Agon* consists of 4 zero-sum games.</td>
+        </tr>
+        <tr>
+            <td>The games correspond to a mythical duel between Linus and Apollo.</td>
+        </tr>
+        <tr>
+            <td>Moves in each game matrix correspond to a musical note or passage.</td>
+        </tr>
+        <tr>
+            <td>A natural question is: what are Linus\'s odds of winning? (Hint: very low.)<br>
+			    By simulating many duels (under various parameters), we can answer it.</td>
+        </tr>
+    </tbody>
+</table>
 
-**Linaia-Agon** \[[code](https://github.com/gjoncas/Xenakis)\]<br>
-Iannis Xenakis\'s musical piece *Linaia-Agon* consists of four zero-sum games.<br>
-The games correspond to a mythical duel between Linus and Apollo.<br>
-Moves in each game matrix correspond to a musical note or passage.<br>
-A natural question is: what are Linus\'s odds of winning? (Hint: very low.)<br>
-By simulating many duels (under various parameterizations), we can answer this.
-<br><br>
 
-![](/static/img/currency-graph-tiny.png)
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th><br>**Rbitrage**</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5>![](/static/img/currency-graph-tiny.png)</td>
+            <td>If you trade $1 to euros & back: get $1. Many currencies: can get over $1.</td>
+        </tr>
+        <tr>
+            <td>This program finds maximum profits from misaligned exchange rates.</td>
+        </tr>
+        <tr>
+            <td>Currencies are a graph, edges are exchange rates – use graph algorithms.</td>
+        </tr>
+        <tr>
+            <td>Shortest path algorithm (Bellman-Ford) finds negative cycles in O(n^3^) time.</td>
+        </tr>
+    </tbody>
+</table>
 
-**Rbitrage**<br>
-If you trade $1 to euros and back, you get $1. With many currencies, you can get more than $1.<br>
-So we can profit from misaligned exchange rates. This program maximizes arbritrage profits.<br>
-Currencies are a graph, edges are exchange rates — can solve using shortest path algorithms.<br>
-By searching for negative cycles, the Bellman-Ford algorithm solves the problem in O(n^3^) time.
-<br><br>
 
-![](/static/img/simplex-tiny.png)
 
-**A Rose for Emily** \[[code](https://github.com/gjoncas/A-Rose-for-Emily)\] 
-\[[blog](https://gjoncas.github.io/posts/2019-11-07-a-rose-for-emily.html)\]<br>
-Using constraint solving in Prolog to analyze non-linear timeslines in stories.<br>
-Faulkner\'s story contains various events, plus inter-temporal references.<br>
-Encode these as equations: if A happened 6 years before B, then A+6=B.<br>
-The constraint solver shows which orderings of events are consistent.<br>
-This method formally shows the virtuality of a story—its simplex of meaning.
-<br><br>
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th><br>**A Rose for Emily** <span style="font-weight:normal">\[[code](https://github.com/gjoncas/A-Rose-for-Emily)\] 
+				\[[blog](https://gjoncas.github.io/posts/2019-11-07-a-rose-for-emily.html)\]</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5>![](/static/img/simplex-tiny.png)</td>
+            <td>Constraint solving in Prolog to analyze non-linear timeslines in stories.</td>
+        </tr>
+        <tr>
+            <td>Faulkner\'s story contains various events, plus inter-temporal references.</td>
+        </tr>
+        <tr>
+            <td>Encode these as equations: if A happened 6 years before B, then A+6=B.<br></td>
+        </tr>
+        <tr>
+            <td>The constraint solver shows which orderings of events are consistent.<br>
+			    This method formally shows a story\'s virtuality, or simplex of meaning.</td>
+        </tr>
+    </tbody>
+</table>
 
-![](/static/img/neural-net-tiny.png)
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th><br>**Mapping Poverty** <span style="font-weight:normal">
+			    \[[slides](https://github.com/gjoncas/Computational-Economics/blob/master/neural%20networks.pdf)\]</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5>![](/static/img/neural-net-tiny.png)</td>
+            <td>Hour-long lecture on using neural networks in development economics.</td>
+        </tr>
+        <tr>
+            <td>Explains neural nets for economists, by analogies with OLS regression.</td>
+        </tr>
+        <tr>
+            <td>Surveys research at MIT using convolutional neural nets to estimate GDP.</td>
+        </tr>
+        <tr>
+            <td>Use satellite images to predict GDP in countries without official surveys.<br>
+			    Plan to use in research (based on my thesis) on China\'s poverty counties.</td>
+        </tr>
+    </tbody>
+</table>
 
-**Mapping Poverty** \[[slides](https://github.com/gjoncas/Computational-Economics/blob/master/neural%20networks.pdf)\]<br>
-Hour-long lecture on the use of neural networks in development economics.<br>
-Explains neural nets for economists, through analogies with OLS regression.<br>
-Surveys research at MIT using convolutional neural nets to estimate GDP.<br>
-Plan to use in future research (based on my MA thesis) on China\'s poverty counties.
-<br><br>
 
-![](/static/img/genetic-algos-tiny.png)
 
-**Genetic Algorithms and Taxes** \[[survey](https://github.com/gjoncas/Computational-Economics/blob/master/genetic%20algorithms.pdf)\]<br>
-Genetic algorithms solve problems by computational Darwinism.<br>
-Solutions ‘compete’ with each other, judged by a fitness function.<br>
-Over generations, candidate solutions evolve toward an optimum.<br>
-Good for problems where data is unavailable—like tax evasion.
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th><br>**Genetic Algorithms and Taxes** <span style="font-weight:normal">
+			        \[[survey](https://github.com/gjoncas/Computational-Economics/blob/master/genetic%20algorithms.pdf)\]<br></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5>![](/static/img/genetic-algos-tiny.png)</td>
+            <td>Genetic algorithms solve problems by computational Darwinism.</td>
+        </tr>
+        <tr>
+            <td>Solutions ‘compete’ with each other, judged by a fitness function.</td>
+        </tr>
+        <tr>
+            <td>Over generations, candidate solutions evolve toward an optimum.</td>
+        </tr>
+        <tr>
+            <td>Good for problems where data is unavailable—like tax evasion.</td>
+        </tr>
+    </tbody>
+</table>
