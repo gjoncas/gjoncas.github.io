@@ -31,22 +31,20 @@
     <thead>
         <tr>
             <th></th>
-            <th><br>**Rbitrage**</th>
+            <th><br>**Rbitrage** <span style="font-weight:normal"></th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=5>![](/static/img/currency-graph-tiny.png)</td>
+            <td rowspan=4><span style="color:white"><\span>![](/static/img/currency-graph.png)<span style="color:white">.<\span></td>
             <td>If you trade $1 to euros & back: get $1. Many currencies: can get over $1.</td>
         </tr>
         <tr>
             <td>This program finds maximum profits from misaligned exchange rates.</td>
         </tr>
         <tr>
-            <td>Currencies are a graph, edges are exchange rates – use graph algorithms.</td>
-        </tr>
-        <tr>
-            <td>Shortest path algorithm (Bellman-Ford) finds negative cycles in O(n^3^) time.</td>
+            <td>Currencies are a graph, edges are exchange rates – use graph algorithms.<br>
+			    Shortest path algorithm (Bellman-Ford) finds negative cycles in O(n^3^) time.</td>
         </tr>
     </tbody>
 </table>
