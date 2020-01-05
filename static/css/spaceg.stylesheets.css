@@ -47,8 +47,8 @@ https://www.twitter.com/LucasGatsas
   line-height: 28px;}p{margin:30px 0}
 		h1,h2,h3,h4,h5,h6{font-family:'Georgia',serif;font-weight:600}a{color:#A8A8A8}
     a:hover,a:focus{color:#B6B6B6}blockquote{color:#B6B6B6;font-style:italic}
-    hr.small{max-width:100px;margin:15px auto;border-width:4px;border-color:#000} /*changed from fff*/
-    .navbar-custom{background:#fff;position:fixed;top:0;left:0;width:100%;z-index:2;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif} /*changed from fff*/
+    hr.small{max-width:100px;margin:15px auto;border-width:4px;border-color:#fff} /*hover color for static header text*/
+    .navbar-custom{background:#000;position:fixed;top:0;left:0;width:100%;z-index:2;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif} /*main color for header bar*/
     .navbar-custom .navbar-brand{font-weight:800}
     .navbar-custom .nav li a{font-family:'Open Sans';text-transform:uppercase;font-size:12px;font-weight:400;letter-spacing:1px}@media only screen and (min-width: 768px){.navbar-custom{border-bottom:1px solid transparent}
     .navbar-custom .navbar-brand{color:rgba(0,0,0,0.9);padding:20px} /*changed from rgba(255,255,255,0.9)*/
