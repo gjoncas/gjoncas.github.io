@@ -21,21 +21,22 @@ And here is my reproduction (pdf [here](/static/img/blog-posts/lupi-envy.pdf)):
 
 <center>![](/static/img/blog-posts/lupi-envy-tikz.png)</center>
 
-My Ti*k*Z code is available [here](https://github.com/gjoncas/Artsy-Diagrams/blob/master/lupi-envy.tex), so anyone who wants can make their own version.
-The biggest pain is that your topics of envy will differ from the author’s, so you’ll have to choose new colors and labels.
+<p>My Ti*k*Z code is available [here](https://github.com/gjoncas/Artsy-Diagrams/blob/master/lupi-envy.tex), so anyone who wants can make their own version.
+The biggest pain is that your topics of envy will differ from the author’s, so you’ll have to choose new colors and labels.</p>
+
 Beyond that, the main data points you will need are the following:
 <ul>
-<li>Person being envied — either specific (you), or a category (coworker)</li>
-<li>Thing being envied — highly idiosyncratic, but nice for showing recurring themes</li>
-<li>Lesson learned from it — often slightly redundant, but still interesting</li>
-<li>Degree of this feeling of envy (continuous scale from 1.5 to 5; smaller than 1.5 looks bad)</li>
-<li>Weekly frequency of coveting this thing (continuous scale from 1 to 20)</li>
-<li>How attainable the coveted thing is (continuous scale from 1 to 12)</li>
+<li> Person being envied — either specific (you), or a category (coworker)</li>
+<li> Thing being envied — highly idiosyncratic, but nice for showing recurring themes</li>
+<li> Lesson learned from it — often slightly redundant, but still interesting</li>
+<li> Degree of this feeling of envy (continuous scale from 1.5 to 5; smaller than 1.5 looks bad)</li>
+<li> Weekly frequency of coveting this thing (continuous scale from 1 to 20)</li>
+<li> How attainable the coveted thing is (continuous scale from 1 to 12)</li>
 </ul>
 
 What I mean by ‘continuous scale’ is that it can include decimals, like 5.25.
 So if it’s easier, scales from 1 to 10 are fine, and you can normalize it afterwards (multiply by 2 or 1.2).
-I use multiples of 4 because there are 4 levels for frequency and attainability, so they line up on a grid (not shown).
+Both 20 and 12 are multiples of 4; this way, with 4 levels for frequency and attainability, they fit on a grid (not shown).
 
 The spirals are mostly an artistic flourish (circles would be fine), but adds style.
 I like how the *x*-axis focuses on frequency rather than order.
@@ -52,4 +53,4 @@ I thought of a few possible variations to make the chart even more elaborate, if
 <li> Dots can have different sizes, or even be a pie chart (percent of people who elicit this feeling)</li>
 </ul>
 
-I’m too shy to do my own version, but if anyone else is brave enough, give me a shout and I’ll post it!
+I’m too shy to do my own version, but if anyone else is brave enough, give me a [shout](https://twitter.com/gjncs) and I’ll post it!
