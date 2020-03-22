@@ -58,7 +58,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <link rel="shortcut icon" href="https://gjoncas.github.io/static/img/ico.png" type="image/x-icon" />
     <!-- Blog Title -->
     
-    <title>Oneironomics | 2019-11-01-intro</title>
+    <title>Oneironomics | A Week of Envy</title>
     
     <!--     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 -->
@@ -313,11 +313,13 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1><span style="color:white">2019-11-01-intro</span></h1>
+                    <h1><span style="color:white">A Week of Envy</span></h1>
+                    
+                    <h2 class="subheading">Visualizing Lack</h2>
                     
                     <span class="meta" style="color:white">
                         
-                        November  1, 2019
+                        March 21, 2020
                     </span>
                 </div>
             </div>
@@ -331,130 +333,143 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" align="justify">
 
-                <!--<div id="preloader">
-        <div id="status">
-
-        </div>
-    </div>--> <!-- Navigation --> <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-<div class="container-fluid">
-<!-- Brand and toggle get grouped for better mobile display -->
-<div class="navbar-header page-scroll">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-</button>
-<a href="https://gjoncas.github.io" id="blog-title-left-top" class="navbar-brand"><span style="color:gray"><span style="font-family:candara;">oneironomics</span></span></a>
-</div>
-<!-- Collect the nav links, forms, and other content for toggling -->
-<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+                <p>My interest in data visualization largely springs from the thought that even when we lack an explicit formal model of something, we always-already have an implicit cognitive model, typically populated with black boxes and literal handwaving (vague kinetic metaphors, etc.). Conversely, by actively spelling out an idea through shapes, colors, and relative positions, we bring into play its ‘degrees of freedom’, showing new nuances and variations.</p>
+<p>On <a href="https://twitter.com/deepchimera">@deepchimera</a>’s recommendation, I came to discover the data visualizations of <a href="http://giorgialupi.com">Giorgia Lupi</a>. In her book <em>Dear Data</em>, she and a coauthor send postcards with elaborate graphs about some feature of their past week. My favorite part was following along and tracing out in my head how I might replicate each graph in code. I’ve gotten some flack for making diagrams in Ti<em>k</em>Z rather than using a staple like Tableau, but non-standard diagrammatics is where Ti<em>k</em>Z really shines.</p>
+<p>For this graph, the author recorded her feelings of envy. Here is the original, minus the legend:</p>
+<center>
+<img src="../static/img/blog-posts/lupi-envy-original.jpg" />
+</center>
+<p>And here is my reproduction (pdf <a href="../static/img/blog-posts/lupi-envy.pdf">here</a>):</p>
+<center>
+<img src="../static/img/blog-posts/lupi-envy-tikz.png" />
+</center>
+My Ti<em>k</em>Z code is available <a href="https://github.com/gjoncas/Artsy-Diagrams/blob/master/lupi-envy.tex">here</a>, so anyone who wants can make their own version. The biggest pain is that your topics of envy will differ from the author’s, so you’ll have to choose new colors and labels. Beyond that, the main data points you will need are the following:
 <ul>
-<li><a href="#portfolioModal2"><em></em></a>
-<ul>
-</ul></li>
-<li><!-- <a href="https://instagram.com/j_nc_s/" target="_blank"><i class="fa fa-instagram" id="icon-top"></i></a>--></li>
-<li><a href="https://gjoncas.github.io/About.html">About</a></li>
-<li><a href="https://gjoncas.github.io/Research.html">Research</a></li>
-<li><a href="https://gjoncas.github.io/Projects.html">Projects</a></li>
-<li><a href="https://gjoncas.github.io/blog.html">Blog</a></li>
-<li><a href="https://www.twitter.com/gjncs" id="roundbutton"><em></em>gjncs</a></li>
+<li>
+Person being envied — either specific (you), or a category (coworker)
+</li>
+<li>
+Thing being envied — highly idiosyncratic, but nice for showing recurring themes
+</li>
+<li>
+Lesson learned from it — often slightly redundant, but still interesting
+</li>
+<li>
+Degree of this feeling of envy (continuous scale from 1.5 to 5; smaller than 1.5 looks bad)
+</li>
+<li>
+Weekly frequency of coveting this thing (continuous scale from 1 to 20)
+</li>
+<li>
+How attainable the coveted thing is (continuous scale from 1 to 12)
+</li>
 </ul>
-</div>
-<!-- /.navbar-collapse -->
-</div>
-<!-- /.container --> </nav> <!-- Portfolio Modals -->
-<div id="portfolioModal1" class="portfolio-modal modal fade" tabindex="-1" data-role="dialog" data-aria-hidden="true" style="padding-right:0px; overflow: hidden;">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
+<p>What I mean by ‘continuous scale’ is that it can include decimals, like 5.25. So if it’s easier, scales from 1 to 10 are fine, and you can normalize it afterwards (multiply by 2 or 1.2). I use multiples of 4 because there are 4 levels for frequency and attainability, so they line up on a grid (not shown).</p>
+<p>The spirals are mostly an artistic flourish (circles would be fine), but adds style. I like how the <em>x</em>-axis focuses on frequency rather than order. The most creative part is the <em>y</em>-axis (attainability), which makes the graph far more poignant. In the bottom-left quadrant, the author fleetingly covets some feature of a celebrity who she can never measure up to. In the top-left quadrant (note the leftmost whitespace), she sees a nice article of clothing that she could just buy herself. The bottom-right is largely dissatisfaction with her personality, and the top-right is mainly her English.</p>
+I thought of a few possible variations to make the chart even more elaborate, if desired.
+<ul>
+<li>
+Angle for the line where the spiral begins — just change <code>rotate=-90</code> to any angle you want
+</li>
+<li>
+The tick marks can also have any angle — maybe for the degree of insight from one’s lesson
+</li>
+<li>
+Archimedean spirals for envy (coveting), and logarithmic spirals for jealousy (fear of loss)
+</li>
+<li>
+Dots can have different sizes, or even be a pie chart (percent of people who elicit this feeling)
+</li>
+</ul>
+<p>I’m too shy to do my own version, but if anyone else is brave enough, give me a shout and I’ll post it!</p>
 
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="modal-body">
-<h1 id="graham-joncas" class="font-style-inline-small-h1">Graham Joncas</h1>
-<hr />
-<img src="https://github.com/gjoncas/Artsy-Diagrams/raw/master/pics/metratron.png" class="img-responsive img-centered" />
-<p>I live in Canada, and do research on computational economics and formal philosophy.<br />
-This is my personal website and blog. The best way to contact me is via <a href="https://www.twitter.com/gjncs">Twitter</a>.<br />
-<a href="https://www.github.com/gjoncas"><em></em></a> <a href="https://www.twitter.com/gjncs"><em></em></a> <a href="https://www.instagram.com/j_nc_s/"><em></em></a></p>
-<button type="button" class="btn btn-default" data-dismiss="modal">
-<em></em> Close
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Menu Modals Add New Sa.21.Feb.2015 03:22:25 -->
-<div id="portfolioModal2" class="portfolio-modal modal fade" tabindex="-1" data-role="dialog" data-aria-hidden="true" style="padding-right:0px; overflow: hidden;">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
+                <hr>
 
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="modal-body">
-<h1 id="g.j" class="font-style-inline-small-h1">g.j</h1>
-<hr />
-<p class="font-style-inline-small">
-Computational economics<br />
-Conceptual engineering<br />
-Surrationalism<br />
-<a href="https://www.github.com/gjoncas"><em></em></a> <a href="https://www.twitter.com/gjncs"><em></em></a> <a href="https://www.instagram.com/j_nc_s"><em></em></a>
-<li>
-<a href="https://gjoncas.github.io/">Home</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/Research.html">Research</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/Projects.html">Projects</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/blog.html">Blog</a>
-</li>
-</p>
-<button type="button" class="btn btn-default" data-dismiss="modal">
-<em></em> Close
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="content" data-align="justify">
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('https://gjoncas.github.io/static/img/tasvicze.jpg')" alt title>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<div class="post-heading">
-<h1 id="introduction"><span style="color:white">Introduction</span></h1>
-<span class="meta" style="color:white"> November 1, 2019 </span>
-</div>
-</div>
-</div>
-</div>
-</header>
-<!-- Post Content -->
-<article>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" data-align="justify">
-<p>For 6 years I had a blog called <a href="http://web.archive.org/web/20170901000000*/linguisticcapital.wordpress.com"><em>Linguistic Capital</em></a>. My email was stolen, it got deleted.</p>
-<p>Now I’m trying something new.</p>
-<p>Web design is brand new for me. I figure it’s the best way to make learning Git, Haskell (Hakyll), and HTML/CSS into a practical necessity.</p>
-<p>My old blog was mostly full-length essays, now <a href="https://gjoncas.github.io/Research.html">working papers</a>.</p>
-<p>Now, I’m in the middle of a large writing project. That’s my top priority.</p>
-<p>For now, this blog is for small thoughts. Blogging teaches how to think at different scales, and my aim here is self-contained thought-crystals: a diagram, a theorem, a poem, a tiny code project.</p>
-<p>To give an idea of subject matter: my background is economics, philosophy, and computation. I
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+<hr>
+    </div>
+    <div id="footer">
+    </div>
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="https://gjoncas.github.io/feed.xml" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/gjncs" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://github.com/gjoncas" target="_blank">
+                            <span class="fa-stack fa-lg">
+
+                                <i class="fa fa-arrow-circle-o-down"></i>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://instagram.com/j_nc_s" target="_blank">
+                            <span class="fa-stack fa-lg">
+
+                                <i class="fa fa-arrow-circle-o-down"></i>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">All text &copy; Graham Joncas (<a href="https://creativecommons.org/licenses/by/2.5/ca/">CC BY</a>). <br><br>
+                </p>
+                <div class="col-md-12">
+                    <p class="copyright text-muted">
+                        site: <a href="https://jaspervdj.be/hakyll">hakyll</a> | 
+                        theme: <a href="https://github.com/dindi-jekyll/CleanMagicMedium-Jekyll">lg</a> |
+                        code: <a href="https://github.com/katychuang/CleanMagic-hakyll">kc</a> </p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://gjoncas.github.io/static/js/jquery.min.js"></script>
+<script src="https://gjoncas.github.io/static/js/spaceg.stylesheets.min.js"></script>
+<script src="https://gjoncas.github.io/static/js/bootstrap.min.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<script src="https://gjoncas.github.io/static/js/scripts.js"></script>
+
+</body>
+
+</html>
