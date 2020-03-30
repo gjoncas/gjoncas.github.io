@@ -38,7 +38,7 @@ What I mean by ‘continuous scale’ is that it can include decimals, like 5.25
 So if it’s easier, scales from 1 to 10 are fine, and you can normalize it afterwards (multiply by 2 or 1.2).
 Both 20 and 12 are multiples of 4; this way, with 4 levels for frequency and attainability, they fit on a grid (not shown).
 
-The spirals are mostly an artistic flourish (circles would be fine), but adds style.
+The spirals are mostly an artistic flourish (circles would be fine), but give it style.
 I like how the *x*-axis focuses on frequency rather than order.
 The most creative part is the *y*-axis (attainability), which makes the graph far more poignant.
 In the bottom-left quadrant, the author fleetingly covets some feature of a celebrity who she can never measure up to.
