@@ -3,10 +3,10 @@ title: A Week of Envy
 subtitle: Visualizing Lack
 ---
 
-My interest in data visualization largely springs from the thought that even when we lack an explicit formal model of something, 
-we always-already have an implicit cognitive model, typically populated with black boxes and literal handwaving (vague kinetic metaphors, etc.).
-Conversely, by actively spelling out an idea through shapes, colors, and relative positions, 
-we bring into play its ‘degrees of freedom’, showing new nuances and variations.
+My interest in data visualization comes in part from the idea that far before explicitly formalizing a model, we begin with some sort of picture,
+however simplistic — complete with fuzzy parts, or vague spatial metaphors for how one thing affects another (often literal handwaving).
+Yet, once we actively spell out an idea through shapes, colors, and relative positions, 
+we see just how much information we can pack into this one idea: its ‘degrees of freedom’.
 
 On [\@deepchimera](https://twitter.com/deepchimera)’s recommendation, I came to discover the data visualizations of [Giorgia Lupi](http://giorgialupi.com).
 In her book *Dear Data*, she and a coauthor send postcards with elaborate graphs about some feature of their past week.
