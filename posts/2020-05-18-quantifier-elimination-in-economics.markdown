@@ -81,7 +81,7 @@ Now we can see how quantifier elimination lets us investigate theories, not just
 The main algorithm behind quantifier elimination is cylindrical algebraic decomposition (CAD). 
 The steps of a CAD are themselves a proof (2016: 35), and the fewer steps it takes, the shorter and more intelligible the proof.
 CAD actually has a nice geometric interpretation — in a word: “Removing existential quantifiers from the formula defining a set in ℝⁿ is 
-the algebraic equivalent of projecting that set into the space of free variables” (or on the origin, if there are no free variables).
+the algebraic equivalent of projecting that set into the space of free variables”, or on the origin if there are no free variables (2018: 6).
 
 For the gory details, the most cogent explanation I’ve found is from Caviness \& Johnson ([1998](https://link.springer.com/chapter/10.1007/978-3-7091-9459-1_1): 2):
 

@@ -23,7 +23,7 @@ of objet petit *a*. I conclude by speculating on the possibility of an algorithm
 **Pataphor in Mechanism Design** ([2017](https://github.com/gjoncas/Working-Papers/blob/master/pataphor.pdf))<br>
 Through numerous examples and a notation inspired by commutative diagrams in category theory, this paper clearly defines the notion of pataphor, 
 underscoring common misinterpretations. I then use this definition to frame the field of mechanism design as ‘economic pataphorology’. 
-I then further generalize this definition to patonymy (cf\. metonymy) and chained pataphors. 
+The definition of pataphor is then further generalized to patonymy (cf\. metonymy) and chained pataphors. 
 To conclude, I conjecture various rich possibilities for a formal science of ‘pataphysics.
 
 **Chinese Logic: An Introduction** ([2017](https://github.com/gjoncas/Working-Papers/blob/master/chinese%20logic.pdf)) 

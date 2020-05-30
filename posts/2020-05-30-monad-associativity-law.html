@@ -58,7 +58,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <link rel="shortcut icon" href="https://gjoncas.github.io/static/img/ico.png" type="image/x-icon" />
     <!-- Blog Title -->
     
-    <title>Oneironomics | Projects</title>
+    <title>Oneironomics | The Associativity Law for Monads</title>
     
     <!--     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 -->
@@ -308,15 +308,16 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
     <div id="content" align="justify">
         <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/static/img/plakhova1.jpg')" alt title>
+<header class="intro-header" style="background-image: url('https://gjoncas.github.io/static/img/tasvicze.jpg')" alt title>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1><span style="color:white">Projects</span></h1>
+                    <h1><span style="color:white">The Associativity Law for Monads</span></h1>
                     
                     <span class="meta" style="color:white">
                         
+                        May 30, 2020
                     </span>
                 </div>
             </div>
@@ -328,188 +329,53 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h2 id="code-projects">﻿Code Projects</h2>
-<table>
-<thead>
-<tr>
-<th>
-</th>
-<th>
-<br><strong>Linaia-Agon</strong> <span style="font-weight:normal">[<a href="https://github.com/gjoncas/Xenakis">code</a>]
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td rowspan="5">
-<img src="./static/img/linaia-cc.png" />
-</td>
-<td>
-Iannis Xenakis's musical piece <em>Linaia-Agon</em> consists of 4 zero-sum games.
-</td>
-</tr>
-<tr>
-<td>
-The games correspond to a mythical duel between Linus and Apollo.
-</td>
-</tr>
-<tr>
-<td>
-Moves in each game matrix correspond to a musical note or passage.
-</td>
-</tr>
-<tr>
-<td>
-A natural question is: what are Linus's odds of winning? (Hint: very low.)<br> By simulating many duels (under various parameters), we can answer it.
-</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>
-</th>
-<th>
-<br><strong>Rbitrage</strong> <span style="font-weight:normal">
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td rowspan="4">
-<span style="color:white">&lt;&gt;<img src="./static/img/currency-graph.png" /><span style="color:white">.&lt;&gt;
-</td>
-<td>
-Trading $1 to euros and back: get $1. Many currencies: can get over $1.
-</td>
-</tr>
-<tr>
-<td>
-This program finds maximum profits from misaligned exchange rates.
-</td>
-</tr>
-<tr>
-<td>
-Currencies are a graph, edges are exchange rates – use graph algorithms.<br> Shortest path algorithm (Bellman-Ford) finds negative cycles in O(n<sup>3</sup>) time.
-</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>
-</th>
-<th>
-<br><strong>A Rose for Emily</strong> <span style="font-weight:normal">[<a href="https://github.com/gjoncas/A-Rose-for-Emily">code</a>] [<a href="https://gjoncas.github.io/posts/2019-11-07-a-rose-for-emily.html">blog</a>]
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td rowspan="5">
-<img src="./static/img/simplex-tiny.png" />
-</td>
-<td>
-Constraint solving in Prolog to analyze non-linear timeslines in stories.
-</td>
-</tr>
-<tr>
-<td>
-Faulkner's story contains various events, plus inter-temporal references.
-</td>
-</tr>
-<tr>
-<td>
-Encode these as equations: if A happened 6 years before B, then A+6=B.<br>
-</td>
-</tr>
-<tr>
-<td>
-The constraint solver shows which orderings of events are consistent.<br> This method formally shows a story's virtuality, or simplex of meaning.
-</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>
-</th>
-<th>
-<br><strong>Mapping Poverty</strong> <span style="font-weight:normal"> [<a href="https://github.com/gjoncas/Computational-Economics/blob/master/neural%20networks.pdf">slides</a>]
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td rowspan="5">
-<img src="./static/img/neural-net-tiny.png" />
-</td>
-<td>
-Hour-long lecture on using neural networks in development economics.
-</td>
-</tr>
-<tr>
-<td>
-Explains neural nets for economists, by analogies with OLS regression.
-</td>
-</tr>
-<tr>
-<td>
-Surveys research at MIT using convolutional neural nets to estimate GDP.
-</td>
-</tr>
-<tr>
-<td>
-Shows how satellite images can proxy for GDP in countries without data.<br> Plan to use in research (based on my thesis) on China's poverty counties.
-</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>
-</th>
-<th>
-<br><strong>Genetic Algorithms and Taxes</strong> <span style="font-weight:normal"> [<a href="https://github.com/gjoncas/Computational-Economics/blob/master/genetic%20algorithms.pdf">survey</a>]<br>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td rowspan="5">
-<img src="./static/img/genetic-algos-tiny.png" />
-</td>
-<td>
-Genetic algorithms solve problems by computational Darwinism.
-</td>
-</tr>
-<tr>
-<td>
-Solutions ‘compete’ with each other, judged by a fitness function.
-</td>
-</tr>
-<tr>
-<td>
-Over generations, candidate solutions evolve toward an optimum.
-</td>
-</tr>
-<tr>
-<td>
-Good for problems where data is unavailable—like tax evasion.
-</td>
-</tr>
-</tbody>
-</table>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" align="justify">
+
+                <p>During quarantine, I’ve been pursuing a goal I’ve had for years: to grok monads. In a word, monads are the <a href="https://en.wikipedia.org/wiki/Pons_asinorum">pons asinorum</a> of functional programming: once you get them, you’re part of the ‘club’.</p>
+<p>A pithy <a href="https://stackoverflow.com/questions/17590842">definition</a> I’ve found is that monads are a “type for output impurity”. Even from this we can see how much the concept is tied to the functional programming paradigm, and makes little sense outside of it. Within that paradigm, however, monads are a deeply elegant solution to a variety of problems, and continually give new ‘aha’ moments as one progresses deeper and deeper.</p>
+<p>This post documents one such moment — a tiny one, but one that tripped me up for quite a while. To follow along, the reader should have read and understood the <a href="https://en.wikibooks.org/wiki/Haskell/Understanding_monads">Haskell wikibook</a> page on monads.</p>
+<hr />
+<p>Associativity means it doesn’t matter what order we evaluate a statement, typically written as:</p>
+<p><code>(a ∘ b) ∘ c = a ∘ (b ∘ c)</code></p>
+<p>However, in Haskell the associativity law is written as follows:</p>
+<p><code>(𝑚 &gt;&gt;= f) &gt;&gt;= g  =  𝑚 &gt;&gt;= (\x -&gt; f x &gt;&gt;= g)</code></p>
+<p>Yeesh. It’s not at all obvious that these are the same. For this reason, many people prefer the Kleisli composition operator (or ‘fish’), which lets us write the above as:</p>
+<p><code>(f &gt;=&gt; g) &gt;=&gt; h  =  f &gt;=&gt; (g &gt;=&gt; h)</code></p>
+<p>This gives us the structure we want, but just hides the whole problem within the definition of &gt;=&gt;, which is just as hairy, namely: <code>f &gt;=&gt; g = \x -&gt; f x &gt;&gt;= g</code>. Gag me with a spoon.</p>
+<p>Here I want to explain my Eureka moment in finally getting the associativity law for bind.</p>
+<hr />
+<p>First, note that the type signature for bind (&gt;&gt;=) is as follows:</p>
+<p><code>(&gt;&gt;=) :: Monad m =&gt; m a -&gt; (a -&gt; m b) -&gt; m b</code></p>
+<p>So when used as an infix, the left-hand argument must be a monadic object, while the right-hand argument must be a function that takes a non-monadic object, and makes it into a monadic object. (Note that 𝑚 is not the same as m.)</p>
+<p>In the left-association <code>(𝑚 &gt;&gt;= f) &gt;&gt;= g</code>, the bracketed part gives the two arguments we need for bind: <code>𝑚 :: m a</code>, and <code>f :: (a -&gt; m b)</code>. Evaluating these gives a new term <code>𝑥 :: m b</code>. This is a monadic object, which is exactly what we expect on the left-hand side of the next bind. Therefore the next step is to apply g to 𝑥, giving a new monadic object, and then we’re done. Easy.</p>
+<p>Right-association, on the other hand, is a pain in the ass. Again:</p>
+<p><code>𝑚 &gt;&gt;= (\x -&gt; f x &gt;&gt;= g)</code></p>
+<p>To understand why we have to write it this monstrous way, let’s see how it would look if we didn’t:</p>
+<p><code>a &gt;&gt;= (b &gt;&gt;= c)</code></p>
+<p>Here, b is a monadic object, and c is a function. Applying bind to these gives a new monadic object 𝑦. Then the next step is to evaluate <code>a &gt;&gt;= 𝑦</code>.</p>
+<p>Here we have a problem, because 𝑦 needs to be both a monadic object (as output of <code>b &gt;&gt;= c</code>) and a function (as input to <code>a &gt;&gt;= 𝑦</code>), which doesn’t really make sense.</p>
+<p>To understand right-association (<code>𝑚 &gt;&gt;= (\x -&gt; f x &gt;&gt;= g)</code>), let’s start from the first bind. We know the left-hand side 𝑚 is a monadic object. We also know that the right-hand side needs to be a function, which is satisfied due to the lambda-term (i.e. <code>\x -&gt;</code>).</p>
+<p>In evaluating <code>𝑚:: m a</code>, the first bind ‘unwraps’ the 𝑎 from its monadic wrapper, and feeds it to the function on the right-hand side. So this 𝑎 is an ordinary non-monadic object, and we’re using it as an input for our function, which has type <code>(a -&gt; m b)</code>.</p>
+<p>But this 𝑎 is precisely the argument x that is called for in the lambda-function \x. Once it gets that argument, we can just ignore the function part (<code>\x -&gt;</code>), and only need to deal with <code>f x &gt;&gt;= g</code>.</p>
+<p>Well, f has type <code>(a -&gt; m b)</code>, so it takes this argument 𝑎 (or x) to produce a monadic object m b, which is what we expect on the left-hand side. Then we unwrap the b and pass it to the function g, which is likewise typed <code>(a -&gt; m b)</code> in general, or in this case <code>(b -&gt; m c)</code>. Thus, the end result of this double bind is a monadic object <code>m c</code>. Hooray!</p>
+<hr />
+<p>To recap: with left-associativity <code>(𝑚 &gt;&gt;= f) &gt;&gt;= g</code>, things are easy because we can simply evaluate the expression in brackets, and then feed the result as an argument to the remaining expression.</p>
+<p>With right-associativity <code>𝑚 &gt;&gt;= (\x -&gt; f x &gt;&gt;= g)</code>, we can’t quite do that, because of this pesky \x. Instead, the 𝑎 term from <code>𝑚 :: m a</code> is used as the x argument, and <em>then</em> we can evaluate the bracketed part independently.</p>
+<p>I’ve reread the monad laws many times, and this eluded me up until now. This is likely one of those things that will seem ‘obvious’ going forward, but even as I wrote this post I almost lost the main insight, due to a minor confusion about 𝑚. (My mistake was: I briefly thought the first bind passed all of 𝑚 to \x, not just the 𝑎 term.)</p>
+<p>Given how garrulous this post was, it’s no wonder most treatments of the monad laws just glance over associativity. The step I was missing was so profoundly simple, but easily lost among the mess of symbols. Therefore I hope this post helps not only ‘advanced beginners’ like myself, but also reminds experienced coders how to think of monads from the ground up.</p>
+
                 <hr>
+
+                <ul class="pager">
+                    
+                    
+                </ul>
+
             </div>
         </div>
     </div>
 </article>
+<hr>
     </div>
     <div id="footer">
     </div>

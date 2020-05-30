@@ -37,7 +37,7 @@
     <tbody>
         <tr>
             <td rowspan=4><span style="color:white"><\span>![](/static/img/currency-graph.png)<span style="color:white">.<\span></td>
-            <td>If you trade $1 to euros & back: get $1. Many currencies: can get over $1.</td>
+            <td>Trading $1 to euros and back: get $1. Many currencies: can get over $1.</td>
         </tr>
         <tr>
             <td>This program finds maximum profits from misaligned exchange rates.</td>
