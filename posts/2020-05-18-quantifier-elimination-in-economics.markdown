@@ -8,9 +8,9 @@ To those with more worldly experience, let’s pause. Imagine a world where bure
 Imagine having to spell out the exact assumptions for the model behind a business decision — giving both the freedom to change one’s mind, and accountability for error. 
 Now we see the *real* reason no-one uses formal methods.
 
-There may well be a day when formal proof is a gold standard, separating those who tell people what they want to hear, from those who tell it like it is. 
+There may be a day when formal proof is a gold standard, separating those who tell people what they want to hear, from those who tell it like it is. 
 That’s a ways away. Yet, just as we smirk at poor Milton Friedman taking hours to run a regression using punch cards, 
-so shall we be jeered for assuming that if an idea makes sense in our head, this is evidence for its correctness.
+so shall we be condescended for assuming that if an idea makes sense in our head, this is evidence for its correctness.
 
 Here, I would like to examine a very specific project led by Casey B. Mulligan at the University of Chicago, on automated reasoning in economics using quantifier elimination
 — a tool from logic for systematically proving statements about polynomial inequalities of real variables,
@@ -70,11 +70,11 @@ Likewise, for a `Mixed` result we can add assumptions until it becomes `True` or
 
 There is also a clever way to generate examples or counterexamples (Mulligan, 2018: 5, fn. 9):
 
-<blockquote>
+<blockquote><span style="color:#909090">
 Existentially quantify N−1 of the variables in the Tarski formula leaving free, say, x₁, and then eliminate quantifiers. The result is a formula in x₁ alone. 
 Choose a real number for x₁ that satisfies the formula and substitute that value into the original N-variable Tarski formula, making it an (N−1)-variable Tarski formula. 
 Repeat the process for x₂, etc., until real numbers are assigned to all N variables.
-</blockquote>
+</span></blockquote>
 
 Now we can see how quantifier elimination lets us investigate theories, not just play with formulas.
 
@@ -85,9 +85,9 @@ the algebraic equivalent of projecting that set into the space of free variables
 
 For the gory details, the most cogent explanation I’ve found is from Caviness \& Johnson ([1998](https://link.springer.com/chapter/10.1007/978-3-7091-9459-1_1): 2):
 
-<blockquote>
+<blockquote><span style="color:#909090">
 The CAD method for QE can be briefly described as a method that extracts the polynomials occurring in the input formula (having first trivially reduced all atomic formulas to the forms A = 0 and A > 0) and then constructs a decomposition of real *r*-dimensional space, where *r* is the number of variables in the formula, into a finite number of connected regions, called cells, in which each polynomial is invariant in sign. Moreover these cells are arranged in a certain cylindrical manner. From this cylindrical decomposition it is then quite straightforward to apply the quantifiers by using a sample point from each cell to determine the (invariant) truth value of the input formula in that cell. This application of quantifiers reveals which cells in the subspace of the free variables are true. It then remains to construct an equivalent quantifier-free formula from this knowledge. In Collins’ original QE method this problem was solved by a method called augmented projection that provided a quantifier-free formula for each of the true cells.
-</blockquote>
+</span></blockquote>
 
 Don’t worry if you didn’t get all that. The main takeaway is the rather beautiful idea that 
 SMT solvers in computer science and projection in algebraic geometry are just different perspectives of the same automated reasoning problem (Mulligan, 2018: 8).
