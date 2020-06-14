@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- 
+      loads the http over https ssl - 
+      welcome to my website! 
+
+	this theme is based off the Ice & Fire theme created by Lucas Gatsas
+      https://www.twitter.com/LucasGatsas
+      www.lucasgatsas.ch - switzerland. 
+                                                    -->
+
+    <!--
+<script type="text/javascript">
+var host = "https://gjoncas.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
+-->
+    <!-- Microsoft Internet Explorer documentMode compatMode setting IE Modus -->
+    <script type="text/javascript">
+        var IE = null;
+        if (window.navigator.appName == "Microsoft Internet Explorer") {
+            if (document.documentMode) {
+
+                IE = document.documentMode;
+            } else {
+
+                IE = 5;
+                if (document.compatMode) {
+                    if (document.compatMode == "CSS1Compat")
+                        IE = 11;
+                }
+            }
+        }
+    </script>
+
+    <meta charset="utf-8">
+    <!-- X-UA -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+
+
+    <meta name="google" content="notranslate" />
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- index ROBOTS follow -->
+    <meta name="robots" content="index, follow" />
+    <!-- Site Desciption -->
+    
+    <meta name="description" content="from surreal to surrational">
+    
+
+    <meta name="keywords" content="Graham Joncas, gjoncas, philosophy of economics, computational economics">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://gjoncas.github.io/static/img/ico.png" type="image/x-icon" />
+    <!-- Blog Title -->
+    
+    <title>Oneironomics | EasyPlot in Haskell</title>
+    
+    <!--     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+-->
+    <!-- Property Metas -->
+    <meta property="og:image" content="https://gjoncas.github.io/static/img/ix.png" />  <!-- what image is this?-->
+    
+    <meta property="og:title" content="from surreal to surrational" />
+    <meta property="og:site_name" content="from surreal to surrational" />
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="https://gjoncas.github.io/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://gjoncas.github.io/static/css/spaceg.stylesheets.css">
+    <link rel="stylesheet" href="https://gjoncas.github.io/static/css/syntax.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #000;
+            /* change if the mask should have another color then white */
+            z-index: 99;
+            /* makes sure it stays on top */
+        }
+
+        #status {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            /* centers the loading animation horizontally on the screen */
+            top: 50%;
+            /* centers the loading animation vertically on the screen */
+            background-image: url("/static/img/preloader.gif");
+            /* path to your loading animation */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: -100px 0 0 -100px;
+            /* is width and height divided by two */
+        }
+
+        ul,
+        ol {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .navbar-inverse {
+            background-color: #000;
+            border-color: #000000;
+        }
+    </style>
+    <!--link rel="stylesheet" href="https://gjoncas.github.io/static/css/prettify.css"-->
+    <style>
+        header.intro-header {
+            background: #6f5499;
+            background: no-repeat center center;
+            background-attachment: scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+
+        /* Preloader */
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #000;
+            /* change if the mask should have another color then white */
+            z-index: 99;
+            /* makes sure it stays on top */
+        }
+
+        #status {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            /* centers the loading animation horizontally one the screen */
+            top: 50%;
+            /* centers the loading animation vertically one the screen */
+            background-image: ;
+            /* path to your loading animation */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: -100px 0 0 -100px;
+            /* is width and height divided by two */
+        }
+
+        li {
+            list-style: none;
+        }
+
+        body.modal-open {
+            overflow: hidden;
+            padding-right: 0px;
+        }
+
+        article li {
+            list-style: inherit;
+        }
+
+        article .figure {
+            text-align: center
+        }
+    </style>
+    <!-- end Loading front stylesheet here -->
+</head>
+
+<body>
+    <!--<div id="preloader">
+        <div id="status">
+
+        </div>
+    </div>-->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://gjoncas.github.io" id="blog-title-left-top"><span style="color:gray"><span style="font-family:candara;">oneironomics</span></span></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#portfolioModal2" data-toggle="modal"><i class="fa fa-random" id="icon-top"></i></a>
+                    <ul class="dropdown-menu"></ul>
+                </li>
+                <li><!-- <a href="https://instagram.com/oneironomics/" target="_blank"><i class="fa fa-instagram" id="icon-top"></i></a>--></li>
+                <li><a href="https://gjoncas.github.io/About.html" target="_blank">About</a></li>
+                <li><a href="https://gjoncas.github.io/Research.html" target="_blank">Research</a></li>
+				<li><a href="https://gjoncas.github.io/Projects.html" target="_blank">Projects</a></li>
+
+                <li><a href="https://gjoncas.github.io/blog.html">Blog</a></li>
+                
+                <li><a href="https://www.twitter.com/gjncs" id="roundbutton" target="_blank"><i class="fa fa-twitter"></i>gjncs</a></li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="padding-right:0px; overflow: hidden;">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1 class="font-style-inline-small-h1">Graham Joncas</h1>
+                        <hr class="star-primary">
+                        <img src="https://github.com/gjoncas/Artsy-Diagrams/raw/master/pics/metratron.png" class="img-responsive img-centered" alt title>
+                        <p class="font-style-inline-small">
+                            I live in Canada, and do research on computational economics and formal philosophy. <br>
+                            This is my personal website and blog. The best way to contact me is via <a href="https://www.twitter.com/gjncs" target="_blank">Twitter</a>.<br>
+                            <a href="https://www.github.com/gjoncas" target="_blank"> <i class="fa fa-github" id="spaceg-social-modal"></i> </a>
+                            <a href="https://www.twitter.com/gjncs" target="_blank"><i class="fa fa-twitter" id="spaceg-social-modal"></i> </a>
+							<a href="https://www.instagram.com/oneironomics" target="_blank"><i class="fa fa-instagram" id="spaceg-social-modal"></i> </a>
+                        </p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Menu Modals Add New Sa.21.Feb.2015 03:22:25 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="padding-right:0px; overflow: hidden;">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1 class="font-style-inline-small-h1">g.j</h1>
+                        <hr class="star-primary">
+                        <p class="font-style-inline-small">
+                            Computational economics <br>
+							Conceptual engineering <br>
+							Surrationalism <br>
+                            
+                            <a href="https://www.github.com/gjoncas" target="_blank">
+                                <i class="fa fa-github" id="spaceg-social-modal"></i>
+                            </a>
+                            
+                            
+                            <a href="https://www.twitter.com/gjncs" target="_blank">
+                                <i class="fa fa-twitter" id="spaceg-social-modal"></i>
+                            </a>
+                            
+							
+                            <a href="https://www.instagram.com/oneironomics" target="_blank">
+                                <i class="fa fa-instagram" id="spaceg-social-modal"></i>
+                            </a>
+                            
+                            <li><a href="https://gjoncas.github.io/">Home</a></li>
+                            <li><a href="https://gjoncas.github.io/Research.html">Research</a></li>
+							<li><a href="https://gjoncas.github.io/Projects.html">Projects</a></li>
+                            <li><a href="https://gjoncas.github.io/blog.html">Blog</a></li>
+                        </p>
+
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="content" align="justify">
+        <!-- Post Header -->
+<header class="intro-header" style="background-image: url('https://gjoncas.github.io/static/img/tasvicze.jpg')" alt title>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1><span style="color:white">EasyPlot in Haskell</span></h1>
+                    
+                    <h2 class="subheading">A Quick-and-Dirty Introduction</h2>
+                    
+                    <span class="meta" style="color:white">
+                        
+                        June 14, 2020
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" align="justify">
+
+                <p>EasyPlot is a simple Haskell library for drawing graphs. I wouldn’t call them beautiful by any stretch, but it’s excellent for quick-and-dirty visualizations. The main appeal is being able to use idiomatic tricks like list comprehensions: define a set of tuples, and Haskell will get you all points in that set.</p>
+<p>However, <a href="https://old.reddit.com/r/haskell/comments/2v0odx/error_message_when_trying_to_use_plotfunc_from/">lots of people</a> have encountered hitches to installing it (at least in Windows). Worse, most online resources only say how to install it on Linux, which is super-easy. Here, I just want to spell everything out, since even though it’s not super-fancy, you can still do some fun things with EasyPlot.</p>
+<h3 id="installing-in-windows">Installing in Windows</h3>
+<p>EasyPlot is based on gnuplot, a fairly retro program dating back to the ’80s. Interestingly, the open-source econometrics package Gretl uses gnuplot. You can install it by <a href>downloading</a> a nice .exe file, which makes everything easy. The most recent version (currently 5.2.8) worked fine for me.</p>
+<p>With this installed, the first hitch is that you need to update your <code>%PATH%</code> variable, so that your computer can find the file. In Windows 10, you can just put “environment variables” in the searchbar. The longer way is: <code>Control Panel &gt; System and Security &gt; System &gt; Advanced System Settings</code>.</p>
+<p>Click on the button that says ‘Environment Variables’. Under ‘System Variables’ there should be one called <code>Path</code>. Highlight it, click ‘Edit’, click ‘New’, and add the folder that gnuplot.exe is in. For me, it’s: <code>C:\Program Files\gnuplot\bin</code>. Then click OK, OK, OK, and we’re done that part.</p>
+<p>Then we need to install it on Haskell. For 8.10.2, <code>cabal new-install easyplot</code> worked for me. For 8.6.5, I needed to use the older <code>cabal install easyplot</code>.</p>
+<p>There’s a very similar package <code>gnuplot</code>, which you can install too if you want. The hitch with this is that it keeps throwing an error message asking for <code>pgnuplot</code>, which is <a href="https://old.reddit.com/r/haskell/comments/2v0odx/error_message_when_trying_to_use_plotfunc_from/">deprecated</a>. To fix this, you just need to make a copy of <code>gnuplot.exe</code> and name it <code>pgnuplot.exe</code>. The syntax for <a href="https://hackage.haskell.org/package/gnuplot">Gnuplot</a> is very similar, but far more customizable. Let’s leave that aside for now.</p>
+<p>If EasyPlot is installed correctly, you should be able to <code>import Graphics.EasyPlot</code> from GHCi or WinGHCi. If it’s still not working, try using <code>stack install easyplot</code> or <code>cabal new-install easyplot</code>.</p>
+<p>The second hitch is actually using it. The documentation kindly offers some <a href="https://hackage.haskell.org/package/easyplot">example plots</a>, but they don’t work in Windows without some editing. Let’s take one example:</p>
+<p><code>plot X11 $ Function2D [Title &quot;Sine and Cosine&quot;] [] (\x -&gt; sin x * cos x)</code></p>
+<p>First, <code>X11</code> specifies that it’s meant for Linux, so for Windows we need to change this to <code>Windows</code>, or for Mac change it to <code>Aqua</code>. However, if we put this into the terminal, our chart pops up for a split second, then erases, leaving behind <code>True</code> to show that it ‘worked’.</p>
+<p>The solution, thanks to the <a href="https://mail.haskell.org/pipermail/beginners/2018-May/018154.html">mailing list</a>, is to enclose our plot in a monad, namely a <code>do</code> statement. This makes sense if you’re vaguely familiar with monads, since making a plot is an IO action.</p>
+<p>Next, instead of <code>plot</code> we have to use <code>plot' [Interactive]</code>. Here’s a version that will actually work:</p>
+<p><code>do plot' [Interactive] Windows $ Function2D [Title &quot;Sine * Cosine&quot;] [] (\x -&gt; sin x * cos x)</code></p>
+<p>Here, <code>[Interactive]</code> specifies that we want a window we can adjust. This is quite nice, actually: we just resize the window and the diagram stretches and shrinks along with it.</p>
+<p>Alternatively, if we want to print out an image we use the following syntax:</p>
+<p><code>do plot (PNG &quot;test.png&quot;) $ Gnuplot2D [Color Blue] [] &quot;2**cos(x)&quot;</code></p>
+<p>Note that we’re using <code>plot</code> with no apostrophe, and that we’re replacing <code>[Interactive] Windows</code>. It can also make PDFs (like so: <code>(PDF &quot;test.pdf&quot;)</code>), which are vector images, so won’t get blurry if you zoom in on them. Still, since EasyPlot doesn’t let you set the axes beforehand (and the printed PNG often looks coarser), most of the time I’d rather adjust the window by hand and take a screenshot.</p>
+<p>One last hitch, and this is a weird one. Suppose we save one of our plots to a variable, like so:</p>
+<p><code>test = do plot' [Interactive] Windows $ Gnuplot2D [Color Blue] [] &quot;2**cos(x)&quot;</code></p>
+<p>Then when we put <code>test</code> into the terminal, it makes the plot we want, but the next line looks like this:</p>
+<p><code>gnuplot &gt;</code></p>
+<p>This happens because Haskell is calling the program gnuplot, and hasn’t left that program yet. So you need to manually type <code>quit</code> in the terminal. Once you know you have to do this, it’s easy enough, but it also means you can’t make automated plots, which is a drag. Furthermore, if you’re doing this on WinGHCi it doesn’t even show the <code>gnuplot &gt;</code> line, so it’s even more confusing.</p>
+<p>All that was a huge pain to figure out, but from there everything else is easy. Wahey! Now let’s go on to see some examples of stuff we can make.</p>
+<h3 id="easyplot-examples">EasyPlot Examples</h3>
+<p>These are some EastPlot examples found on the web, in various languages.</p>
+<p>First, here’s one I made of a logarithmic spiral (where you can save the code as spiralplot.hs):</p>
+<center>
+<img src="../static/img/blog-posts/easyplot-spiral.png" />
+</center>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">module</span> <span class="dt">SpiralPlot</span> <span class="kw">where</span></a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">import</span> <span class="dt">Graphics.EasyPlot</span></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">spiral <span class="fu">=</span> [(x,y) <span class="fu">|</span> t <span class="ot">&lt;-</span> [<span class="dv">0</span>,<span class="fl">0.01</span><span class="fu">..</span><span class="dv">4</span>], </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">        <span class="kw">let</span> x <span class="fu">=</span> a <span class="fu">*</span> exp t <span class="fu">*</span> cos (b<span class="fu">*</span>t), </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">        <span class="kw">let</span> y <span class="fu">=</span> a <span class="fu">*</span> exp t <span class="fu">*</span> sin (b<span class="fu">*</span>t)]</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7">        <span class="kw">where</span> a <span class="fu">=</span> <span class="fl">0.1</span> ; b <span class="fu">=</span> <span class="dv">4</span></a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"></a>
+<a class="sourceLine" id="cb1-9" data-line-number="9">main <span class="fu">=</span> <span class="kw">do</span> plot' [<span class="dt">Interactive</span>] <span class="dt">Windows</span> <span class="fu">$</span> <span class="dt">Data2D</span> [<span class="dt">Title</span> <span class="st">&quot;Logarithmic Spiral&quot;</span>, <span class="dt">Style</span> <span class="dt">Lines</span>] [] spiral</a></code></pre></div>
+<p>For the parameters we can also pattern-match like <code>where (a,b) = (0.1,4)</code>, but as such it’s fine. Another example <a href="http://0not.net/programming/2015/02/26/first-steps-with-haskell.html">here</a> (<a href="https://gist.github.com/0not/09dce776d3b4d6158b6d">code</a>) plots radioactive decay; just don’t forget to change the <code>plot X11</code> part.</p>
+<p>The main drawback is that functions need to be expressed explicitly in the form <code>z = f(x,y)</code> or <code>y = f(x)</code> (i.e. the dependent variable can’t be part of the equation), while <a href="https://mzrg.com/math/graphs.shtml">apparently</a> other math software lets you plot implicit functions like <code>sin(y² * x³) = cos(y³ * x²)</code>. A cool project might be to write a program that makes an implicit function into an explicit one and feeds it into EasyPlot.</p>
+<h4 id="d-plots">3D Plots</h4>
+<p>Next, here’s a 3D plot from the documentation:</p>
+<center>
+<img src="../static/img/blog-posts/easyplot-3d.png" />
+</center>
+<center>
+<code>do plot' [Interactive] Windows $ Gnuplot3D [Color Magenta] [] &quot;x ** 2 + y ** 3&quot;</code>
+</center>
+<p>This is where EasyPlot shines relative to other software; in Ti<em>k</em>Z this would probably take hours to do. Judging from a quick <a href="https://twitter.com/hamidebadi/status/649866661726654464">search</a>, it’s possible with gnuplot to color in the mesh, making it even snazzier.</p>
+<h4 id="calculus">Calculus</h4>
+<p>One user on a French forum wanted to know if we can diagram Taylor polynomials without formally using calculus in Haskell. That is, we want to approximate an equation using its Taylor expansion:</p>
+<p><code>Tₙ,₀(x) = x⁰/0!·f⁽⁰⁾(0) + x¹/1!·f⁽¹⁾(0)+x²/2!·f⁽²⁾(0) + ...</code></p>
+<p>To do this, we’ll create two infinite lists: one for <code>[x⁰/0!, x¹/1!, x²/2!, ...]</code> and one for <code>[f⁽⁰⁾(0), f⁽¹⁾(0), f⁽²⁾(0), ...]</code>. (Oh god, I really need to get LaTeX working on my website...)</p>
+<p>The idea is to graph both the true function and its approximation, showing how the latter becomes better as our Taylor polynomial increases in degree. This is how it’s supposed to look like:</p>
+<center>
+<img src="../static/img/blog-posts/easyplot-taypoly.png" />
+</center>
+<p>However, I can’t get it working. My best guess is, it’s because of either <code>polyTaylor (snd tf) n</code> or <code>fst tf</code>, or both. I played around with it, but no luck. Below I’ll put a translated version of the code, and if anyone is able to fix it, do <a href="https://github.com/gjoncas/gjoncas.github.io/issues">let me know</a>. I’ll make a StackExchange question about this problem later.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">module</span> <span class="dt">TaylorPolynomials</span> <span class="kw">where</span></a>
+<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="kw">import</span> <span class="dt">Graphics.EasyPlot</span></a>
+<a class="sourceLine" id="cb2-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb2-4" data-line-number="4"><span class="co">-- Returns the vector [1, x, x^2/2!, x^3/3!, ..]</span></a>
+<a class="sourceLine" id="cb2-5" data-line-number="5"><span class="ot">vecTaylor ::</span> <span class="dt">Double</span> <span class="ot">-&gt;</span> [<span class="dt">Double</span>]</a>
+<a class="sourceLine" id="cb2-6" data-line-number="6">vecTaylor    x      <span class="fu">=</span>  scanl (\ acc k <span class="ot">-&gt;</span> acc <span class="fu">*</span> x <span class="fu">/</span> k) <span class="fl">1.0</span> [<span class="dv">1</span> <span class="fu">..</span> ]</a>
+<a class="sourceLine" id="cb2-7" data-line-number="7"></a>
+<a class="sourceLine" id="cb2-8" data-line-number="8"><span class="co">-- Basic functions</span></a>
+<a class="sourceLine" id="cb2-9" data-line-number="9"><span class="co">-- fonction :: Double -&gt; Double</span></a>
+<a class="sourceLine" id="cb2-10" data-line-number="10">invPlus  <span class="fu">=</span> (\ x <span class="ot">-&gt;</span> <span class="dv">1</span> <span class="fu">/</span> (<span class="dv">1</span> <span class="fu">+</span> x))</a>
+<a class="sourceLine" id="cb2-11" data-line-number="11">invMinus <span class="fu">=</span> (\ x <span class="ot">-&gt;</span> <span class="dv">1</span> <span class="fu">/</span> (<span class="dv">1</span> <span class="fu">-</span> x))</a>
+<a class="sourceLine" id="cb2-12" data-line-number="12">logPlus  <span class="fu">=</span> (\ x <span class="ot">-&gt;</span> log (<span class="dv">1</span> <span class="fu">+</span> x))</a>
+<a class="sourceLine" id="cb2-13" data-line-number="13">rootPlus <span class="fu">=</span> (\ x <span class="ot">-&gt;</span> sqrt (<span class="dv">1</span> <span class="fu">+</span> x))</a>
+<a class="sourceLine" id="cb2-14" data-line-number="14"></a>
+<a class="sourceLine" id="cb2-15" data-line-number="15"><span class="co">{- We return the tuple (functions, list of its successive derivatives in 0)</span></a>
+<a class="sourceLine" id="cb2-16" data-line-number="16"><span class="co">   We usually look for a recurrence formula and use scanl</span></a>
+<a class="sourceLine" id="cb2-17" data-line-number="17"><span class="co">   Otherwise, we repeat patterns</span></a>
+<a class="sourceLine" id="cb2-18" data-line-number="18"><span class="co">tTruc :: (Double -&gt; Double, [Double]) -}</span></a>
+<a class="sourceLine" id="cb2-19" data-line-number="19">tExp      <span class="fu">=</span> (exp,      repeat <span class="fl">1.0</span>)</a>
+<a class="sourceLine" id="cb2-20" data-line-number="20">tinvMinus <span class="fu">=</span> (invMinus, scanl (\ acc k <span class="ot">-&gt;</span> acc <span class="fu">*</span> k   )             <span class="fl">1.0</span> [<span class="dv">1</span> <span class="fu">..</span> ])</a>
+<a class="sourceLine" id="cb2-21" data-line-number="21">tInvPlus  <span class="fu">=</span> (invPlus,  scanl (\ acc k <span class="ot">-&gt;</span> acc <span class="fu">*</span> (<span class="fu">-</span>k))             <span class="fl">1.0</span> [<span class="dv">1</span> <span class="fu">..</span> ])</a>
+<a class="sourceLine" id="cb2-22" data-line-number="22">tRoot     <span class="fu">=</span> (rootPlus, scanl (\ acc k <span class="ot">-&gt;</span> acc <span class="fu">*</span> (<span class="fu">-</span><span class="fl">0.5</span>) <span class="fu">*</span> (<span class="dv">2</span><span class="fu">*</span>k <span class="fu">-</span> <span class="dv">1</span>)) <span class="fl">1.0</span> [<span class="dv">0</span> <span class="fu">..</span> ])</a>
+<a class="sourceLine" id="cb2-23" data-line-number="23">tLogPlus  <span class="fu">=</span> (logPlus,  <span class="fl">0.0</span> <span class="fu">:</span> (snd tInvPlus))</a>
+<a class="sourceLine" id="cb2-24" data-line-number="24">tSin      <span class="fu">=</span> (sin,      cycle [<span class="fl">0.0</span>,<span class="fl">1.0</span>,<span class="fl">0.0</span>,<span class="fu">-</span><span class="fl">1.0</span>])</a>
+<a class="sourceLine" id="cb2-25" data-line-number="25">tCos      <span class="fu">=</span> (cos,      cycle [<span class="fl">1.0</span>,<span class="fl">0.0</span>,<span class="fu">-</span><span class="fl">1.0</span>,<span class="fl">0.0</span>])</a>
+<a class="sourceLine" id="cb2-26" data-line-number="26"></a>
+<a class="sourceLine" id="cb2-27" data-line-number="27"><span class="co">{- Returns the evaluation of the Taylor polynomial of degree n in x of the function</span></a>
+<a class="sourceLine" id="cb2-28" data-line-number="28"><span class="co">   whose derivatives are given in 0 -}</span></a>
+<a class="sourceLine" id="cb2-29" data-line-number="29"><span class="ot">polyTaylor ::</span> [<span class="dt">Double</span>]   <span class="ot">-&gt;</span> <span class="dt">Int</span> <span class="ot">-&gt;</span> <span class="dt">Double</span> <span class="ot">-&gt;</span> <span class="dt">Double</span> </a>
+<a class="sourceLine" id="cb2-30" data-line-number="30">polyTaylor    listDerivatives n      x      <span class="fu">=</span></a>
+<a class="sourceLine" id="cb2-31" data-line-number="31">    sum <span class="fu">$</span> take (n <span class="fu">+</span> <span class="dv">1</span>) <span class="fu">$</span> zipWith (<span class="fu">*</span>) (vecTaylor x) listDerivatives</a>
+<a class="sourceLine" id="cb2-32" data-line-number="32">    </a>
+<a class="sourceLine" id="cb2-33" data-line-number="33"><span class="co">-- We draw on the same graph the function and its Taylor polynomial on [a, b] with a step of 1/2 ^ 8</span></a>
+<a class="sourceLine" id="cb2-34" data-line-number="34"><span class="ot">compareDL ::</span> <span class="dt">Double</span> <span class="ot">-&gt;</span> <span class="dt">Double</span> <span class="ot">-&gt;</span> ((<span class="dt">Double</span> <span class="ot">-&gt;</span> <span class="dt">Double</span>) , [<span class="dt">Double</span>]) <span class="ot">-&gt;</span> <span class="dt">Int</span> <span class="ot">-&gt;</span> <span class="dt">IO</span> <span class="dt">Bool</span></a>
+<a class="sourceLine" id="cb2-35" data-line-number="35">compareDL    a         b         tf                                 n   <span class="fu">=</span> </a>
+<a class="sourceLine" id="cb2-36" data-line-number="36">  <span class="kw">do</span> plot' [<span class="dt">Interactive</span>] <span class="dt">Windows</span> <span class="fu">$</span></a>
+<a class="sourceLine" id="cb2-37" data-line-number="37">     [<span class="dt">Function2D</span> [<span class="dt">Title</span> (<span class="st">&quot;n = &quot;</span> <span class="fu">++</span> (show n)), <span class="dt">Color</span> <span class="dt">Blue</span>] [<span class="dt">Range</span> a b, <span class="dt">Step</span> (<span class="dv">2</span><span class="fu">**</span>(<span class="fu">-</span><span class="dv">8</span>))] </a>
+<a class="sourceLine" id="cb2-38" data-line-number="38">      (polyTaylor (snd tf) n),</a>
+<a class="sourceLine" id="cb2-39" data-line-number="39">      <span class="dt">Function2D</span> [<span class="dt">Title</span> <span class="st">&quot;True function&quot;</span>, <span class="dt">Color</span> <span class="dt">Red</span>] [<span class="dt">Range</span> a b, <span class="dt">Step</span> (<span class="dv">2</span><span class="fu">**</span>(<span class="fu">-</span><span class="dv">8</span>))] (fst tf)] </a>
+<a class="sourceLine" id="cb2-40" data-line-number="40">      <span class="co">-- this is the part that I can't get to work</span></a>
+<a class="sourceLine" id="cb2-41" data-line-number="41"></a>
+<a class="sourceLine" id="cb2-42" data-line-number="42">main <span class="fu">=</span> compareDL (<span class="fu">-</span><span class="fl">0.8</span>) <span class="fl">1.2</span> tLogPlus <span class="dv">4</span></a></code></pre></div>
+<p>As another calculus example, one Finnish <a href="https://www.ohjelmointiputka.net/koodivinkit/28842-haskell-eulerin-menetelm%C3%A4-easyplot-kirjastolla">blog</a> has an example of Euler’s method for approximating differential equations, but the results are underwhelming. (Spoiler: it’s just a diagonal line.)</p>
+<h4 id="statistics">Statistics</h4>
+<p>My favorite example is linear regression by <a href="https://www.glc.us.es/~jalonso/exercitium/regresion-lineal/">José A. Alonso</a>, whose <a href="https://twitter.com/Jose_A_Alonso">twitter</a> you should totally follow. This one is in Gnuplot; someone in the <a href="https://www.glc.us.es/~jalonso/exercitium/regresion-lineal/#comment-2594">comments</a> did an EasyPlot version, but I can’t get it to work.</p>
+<center>
+<img src="../static/img/blog-posts/easyplot-reg.png" />
+</center>
+<div class="sourceCode" id="cb3"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw">import</span> <span class="dt">Data.List</span> (genericLength)</a>
+<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="kw">import</span> <span class="dt">Graphics.Gnuplot.Simple</span></a>
+<a class="sourceLine" id="cb3-3" data-line-number="3"> </a>
+<a class="sourceLine" id="cb3-4" data-line-number="4">varX,<span class="ot"> varY ::</span> [<span class="dt">Double</span>]</a>
+<a class="sourceLine" id="cb3-5" data-line-number="5">varX <span class="fu">=</span> [<span class="dv">5</span>,  <span class="dv">7</span>, <span class="dv">10</span>, <span class="dv">12</span>, <span class="dv">16</span>, <span class="dv">20</span>, <span class="dv">23</span>, <span class="dv">27</span>, <span class="dv">19</span>, <span class="dv">14</span>]</a>
+<a class="sourceLine" id="cb3-6" data-line-number="6">varY <span class="fu">=</span> [<span class="dv">9</span>, <span class="dv">11</span>, <span class="dv">15</span>, <span class="dv">16</span>, <span class="dv">20</span>, <span class="dv">24</span>, <span class="dv">27</span>, <span class="dv">29</span>, <span class="dv">22</span>, <span class="dv">20</span>]</a>
+<a class="sourceLine" id="cb3-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb3-8" data-line-number="8"><span class="ot">linearRegression ::</span> [<span class="dt">Double</span>] <span class="ot">-&gt;</span> [<span class="dt">Double</span>] <span class="ot">-&gt;</span> (<span class="dt">Double</span>,<span class="dt">Double</span>)</a>
+<a class="sourceLine" id="cb3-9" data-line-number="9">linearRegression xs ys <span class="fu">=</span> (a,b)</a>
+<a class="sourceLine" id="cb3-10" data-line-number="10">    <span class="kw">where</span> n     <span class="fu">=</span> genericLength xs</a>
+<a class="sourceLine" id="cb3-11" data-line-number="11">          sumX  <span class="fu">=</span> sum xs</a>
+<a class="sourceLine" id="cb3-12" data-line-number="12">          sumY  <span class="fu">=</span> sum ys</a>
+<a class="sourceLine" id="cb3-13" data-line-number="13">          sumX2 <span class="fu">=</span> sum (zipWith (<span class="fu">*</span>) xs xs)</a>
+<a class="sourceLine" id="cb3-14" data-line-number="14">          sumY2 <span class="fu">=</span> sum (zipWith (<span class="fu">*</span>) ys ys)</a>
+<a class="sourceLine" id="cb3-15" data-line-number="15">          sumXY <span class="fu">=</span> sum (zipWith (<span class="fu">*</span>) xs ys)</a>
+<a class="sourceLine" id="cb3-16" data-line-number="16">          b     <span class="fu">=</span> (n<span class="fu">*</span>sumXY <span class="fu">-</span> sumX<span class="fu">*</span>sumY) <span class="fu">/</span> (n<span class="fu">*</span>sumX2 <span class="fu">-</span> sumX<span class="fu">^</span><span class="dv">2</span>)</a>
+<a class="sourceLine" id="cb3-17" data-line-number="17">          a     <span class="fu">=</span> (sumY <span class="fu">-</span> b<span class="fu">*</span>sumX) <span class="fu">/</span> n</a>
+<a class="sourceLine" id="cb3-18" data-line-number="18"> </a>
+<a class="sourceLine" id="cb3-19" data-line-number="19"><span class="ot">mygraph ::</span> [<span class="dt">Double</span>] <span class="ot">-&gt;</span> [<span class="dt">Double</span>] <span class="ot">-&gt;</span> <span class="dt">IO</span> ()</a>
+<a class="sourceLine" id="cb3-20" data-line-number="20">mygraph xs ys <span class="fu">=</span> </a>
+<a class="sourceLine" id="cb3-21" data-line-number="21">    plotPathsStyle </a>
+<a class="sourceLine" id="cb3-22" data-line-number="22">      [<span class="dt">YRange</span> (<span class="dv">0</span>,<span class="dv">10</span><span class="fu">+</span>mY)] </a>
+<a class="sourceLine" id="cb3-23" data-line-number="23">      [(defaultStyle {plotType <span class="fu">=</span> <span class="dt">Points</span>,</a>
+<a class="sourceLine" id="cb3-24" data-line-number="24">                      lineSpec <span class="fu">=</span> <span class="dt">CustomStyle</span> [<span class="dt">LineTitle</span> <span class="st">&quot;Data points&quot;</span>,</a>
+<a class="sourceLine" id="cb3-25" data-line-number="25">                                              <span class="dt">PointType</span> <span class="dv">2</span>,</a>
+<a class="sourceLine" id="cb3-26" data-line-number="26">                                              <span class="dt">PointSize</span> <span class="fl">2.5</span>]},</a>
+<a class="sourceLine" id="cb3-27" data-line-number="27">                     zip xs ys),</a>
+<a class="sourceLine" id="cb3-28" data-line-number="28">       (defaultStyle {plotType <span class="fu">=</span> <span class="dt">Lines</span>,</a>
+<a class="sourceLine" id="cb3-29" data-line-number="29">                      lineSpec <span class="fu">=</span> <span class="dt">CustomStyle</span> [<span class="dt">LineTitle</span> <span class="st">&quot;Regression line&quot;</span>,</a>
+<a class="sourceLine" id="cb3-30" data-line-number="30">                                              <span class="dt">LineWidth</span> <span class="dv">2</span>]},</a>
+<a class="sourceLine" id="cb3-31" data-line-number="31">                     [(x,a<span class="fu">+</span>b<span class="fu">*</span>x) <span class="fu">|</span> x <span class="ot">&lt;-</span> [<span class="dv">0</span><span class="fu">..</span>mX]])]</a>
+<a class="sourceLine" id="cb3-32" data-line-number="32">    <span class="kw">where</span> (a,b) <span class="fu">=</span> linearRegression xs ys                      </a>
+<a class="sourceLine" id="cb3-33" data-line-number="33">          mX    <span class="fu">=</span> maximum xs</a>
+<a class="sourceLine" id="cb3-34" data-line-number="34">          mY    <span class="fu">=</span> maximum ys</a>
+<a class="sourceLine" id="cb3-35" data-line-number="35"></a>
+<a class="sourceLine" id="cb3-36" data-line-number="36">main <span class="fu">=</span> mygraph varX varY</a></code></pre></div>
+<p>I’d be willing to switch to Haskell for time-series if it had a nice way for handling dates on the <em>x</em>-axis. Even in R, this is a huge pain in the ass and looks terrible. As of now, it seems not — the typical method (via <a href="https://www.cyberforum.ru/haskell/thread1157638.html">here</a>) seems to be having a list of <code>values</code> on the <em>y</em>-axis, and then using <code>zip [1..] values</code> to make a list of tuples. I’d much rather think in days and months rather than “point #3000”.</p>
+<h4 id="further-possibilities">Further Possibilities</h4>
+<p>There’s a <em>really</em> beautiful and elaborate example on <a href="https://rosettacode.org/wiki/Pythagoras_tree#Haskell">Rosetta Code</a>: a Pythagoras tree. However, not only does it fail to work, but every time I try to run it, it makes 1,023 .dat files in my current directory! If anyone else can get it working, I’ll be super-excited, but reader beware.</p>
+<p>Since Gnuplot has been around for a while, there are lots of groovy examples that you can try reproducing. As you learn more possible features, you’ll likely ‘graduate’ to the <code>gnuplot</code> library. Moreover, it <a href="https://ndreynolds.com/posts/2019-02-05-learning-haskell-via-advent-of-code.html">seems</a> that you can take the .dat file generated by Haskell, and plug it right into gnuplot to configure it on the command line.</p>
+<p>A nice exercise to start off with is this <a href="http://www.hg.schaathun.net/FPIA/week01se3.html">brief tutorial</a> on studying functions. The <a href="https://hackage.haskell.org/package/easyplot-1.0/docs/Graphics-EasyPlot.html">documentation</a> is quite friendly as well, and outlines various customizations such as adjusting the colors, range, or style. Last, ch. 4 of Church’s <em>Learning Haskell Data Analysis</em> uses EasyPlot for financial time-series.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>In and of itself, EasyPlot isn’t too special, but once the installation is done it’s quite easy to integrate with anything else you’re doing in Haskell. I expect it can be very helpful in studying empirical data to look for outliers, or as an accessible learning aid for calculus (especially multivariable calculus).</p>
+<p>Its main flaw is its limited features, but this is solved by Gnuplots, which I haven’t had a chance to try out yet in detail. I also came across <a href="https://github.com/DSLsofMath/Hatlab">Hatlab</a>, likewise based on gnuplot but with very different syntax. Last, I’ve heard good things about <a href="https://hackage.haskell.org/package/Chart">Chart</a>, and hope to experiment with it in a future post.</p>
+<p>Overall, I’d take this over a fugly Excel chart any day.</p>
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+<hr>
+    </div>
+    <div id="footer">
+    </div>
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="https://gjoncas.github.io/feed.xml" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/gjncs" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://github.com/gjoncas" target="_blank">
+                            <span class="fa-stack fa-lg">
+
+                                <i class="fa fa-arrow-circle-o-down"></i>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://instagram.com/oneironomics" target="_blank">
+                            <span class="fa-stack fa-lg">
+
+                                <i class="fa fa-arrow-circle-o-down"></i>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">All text &copy; Graham Joncas (<a href="https://creativecommons.org/licenses/by/2.5/ca/">CC BY</a>). <br><br>
+                </p>
+                <div class="col-md-12">
+                    <p class="copyright text-muted">
+                        site: <a href="https://jaspervdj.be/hakyll">hakyll</a> | 
+                        theme: <a href="https://github.com/dindi-jekyll/CleanMagicMedium-Jekyll">lg</a> |
+                        code: <a href="https://github.com/katychuang/CleanMagic-hakyll">kc</a> </p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://gjoncas.github.io/static/js/jquery.min.js"></script>
+<script src="https://gjoncas.github.io/static/js/spaceg.stylesheets.min.js"></script>
+<script src="https://gjoncas.github.io/static/js/bootstrap.min.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<script src="https://gjoncas.github.io/static/js/scripts.js"></script>
+
+</body>
+
+</html>

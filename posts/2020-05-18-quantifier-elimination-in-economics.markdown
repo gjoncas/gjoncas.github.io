@@ -16,8 +16,7 @@ Here, I would like to examine a very specific project led by Casey B. Mulligan a
 — a tool from logic for systematically proving statements about polynomial inequalities of real variables,
 which can prove theorems, generate counterexamples, and automate counterfactual statements on economic policy.
 
-Quantifier Elimination
---------
+### Quantifier Elimination
 
 Suppose we want to find the set of coefficients for parabolas with real roots — 
 values of *b* and *c* that solve the equation for a u-shaped curve, where *x* is a real number: {(*b*,*c*) ∈ ℝ² |  ∃𝑥(x² + *b*x + *c* = 0)}.
@@ -44,8 +43,7 @@ Quantifier elimination is a type of SMT that involves polynomials like *a*x² + 
 So the main ‘unit’ in quantifier elimination is Tarski formulas: boolean combinations of polynomial equalities and inequalities. 
 We input a Tarski formula, and quantifier elimination gives us `True`, `False`, or (if there are any unquantified variables, as above) an equivalent quantifier-free formula.
 
-Cylindrical Algebraic Decomposition
---------
+### Cylindrical Algebraic Decomposition
 
 Now we get what quantifier elimination is. Now let’s look at how it works.
 
@@ -104,11 +102,10 @@ Other tricks take advantage of repeating substructures.
 Virtual term substitution sounds especially promising for economic problems, whose degree tends to be low,
 and which are ‘sparse’, i.e\. “most variables are absent from most of the polynomials in the Tarski formula” (Mulligan, 2018: 22).
 
-Automated Deduction in Economics
---------
+### Automated Deduction in Economics
 
 We saw above that deductive reasoning can be thought of as a process of quantifier elimination; 
-likewise, if–then statements are implicitly just eliminating ‘for all’ quantifiers from a `True` sentence (Mulligan, 2018: 1 \& 28).
+likewise, if–then statements are implicitly just eliminating ‘for all’ quantifiers from a `True` sentence ∀x[P(x) → Q(x)] (Mulligan, 2018: 1 \& 28).
 Quantifier elimination goes well with economic theory because much of economics is counterfactuals about polynomial equations and inequalities.
 
 Mulligan and his coauthors have assembled over 45 problems that can be solved in this way, 
@@ -146,8 +143,7 @@ Even more curiously, it allows *hierarchical* scheduling, where in two steps
 “a second objective function is optimized under the assumption of an optimal solution wrt. a first objective function” (Dolzmann, Sturm, \& Weispfenning, 1999: 237-8).
 Quantifier elimination may well turn out to be a gateway drug.
 
-Conclusion
---------
+### Conclusion
 
 Mulligan’s favorite example is from [Paul Krugman](https://krugman.blogs.nytimes.com/2012/11/03/soup-kitchens-caused-the-great-depression) in the *New York Times*, 
 to the effect that whenever taxes on labor supply are primarily responsible for a recession, then wages increase.
