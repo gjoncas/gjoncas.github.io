@@ -29,7 +29,7 @@ Highlight it, click ‘Edit’, click ‘New’, and add the folder that gnuplot
 Then click OK, OK, OK, and we’re done that part.
 
 Then we need to install it on Haskell.
-For 8.10.2, `cabal new-install easyplot` worked for me.
+For 8.10.2, putting `cabal new-install easyplot` in the command line worked for me.
 For 8.6.5, I needed to use the older `cabal install easyplot`.
 
 There’s a very similar package `gnuplot`, which you can install too if you want.
@@ -90,7 +90,7 @@ Now let’s go on to see some examples of stuff we can make.
 
 ### EasyPlot Examples
 
-These are some EastPlot examples found on the web, in various languages.
+Here are some EasyPlot examples I found on various sites in French, Spanish, and Russian(!).
 
 First, here’s one I made of a logarithmic spiral (where you can save the code as spiralplot.hs):
 
