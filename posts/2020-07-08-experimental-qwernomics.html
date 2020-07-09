@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- 
+      loads the http over https ssl - 
+      welcome to my website! 
+
+	this theme is based off the Ice & Fire theme created by Lucas Gatsas
+      https://www.twitter.com/LucasGatsas
+      www.lucasgatsas.ch - switzerland. 
+                                                    -->
+
+    <!--
+<script type="text/javascript">
+var host = "https://gjoncas.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
+-->
+    <!-- Microsoft Internet Explorer documentMode compatMode setting IE Modus -->
+    <script type="text/javascript">
+        var IE = null;
+        if (window.navigator.appName == "Microsoft Internet Explorer") {
+            if (document.documentMode) {
+
+                IE = document.documentMode;
+            } else {
+
+                IE = 5;
+                if (document.compatMode) {
+                    if (document.compatMode == "CSS1Compat")
+                        IE = 11;
+                }
+            }
+        }
+    </script>
+
+    <meta charset="utf-8">
+    <!-- X-UA -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+
+
+    <meta name="google" content="notranslate" />
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- index ROBOTS follow -->
+    <meta name="robots" content="index, follow" />
+    <!-- Site Desciption -->
+    
+    <meta name="description" content="from surreal to surrational">
+    
+
+    <meta name="keywords" content="Graham Joncas, gjoncas, philosophy of economics, computational economics">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://gjoncas.github.io/static/img/ico.png" type="image/x-icon" />
+    <!-- Blog Title -->
+    
+    <title>Oneironomics | Experimental Qwernomics</title>
+    
+    <!--     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+-->
+    <!-- Property Metas -->
+    <meta property="og:image" content="https://gjoncas.github.io/static/img/ix.png" />  <!-- what image is this?-->
+    
+    <meta property="og:title" content="from surreal to surrational" />
+    <meta property="og:site_name" content="from surreal to surrational" />
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="https://gjoncas.github.io/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://gjoncas.github.io/static/css/spaceg.stylesheets.css">
+    <link rel="stylesheet" href="https://gjoncas.github.io/static/css/syntax.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #000;
+            /* change if the mask should have another color then white */
+            z-index: 99;
+            /* makes sure it stays on top */
+        }
+
+        #status {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            /* centers the loading animation horizontally on the screen */
+            top: 50%;
+            /* centers the loading animation vertically on the screen */
+            background-image: url("/static/img/preloader.gif");
+            /* path to your loading animation */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: -100px 0 0 -100px;
+            /* is width and height divided by two */
+        }
+
+        ul,
+        ol {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .navbar-inverse {
+            background-color: #000;
+            border-color: #000000;
+        }
+    </style>
+    <!--link rel="stylesheet" href="https://gjoncas.github.io/static/css/prettify.css"-->
+    <style>
+        header.intro-header {
+            background: #6f5499;
+            background: no-repeat center center;
+            background-attachment: scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+
+        /* Preloader */
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #000;
+            /* change if the mask should have another color then white */
+            z-index: 99;
+            /* makes sure it stays on top */
+        }
+
+        #status {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            /* centers the loading animation horizontally one the screen */
+            top: 50%;
+            /* centers the loading animation vertically one the screen */
+            background-image: ;
+            /* path to your loading animation */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: -100px 0 0 -100px;
+            /* is width and height divided by two */
+        }
+
+        li {
+            list-style: none;
+        }
+
+        body.modal-open {
+            overflow: hidden;
+            padding-right: 0px;
+        }
+
+        article li {
+            list-style: inherit;
+        }
+
+        article .figure {
+            text-align: center
+        }
+    </style>
+    <!-- end Loading front stylesheet here -->
+</head>
+
+<body>
+    <!--<div id="preloader">
+        <div id="status">
+
+        </div>
+    </div>-->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://gjoncas.github.io" id="blog-title-left-top"><span style="color:gray"><span style="font-family:candara;">oneironomics</span></span></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#portfolioModal2" data-toggle="modal"><i class="fa fa-random" id="icon-top"></i></a>
+                    <ul class="dropdown-menu"></ul>
+                </li>
+                <li><!-- <a href="https://instagram.com/oneironomics/" target="_blank"><i class="fa fa-instagram" id="icon-top"></i></a>--></li>
+                <li><a href="https://gjoncas.github.io/About.html" target="_blank">About</a></li>
+                <li><a href="https://gjoncas.github.io/Research.html" target="_blank">Research</a></li>
+				<li><a href="https://gjoncas.github.io/Projects.html" target="_blank">Projects</a></li>
+
+                <li><a href="https://gjoncas.github.io/blog.html">Blog</a></li>
+                
+                <li><a href="https://www.twitter.com/gjncs" id="roundbutton" target="_blank"><i class="fa fa-twitter"></i>gjncs</a></li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="padding-right:0px; overflow: hidden;">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1 class="font-style-inline-small-h1">Graham Joncas</h1>
+                        <hr class="star-primary">
+                        <img src="https://github.com/gjoncas/Artsy-Diagrams/raw/master/pics/metratron.png" class="img-responsive img-centered" alt title>
+                        <p class="font-style-inline-small">
+                            I live in Canada, and do research on computational economics and formal philosophy. <br>
+                            This is my personal website and blog. The best way to contact me is via <a href="https://www.twitter.com/gjncs" target="_blank">Twitter</a>.<br>
+                            <a href="https://www.github.com/gjoncas" target="_blank"> <i class="fa fa-github" id="spaceg-social-modal"></i> </a>
+                            <a href="https://www.twitter.com/gjncs" target="_blank"><i class="fa fa-twitter" id="spaceg-social-modal"></i> </a>
+							<a href="https://www.instagram.com/oneironomics" target="_blank"><i class="fa fa-instagram" id="spaceg-social-modal"></i> </a>
+                        </p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Menu Modals Add New Sa.21.Feb.2015 03:22:25 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="padding-right:0px; overflow: hidden;">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1 class="font-style-inline-small-h1">g.j</h1>
+                        <hr class="star-primary">
+                        <p class="font-style-inline-small">
+                            Computational economics <br>
+							Conceptual engineering <br>
+							Surrationalism <br>
+                            
+                            <a href="https://www.github.com/gjoncas" target="_blank">
+                                <i class="fa fa-github" id="spaceg-social-modal"></i>
+                            </a>
+                            
+                            
+                            <a href="https://www.twitter.com/gjncs" target="_blank">
+                                <i class="fa fa-twitter" id="spaceg-social-modal"></i>
+                            </a>
+                            
+							
+                            <a href="https://www.instagram.com/oneironomics" target="_blank">
+                                <i class="fa fa-instagram" id="spaceg-social-modal"></i>
+                            </a>
+                            
+                            <li><a href="https://gjoncas.github.io/">Home</a></li>
+                            <li><a href="https://gjoncas.github.io/Research.html">Research</a></li>
+							<li><a href="https://gjoncas.github.io/Projects.html">Projects</a></li>
+                            <li><a href="https://gjoncas.github.io/blog.html">Blog</a></li>
+                        </p>
+
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="content" align="justify">
+        <!-- Post Header -->
+<header class="intro-header" style="background-image: url('https://gjoncas.github.io/static/img/tasvicze.jpg')" alt title>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1><span style="color:white">Experimental Qwernomics</span></h1>
+                    
+                    <h2 class="subheading">Trans-Semiotic Algebra</h2>
+                    
+                    <span class="meta" style="color:white">
+                        
+                        July  8, 2020
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" align="justify">
+
+                <p>It’s a part of popular myth that the Qwerty keyboard was designed to keep old-fashioned keys from jamming, and was thus a deliberately worse design that became standard. Based on this metaphor, the object of qwernomics is “the historical, technological, and economic process of ‘lock-in’ through positive feedback”, studying ‘qwerty-worlds’ dominated by suboptimal local maxima (Land, <a href="https://thenewcentre.org/archive/qwernomics-path-dependency-semiotic-fatality">2016</a>).</p>
+<p>Of course, it’s deeply controversial whether this account of Qwerty is true, but this controversy is itself a core part of qwernomics — whether it is possible, within a path-dependent regime, to identify global criteria (such as ergonomics) that let us objectively determine if we are in a suboptimal state.</p>
+<p>What if Qwerty isn’t the exception, but the rule? David (1985: 336) points to various other examples in economic history, and the metaphor ties in nicely with economic accounts of market failure, as well as extending to subject matter such as vestigial structures in evolutionary biology.</p>
+<p>Nick Land’s more recent thoughts try to take the idea even further by reading the keyboard through <a href="https://equivalentexchange.blog/2010/11/29/hjelmslevs-net/">Hjelmslev</a>’s quadripartite semiotics, as a paradigmatic example that can take Deleuze &amp; Guattari’s stratoanalysis from pure theory into a workable discipline. This search for nuance often amounts to a paranoiac cryptoanalysis of the keyboard’s geography, culminating in the ‘extreme qwernomic thesis’ that a future alien civilization could reconstruct all human knowledge from Qwerty alone.</p>
+<p>My own interest in qwernomics stems from the idea of computationally simulating a sign-system (cf. <a href="https://gjoncas.github.io/posts/2019-12-08-tulpalgorithms.html">egregorics</a>). In this view, qwernomics gives a self-contained semiosis we can understand in detail. Below I’ll elaborate on this using a program to translate from Qwerty to Dvorak, revealing overlaps and invariances. Then we can examine this translation process itself through iteration, to locate even further structure. Last, I’ll explore qwernomics more deeply, and suggest further avenues to explore.</p>
+<h3 id="semiotic-fixpoints">Semiotic Fixpoints</h3>
+<p>A qwernomic puzzle by <a href="https://twitter.com/cyborg_nomade/status/1157262388879601664">@cyborg_nomade</a>: suppose we transpose the alphabet onto the Qwerty keyboard in order: ‘q’=‘a’, ‘w’=‘b’, and so on; which keystrokes will yield English words on both the Qwerty and alphabetic keyboard? More interesting: are any words the same on both keyboards?</p>
+<p>The latter is actually quite easy to answer — all we have to do is write the letters in a list. Let’s also throw in the Dvorak keyboard to make things interesting.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1">alpha  <span class="fu">=</span> [<span class="ch">'a'</span><span class="fu">..</span><span class="ch">'z'</span>]</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">qwerty <span class="fu">=</span> [<span class="ch">'q'</span>,<span class="ch">'w'</span>,<span class="ch">'e'</span>,<span class="ch">'r'</span>,<span class="ch">'t'</span>,<span class="ch">'y'</span>,<span class="ch">'u'</span>,<span class="ch">'i'</span>,<span class="ch">'o'</span>,<span class="ch">'p'</span>, </a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">          <span class="ch">'a'</span>,<span class="ch">'s'</span>,<span class="ch">'d'</span>,<span class="ch">'f'</span>,<span class="ch">'g'</span>,<span class="ch">'h'</span>,<span class="ch">'j'</span>,<span class="ch">'k'</span>,<span class="ch">'l'</span>,</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">          <span class="ch">'z'</span>,<span class="ch">'x'</span>,<span class="ch">'c'</span>,<span class="ch">'v'</span>,<span class="ch">'b'</span>,<span class="ch">'n'</span>,<span class="ch">'m'</span>]</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">dvorak <span class="fu">=</span> [<span class="ch">'p'</span>,<span class="ch">'y'</span>,<span class="ch">'f'</span>,<span class="ch">'g'</span>,<span class="ch">'c'</span>,<span class="ch">'r'</span>,<span class="ch">'l'</span>,</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">          <span class="ch">'a'</span>,<span class="ch">'o'</span>,<span class="ch">'e'</span>,<span class="ch">'u'</span>,<span class="ch">'i'</span>,<span class="ch">'d'</span>,<span class="ch">'h'</span>,<span class="ch">'t'</span>,<span class="ch">'n'</span>,<span class="ch">'s'</span>,</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7">          <span class="ch">'q'</span>,<span class="ch">'j'</span>,<span class="ch">'k'</span>,<span class="ch">'x'</span>,<span class="ch">'b'</span>,<span class="ch">'m'</span>,<span class="ch">'w'</span>,<span class="ch">'v'</span>,<span class="ch">'z'</span>]</a></code></pre></div>
+<p>If we put all the keys in a single line, we can see just by eyeballing that in Qwerty and Dvorak, the ‘x’, ‘o’, and ‘d’ keys are in the same position. Thus, words such as ‘do’, ‘ox’, ‘odd’, ‘dodo’ and ‘doxx’ are all <em>fixpoints</em>, taking the <em>n</em>th keys in both systems. (Note that these aren’t the same physical keys.)</p>
+<p>We can confirm this by writing a Haskell function to do exactly what we would do in eyeballing, only more thoroughly. Reading from right to left, it takes two lists (e.g. <code>xs</code>=alpha and <code>ys</code>=qwerty), then <code>zip</code> puts them in pairs, like <code>('a','q')</code>. We want to know that the two elements are equal, which is what the lambda function does (<code>\(x,y) -&gt; x==y</code>). Last, <code>filter</code> gives us only the pairs that satisfy that equality, and <code>map fst</code> gives us the first element of each such pair.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb2-1" data-line-number="1">fixpoints xs ys <span class="fu">=</span> map fst <span class="fu">$</span> filter (\(x,y) <span class="ot">-&gt;</span> x<span class="fu">==</span>y) <span class="fu">$</span> zip xs ys</a></code></pre></div>
+<p>From this we find that the alphabetic and Dvorak keyboard only have ‘z’ in the same place. Last, <code>alpha</code> and <code>qwerty</code> have no pairs: no words are the same on both keyboards. We can visualize these correspondences as follows, going clockwise from 90°.</p>
+<center>
+<img src="../static/img/blog-posts/keyboard-ring.png" />
+</center>
+<p>For finding ‘revolving pairs’ between alphabetic and Qwerty, <a href="https://twitter.com/eccehetero/status/1157640471335899138">@eccehetero</a> has already done this in Java (<a href="https://pastebin.com/GZGtydeY">code</a>; <a href="https://pastebin.com/aY9pA8Ya">results</a>). Notably, he points out its similarity to cryptography, such as the Caesar cipher. Since alpha-to-Qwerty translation is taken care of, here I’d like to experiment with Qwerty-to-Dvorak.</p>
+<p>To compare whole words, we’ll need a function to convert from one keyboard to another. Note that this requires functions from the Data.List and Data.Maybe libraries.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb3-1" data-line-number="1">convert xs ys []     <span class="fu">=</span> []</a>
+<a class="sourceLine" id="cb3-2" data-line-number="2">convert xs ys (z<span class="fu">:</span>zs) <span class="fu">=</span> (toEnum (fromEnum z <span class="fu">+</span> shift)<span class="ot"> ::</span> <span class="dt">Char</span>) <span class="fu">:</span> convert xs ys zs</a>
+<a class="sourceLine" id="cb3-3" data-line-number="3">                        <span class="kw">where</span> kNums <span class="fu">=</span> zipWith (<span class="fu">-</span>) (map fromEnum ys) (map fromEnum xs)</a>
+<a class="sourceLine" id="cb3-4" data-line-number="4">                              shift <span class="fu">=</span> kNums <span class="fu">!!</span> fromJust (elemIndex z xs)</a></code></pre></div>
+<p>Our function <code>convert</code> takes two lists — the one we’re starting from (<code>xs</code>), and the one we want to convert it to (<code>ys</code>). It also takes a string <code>(z:zs)</code>, where <code>z</code> is the head or first letter of that string. The core idea is just to convert letters to numbers (<code>fromEnum</code>), add a ‘shift’ factor, and then convert back to letters (<code>toEnum</code>). We get this shift factor by pairing up letters, converting them to numbers, and subtracting. Then for a given letter <code>z</code> (the <em>n</em>th on the keyboard) we just find the corresponding shift.</p>
+<p>To translate key-wise from Qwerty to Dvorak, we can just use <code>map (convert qwerty dvorak) words</code>, where <code>words</code> is a list of strings. One list of 58K words is available <a href="http://www.mieliestronk.com/corncob_lowercase.txt">here</a>.</p>
+<p>First, however, <code>convert</code> isn’t super-efficient, since we’re reconstructing this list of shift factors over and over again for each letter. To go through an entire dictionary, it’s better to define this list separately and take it as an argument to the function. This is actually really easy, but less general:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb4-1" data-line-number="1">qwertyToDvorak <span class="fu">=</span> zipWith (<span class="fu">-</span>) (map fromEnum dvorak) (map fromEnum qwerty)</a>
+<a class="sourceLine" id="cb4-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb4-3" data-line-number="3">convert' xs shifts []     <span class="fu">=</span> []</a>
+<a class="sourceLine" id="cb4-4" data-line-number="4">convert' xs shifts (z<span class="fu">:</span>zs) <span class="fu">=</span> (toEnum (fromEnum z <span class="fu">+</span> shift)<span class="ot"> ::</span> <span class="dt">Char</span>) <span class="fu">:</span> convert' xs shifts zs</a>
+<a class="sourceLine" id="cb4-5" data-line-number="5">                                     <span class="kw">where</span> shift <span class="fu">=</span> shifts <span class="fu">!!</span> fromJust (elemIndex z xs)</a></code></pre></div>
+<p>With this done, the crucial function to use is the following, which converts the words and then filters out those that aren’t in the dictionary.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb5-1" data-line-number="1">filter (\word <span class="ot">-&gt;</span> word <span class="ot">`elem`</span> dictionary) <span class="fu">$</span> map (convert' qwerty qwertyToDvorak) dictionary</a></code></pre></div>
+<p>After back-translating the result to Qwerty, we get this list of words, in the format <code>(qwerty,dvorak)</code>:</p>
+<p><code>[(&quot;bid&quot;,&quot;wad&quot;),(&quot;bids&quot;,&quot;wadi&quot;),(&quot;bob&quot;,&quot;wow&quot;),(&quot;boo&quot;,&quot;woo&quot;),(&quot;bop&quot;,&quot;woe&quot;),(&quot;cad&quot;,&quot;bud&quot;),(&quot;car&quot;,&quot;bug&quot;),(&quot;caw&quot;,&quot;buy&quot;),(&quot;cob&quot;,&quot;bow&quot;),(&quot;coo&quot;,&quot;boo&quot;),(&quot;copy&quot;,&quot;boer&quot;),(&quot;cor&quot;,&quot;bog&quot;),(&quot;coup&quot;,&quot;bole&quot;),(&quot;cow&quot;,&quot;boy&quot;),(&quot;cox&quot;,&quot;box&quot;),(&quot;dad&quot;,&quot;dud&quot;),(&quot;did&quot;,&quot;dad&quot;),(&quot;do&quot;,&quot;do&quot;),(&quot;dodo&quot;,&quot;dodo&quot;),(&quot;dog&quot;,&quot;dot&quot;),(&quot;doh&quot;,&quot;don&quot;),(&quot;dopy&quot;,&quot;doer&quot;),(&quot;dor&quot;,&quot;dog&quot;),(&quot;dot&quot;,&quot;doc&quot;),(&quot;ear&quot;,&quot;fug&quot;),(&quot;fag&quot;,&quot;hut&quot;),(&quot;far&quot;,&quot;hug&quot;),(&quot;fig&quot;,&quot;hat&quot;),(&quot;fir&quot;,&quot;hag&quot;),(&quot;fob&quot;,&quot;how&quot;),(&quot;fog&quot;,&quot;hot&quot;),(&quot;food&quot;,&quot;hood&quot;),(&quot;fop&quot;,&quot;hoe&quot;),(&quot;for&quot;,&quot;hog&quot;),(&quot;gaga&quot;,&quot;tutu&quot;),(&quot;gig&quot;,&quot;tat&quot;),(&quot;go&quot;,&quot;to&quot;),(&quot;goo&quot;,&quot;too&quot;),(&quot;ha&quot;,&quot;nu&quot;),(&quot;hag&quot;,&quot;nut&quot;),(&quot;hic&quot;,&quot;nab&quot;),(&quot;ho&quot;,&quot;no&quot;),(&quot;hob&quot;,&quot;now&quot;),(&quot;hod&quot;,&quot;nod&quot;),(&quot;hog&quot;,&quot;not&quot;),(&quot;if&quot;,&quot;ah&quot;),(&quot;irish&quot;,&quot;again&quot;),(&quot;jap&quot;,&quot;sue&quot;),(&quot;job&quot;,&quot;sow&quot;),(&quot;jog&quot;,&quot;sot&quot;),(&quot;lag&quot;,&quot;jut&quot;),(&quot;log&quot;,&quot;jot&quot;),(&quot;low&quot;,&quot;joy&quot;),(&quot;moo&quot;,&quot;zoo&quot;),(&quot;odd&quot;,&quot;odd&quot;),(&quot;of&quot;,&quot;oh&quot;),(&quot;oh&quot;,&quot;on&quot;),(&quot;ox&quot;,&quot;ox&quot;),(&quot;pig&quot;,&quot;eat&quot;),(&quot;pro&quot;,&quot;ego&quot;),(&quot;rag&quot;,&quot;gut&quot;),(&quot;raw&quot;,&quot;guy&quot;),(&quot;rid&quot;,&quot;gad&quot;),(&quot;rocs&quot;,&quot;gobi&quot;),(&quot;rod&quot;,&quot;god&quot;),(&quot;roo&quot;,&quot;goo&quot;),(&quot;soh&quot;,&quot;ion&quot;),(&quot;tag&quot;,&quot;cut&quot;),(&quot;tap&quot;,&quot;cue&quot;),(&quot;tic&quot;,&quot;cab&quot;),(&quot;tog&quot;,&quot;cot&quot;),(&quot;too&quot;,&quot;coo&quot;),(&quot;tow&quot;,&quot;coy&quot;),(&quot;toy&quot;,&quot;cor&quot;),(&quot;yap&quot;,&quot;rue&quot;),(&quot;yogi&quot;,&quot;rota&quot;)]</code></p>
+<p>This gives 76 words out of 58,110, or 0.13%. Note the prevalence of words featuring ‘o’ and ‘d’, our semiotic fixpoints from before. There’s nothing too eldritch, I’m afraid — the longest is irish/again. If anyone feels brave, there’s also a dictionary of 466K words <a href="https://github.com/dwyl/english-words">here</a>, to root out more obscure pairings.</p>
+<p>I’ve put my code in a <a href="https://github.com/gjoncas/Qwernomics">GitHub repository</a>, which includes both 58K-word and 466K-word dictionaries, which can be imported as a module. The code could be improved in a lot of ways — notably, it breaks if it encounters a non-alphabetic character, like an apostrophe. I’d like to come back to it once I’ve learned more about data structures and parallelism, to see if my poor laptop can handle 466K words. The repo also has Ti<em>k</em>Z code for the diagrams in this post, which may be fun to experiment with. The arcs below are inspired by a much prettier version by <a href="http://www.xenosystems.net/qwernomics">Amy Ireland</a>.</p>
+<center>
+<img src="../static/img/blog-posts/alpha-qwerty-arcs.png" />
+</center>
+<center>
+<img src="../static/img/blog-posts/whitespace50.png" />
+</center>
+<center>
+<img src="../static/img/blog-posts/alpha-dvorak-arcs.png" />
+</center>
+<center>
+<img src="../static/img/blog-posts/whitespace50.png" />
+</center>
+<h3 id="forbidden-keyboards">Forbidden Keyboards</h3>
+<p>Elsewhere, <a href="https://twitter.com/8051Enthusiast/status/1279802890618626049">@8051Enthusiast</a> pointed out that changing from Qwerty to Dvorak is a permutation operation that can be repeated to give a Dvorak² — far more powerful than mere Dvorak¹.</p>
+<p>All we need for this is to iterate our <code>convert</code> function from before. In <code>convert qwerty dvorak qwerty</code>, the first two arguments create a permutation from the Qwerty keyboard to a Dvorak keyboard, while the third argument (<code>qwerty</code> again) uses the whole Qwerty keyboard as material. Thus, to get Dvorak-squared, we can just do <code>convert qwerty dvorak (convert qwerty dvorak qwerty)</code>.</p>
+<p>This gives the keys <code>&quot;erhtbgjuofladncvipsqxwzymk&quot;</code>, and the following diagram shows clearly that these permutations are the same.</p>
+<center>
+<img src="../static/img/blog-posts/qwerty-dvorak-dvorak2-big.png" />
+</center>
+<p>We can write this in a more sophisticated way using the <code>iterate</code> function, which repeats the <code>convert</code> operation as many times as we want.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb6-1" data-line-number="1">forbiddenDvorak n</a>
+<a class="sourceLine" id="cb6-2" data-line-number="2">  <span class="fu">|</span> (n<span class="fu">&lt;=</span><span class="dv">0</span>)    <span class="fu">=</span> iterate (convert dvorak qwerty) dvorak <span class="fu">!!</span> (abs n <span class="fu">+</span> <span class="dv">1</span>)</a>
+<a class="sourceLine" id="cb6-3" data-line-number="3">  <span class="fu">|</span> otherwise <span class="fu">=</span> iterate (convert qwerty dvorak) dvorak <span class="fu">!!</span> (n<span class="fu">-</span><span class="dv">1</span>)</a></code></pre></div>
+<p>Thus we can get Dvorak-cubed, up to any power <code>n</code> that we want. Notice that I’ve included the case where <code>n</code> is less than zero. This acts as an inverse function, or the reverse permutation (here from Dvorak back to Qwerty).</p>
+<center>
+<img src="../static/img/blog-posts/dvorak-inverse.png" />
+</center>
+<p>Perhaps the most curious aspect is that if we keep iterating our function, we’ll eventually get back to where we started. We can check this by creating a list of Dvorak<sup>n</sup> keyboards for increasingly higher powers, and seeing if any besides the first are the same as Dvorak. (The <code>fmap (+2)</code> is because indexing starts at zero, plus we’re excluding Dvorak¹ = Dvorak.)</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb7-1" data-line-number="1">fmap (<span class="fu">+</span><span class="dv">2</span>) <span class="fu">$</span> elemIndex dvorak <span class="fu">$</span> map forbiddenDvorak [<span class="dv">2</span><span class="fu">..</span><span class="dv">250</span>]</a></code></pre></div>
+<p>This outputs <code>Just 211</code>, and as we can plug in and confirm, <code>forbiddenDvorak 211</code> gives the Dvorak keyboad. You can likewise confirm that <code>forbiddenDvorak 210</code> gives Qwerty, which of course follows.</p>
+<p>We can make an analogous function permuting alphabetical order into Qwerty:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb8-1" data-line-number="1">forbiddenQwerty n</a>
+<a class="sourceLine" id="cb8-2" data-line-number="2">  <span class="fu">|</span> (n<span class="fu">&lt;=</span><span class="dv">0</span>)    <span class="fu">=</span> iterate (convert qwerty alpha) qwerty <span class="fu">!!</span> (abs n <span class="fu">+</span> <span class="dv">1</span>)</a>
+<a class="sourceLine" id="cb8-3" data-line-number="3">  <span class="fu">|</span> otherwise <span class="fu">=</span> iterate (convert alpha qwerty) qwerty <span class="fu">!!</span> (n<span class="fu">-</span><span class="dv">1</span>)</a></code></pre></div>
+<p>This one cycles after only 42 iterations. If the obvious association just came to mind, that’s a taste of the mix between wild coincidence and transcendental conspiracy that defines CCRU humour.</p>
+<p>As an exercise, make a <code>forbiddenAlpha</code> function that converts from alphabetic to Dvorak. This one also has a cycle — it’s quite a bit larger than 250, but it’s there, and you can find it on your laptop.</p>
+<p>I know very little about abstract algebra, but this opens up numerous interesting questions. I didn’t include punctuation for each keyboard layout, but how would these cycles change if we added it? Why does <code>forbiddenQwerty</code> cycle so much sooner than the others, and is there a metric to measure how ‘close’ a permutation is? Last, I can’t help but wonder if this group-theoretic structure is an artifact of our simple example, or whether it can be found in more complex sign-systems.</p>
+<center>
+<img src="../static/img/blog-posts/qwernomic-intensities.png" />
+</center>
+<h3 id="qwerno-materialism">Qwerno-materialism</h3>
+<p>For Le (2019: 100-1), qwernomics represents how “the demands of capital accumulation led the technology of the keyboard to develop down a de-anthropomorphising path from which we could not diverge.” That is, assuming Qwerty’s inferiority, companies’ myopic refusal to train their workers in a better typographic system is “exemplary of technocapitalism’s way of locking us into a trajectory that will ultimately dehumanise us.” (Though dehumanization isn’t necessarily a bad thing!) While this may be a fair reading of Land’s original essay, in light of his 2016 lectures it’s far too glib.</p>
+<p>Consider Nash equilibrium, where no agent can benefit by unilaterally changing their strategy. It may be, as in the Prisoner’s dilemma, that if all players changed their strategy, all could benefit, but none can on their own. Conversely, qwernomics presents a situation where any one player can unilaterally benefit from changing their strategy (e.g. a firm switching from Qwerty to Dvorak), but the societal transaction costs are so large that — across different games — they nullify this advantage.</p>
+<p>This parallels the notion of patchwork, where normally a larger country is more efficient due to economies of scale, but now the transaction costs associated with large political institutions are so immense as to outweigh all these benefits, so on net it’s more efficient just to have a smaller state.</p>
+<p>Choosing a keyboard is a non-ergodic process, in that we cannot freely wander through the space of possibilities toward a global optimum, where Qwerty has come out best from untrammeled market experimentation. An ergodic process tends toward a fixpoint or equilibrium, while non-ergodic systems do not, but exhibit path dependency, where states far in the past can influence states far into the future. Land perceptively notes that this division of ergodic versus non-ergodic is similar to molar (tending toward an average) versus molecular (centrifugally tending away from an average).</p>
+<p>If Qwerty represents a ‘market solution’, Dvorak represents ‘rational planning’ from top-down. Yet, we can also imagine a centrally-planned society unwilling to escape from Qwerty lock-in, where the benefits of Dvorak are judged as not worth the cost of retraining and retooling. Thus, qwernomics is not limited to this simple opposition of interventionism versus spontaneity. In either system, transaction costs have built up over time, so that Qwerty becomes a self-installing law.</p>
+<p>Just as Keynesian economics claims that markets get stuck in a low-employment equilibrium, which we can identify from a superior frame, we want to know by what criteria we could evaluate our path as suboptimal from a rational, Archimedean point. Ergonomics seems like the best candidate for Qwerty, but is that all a keyboard really is? The deeper notion here is that a Schelling point — an arbitrary but handy standard, like driving on the right side of the road — creates the possibility space by which we can retroactively judge it. At a certain point, the standard consumes the horizon.</p>
+<p>As another example, Land explicitly compares Qwerty’s hegemony to that of decimal numeracy, and some mathematicians claim octal numbers are superior. Conversely, vestigial tails are evocative, but key to qwernomics is plasticity of agents’ behaviour: they’re free to use a different keyboard if they want to, but don’t — rather than having a suboptimal state biologically baked into them.</p>
+<p>Thus, the main flaw in Le’s account is workers’ lack of agency. Moreover, instead of emphasizing suboptimality as ‘dehumanizing’, Land’s main interest is in Qwerty as a causal loop, like the <a href="https://en.wikipedia.org/wiki/Causal_loop">bootstrap paradox</a> in time travel. Qwerty as a code represents a radically alien form of immanence: it is authoritative because it has made itself occur.</p>
+<center>
+<img src="../static/img/blog-posts/qwernomic-decoding.png" />
+</center>
+<h3 id="stratoanalysis">Stratoanalysis</h3>
+<p>Land goes on to use the Qwerty keyboard as a hermeneutic device to understand Deleuze &amp; Guattari’s “Geology of Morals”. There, stratoanalysis is introduced as a synonym for D&amp;G’s project, alongside rhizomatics, nomadology, schizoanalysis, pragamtics, and so on. In general, stratoanalysis is very seldom invoked, but it’s actually quite rich.</p>
+<p>The basic idea is that the world is made up of relatively autonomous codes, such as the genetic code versus body language. The system of oppositions that defines a code takes place on an independent layer or stratum, Strata interact horizontally via <em>parastrata</em> (codes presupposed by another code of the same order, such as the prison system and legal system — or vertically via <em>epistrata</em> (codes presupposed by another code of a different order, such as the legal system relying on language, biochemistry, and so on). An example of parastrata in Qwerty is using key in a game for movement.</p>
+<p>A keyboard lends itself as a paradigmatic example because it combines so many forms of code, at so many levels. There are linguistic codes (letters in English words), physical codes (limitations of human hands), and mechanical codes (technical specifications). Further, a keyboard embodies various semiotic distinctions, such as code vs. territory or form vs. substance. Qwerty takes the alphabet out of its ‘territory’, as ordered in the ABCs song; likewise, the fingers of the typist are deterritorialized onto the keyboard. In this sense, Qwerty is an abstract diagram of stratification.</p>
+<p>While typical semiotics deals with signifiers and signifieds, Deleuze &amp; Guattari draw from Hjelmslev’s quadripartition. In a verbal language, expression-substance is the continuum of sounds producible by the human vocal apparatus; expression-form is its differentiation into phonemes (signifiers); content-substance is sphere of concepts; and content-form is its differentiation into signifieds [<a href="http://enl.auth.gr/gramma/gramma12/B.2.pdf">via</a>].</p>
+<p>Analogously, if substance is the physical aspect, then a physical keyboard is content-substance, while Qwerty is an expression-substance. Likewise, the expression-form is the signifier being typed, while content-form is the signified. (Don’t quote me on this, I’m sure I mangled it.) The main point is that variations such as Azerty keyboards for Francophones can be localized onto one of these planes.</p>
+<p>Therefore, more broadly, qwernomics is an analysis of stratification or capture, as Qwerty directs codes’ flows of intensities. Audaciously, we can say that qwerty is cultural genome, with knowledge geologically deposited into it. By way of a quasi-diagrammatic analysis of the keyboard through stratograms, we can hack the cryptographic protocol that the qwerty apocalypse has delivered to us.</p>
+<center>
+<img src="../static/img/blog-posts/qwernomic-axiomatics.png" />
+</center>
+<h3 id="the-extreme-qwernomic-thesis">The Extreme Qwernomic Thesis</h3>
+<p>If all this sounds increasingly weird, then good. It gets weirder.</p>
+<p>Above I stressed qwernomics’ skepticism towards global criteria for optimality, and we can radicalize this still further. One form has shown up in empirical studies: that even prior to Qwerty there was already a pool of typing competence that settled the arrangement of Qwerty. Hence, Qwerty has no localizable origin, and the entire geopolitical structure of world history is Qwerty-shaped.</p>
+<p>Thus the ‘extreme qwernomic thesis’ can perhaps be most cogently stated as follows:</p>
+<blockquote>
+the highly obscure historical stratodynamic process from which we have inherited the keyboard is the same process that has provided us with all the cognitive resources that we could conceivably gain access [to] in investigating our object&quot; [2016, VII, around 41:00]
+</blockquote>
+<p>We can restate this in various other ways. (I’m mostly just plagiarizing Land here.)</p>
+<p>The core idea is that of an immanent cognitive horizon: if qwerty is the machine talking about itself, there is no meta-discourse on the machine that we’re ever going to find. There is no position of purchase or overview or superior perspective, because the function of overviewing is itself a product of a stratic mechanism, a symptom of stratic embeddedness. Hence there is no <em>possible</em> that isn’t already within the processing system. The overview position itself is structured inside that strata.</p>
+<p>Qwerty is the revelation of a transcendental cognitive engine, in that the cognitive machinery we are trying to put into play has to come out of our object. Faced with the immanence of all criteria, there is no way out, but only through — mining parts of the keyboard for parts of our theory, in the form of “delirialized, wild particles of conception” such as the <code>Ctrl</code> key as zone of transference between dimensional systems, or Qabbalistic resonances of the <code>Esc</code> key. The purpose of these schizoid parts of qwernomics is to explore the extent to which qwerty is a transcendental cognitive resource.</p>
+<center>
+<img src="../static/img/blog-posts/qwernomic-territory.png" />
+</center>
+<h3 id="conclusion">Conclusion</h3>
+<p>Most of these statements sound absurd when applied to the keyboard, but the same considerations come into play for concrete problems where don’t have nearly as much of a conceptual foothold.</p>
+<p>The ultimate stakes of qwernomics are to delineate the meaning of a ‘critique’ of capitalism, in the Kantian sense of a global tribunal of reason. Many people will be sympathetic to the notion that there is no such universal position; yet, even by calling something a local optimum at all, we’re already implying the existence of some position of transcendent criticism. At a bare minimum, qwernomics makes us aware of the ‘spectre of the universal’ by which we criticize standards.</p>
+<p>While I still haven’t digested all this, it seems that simulation offers an interesting counterpoint. Instead of looking at our path from some external position and saying it was wrong, simulations immanently generate a multiplicity of paths to which we can compare our own. We don’t need an Archimedean point, but only to differentiate the various strata as manifested in parameters that can undergo variations. Instead of a global perspective, we generate a garden of forking paths to populate the search space with purely local theories. This seems entirely compatible with the points made above. In a word, we can radicalize qwernomics still further into computational stratoanalysis.</p>
+<hr />
+<h3 id="references"><br>References</h3>
+<ul>
+<li>
+David, P. (<a href="https://econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf">1985</a>). “Clio &amp; the Economics of QWERTY.” <em>American Economic Review</em> 75(2), pp. 332-7
+</li>
+<li>
+Land, N. (<a href="http://hyperstition.abstractdynamics.org/archives/004613.html">2004</a>, Dec 23). Intro to Qwernomics. Hyperstition blog.
+</li>
+<li>
+Land, N. (<a href="https://www.youtube.com/playlist?list=PLPs4TRYh1Unpf9t5BgA_6VHr-Oyw2Cy8m">2016</a>). Qwernomics: Path Dependency &amp; Semiotic Fatality, Sessions I-VIII.
+<li>
+Le, V. (<a href="https://bridges.monash.edu/articles/One_Two_Many_On_Nick_Land_s_Numbering_Practices/7914494">2019</a>). “One Two Many: On Nick Land’s Numbering Practices”. <em>Colloquy</em> 37, pp. 80–105
+</li>
+<li>
+Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebowit/keys1.html">1990</a>). “The Fable of the Keys.” <em>Journal of Law &amp; Economics</em> 33, pp. 1-25
+</li>
+</ul>
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+<hr>
+    </div>
+    <div id="footer">
+    </div>
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="https://gjoncas.github.io/feed.xml" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/gjncs" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://github.com/gjoncas" target="_blank">
+                            <span class="fa-stack fa-lg">
+
+                                <i class="fa fa-arrow-circle-o-down"></i>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://instagram.com/oneironomics" target="_blank">
+                            <span class="fa-stack fa-lg">
+
+                                <i class="fa fa-arrow-circle-o-down"></i>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">All text &copy; Graham Joncas (<a href="https://creativecommons.org/licenses/by/2.5/ca/">CC BY</a>). <br><br>
+                </p>
+                <div class="col-md-12">
+                    <p class="copyright text-muted">
+                        site: <a href="https://jaspervdj.be/hakyll">hakyll</a> | 
+                        theme: <a href="https://github.com/dindi-jekyll/CleanMagicMedium-Jekyll">lg</a> |
+                        code: <a href="https://github.com/katychuang/CleanMagic-hakyll">kc</a> </p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://gjoncas.github.io/static/js/jquery.min.js"></script>
+<script src="https://gjoncas.github.io/static/js/spaceg.stylesheets.min.js"></script>
+<script src="https://gjoncas.github.io/static/js/bootstrap.min.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<script src="https://gjoncas.github.io/static/js/scripts.js"></script>
+
+</body>
+
+</html>
