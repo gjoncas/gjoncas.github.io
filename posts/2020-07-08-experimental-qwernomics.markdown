@@ -239,14 +239,14 @@ Qwerty as a code represents a radically alien form of immanence: it is authorita
 ### Stratoanalysis
 
 Land goes on to use the Qwerty keyboard as a hermeneutic device to understand Deleuze & Guattari’s “Geology of Morals”.
-There, stratoanalysis is introduced as a synonym for D&G’s project, alongside rhizomatics, nomadology, schizoanalysis, pragamtics, and so on.
-In general, stratoanalysis is very seldom invoked, but it’s actually quite rich.
+There, stratoanalysis is introduced as a synonym for D&G’s project, alongside rhizomatics, nomadology, schizoanalysis, pragmatics, and so on.
+In general, stratoanalysis is very seldom invoked, but it’s actually quite rich as a framework.
 
 The basic idea is that the world is made up of relatively autonomous codes, such as the genetic code versus body language.
-The system of oppositions that defines a code takes place on an independent layer or stratum,
+The system of oppositions that defines a code takes place on an independent layer or stratum.
 Strata interact horizontally via *parastrata* (codes presupposed by another code of the same order, such as the prison system and legal system —
 or vertically via *epistrata* (codes presupposed by another code of a different order, such as the legal system relying on language, biochemistry, and so on).
-An example of parastrata in Qwerty is using key in a game for movement.
+An example of parastrata in Qwerty is using keys in a game for movement.
 
 A keyboard lends itself as a paradigmatic example because it combines so many forms of code, at so many levels.
 There are linguistic codes (letters in English words), physical codes (limitations of human hands), and mechanical codes (technical specifications).
@@ -304,7 +304,7 @@ The purpose of these schizoid parts of qwernomics is to explore the extent to wh
 ### Conclusion
 
 Most of these statements sound absurd when applied to the keyboard, but the same considerations come into play for
-concrete problems where don’t have nearly as much of a conceptual foothold.
+concrete problems where we don’t have nearly as much of a conceptual foothold.
 
 The ultimate stakes of qwernomics are to delineate the meaning of a ‘critique’ of capitalism, in the Kantian sense of a global tribunal of reason.
 Many people will be sympathetic to the notion that there is no such universal position; yet, 
