@@ -165,7 +165,7 @@ We can check this by creating a list of Dvorak<sup>n</sup> keyboards for increas
 fmap (+2) $ elemIndex dvorak $ map forbiddenDvorak [2..250]
 ```
 
-This outputs `Just 211`, and as we can plug in and confirm, `forbiddenDvorak 211` gives the Dvorak keyboad.
+This outputs `Just 211`, and as we can plug in and confirm, `forbiddenDvorak 211` gives the Dvorak keyboard.
 You can likewise confirm that `forbiddenDvorak 210` gives Qwerty, which of course follows.
 
 We can make an analogous function permuting alphabetical order into Qwerty:
@@ -244,7 +244,7 @@ In general, stratoanalysis is very seldom invoked, but it’s actually quite ric
 
 The basic idea is that the world is made up of relatively autonomous codes, such as the genetic code versus body language.
 The system of oppositions that defines a code takes place on an independent layer or stratum.
-Strata interact horizontally via *parastrata* (codes presupposed by another code of the same order, such as the prison system and legal system —
+Strata interact horizontally via *parastrata* (codes presupposed by another code of the same order, such as the prison system and legal system) —
 or vertically via *epistrata* (codes presupposed by another code of a different order, such as the legal system relying on language, biochemistry, and so on).
 An example of parastrata in Qwerty is using keys in a game for movement.
 
