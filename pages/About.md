@@ -1,22 +1,10 @@
-﻿We have been sold this lie: that quantitative is the opposite of qualitative.
+﻿My name is Graham. I studied economics in Canada, then spent two years in China studying the language, and then another two years on an MA in economics in Shanghai. I can speak Chinese, and have  autodidactic interests in philosophy, programming, data visualization, and mathematics.
 
-In some of the most singular products of human creativity we find a methodical reliance on numerical patterns, 
-entirely at variance with archetypes of *ex nihilo* ‘inspiration’. 
-We can trace within Leonardo Da Vinci’s paintings a recurring spiral that corresponds implicitly to the Fibonacci sequence, 
-and recent philological inquiry reveals chains of nested numerical rings in Latin poetry from Horace to Virgil—metrical and thematic symmetries embedded, 
-for instance, from “lines 1.4 to 3.28, 1.5 to 3.26, and so on and on” throughout Horace’s *Odes*, permitting arithmetic theorems and lemmas that provide 
-“precise, numerical, thorough, crushingly persuasive” insights into how the Romans thought (McCloskey, 1998: 70-1); mathematical motifs similarly pervade 
-modern literature from Lewis Carroll’s surrealist allegories to [David Foster Wallace](http://www.youtube.com/watch?v=ZKCMTHX5WHk)’s organization of 
-*Infinite Jest* in the form of a Sierpinski gasket.
+Now I’m in Toronto, working as a business analyst. My main role is brainstorming with incoming immigrants to create high-tech business ideas that can get venture capital support. Much of this involves applied machine learning, where I’m gradually building up expertise in the distinct ‘flavor’ of each algorithm, and how each lends itself to different problems.
 
-The point here is **not** to ascribe some ‘inherent’ beauty to numerical patterns, which misses the fundamental point: 
-by imposing on themselves entirely arbitrary constraints, these artists forced themselves to **think harder**. 
-Quantitative rigor *brings forth* qualitative expression. 
-If, faced with the task of explaining an unexplainable world, this was all economics had to offer, it would be more than enough. 
-That is, even *denying* its ideas—Nash equilibrium, cointegration, and beyond—any referential content, economic formalism offers something *more*, 
-something irreducible to one narrative among others. Yet if we suppose, for the sake of argument, that these recondite formulas are meaningful in 
-a way closely tied to their numerical form rather than in spite of it, then our story becomes more interesting still. 
-This is the just the tip of the iceberg.
+I’m aiming to transition into data science, which means learning a hodgepodge of math and coding. I try to find ways to mix philosophy into these topics, as a way to psych myself up. This blog is meant both for smaller projects, and for preparatory work on larger projects.
+
+Being in an awkward intersection of economics, computation and philosophy, I often find striking similarities between obscure fields that have never heard of each other. Rather than just ‘ideas of ideas’ (“Oh, wouldn’t it be cool if…”), my aim here is to provide working prototypes for new concepts.
 <br><br>
 
 <small>The artwork on my blog and home page is by [Tas Vicze](https://www.deviantart.com/viczetas).</small><br>
