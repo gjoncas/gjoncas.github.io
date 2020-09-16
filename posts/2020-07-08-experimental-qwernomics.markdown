@@ -267,7 +267,7 @@ Likewise, the expression-form is the signifier being typed, while content-form i
 The main point is that variations such as Azerty keyboards for Francophones can be localized onto one of these planes.
 
 Therefore, more broadly, qwernomics is an analysis of stratification or capture, as Qwerty directs codes’ flows of intensities. 
-Audaciously, we can say that qwerty is cultural genome, with knowledge geologically deposited into it.
+Audaciously, we can say that qwerty is a cultural genome, with knowledge geologically deposited into it.
 By way of a quasi-diagrammatic analysis of the keyboard through stratograms, we can hack the cryptographic protocol that the qwerty apocalypse has delivered to us.
 
 <center>![](/static/img/blog-posts/qwernomic-axiomatics.png)</center>
