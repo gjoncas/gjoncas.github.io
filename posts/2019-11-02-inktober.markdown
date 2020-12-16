@@ -1,5 +1,5 @@
 ---
-title: Inktober Postscript
+title: Inktober with Ti*k*Z
 ---
 
 I am not at all a visual thinker — only when I deeply understand something can I express it spatially.
