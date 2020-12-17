@@ -122,8 +122,8 @@ As a language for theorizing, however, topos theory sounds far more promising, a
 To give an idea of their mathematical expressiveness, a topos can be defined in 13 different ways, via different mathematical languages (2015: 41, fn. 2).
 For our purposes, the simplest is that a topos is a category with two additional conditions: it is ‘Cartesian closed’ and it has a subobject classifier (Bhattacharyya, 2012: 16).
 The first condition is easy to understand if you’ve run into group theory: a cartesian closed category admits a basic algebra whereby objects have products and exponents.
-For the second, a subobject classifier provides a category with a logic of wholes and parts.
 
+For the second condition, a subobject classifier provides a category with a logic of wholes and parts.
 Viewed through the lens of social science, a subobject classifier is a structured way to provide graduated, indexed and/or spectral distinctions within a stable set of values, and lets agents assess how incremental differences affect spaces or structures of interest (2015: 41-2).
 
 Unlike the humanities where ‘topos’ is an incredibly pretentious word for a theme or topic, a topos in math should be thought of as an extended notion of place (Zalamea, 2018: 255).
@@ -180,6 +180,7 @@ One highly practical application has been to construct a provably correct air tr
 <ul>
 <li>Awodey, S. ([2014](https://www.andrew.cmu.edu/user/awodey/preprints/siu.pdf)). “Structuralism, Invariance, and Univalence.” *Philosophia Mathematica* 22(1), pp\. 1-11</li>
 <li>Bhattacharyya, A. ([2012](https://bat020.files.wordpress.com/2014/03/setcat.pdf)). “Sets, Categories and Topoi: approaches to ontology in Badiou’s later work.” Working Paper.</li>
+<li>de Bruijn, N. ([2005](http://alexandria.tue.nl/repository/freearticles/597627.pdf)). “On the roles of types in mathematics,” in de Groote, P. (Ed.). *The Curry-Howard isomorphism*. Academia-Bruyland: Université Catholique de Louvain, pp\. 27-54</li>
 <li>Doxiadis, A. & Papadimitriou, P. (2009). *Logicomix*. New York: Bloomsbury.</li>
 <li>Leslie-Hurd, J. & Haworth, G. ([2013](http://centaur.reading.ac.uk/33158/1/HoTT.pdf)). “Computer Theorem Proving and HoTT.” *ICGA Journal* 36(2). pp\. 100-103</li>
 <li>Plotnitsky, A. ([2012](https://web.ics.purdue.edu/~plotnits/PDFs/ap%20exp%20with%20ontologies.pdf)). “Experimenting with ontologies: sets, spaces, and topoi with Badiou and Grothendieck.” *Environment and Planning D: Society and Space* 30, pp\. 351-68</li>
