@@ -17,7 +17,7 @@ For now, this blog is for small thoughts.
 Blogging teaches how to think at different scales, and my aim here is self-contained thought-crystals: a diagram, a theorem, a poem, a tiny code project.
 
 To give an idea of subject matter: my background is economics, philosophy, and computation.
-I\'m interested in formalizing philosophical concepts.
+I’m interested in formalizing philosophical concepts.
 Within the scope of this blog, I’d like to approach this through diagrams, simulations, and the occasional mathematical model.
 
 The ideas I like, tend to be weird.
