@@ -1,6 +1,7 @@
 ---
 title: Quantifier Elimination in Economics
 subtitle: Automated Reasoning in Mathematica
+katex: true
 ---
 
 Viewed abstractly, formal verification sounds deeply conservative: we want software to work the way we intend, without any unexpected bugs. 
@@ -90,7 +91,7 @@ The CAD method for QE can be briefly described as a method that extracts the pol
 Don’t worry if you didn’t get all that. The main takeaway is the rather beautiful idea that 
 SMT solvers in computer science and projection in algebraic geometry are just different perspectives of the same automated reasoning problem (Mulligan, 2018: 8).
 
-The main reason quantifier elimination is seldom used its that its complexity is double-exponential (`O[d^2^(2n+8) * m^2^(n+6)]`), 
+The main reason quantifier elimination is seldom used its that its complexity is double-exponential <br>($\mathcal{O}[d^{2^{(2n+8)}} \!* m^{2^{(n+6)}}]$), 
 where *d* is the highest power (degree) in the polynomial, and we see that its exponent has an exponent, meaning processing time increases **really** fast as *d* gets larger.
 
 Yet, computational complexity measures worst-case behaviour, which can be much better in practice — especially when most economic problems have low degree (x³ at worst).
@@ -126,7 +127,7 @@ Curiously, [revealed preference](https://en.wikipedia.org/wiki/Revealed_preferen
 to quantifier elimination than the more standard pedagogical method of inspecting first-order conditions (‘local analysis’). 
 Likewise, more ‘global’ forms of analysis are often easier to deal with, while specific functional forms are intractable.
 Statements about Cobb-Douglas production functions (of the form ANᵅKᵅᐨ¹) are polynomial inequalities, but it’s often easier to treat them using functional forms like *f*(*n*),
-since the CAD algorithm doesn’t work if α is a variable, and fractional exponents can take immense amounts of time (5 times longer with `n^5/8`, 3000 times longer with `n^23/30`).
+since the CAD algorithm doesn’t work if α is a variable, and fractional exponents can take immense amounts of time (5 times longer with $n^\frac{5}{8}$, 3000 times longer with $n^\frac{23}{30}$).
 
 From the other direction, solving these problems led to some new tricks for encoding integrals, 
 and vectors with an indeterminate number of elements (e.g\. number of goods in an economy) via statements about their dot product. The pollination may well go both ways.

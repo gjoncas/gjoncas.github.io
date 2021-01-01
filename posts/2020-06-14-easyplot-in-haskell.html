@@ -187,6 +187,15 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <!-- end Loading front stylesheet here -->
 </head>
 
+    
+    <!-- KaTeX -->
+    <!-- via https://github.com/wei2912/blog-src/blob/master/templates/default.html -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+    <!-- End KaTeX Code -->
+    
+
 <body>
     <!--<div id="preloader">
         <div id="status">
@@ -374,7 +383,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 <a class="sourceLine" id="cb1-8" data-line-number="8"></a>
 <a class="sourceLine" id="cb1-9" data-line-number="9">main <span class="fu">=</span> <span class="kw">do</span> plot' [<span class="dt">Interactive</span>] <span class="dt">Windows</span> <span class="fu">$</span> <span class="dt">Data2D</span> [<span class="dt">Title</span> <span class="st">&quot;Logarithmic Spiral&quot;</span>, <span class="dt">Style</span> <span class="dt">Lines</span>] [] spiral</a></code></pre></div>
 <p>For the parameters we can also pattern-match like <code>where (a,b) = (0.1,4)</code>, but as such it’s fine. Another example <a href="http://0not.net/programming/2015/02/26/first-steps-with-haskell.html">here</a> (<a href="https://gist.github.com/0not/09dce776d3b4d6158b6d">code</a>) plots radioactive decay; just don’t forget to change the <code>plot X11</code> part.</p>
-<p>The main drawback is that functions need to be expressed explicitly in the form <code>z = f(x,y)</code> or <code>y = f(x)</code> (i.e. the dependent variable can’t be part of the equation), while <a href="https://mzrg.com/math/graphs.shtml">apparently</a> other math software lets you plot implicit functions like <code>sin(y² * x³) = cos(y³ * x²)</code>. A cool project might be to write a program that makes an implicit function into an explicit one and feeds it into EasyPlot.</p>
+<p>The main drawback is that functions need to be expressed explicitly in the form <code>z = f(x,y)</code> or <code>y = f(x)</code> (i.e. the dependent variable can’t be part of the equation), while <a href="https://mzrg.com/math/graphs.shtml">apparently</a> other math software lets you plot implicit functions like <span class="math inline">\(\sin(y^2 * x^3) = \cos(y^3 * x^2)\)</span>. A cool project might be to write a program that makes an implicit function into an explicit one and feeds it into EasyPlot.</p>
 <h4 id="d-plots">3D Plots</h4>
 <p>Next, here’s a 3D plot from the documentation:</p>
 <center>
@@ -386,8 +395,8 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 <p>This is where EasyPlot shines relative to other software; in Ti<em>k</em>Z this would probably take hours to do. Judging from a quick <a href="https://twitter.com/hamidebadi/status/649866661726654464">search</a>, it’s possible with gnuplot to color in the mesh, making it even snazzier.</p>
 <h4 id="calculus">Calculus</h4>
 <p>One user on a French forum wanted to know if we can diagram Taylor polynomials without formally using calculus in Haskell. That is, we want to approximate an equation using its Taylor expansion:</p>
-<p><code>Tₙ,₀(x) = x⁰/0!·f⁽⁰⁾(0) + x¹/1!·f⁽¹⁾(0)+x²/2!·f⁽²⁾(0) + ...</code></p>
-<p>To do this, we’ll create two infinite lists: one for <code>[x⁰/0!, x¹/1!, x²/2!, ...]</code> and one for <code>[f⁽⁰⁾(0), f⁽¹⁾(0), f⁽²⁾(0), ...]</code>. (Oh god, I really need to get LaTeX working on my website...)</p>
+<p><span class="math display">\[T_{n,0}(x) = \frac{x^0}{0!}\cdot f^{(0)}(0) + \frac{x^1}{1!}\cdot f^{(1)}(0) + \frac{x^2}{2!}\cdot f^{(2)}(0) + \cdots\]</span></p>
+<p>To do this, we’ll create two infinite lists: one for <span class="math inline">\(\left[ \frac{x^0}{0!}, \frac{x^1}{1!}, \frac{x^2}{2!}, \cdots \right]\)</span> and one for <span class="math inline">\(\left[ f^{(0)}(0), f^{(1)}(0), \cdots \right]\)</span>.</p>
 <p>The idea is to graph both the true function and its approximation, showing how the latter becomes better as our Taylor polynomial increases in degree. This is how it’s supposed to look like:</p>
 <center>
 <img src="../static/img/blog-posts/easyplot-taypoly.png" />

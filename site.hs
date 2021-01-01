@@ -20,7 +20,7 @@ main = hakyll $ do
 
     match "posts/*" $ do
         route $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ pandocMathCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
@@ -73,3 +73,18 @@ siteCtx =
     constField "github_username"    "gjoncas" `mappend`
     constField "instagram_username" "tesseractics" `mappend`
     defaultContext
+
+pandocMathCompiler :: Compiler (Item String)
+pandocMathCompiler =
+    let mathExtensions =
+            [ Ext_tex_math_dollars
+            , Ext_tex_math_double_backslash
+            , Ext_latex_macros
+            ]
+        defaultExtensions = writerExtensions defaultHakyllWriterOptions
+        newExtensions = foldr enableExtension defaultExtensions mathExtensions
+        writerOptions = defaultHakyllWriterOptions
+            { writerExtensions = newExtensions
+            , writerHTMLMathMethod = MathJax ""
+            }
+    in pandocCompilerWith defaultHakyllReaderOptions writerOptions

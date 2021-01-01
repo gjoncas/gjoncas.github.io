@@ -1,6 +1,7 @@
 ---
 title: EasyPlot in Haskell
 subtitle: A Quick-and-Dirty Introduction
+katex: true
 ---
 
 EasyPlot is a simple Haskell library for drawing graphs.
@@ -113,7 +114,7 @@ Another example [here](http://0not.net/programming/2015/02/26/first-steps-with-h
 plots radioactive decay; just don’t forget to change the `plot X11` part.
 
 The main drawback is that functions need to be expressed explicitly in the form `z = f(x,y)` or `y = f(x)` (i.e\. the dependent variable can’t be part of the equation),
-while [apparently](https://mzrg.com/math/graphs.shtml) other math software lets you plot implicit functions like `sin(y² * x³) = cos(y³ * x²)`.
+while [apparently](https://mzrg.com/math/graphs.shtml) other math software lets you plot implicit functions like $\sin(y^2 * x^3) = \cos(y^3 * x^2)$.
 A cool project might be to write a program that makes an implicit function into an explicit one and feeds it into EasyPlot.
 
 #### 3D Plots
@@ -133,10 +134,10 @@ it’s possible with gnuplot to color in the mesh, making it even snazzier.
 One user on a French forum wanted to know if we can diagram Taylor polynomials without formally using calculus in Haskell.
 That is, we want to approximate an equation using its Taylor expansion:
 
-`Tₙ,₀(x) = x⁰/0!·f⁽⁰⁾(0) + x¹/1!·f⁽¹⁾(0)+x²/2!·f⁽²⁾(0) + ...`
+$$T_{n,0}(x) = \frac{x^0}{0!}\cdot f^{(0)}(0) + \frac{x^1}{1!}\cdot f^{(1)}(0) + \frac{x^2}{2!}\cdot f^{(2)}(0) + \cdots$$
 
-To do this, we’ll create two infinite lists: one for `[x⁰/0!, x¹/1!, x²/2!, ...]` and one for `[f⁽⁰⁾(0), f⁽¹⁾(0), f⁽²⁾(0), ...]`.
-(Oh god, I really need to get LaTeX working on my website\...)
+To do this, we’ll create two infinite lists: one for $\left[ \frac{x^0}{0!}, \frac{x^1}{1!}, \frac{x^2}{2!}, \cdots \right]$ 
+and one for $\left[ f^{(0)}(0), f^{(1)}(0), \cdots \right]$.
 
 The idea is to graph both the true function and its approximation, showing how the latter becomes better as our Taylor polynomial increases in degree.
 This is how it’s supposed to look like:
