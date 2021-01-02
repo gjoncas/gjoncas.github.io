@@ -2,7 +2,8 @@
 
 The design for this theme comes from [CleanMagicMedium-Jekyll](https://github.com/SpaceG/CleanMagicMedium-Jekyll) by Lucas Gatsas.<br>
 The code I started from is by [Katy Chuang](https://github.com/katychuang/CleanMagic-hakyll), who adapted CleanMagic for Hakyll.<br>
-Code by other users of CleanMagic-hakyll was also helpful: [Benedikt Mayer](https://github.com/benedikt-mayer/benedikt-mayer.github.io) and [Ismail Mustafa](https://github.com/ismailmustafa/ismailmustafa.github.io).<br>
+Code by other users of CleanMagic-hakyll was also helpful: [Benedikt Mayer](https://github.com/benedikt-mayer/benedikt-mayer.github.io) and [Ismail Mustafa](https://github.com/ismailmustafa/ismailmustafa.github.io).
+
 I've added support for LaTeX thanks to [Ng Wei En](https://github.com/wei2912/blog-src)'s blog, implemented with KaTeX.<br>
 I've also added an RSS feed thanks to [this tutorial](https://github.com/xoltar/xoltar.org/blob/master/site.hs), 
 using [xoltar](https://github.com/xoltar/xoltar.org/blob/master/site.hs)'s site as a baseline.

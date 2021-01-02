@@ -3,8 +3,8 @@ title: A Rose for Emily
 subtitle: Digital Humanities with Prolog
 ---
 
-One of my more recent code projects replicated a paper by Burg, Boyle & Lang ([2000](http://gen.lib.rus.ec/scimag/10.2307%2F30204830)), 
-which used constraint-solving to analyze the non-linear timeline in Faulkner’s story “[A Rose for Emily](http://xroads.virginia.edu/~drbr/wf_rose.html)”.
+One of my more recent code projects replicated a paper by Burg, Boyle & Lang ([2000](https://gen.lib.rus.ec/scimag/10.2307%2F30204830)), 
+which used constraint-solving to analyze the non-linear timeline in Faulkner’s story “[A Rose for Emily](https://xroads.virginia.edu/~drbr/wf_rose.html)”.
 
 I like this paper because it’s quirky. Most digital humanities is confined to a handful of tools, 
 such as statistically analyzing a corpus, or mapping characters’ social networks.
@@ -13,8 +13,7 @@ Constraint-solving is a brand new tool, so the paper is evocative not only for i
 First I’ll go over the code part, then what it means for the story, then some speculative conclusions.
 
 
-Faulkner’s Non-linear Chronology
---------
+### Non-linear Chronology
 
 Here I’m giving an informal overview of what the code does, which the reader can skim quickly to understand the results.
 For those more interested in the code, this [repository](https://github.com/gjoncas/A-Rose-for-Emily) is the place to look.
@@ -52,8 +51,7 @@ Among these, the only events whose order completely flips are **E** and **F**, h
 The small blue brackets mean that these two events (could have) occurred in the same year.
 
 
-Computational Hermeneutics
---------
+### Computational Hermeneutics
 
 Now let’s see what this all means for how we interpret the story.
 
@@ -97,8 +95,7 @@ her taxes dating from the death of her father 16 years back, on into perpetuity�
 The authors set `C = 1904` in their program, but find it inconsistent. 
 However, leaving `C = 1894`, they find that Emily’s father could have died 16 years before, i.e\. `H = 1878` is consistent.
 
-The Simplex of Meaning
---------
+### The Simplex of Meaning
 
 In the rest of their paper, the authors try to narrow down the timeline to a single interpretation. 
 The other time constraints imply that Emily must have been born between 1842 and 1856 (`1842 <= K <= 1856`), 
@@ -131,8 +128,7 @@ but then one or more suddenly ‘jump’ to a far-away value.
 Such discontinuities in the space of meaning may likely be what gives rise to conflicting interpretations.
 
 
-Conclusion
---------
+### Conclusion
 
 “A Rose for Emily” is one of Faulkner’s most widely read stories, and it’s difficult to imagine how new insights might still be gleaned about it. 
 Thus it’s a pleasant surprise that simply listing unambiguous temporal references  in a computer program can clarify long-standing debates on the storyline. 

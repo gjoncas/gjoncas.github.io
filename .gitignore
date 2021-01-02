@@ -16,6 +16,7 @@ cabal.sandbox.config
 *.prof
 *.aux
 *.hp
+*.ini
 .stack-work/
 _cache/
 _site/

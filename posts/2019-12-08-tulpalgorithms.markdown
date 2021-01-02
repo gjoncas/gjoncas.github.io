@@ -24,8 +24,7 @@ This theme has long been a staple on weird twitter, but I think we can actually 
 Here I’d like to conjecture what a formal science of tulpas might look like.
 
 
-Economics of Tulpas
---------
+### Economics of Tulpas
 
 If supply of tulpas is limited, then they implicitly have a price.
 
@@ -69,8 +68,7 @@ One of my current goals is to learn dynamic programming, which is precisely the 
 so I think it’s actually feasible in the near future to pull this off.
 
 
-Data Structures & Compression
---------
+### Data Structures & Compression
 
 By analogy with sponges, we treated tulpas as discrete, but that’s too simple.
 Tulpas overlap, as anyone can attest. 
@@ -109,8 +107,7 @@ In a sense that’s the charm — our ‘tulpalgorithms’ for handling overlap 
 Information theory should be crucial here, with tools such as Kolmogorov complexity to judge whether one encoding is better than another. 
 Unsurprisingly these are seldom used in economics, but they would help ground in theory what would otherwise be disparate simulations.
 
-Computational Egregorics
---------
+### Computational Egregorics
 
 So far, tulpas have mapped onto humans — concrete like my mum, or abstract like Deleuze 
 (whose books I can read, but I’ll obviously never meet him) or fictional characters.
@@ -153,8 +150,9 @@ Most fascinating of all is the idea that social networks force us to develop mor
 Are there different methods of reaching equilibrium (whatever that means here), analogous to regret minimization as compared to Nash equilibrium? 
 Can we show that some methods are bad and we shouldn’t use them? Can we use egregorics to explain the persistence of seemingly irrational types of behaviour?
 
-Conclusion
---------
+
+### Conclusion
+
 The sort of simulations I have in mind are entirely feasible, akin to iterated prisoner’s dilemma or Schelling’s model of segregation. 
 As hard as it would be to translate any insights from this into actionable results, 
 I can imagine textual analysis of ad copy into separate categories in order to identify opportunities for parasitism, 
