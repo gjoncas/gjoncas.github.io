@@ -1,6 +1,7 @@
 ---
 title: Experimental Qwernomics
 subtitle: Trans-Semiotic Algebra
+tags: semiotics, philosophy, haskell
 ---
 
 It’s a part of popular myth that the Qwerty keyboard was designed to keep old-fashioned keys from jamming,

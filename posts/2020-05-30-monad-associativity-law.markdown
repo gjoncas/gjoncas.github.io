@@ -1,5 +1,6 @@
 ---
 title: The Associativity Law for Monads
+tags: haskell
 ---
 
 During quarantine, I’ve been pursuing a goal I’ve had for years: to grok monads.

@@ -1,6 +1,7 @@
 ---
 title: A Rose for Emily
 subtitle: Digital Humanities with Prolog
+tags: digital humanities, literature, prolog
 ---
 
 One of my more recent code projects replicated a paper by Burg, Boyle & Lang ([2000](https://gen.lib.rus.ec/scimag/10.2307%2F30204830)), 

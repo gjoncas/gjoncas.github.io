@@ -1,6 +1,7 @@
 ---
 title: Algebraic Semiotics
 subtitle: Joseph Goguen’s Semiotic Morphisms
+tags: semiotics, mathematics, formal verification
 ---
 
 When was the last time we had a new result in semiotics?
@@ -59,7 +60,7 @@ The class of models that satisfy a given theory is called its semiotic space (20
 Note that we add some extra structure through a priority ordering, 
 which is assigned to constructors and their arguments to express the relative importance of the signs they build (2003: 2). 
 Hence, “priorities indicate the relative significance of subsigns at a given level” (2004: 4).
-The level and priority ordering are the main ways that social context is integreated into a model.
+The level and priority ordering are the main ways that social context is integrated into a model.
 
 In sum: “Sorts classify signs, operations construct signs, data sorts provide values for attributes of signs, and levels and priorities indicate saliency” (2001: 2).
 
@@ -120,7 +121,7 @@ In fact, we can see that this framework is quite impoverished compared to semiot
 
 Types, for instance, give us information like if a metaphor is a personification, or how ‘far apart’ are the elements being compared.
 Likewise, functions and axioms help account for structure, such as how a poetic meter blends with a rhyme scheme (Goguen & Harrell, 2004: 51).
-Most interesting of all, this enriched ‘structural blending’ can be elegantly formalized in category theory.
+Most interesting of all, this enriched ‘structural blending’ can be elegantly formalized as pushouts in category theory.
 
 <center>![](/static/img/blog-posts/conceptual-blending.png)</center>
 
@@ -164,7 +165,7 @@ Colimits “capture the notion of ‘putting together’ objects to form larger 
 They give an optimal blend in that “they put some components together, identifying as little as possible, 
 with nothing left over, and with nothing essentially new added” (1999: 279). 
 As before, we weaken these to ‘3/2-colimits’.
-Overall, they’re a powerful tool both to combine meanings and to study the effect of context on meaning (1997: 12).
+In short, they’re a powerful tool both to combine meanings and to study the effect of context on meaning (1997: 12).
 
 On the conceptual end, this formalism lets us think of ‘style’ as a choice of blending principles, and gives us a new language for stylistics.
 Notably, many artistic works make use of *dis*optimization principles, creating original ideas by violating our expectations (Goguen & Harrell, 2004: 56).

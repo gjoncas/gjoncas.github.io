@@ -1,6 +1,7 @@
 ---
 title: A Week of Envy
 subtitle: Visualizing Lack
+tags: diagrams
 ---
 
 My interest in data visualization comes in part from the idea that far before explicitly formalizing a model, we begin with some sort of picture,

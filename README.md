@@ -2,7 +2,7 @@
 
 The design for this theme comes from [CleanMagicMedium-Jekyll](https://github.com/SpaceG/CleanMagicMedium-Jekyll) by Lucas Gatsas.<br>
 The code I started from is by [Katy Chuang](https://github.com/katychuang/CleanMagic-hakyll), who adapted CleanMagic for Hakyll.<br>
-Code by other users of CleanMagic-hakyll was also helpful: [Benedikt Mayer](https://github.com/benedikt-mayer/benedikt-mayer.github.io) and [Ismail Mustafa](https://github.com/ismailmustafa/ismailmustafa.github.io).
+Code by other CleanMagic-hakyll users was also helpful: [Benedikt Mayer](https://github.com/benedikt-mayer/benedikt-mayer.github.io) & [Ismail Mustafa](https://github.com/ismailmustafa/ismailmustafa.github.io).
 
 I've added support for LaTeX thanks to [Ng Wei En](https://github.com/wei2912/blog-src)'s blog, implemented with KaTeX.<br>
 I've also added an RSS feed thanks to [this tutorial](https://github.com/xoltar/xoltar.org/blob/master/site.hs), 
@@ -10,7 +10,7 @@ using [xoltar](https://github.com/xoltar/xoltar.org/blob/master/site.hs)'s site 
 
 I'd love to integrate more elaborate features as I get better with Hakyll.<br>
 For now, it seems the best place to find tutorials is [here](https://jaspervdj.be/hakyll/tutorials.html). For help, see [here](https://help.github.com/en/github/working-with-github-pages).<br>
-I still really want to add in-line code with Haskell's [diagrams](https://github.com/gjoncas/Haskell-DataViz) package and/or Ti*k*Z.
+I still really want to add in-line code with Haskell's [diagrams](https://github.com/gjoncas/Haskell-DataViz) and/or Ti*k*Z.
 
 ## Building with Stack
 

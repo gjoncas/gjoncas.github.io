@@ -1,6 +1,7 @@
 ---
 title: Quantifier Elimination in Economics
 subtitle: Automated Reasoning in Mathematica
+tags: formal verification, economics
 katex: true
 ---
 

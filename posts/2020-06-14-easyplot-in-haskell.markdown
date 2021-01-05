@@ -1,6 +1,7 @@
 ---
 title: EasyPlot in Haskell
 subtitle: A Quick-and-Dirty Introduction
+tags: haskell, diagrams, mathematics
 katex: true
 ---
 

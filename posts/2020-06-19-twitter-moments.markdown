@@ -1,6 +1,7 @@
 ---
 title: Twitter Moments
 subtitle: A Heteroglossic Archive
+tags: philosophy, mathematics
 ---
 
 Beyond its 140-character limit, Twitter’s next most-prominent feature is its linearity, chronologically posting tweets that gradually sink into the memory hole.

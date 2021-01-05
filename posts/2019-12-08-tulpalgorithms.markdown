@@ -1,6 +1,7 @@
 ---
 title: Tulpalgorithms
 subtitle: On Computational Egregorics
+tags: semiotics, agent-based models
 ---
 
 I just started my first real job, which is lovely and I like it a lot, but it’s pretty overwhelming to 

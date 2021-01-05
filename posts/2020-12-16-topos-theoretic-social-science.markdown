@@ -1,6 +1,7 @@
 ---
 title: Topos-theoretic Social Science
 subtitle: David Sallach on Social Type Theory
+tags: mathematics
 ---
 
 David Sallach is a mathematical sociologist at Argonne National Laboratory, and senior fellow at the University of Chicago’s Computation Institute.
