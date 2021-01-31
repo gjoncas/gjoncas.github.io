@@ -178,273 +178,6 @@ Triantafyllou, N., Ksystra, K., Stefaneas, P., Kalampakas, A. (<a href="https://
 </ul>]]></summary>
 </entry>
 <entry>
-    <title>2020-12-26-algebraic-semiotics</title>
-    <link href="http://gjoncas.github.io/posts/2020-12-26-algebraic-semiotics.html" />
-    <id>http://gjoncas.github.io/posts/2020-12-26-algebraic-semiotics.html</id>
-    <published>2020-12-26T00:00:00Z</published>
-    <updated>2020-12-26T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<!--<div id="preloader">
-        <div id="status">
-
-        </div>
-    </div>--> <!-- Navigation --> <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-<div class="container-fluid">
-<!-- Brand and toggle get grouped for better mobile display -->
-<div class="navbar-header page-scroll">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-</button>
-<a href="https://gjoncas.github.io" id="blog-title-left-top" class="navbar-brand"><span style="color:gray"><span style="font-family:candara;">oneironomics</span></span></a>
-</div>
-<!-- Collect the nav links, forms, and other content for toggling -->
-<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-<ul>
-<li><a href="#portfolioModal2"><em></em></a>
-<ul>
-</ul></li>
-<li><!-- <a href="https://instagram.com/tesseractics/" target="_blank"><i class="fa fa-instagram" id="icon-top"></i></a>--></li>
-<li><!-- <a href="https://linkedin.com/in/graham-joncas/" target="_blank"><i class="fa fa-linkedin" id="icon-top"></i></a>--></li>
-<li><a href="https://gjoncas.github.io/About.html">About</a></li>
-<li><a href="https://gjoncas.github.io/Research.html">Research</a></li>
-<li><a href="https://gjoncas.github.io/Projects.html">Projects</a></li>
-<li><a href="https://gjoncas.github.io/blog.html">Blog</a></li>
-<li><a href="https://www.twitter.com/gjncs" id="roundbutton"><em></em>gjncs</a></li>
-</ul>
-</div>
-<!-- /.navbar-collapse -->
-</div>
-<!-- /.container --> </nav> <!-- Portfolio Modals -->
-<div id="portfolioModal1" class="portfolio-modal modal fade" tabindex="-1" data-role="dialog" data-aria-hidden="true" style="padding-right:0px; overflow: hidden;">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
-
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="modal-body">
-<h1 id="graham-joncas" class="font-style-inline-small-h1">Graham Joncas</h1>
-<hr />
-<img src="https://github.com/gjoncas/Artsy-Diagrams/raw/master/pics/metatron.png" class="img-responsive img-centered" />
-<p>I live in Canada, and do research on computational economics and formal philosophy.<br />
-This is my personal website and blog. The best way to contact me is via <a href="https://www.twitter.com/gjncs">Twitter</a>.<br />
-<a href="https://www.github.com/gjoncas"><em></em></a> <a href="https://www.twitter.com/gjncs"><em></em></a> <a href="https://www.instagram.com/tesseractics"><em></em></a> <a href="https://www.linkedin.com/in/graham-joncas"><em></em></a></p>
-<button type="button" class="btn btn-default" data-dismiss="modal">
-<em></em> Close
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Menu Modals Add New Sa.21.Feb.2015 03:22:25 -->
-<div id="portfolioModal2" class="portfolio-modal modal fade" tabindex="-1" data-role="dialog" data-aria-hidden="true" style="padding-right:0px; overflow: hidden;">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
-
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="modal-body">
-<h1 id="oneironomics" class="font-style-inline-small-h1">oneironomics</h1>
-<hr />
-<p class="font-style-inline-small">
-Computational economics<br />
-Conceptual engineering<br />
-Surrationalism<br />
-<a href="https://www.github.com/gjoncas"><em></em></a> <a href="https://www.twitter.com/gjncs"><em></em></a> <a href="https://www.instagram.com/tesseractics"><em></em></a> <a href="https://www.linkedin.com/in/graham-joncas"><em></em></a>
-<li>
-<a href="https://gjoncas.github.io/">Home</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/Research.html">Research</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/Projects.html">Projects</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/blog.html">Blog</a>
-</li>
-</p>
-<button type="button" class="btn btn-default" data-dismiss="modal">
-<em></em> Close
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="content" data-align="justify">
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('https://gjoncas.github.io/static/img/tasvicze.jpg')" alt title>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<div class="post-heading">
-<h1 id="algebraic-semiotics"><span style="color:white">Algebraic Semiotics</span></h1>
-<h2 id="joseph-goguen���s-semiotic-morphisms" class="subheading">Joseph Goguen’s Semiotic Morphisms</h2>
-<span class="meta" style="color:white"> December 26, 2020 </span>
-</div>
-</div>
-</div>
-</div>
-</header>
-<!-- Post Content -->
-<article>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" data-align="justify">
-<p>When was the last time we had a new result in semiotics? It’s a rite of passage in the humanities to write papers full of ‘signifiers’ and ‘signifieds’, and later to problematize this model (Derrida, D&amp;G), but the approach is largely set in stone. It’s a deep shame: if only semiotics had advanced on a par with linguistics, many fields such as human-computer interaction could have progressed far more.</p>
-<p>If anyone can remedy this, Joseph Goguen (1941-2006) is the guy for the job. His remarkably prolific research includes categorical fuzzy set theory, inventing the OBJ family of programming languages (e.g. CafeOBJ, Maude), and creating the theory of ‘institutions’ as invariant properties of all logical systems. He was also a practicing Buddhist, and editor-in-chief of the <em>Journal of Consciousness Studies</em>.</p>
-<p>All these come together in Goguen’s algebraic semiotics, which uses category theory to formalize the notion of sign-system, serving as a principled approach to user interface design. The rabbit-hole goes quite deep, and the main ideas are strewn throughout numerous papers. This post gives a self-contained introduction to algebraic semiotics, outlining semiotic morphisms as mappings between sign-systems, conceptual blending as condensation of morphisms, hidden algebra as formalizing dynamic creation of meaning, and polymorphic poetics as computational semiology.</p>
-<h3 id="sign-systems">Sign-Systems</h3>
-<p>The key insight of semiotics is that instead of meaning being inherent to a sign, signs acquire meaning differentially, through a system of oppositions. Naturally, we don’t want to spell these out, which for <em>n</em> signs implies <code>n*(n-1)/2</code> oppositions. If we used sets as a framework, we would be in for a rough time, not least because our understandings are always only partial — this wouldn’t leave room for signs we don’t know about, or may not want to include (1999: 250).</p>
-<p>Instead, an approach using algebra gives the structure we need while also allowing open systems. Goguen gives a formal definition of a sign-system that I’ll explain in detail, so the reader may want to just skim until the next section. A sign-system is made of the following ingredients (2004: 4):</p>
-<ol>
-<li>a <strong>signature</strong> that declares sorts, subsorts, and operations</li>
-<li>a subsignature of data sorts and data functions</li>
-<li>a set of <strong>axioms</strong> (e.g. equations) that act as constraints</li>
-<li>a <strong>level ordering</strong> on sorts, including a maximal ordering called ‘top’</li>
-<li>a <strong>priority ordering</strong> on constructors at the same level</li>
-</ol>
-<p>First, a ‘sort’ is the type of a sign. It can be mundane, like separating text from numbers, but can also be elaborate, such as components of a multimedia display, with nested subsorts and supersorts. Sorts have a part-whole hierarchy (‘level ordering’): for example a menu bar and scroll bar may be on the same level, but at a lower level than the window of which they are parts (Harrell, 2013: 133).</p>
-<p>Operations include constructors that build new signs from old signs as parts, and selectors that pull out parts from compound signs (2004: 4). Constructors can have parameters, such an image of a cat that takes parameters for its color, size, and location (Goguen &amp; Harrell, 2005a: 86); each parameter of a constructor has a corresponding selector to extract its value (1999: 263). These more standard attributes of signs (e.g. colors, booleans, integers) are ‘data sorts’, and go in the subsignature.</p>
-<p>Axioms are logical formulas made of constructors, functions and predicates, and constrain the set of possible signs (Goguen &amp; Harrell, 2005a: 86). For example, we may want to stipulate that all windows on a screen are below a certain size, or that an integer has no leading zeros (Harrell, 2013: 132).</p>
-<p>The first four items make an <em>algebraic theory</em>, which just means a declaration of symbols plus rules to restrict their use (1999: 244). This is what makes Goguen’s semiotics ‘algebraic’. Sometimes he refers to a sign-system as a ‘semiotic theory’, as opposed to a specific model (i.e. interpretation) that instantiates it. The class of models that satisfy a given theory is called its semiotic space (2003: 2).</p>
-<p>Note that we add some extra structure through a priority ordering, which is assigned to constructors and their arguments to express the relative importance of the signs they build (2003: 2). Hence, “priorities indicate the relative significance of subsigns at a given level” (2004: 4). The level and priority ordering are the main ways that social context is integrated into a model.</p>
-<p>In sum: “Sorts classify signs, operations construct signs, data sorts provide values for attributes of signs, and levels and priorities indicate saliency” (2001: 2).</p>
-<h3 id="semiotic-morphisms">Semiotic Morphisms</h3>
-<p>Any representation is a mapping from signified to signifier. A semiotic morphism is precisely this: a structure-preserving map from one sign-system to another. Instead of signifieds we have a source space, while instead of signifiers we have a target space. Understanding takes place as a process from target to source, while design proceeds from source to target (Goguen &amp; Harrell, 2005a: 88).</p>
-<p>Algebraic semiotics begins from the idea that we can evaluate and compare morphisms by how well they preserve structure. A good explanation or design is all about making it easy to translate from one system (e.g. words) to another (how to do something). The kinds of structure to be preserved from one sign-system to another are just the components mentioned before (Harrell, 2013: 147):</p>
-<ul>
-<li>Constructor-preserving – each contains all of the same elements</li>
-<li>Function-preserving – all operations are present in both spaces</li>
-<li>Axiom-preserving – both systems maintain the same rules</li>
-<li>Level-preserving – part-whole relationships are maintained</li>
-<li>Priority-preserving – relative importance of elements are the same</li>
-</ul>
-<p>Hence semiotic morphisms map sorts to sorts, subsorts to subsorts, constructors to constructors, and so on, from source to target (Goguen &amp; Harrell, 2005a: 88). The sign-systems need not be exactly the same, but should have corresponding structure. That is, morphisms translate “from the <em>language</em> of one sign system to the language of another, instead of just translating the concrete signs in the models” (1999: 256). Likewise, these mappings are partial, since we can’t expect to keep every single element, and our level and priority orderings help us decide which losses matter.</p>
-<p>Since much of design involves choosing to preserve one thing or the other, Goguen identified several principles through detailed psychological and linguistic <a href="https://files.eric.ed.gov/fulltext/ED243463.pdf">experiments</a> (2001: 3):</p>
-<ol>
-<li>It is more important to preserve structure than content</li>
-<li>It is more important to preserve level than priority</li>
-<li>Structure and content at lower levels should be sacrificed in favor of those at higher levels</li>
-<li>Lower level constructors should be sacrificed in favor of higher level constructors</li>
-<li>It is more important to preserve high-level sorts than priorities (Goguen &amp; Harrell, 2005a: 96)</li>
-</ol>
-<p>These results are definitely non-obvious, and allow a principled approach to many design problems otherwise lacking solid guidelines. While most design can be done well without algebraic semiotics, the formalism really shines in resolving difficult decisions (2001: 4). One example of these principles in action was designing a proof assistant to be more pedagogically-friendly, which found that “early designs…were incorrect because the corresponding semiotic morphisms failed to preserve certain key constructors” (Goguen &amp; Lin, 2001: 31). In a setting like teaching where students have vastly different intuitions, it could pay off to take a more abstract view to accommodate everybody.</p>
-<h3 id="conceptual-blending">Conceptual Blending</h3>
-<p>The easiest way to understand something we don’t know is by analogy with something we do know. Once there were no words for ‘computer virus’ or ‘roadkill’, so we just blended existing concepts.</p>
-<p>One way to think about analogy is ‘conceptual spaces’, formalized as sets of elements with relations among them. A blending is then just a mapping from one conceptual space to another. Metaphoric blends are slightly more interesting, in that they are asymmetric: in saying “the sun is a king”, we don’t evoke every quality of a king (crown, taxes), only the most salient ones. The literature even identifies optimality principles to judge whether a blend is good or not (Goguen &amp; Harrell, 2005b: 5).</p>
-<p>This all sounds familiar. In fact, we can see that this framework is quite impoverished compared to semiotic morphisms: elements and relations are not typed, nor are there functions or axioms (ibid.).</p>
-<p>Types, for instance, give us information like if a metaphor is a personification, or how ‘far apart’ are the elements being compared. Likewise, functions and axioms help account for structure, such as how a poetic meter blends with a rhyme scheme (Goguen &amp; Harrell, 2004: 51). Most interesting of all, this enriched ‘structural blending’ can be elegantly formalized as pushouts in category theory.</p>
-<center>
-<img src="../static/img/blog-posts/conceptual-blending.png" />
-</center>
-<p>In the simplest case of conceptual blending we have a base space <em>G</em> (which stands for ‘generic space’) plus two input spaces 𝐼₁ and 𝐼₂. Here <em>G</em>,𝐼₁,𝐼₂ and their morphisms <em>G</em>→𝐼₁, <em>G</em>→𝐼₂ make up the ‘input diagram’. Likewise, a blendoid is a space <em>B</em> with morphisms 𝐼₁→<em>B</em>, 𝐼₂→<em>B</em> and <em>G</em>→<em>B</em> called injections. The main thing we want is symmetry, where each element of <em>G</em> gets mapped to the same element of <em>B</em> regardless of whether we choose <em>G</em>→𝐼₁→<em>B</em>, <em>G</em>→𝐼₂→<em>B</em>, or <em>G</em>→<em>B</em>, i.e. the diagram commutes.</p>
-<p>In English: 𝐼₁ and 𝐼₂ are two things being compared, <em>G</em> is what they have in common, and a blend <em>B</em> should be consistent no matter what ‘side’ you come from. The intuition behind pushouts is that “nothing can be added to or subtracted from such an optimal blendoid without violating consistency or simplicity in some way” (2004: 13). This is mostly abstract nonsense, so let’s do an example.</p>
-<center>
-<img src="../static/img/blog-posts/houseboat.png" />
-</center>
-<p>Here we see a structural blend for the term ‘houseboat’, or a boat that is used as a house. The left circle is ‘house’ (𝐼₁), the right circle is ‘boat’ (𝐼₂). The bottom circle is their common elements (<em>G</em>), namely that they include a person, and are on a certain medium. If you check 𝐼₁ or 𝐼₂, each gives specifics for its input. And of course, at the top we have the blend ‘houseboat’ (<em>B</em>). Note that for the object, person, and their relation, <em>B</em> combines from both inputs; yet, for the medium we only have ‘water’ — which is fine, because we only need weak equality, where each element maps to another.</p>
-<p>Still, we can imagine other possible mappings, like ‘boathouse’ (a shelter for a boat). Goguen actually had to create a new categorical concept for this (‘3/2-pushouts’), since the output is not unique. Still, ideally we’d like to have rules so that a computer can tell which blends make sense and which don’t.</p>
-<p>Hence, Goguen &amp; Harrell (2005b) wrote a computer program to generate all possible blends for this example. To their surprise, there’s actually a lot — namely 2<sup><small>A</small></sup>P, where <em>A</em> is the number of axioms, and <em>P</em> is the number of primary blendoids. As far as I can tell, A=4 and P=3, giving 48 possible blendoids.</p>
-<p>To narrow these down, they looked for optimality principles. The main challenge is that to automate these, they need to be fully formal, based on structure ather than meaning. Goguen &amp; Harrell (2004: 52-3) ultimately arrived at degrees of commutativity (i.e. how much the arrows are ‘equal’), degree of axiom preservation (i.e. how well blends follow the rules), and amount of type casting for constants (i.e. whether a blendoid has an unnatural type). Overall, they’re satisfied that these principles match our intuition of how much a blend seems ‘boat-like’ or ‘house-like’ (Goguen &amp; Harrell, 2005b: 16).</p>
-<p>This example was very simple, and it turns out we can further generalize from pushouts to colimits. Colimits “capture the notion of ‘putting together’ objects to form larger objects, in a way that takes account of shared substructures” (2005: 62, fn. 14). They give an optimal blend in that “they put some components together, identifying as little as possible, with nothing left over, and with nothing essentially new added” (1999: 279). As before, we weaken these to ‘3/2-colimits’. In short, they’re a powerful tool both to combine meanings and to study the effect of context on meaning (1997: 12).</p>
-<p>On the conceptual end, this formalism lets us think of ‘style’ as a choice of blending principles, and gives us a new language for stylistics. Notably, many artistic works make use of <em>dis</em>optimization principles, creating original ideas by violating our expectations (Goguen &amp; Harrell, 2004: 56). More whimsically, Goguen curated a ‘<a href="https://cseweb.ucsd.edu/~goguen/zoo/">semiotic zoo</a>’ of bad design choices illustrating semiotic principles. (Unfortunately they’re all extremely ’90s.) While these examples are evocative, we don’t quite have a general theory — at least not until we extend our formalism to encompass sign-dynamics.</p>
-<h3 id="hidden-algebra">Hidden Algebra</h3>
-<p>The math of algebraic semiotics is closely related to formal verification, or proving that software is bug-free. One problem with this is that most code is written in a rush to meet deadlines, often with last-minute design changes, and just isn’t worth the trouble of verifying. Sometimes we only want to know a design works (e.g. a cryptographic protocol) and leave the code up to the user. This is called formal specification, where we prove properties of <em>designs</em>, as opposed to code (1997: 10).</p>
-<p>In a static design, we want to know the different parts and what they do, which is like an algebra with elements and operations. However, in dynamic designs an operator often depends on a <em>state</em> that changes over time. A nice example is <code>undo</code>, which goes back to the state before the last command, so the computer needs to have the last state on record, to access it if needed (1999: 272).</p>
-<p>The motivation for hidden algebra was to formalize object-oriented software (Goguen &amp; Malcolm, 2000: 56), in which ‘objects’ have various attributes put together (e.g. a person’s name and height), visible to other objects. Each object also has a ‘hidden’ internal state that other objects can modify through methods (functions). Thus we have a division between attributes that stay the same, and states that can change. Hidden algebra is all about handling both of these at once.</p>
-<p>While visible attributes are easy to handle with algebra, we can only find out a state by performing an experiment on it. This leads naturally to the idea that two designs are ‘equivalent’ if they behave the same in all relevant experiments (Goguen &amp; Lin, 2000: 28). For example, practical software often doesn’t follow its specification exactly, so we may want to prove whether this makes any difference (1997: 10). Likewise, this can help if want to simplify a UI design without losing functionality.</p>
-<p>Classical semiotics takes signs as given, but in UI design we need to think about signs that change in response to user input, or that move on their own (2004: 22). Likewise, real-world sign systems are dynamic: words change their meaning, new words are introduced, old words disappear, and even syntax changes (1999: 272). It’s common to bash structuralism for being static, but without a formalism to explicitly express changing states, ‘post-structuralist’ semiotics is no better.</p>
-<p>This form of analysis for behaviours of hidden states is called coalgebra, a ‘dual’ to normal algebra. Even ignoring the technical details, Goguen makes a strong case that any dynamic semiotics must be coalgebraic, and hidden algebra’s strength comes precisely from combining algebra with coalgebra.</p>
-<p>The most elaborate application so far has been Triantafyllou et al. (2014) using algebraic semiotics to measure quality of video annotations. Goguen envisioned a form of algebraic engineering for sign-systems (Goguen &amp; Malcolm, 1999: 164), and made impressive progress in laying its foundations. Still, for this to actually catch on, it should bring not only new formalisms, but also radical new ideas.</p>
-<h3 id="polymorphic-poetics">Polymorphic Poetics</h3>
-<p>Polypoems use algebraic semiotics in a generative way to create interactive artworks. Goguen was especially interested in computational narratology, so the term isn’t limited to poetry by any means. One more poetic example is “<a href="https://cseweb.ucsd.edu/~goguen/projs/haibun05.html">November Qualia</a>”, which is essentially a poem built from randomized phrases, much like Queneau’s <em>Hundred Thousand Billion Poems</em>. Other proposed applications include computer games that generate a plot as they are played (Goguen &amp; Harrell, 2004: 49), computer-generated hip-hop (Goguen &amp; Harrell, 2005b: 23), and various elaborate multimedia projects that — probably for the better — never materialized (Mamakos &amp; Stefaneas, 2013).</p>
-<p>Conversely, polymorphic poetics is the use of algebraic semiotics as an analytical method, describing how choices of semiotic morphisms affect the expression of a work (Harrell, 2013: 150). In UI design, it “uses morphic semiotics to help describe how meaning ‘gets into’ computing systems” (ibid., 117). Proposed applications include designing new media such as VR whose rules are not well-known, increasing usability of hardware, and supporting non-standard users such as people with disabilities (2004: 1-2). For the semiotically-inclined reader, this is probably the most compelling idea so far, but it was little developed before Goguen’s unexpected death from illness in 2016.</p>
-<p>Some hints are there about what polymorphic poetics might have looked like if better theorized. Sadly, it’s clear that Goguen never engaged with semiotics at a graduate level. His general idea of Peirce was that he had a triadic system of signifier, signified, and an interpretant that links these two. He sees Saussure as having a more dyadic system of signifier vs. signified, but his major insight is that signs occur in sign-systems (1999: 244-5). Goguen frames his approach as similar to Peirce, whose semiotic triangle is ‘relational’, as opposed to the ‘functional’ view of Saussure (2003: 7).</p>
-<p>An evocative illustration of the potential for algebraic semiotics is the idea that art functions through non-preservation of structure and violation of axioms (Harrell, 2004: 148). With a large enough corpus, we can imagine establishing ‘meta-rules’ of when a violation is acceptable — and these, perhaps, get violated in turn. Note, however, that algebraic semiotics is less a school of thought on its own, and more a tool to formalize diverse readings, ensuring consistency and revealing structure.</p>
-<p>In a fascinating paper, Goguen &amp; Borgo (2005) model free-jazz performances as nonlinear dynamical systems, where improvisation enacts the complex dynamics of musical phase space. Chiriţă &amp; Fiadiero (2016) framed this through the lens of algebraic semiotics, creating a logic for free jazz that can be used to evaluate how it meets listeners’ expectations, find which music fragments are hardly reachable, and predict how an improvisation will evolve. This is by far the most impressive extension of algebraic semiotics thus far, and shows the deep richness that formal methods can bring.</p>
-<p>A truly scientific theory of signs would have vast consequences for every field. For Goguen (2005), the ultimate scope of his project was a ‘unified concept theory’ using his theory of institutions to raise algebraic semiotics into a rigorous theory of knowledge representation, superseding formal concept analysis. These claims sound grandiose to the point of being crankish, but by now I hope the reader has seen that Goguen was perhaps the single person who could realistically deliver on this.</p>
-<h3 id="conclusion">Conclusion</h3>
-<p>It’s clear that the tools are in place for a formal science of signs. Goguen’s algebraic semiotics was developed with working examples implemented in OBJ code. The main barrier has simply been that experts in semiotics have ever even heard of ideas like colimits or universal algebra. Again, all of this is realizable right now — all that’s missing is someone willing to do the dirty work.</p>
-<p>Radical ideas like ‘cognitive ergonomics’ are often tossed around for selling snake oil, but Goguen opens up the tantalizing thought that foundations for this could truly exist. We can speculate on an algebraic semiotics software added to design workflows like a debugger, optimizing user experience and potentially avoiding disastrous design flaws. We can imagine a semiotic branch of numerous sciences, such as computational biosemiotics giving us algebraic models of animal communication.</p>
-<p>Overwhelmingly, semiotics is used as an academic acrolect to ensure that people can ‘talk the talk’, as well as dressing up insipid research to sound radical and profound. It’s time for semiotics to finally live up to its potential, as the kind of unified theory that gives post-structuralists nightmares.</p>
-<hr />
-<h3 id="references"><br />
-References</h3>
-<ul>
-<li>Chiriţă, C. &amp; Fiadiero, J. (<a href="http://www.computationalcreativity.net/iccc2016/wp-content/uploads/2016/06/75_Free-Jazz-in-the-Land-of-Algebraic-Improvisation.pdf">2016</a>). “Free Jazz in the Land of Algebraic Improvisation.” Proceedings of the Seventh International Conference on Computational Creativity, pp. 322-9</li>
-<li>Goguen, J. (<a href="https://cseweb.ucsd.edu/~goguen/pps/tcs97.pdf">1997</a>). “Tossing Algebraic Flowers Down the Great Divide.” University of California, San Diego.</li>
-<li>Goguen, J. (<a href="https://cseweb.ucsd.edu/~goguen/pps/as.pdf">1999</a>). “An Introduction to Algebraic Semiotics, with Application to User Interface Design,” in Nehaniv, C. (Ed.). (1999). <em>Computation for Metaphors, Analogy, and Agents</em>. Heidelberg: Springer, pp. 242-91</li>
-<li>Goguen, J. (<a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.9425&amp;rep=rep1&amp;type=pdf">2001</a>). “Towards a Design Theory for Virtual Worlds; Algebraic semiotics, with information visualization as a case study.” Proceedings, Virtual Worlds and Simulation, Society for Modelling and Simulation, San Diego, CA, pp. 298-303</li>
-<li>Goguen, J. (<a href="https://cseweb.ucsd.edu/~goguen/pps/uid.pdf">2003</a>). “Semiotic morphisms, representations, and blending for interface design,” in Nijholt, A., Scollo, G. &amp; Mönnich, U. (Eds.) (2003). Proceedings of the AMAST Workshop on Algebraic Methods in Language Processing. AMAST Press, pp. 1-15</li>
-<li>Goguen, J. (<a href="https://cseweb.ucsd.edu/~goguen/pps/4mari.pdf">2004</a>). “Steps towards a Design Theory for Virtual Worlds.” Working Paper.</li>
-<li>Goguen, J. (<a href="https://cseweb.ucsd.edu/~goguen/pps/iccs05.pdf">2005</a>). “What is a Concept?” in Dau, F., Mugnier, M. &amp; Stumme, G. (Eds.). (2005). <em>Conceptual Structures: Common Semantics for Sharing Knowledge</em>. Proceedings of 13th International Conference on Conceptual Structures. Heidelberg: Springer, pp. 52-77</li>
-<li>Goguen, J. &amp; Borgo, D. (<a href="https://www.academia.edu/1337717/Rivers_of_Consciousness_The_Nonlinear_Dynamics_of_Free_Jazz">2005</a>). “Rivers of Consciousness: The Nonlinear Dynamics of Free Jazz,” in Fisher, L. (Ed.). <em>Jazz Research Proceedings Yearbook</em>, vol. 25. Kansas: IAJE Publications, pp. 46-58</li>
-<li>Goguen, J. &amp; Harrell, D. (<a href="http://groups.csail.mit.edu/icelab/sites/default/files/pdf/style04.pdf">2004</a>). “Style as a Choice of Blending Principles,” in Argamon, S., Dubnov, S. &amp; Jupp, J. (Eds.). (2004). <em>Style and Meaning in Language, Art Music and Design</em>. Menlo Park: AAAI Press, pp. 49-56</li>
-<li>Goguen, J. &amp; Harrell, D. (<a href="https://cseweb.ucsd.edu/~goguen/pps/vri2.pdf">2005</a>a). “Information visualisation and semiotic morphisms.” <em>Studies in Multidisciplinarity</em> 2, pp. 83-97</li>
-<li>Goguen, J. &amp; Harrell, D. (<a href="https://cseweb.ucsd.edu/~goguen/pps/narr.pdf">2005</a>b). “Foundations for active multimedia narrative: Semiotic spaces and structural blending.” Working Paper.</li>
-<li>Goguen, J. &amp; Lin, K. (<a href="https://www.researchgate.net/publication/3885017_Web-based_multimedia_support_for_distributed_cooperative_software_engineering">2000</a>). “Web-based multimedia support for distributed cooperative software engineering.” Proceedings of the 2000 International Conference on Microelectronic Systems Education.</li>
-<li>Goguen, J. &amp; Malcolm, G. (<a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.3.3537&amp;rep=rep1&amp;type=pdf">1999</a>). “Signs and Representations: Semiotics for User Interface Design,” in Paton, R. &amp; Neilson, I. (1999). Visual Representations and Interpretations. Heidelberg: Springer, pp. 163-72</li>
-<li>Goguen, J. &amp; Malcolm, G. (<a href="https://fldit-www.cs.uni-dortmund.de/~peter/GogMalc.pdf">2000</a>). “A Hidden Agenda.” <em>Theoretical Computer Science</em> 245, pp. 55-101</li>
-<li>Harrell, D. (2013). <em>Phantasmal Media: An Approach to Imagination, Computation, and Expression</em>. Cambridge, MA: MIT Press, ch. 4: “Polymorphic Poetics”</li>
-<li>Mamakos, C. &amp; Stefaneas, P. (<a href="https://s3-eu-west-1.amazonaws.com/mamakos-resources/pdf/ISIS+Congress+Paper+Mamakos+%26+Stefaneas+-+final.pdf">2013</a>). “Polytropos Project: A Mechanism for New Media.” <em>Symmetry: Art and Science</em> 1-4. pp. 230-5</li>
-<li>Triantafyllou, N., Ksystra, K., Stefaneas, P., Kalampakas, A. (<a href="https://www.researchgate.net/publication/276935965_Towards_Formal_Representation_and_Comparison_of_Video_Content_Using_Algebraic_Semiotics">2014</a>). “Towards Formal Represent-ation and Comparison of Video Content Using Algebraic Semiotics.” Proceedings of the 9th International Workshop on Semantic and Social Media Adaptation and Personalization, pp. 48-53</li>
-</ul>
-<hr />
-<ul>
-</ul>
-</div>
-</div>
-</div>
-</article>
-<hr />
-</div>
-<div id="footer">
-
-</div>
-<!-- Footer -->
-<footer>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<ul>
-<li><a href="https://gjoncas.github.io/rss.xml" id="clickme" class="reload"><span class="fa-stack fa-lg"> <em></em> <em></em> </span></a></li>
-<li><a href="https://twitter.com/gjncs" id="clickme" class="reload"><span class="fa-stack fa-lg"> <em></em> <em></em> </span></a></li>
-<li><a href="https://github.com/gjoncas"><span class="fa-stack fa-lg"> <em></em> <em></em> <em></em> </span></a></li>
-<li><a href="https://instagram.com/tesseractics"><span class="fa-stack fa-lg"> <em></em> <em></em> <em></em> </span></a></li>
-</ul>
-<p>All text � Graham Joncas (<a href="https://creativecommons.org/licenses/by/2.5/ca/">CC BY</a>).<br />
-<br />
-</p>
-<div class="col-md-12">
-<p>site: <a href="https://jaspervdj.be/hakyll">hakyll</a> | theme: <a href="https://github.com/dindi-jekyll/CleanMagicMedium-Jekyll">lg</a> | code: <a href="https://github.com/katychuang/CleanMagic-hakyll">kc</a></p>
-</div>
-</div>
-</div>
-</div>
-</footer>
-<!-- jQuery -->
-<script src="https://gjoncas.github.io/static/js/jquery.min.js"></script>
-<script src="https://gjoncas.github.io/static/js/spaceg.stylesheets.min.js"></script>
-<script src="https://gjoncas.github.io/static/js/bootstrap.min.js"></script>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-<script src="https://gjoncas.github.io/static/js/scripts.js"></script>]]></summary>
-</entry>
-<entry>
     <title>Topos-theoretic Social Science</title>
     <link href="http://gjoncas.github.io/posts/2020-12-16-topos-theoretic-social-science.html" />
     <id>http://gjoncas.github.io/posts/2020-12-16-topos-theoretic-social-science.html</id>
@@ -554,243 +287,6 @@ Urbach, P. (1980). “Social Propensities.” <em>British Journal for the Philos
 Zalamea, F. (<a href="https://outernationale.memoryoftheworld.org/Maria%20Voyatzaki/Architectural%20Materialisms_%20Nonhuma%20(6976)/Architectural%20Materialisms_%20Non%20-%20Maria%20Voyatzaki.pdf">2018</a>). “Grothendieck Toposes: Architectural and Plastic Imagination beyond Material Number and Space,” in Voyatzaki, M. (Ed.). (2018). <em>Architectural Materialisms: Nonhuman Creativity</em>. Edinburgh: Edinburgh University Press, pp. 251-66
 </li>
 </ul>]]></summary>
-</entry>
-<entry>
-    <title>2020-12-16-topos-theoretic-social-science</title>
-    <link href="http://gjoncas.github.io/posts/2020-12-16-topos-theoretic-social-science.html" />
-    <id>http://gjoncas.github.io/posts/2020-12-16-topos-theoretic-social-science.html</id>
-    <published>2020-12-16T00:00:00Z</published>
-    <updated>2020-12-16T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<!--<div id="preloader">
-        <div id="status">
-
-        </div>
-    </div>--> <!-- Navigation --> <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-<div class="container-fluid">
-<!-- Brand and toggle get grouped for better mobile display -->
-<div class="navbar-header page-scroll">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-</button>
-<a href="https://gjoncas.github.io" id="blog-title-left-top" class="navbar-brand"><span style="color:gray"><span style="font-family:candara;">oneironomics</span></span></a>
-</div>
-<!-- Collect the nav links, forms, and other content for toggling -->
-<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-<ul>
-<li><a href="#portfolioModal2"><em></em></a>
-<ul>
-</ul></li>
-<li><!-- <a href="https://instagram.com/tesseractics/" target="_blank"><i class="fa fa-instagram" id="icon-top"></i></a>--></li>
-<li><!-- <a href="https://linkedin.com/in/graham-joncas/" target="_blank"><i class="fa fa-linkedin" id="icon-top"></i></a>--></li>
-<li><a href="https://gjoncas.github.io/About.html">About</a></li>
-<li><a href="https://gjoncas.github.io/Research.html">Research</a></li>
-<li><a href="https://gjoncas.github.io/Projects.html">Projects</a></li>
-<li><a href="https://gjoncas.github.io/blog.html">Blog</a></li>
-<li><a href="https://www.twitter.com/gjncs" id="roundbutton"><em></em>gjncs</a></li>
-</ul>
-</div>
-<!-- /.navbar-collapse -->
-</div>
-<!-- /.container --> </nav> <!-- Portfolio Modals -->
-<div id="portfolioModal1" class="portfolio-modal modal fade" tabindex="-1" data-role="dialog" data-aria-hidden="true" style="padding-right:0px; overflow: hidden;">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
-
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="modal-body">
-<h1 id="graham-joncas" class="font-style-inline-small-h1">Graham Joncas</h1>
-<hr />
-<img src="https://github.com/gjoncas/Artsy-Diagrams/raw/master/pics/metatron.png" class="img-responsive img-centered" />
-<p>I live in Canada, and do research on computational economics and formal philosophy.<br />
-This is my personal website and blog. The best way to contact me is via <a href="https://www.twitter.com/gjncs">Twitter</a>.<br />
-<a href="https://www.github.com/gjoncas"><em></em></a> <a href="https://www.twitter.com/gjncs"><em></em></a> <a href="https://www.instagram.com/tesseractics"><em></em></a> <a href="https://www.linkedin.com/in/graham-joncas"><em></em></a></p>
-<button type="button" class="btn btn-default" data-dismiss="modal">
-<em></em> Close
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Menu Modals Add New Sa.21.Feb.2015 03:22:25 -->
-<div id="portfolioModal2" class="portfolio-modal modal fade" tabindex="-1" data-role="dialog" data-aria-hidden="true" style="padding-right:0px; overflow: hidden;">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
-
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="modal-body">
-<h1 id="oneironomics" class="font-style-inline-small-h1">oneironomics</h1>
-<hr />
-<p class="font-style-inline-small">
-Computational economics<br />
-Conceptual engineering<br />
-Surrationalism<br />
-<a href="https://www.github.com/gjoncas"><em></em></a> <a href="https://www.twitter.com/gjncs"><em></em></a> <a href="https://www.instagram.com/tesseractics"><em></em></a> <a href="https://www.linkedin.com/in/graham-joncas"><em></em></a>
-<li>
-<a href="https://gjoncas.github.io/">Home</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/Research.html">Research</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/Projects.html">Projects</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/blog.html">Blog</a>
-</li>
-</p>
-<button type="button" class="btn btn-default" data-dismiss="modal">
-<em></em> Close
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="content" data-align="justify">
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('https://gjoncas.github.io/static/img/tasvicze.jpg')" alt title>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<div class="post-heading">
-<h1 id="topos-theoretic-social-science"><span style="color:white">Topos-theoretic Social Science</span></h1>
-<h2 id="david-sallach-on-social-type-theory" class="subheading">David Sallach on Social Type Theory</h2>
-<span class="meta" style="color:white"> December 16, 2020 </span>
-</div>
-</div>
-</div>
-</div>
-</header>
-<!-- Post Content -->
-<article>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" data-align="justify">
-<p>David Sallach is a mathematical sociologist at Argonne National Laboratory, and senior fellow at the University of Chicago’s Computation Institute. Over the past decade he has researched category theory as a foundation for computational social science, with topos theory as his main framework.</p>
-<p>In philosophy circles, topos theory is best known as the machinery behind Badiou’s <em>Logics of Worlds</em>. It is often brought up by Zalamea, who outlines how the closely-related sheaf theory opens up novel relations between local and global that philosophy should take up in turn. Yet, due to the obvious barriers to entry, most attempts at this have just been exercises in hand-waving.</p>
-<p>This post aims to give a general overview of Sallach’s research project, from the preliminary concepts it started with, onward to the process of narrowing down among competing frameworks, and finally to the new ideas that topos theory can bring for social analysis. I assure you, I am in no position to talk about these things, but no-one else is going to do it, so what the heck.</p>
-<h3 id="categorical-sociology">Categorical Sociology</h3>
-<p>Sallach comes from a background in computational social science, which at this point is essentially a hodgepodge of agent-based simulations and social network modelling. While it’s possible to make highly practical models, lack of underlying theory makes it very hard to draw general conclusions.</p>
-<p>An obvious reason why category theory suggests itself is its potential to tie together many disparate formalisms currently in use. Culture is a network of networks, where social distinctions create ingroups and outgroups, with an associated core and periphery (2011: 7). The main unit here is discrete agents, but it’s also natural to think of macro-level trends as if they were continuous.</p>
-<p>Curiously, a major part of Sallach’s initial metaphors come from topological quantum field theory. Rather than quantitative metrics, here we are interested in topology change, a far more ‘qualitative’ kind of reasoning, much like how we think of transforming social structures. We want to analyze degrees of freedom as capacities for variation, and how changes propagate through them (2011: 10).</p>
-<p>Similarly, it seldom makes sense to say that two social tendencies are ‘equal’ in a mathematical way, and a major benefit of categories is to allow weaker forms of equality. Objects in a category are specified only ‘up to isomorphism’, where instead of spelling out how two things are the same, they are simply taken as indistinguishable. Further, if two things are equivalent up to isomorphism, these equivalences can likewise be equivalent from the point of view of a higher category, in a “recursive weakening of the notion of uniqueness” (Baez &amp; Dolan, <a href="https://arxiv.org/pdf/math/9802029.pdf">1998</a>), allowing various levels of granularity.</p>
-<p>However, categorical objects tend to be viewed as invariants, of which there are few in the social world — death and taxes excepted. To get around this problem, for Sallach the main objects of categorical social theory are ideal types, never appearing in pure form empirically (2012a: 12).</p>
-<p>Sallach extends this notion of ideal type by drawing from Karl Popper’s propensity interpretation of probability. The paradigmatic example here is rolling a die: we know the odds of getting a given side are 1 in 6, but frequentist probability must justify this through a complex rigmarole of supposing an infinite sequence of dice rolls that would solidify these probabilities. It’s far more cogent to say these probabilities are built into the structure of the die (6 equal sides, etc.). Thus: “Propensity measures the causal pressure exerted by certain conditions toward the realization of certain events” (2011: 11).</p>
-<p>Especially in contexts like quantum theory, we want to talk about the chances of an atom decaying, even though it will decay only once — i.e. single-case statistics. Analogously, we also want to be talk about probability in the case of broad social tendencies whose conditions can never be replicated again. Hence, Urbach (1980) extends the notion of propensity in a direction that Popper himself would have hated, to encompass the holistic forces dealt with in sociology. His key example is Durkheim’s study of suicide, which found a remarkable persistence in suicide rates irrespective of mortality rates, with equally-persisting discontinuities across state and demographic boundaries.</p>
-<p>Because ‘propensity’ is such an underdetermined concept, it applies to vastly different social fields and forces, making it ideal for the level of abstraction in category theory (2012b: 7-8); in fact, a metaphorical inspiration here is quantum spin networks (2011: 11). The next step is to find morphisms <em>g</em>: A ⇒ B, i.e. processes carrying a system from state A to state B (2011: 10). The wealth of categorical abstractions lets us express dynamics subject to local entanglements, as actors’ endogenous behaviour gives rise to emergent structure.</p>
-<p>In sum, the appeal of category theory in social science is to bridge continuous and discrete patterns, and allow ‘calibrated generalization’ of social transformations rather than strict equality (2012b: 2). Most of all it offers a form of recursive locality, giving a unified way to analyze bottom-up emergent effects of aggregated agents, plus top-down structural effects on micro-level decisions (2012b: 6).</p>
-<h3 id="social-homotopy-types">Social Homotopy Types</h3>
-<p>In 2013, some of the greatest mathematicians in the world published a new foundations of mathematics: homotopy type theory. Naturally, this is exciting stuff, which led Sallach into a detour to see how HoTT might bear upon social science. I feel like not much actually came out of this project, but it’s still worth seeing how he went about it.</p>
-<p>Type theory originated in response to a paradox in the foundations of mathematics. Russell’s paradox runs: if a barber shaves everyone who doesn’t shave himself, who shaves the barber? If he does, he doesn’t; if he doesn’t he does. The paradox extends to set theory, at that time the main building block for all mathematics. Russell &amp; Whitehead’s <em>Principia Mathematica</em> used type theory to circumvent it. Imagine a village with a system of castes <strong>1</strong>,<strong>2</strong>,<strong>3</strong>,<strong>4</strong>, where <strong>4</strong> is higher than <strong>3</strong>, <strong>3</strong> than <strong>2</strong>, <strong>2</strong> than <strong>1</strong>. A person may only be shaved by someone of a lower caste (e.g. a <strong>3</strong> by a <strong>2</strong> or <strong>1</strong>). Since there is no self-shaving, there is no paradox (Doxiadis &amp; Papadimitriou, 2009: 174-5).</p>
-<p>In this sense, type theory refutes the claim that “everything is a set” (de Bruijn, 1995: 28). However, until quite recently it was unclear just how the two differ. One property peculiar to types is that “any definable property of objects is invariant” (Awodey, 2014: 7). The solution, it turns out, is to view types as <em>spaces</em>, and examine them with a branch of math that concentrates on spaces: topology.</p>
-<p>Topology is the mathematics of squishing shapes into other shapes. A well-known result is that, squish as you might, a sphere can’t be made into a doughnut without tearing it. That is, there exist invariants to the squishability of shapes. If a shape is only a squish or two away from another shape — that is, there exists a <em>homotopy</em> between the two — the shapes are ‘homotopy equivalent’.</p>
-<p>To put this more formally, if <strong>T</strong> is a topological space, then two elements <em>a</em> and <em>b</em> in <strong>T</strong> are identical if <strong>T</strong> has a continuous path from <em>a</em> to <em>b</em> (Leslie-Hurd &amp; Haworth, 2013: 101). Given functions <em>f</em> and <em>g</em> mapping <strong>T</strong> onto another space <strong>U</strong>, a homotopy morphs one map into another. This means that a homotopy can “cleanly lift the notion of identity from elements <em>a</em> and <em>b</em> to functions <em>f</em> and <em>g</em>” (ibid.).</p>
-<p>HoTT closely corresponds to <em>n</em>-category theory, which uses layers of categories to leverage weak equivalences, thereby incorporating greater complexity (2012a: 14). The appeal of HoTT for social science is the high expressiveness afforded by its higher-order logic, which allows (2014: 2):</p>
-<ol>
-<li>an ability to customize equivalences,</li>
-<li>a means of demarcating discourse boundaries, and</li>
-<li>creation of specialized spaces and shapes to which social processes can be mapped.</li>
-</ol>
-<p>While the notion of isomorphism lets us ignore all the quantitative details of social transfomation, HoTT can talk about this topologically. Identity in HoTT means two objects are the same homotopy type, so their transformations through deformation will be isomorphic; social interaction can thereby be seen as progession along one such path (2014: 6). It also lets us attribute agency to these transformations by means of type constructors: “a social actor can be an elicitor, a role in which one seeks to alter the motive pattern of another, and thus change the other’s social type” (2014: 8).</p>
-<p>One last interesting detail about HoTT is that it can be used as a proof language to formally verify theorems. Thus it lends itself to axiomatic approaches to social science, such as that attempted in Austrian economics. Given social scientists’ well-known inability to agree on even the simplest of terms, the odds seem stacked against such a project. Still, perhaps such a highly abstract language can identify common ground among seemingly incommensurate approaches, such as the following otherworldly axioms (2016a: 8):</p>
-<blockquote>
-<strong>Axiom 4a</strong>. The more directly that the path of a social actor or cultural trend approaches an idealized conceptual pole, the higher is the n-category required to characterize its structure.<br />
-<br />
-<strong>Axiom 5</strong>. The more rapidly a social actor or cultural trend approaches an idealized conceptual pole, the more morphisms it manifests.
-</blockquote>
-<p>Overall, Sallach prefers to use HoTT metaphorically, mapping from qualitative social concepts to mathematical ones. Yet, I’d be far more impressed if he approached it from a quantitative angle, showing how one well-known model in the social sciences topologically morphs into another. Still, given its Rosetta stone-like translation into categories, HoTT may prove to be a powerful tool for implementing categorical social science, by means of tools such as cubical type theory that make HoTT into a computable language. As a language for theorizing, however, topos theory sounds far more promising, as we will see next.</p>
-<h3 id="topos-theoretic-social-science">Topos-theoretic Social Science</h3>
-<p>To give an idea of their mathematical expressiveness, a topos can be defined in 13 different ways, via different mathematical languages (2015: 41, fn. 2). For our purposes, the simplest is that a topos is a category with two additional conditions: it is ‘Cartesian closed’ and it has a subobject classifier (Bhattacharyya, 2012: 16). The first condition is easy to understand if you’ve run into group theory: a cartesian closed category admits a basic algebra whereby objects have products and exponents.</p>
-<p>For the second condition, a subobject classifier provides a category with a logic of wholes and parts. Viewed through the lens of social science, a subobject classifier is a structured way to provide graduated, indexed and/or spectral distinctions within a stable set of values, and lets agents assess how incremental differences affect spaces or structures of interest (2015: 41-2).</p>
-<p>Unlike the humanities where ‘topos’ is an incredibly pretentious word for a theme or topic, a topos in math should be thought of as an extended notion of place (Zalamea, 2018: 255). Topos theory makes space a more primary concept than points, unlike set-theoretic approaches that must spell out space as an aggregate of points (Plotnitsky, 2012: 355). This opens the way for ‘point-free’ topology, with objects defined only through flux processes (Zalamea, 2018: 255). In short, topoi allow an “<em>algebraic</em> concept of space, which applies to conventional spatial objects but extends beyond them” (Plotnitsky, 2012: 355).</p>
-<p>The concept of sheaf becomes important here, where sheaves behave as “global comprehensions…where all local information…become glued together” (Zalamea, 2018: 261). In fact, a topos can be defined as a category of sheaves over an abstract topology (ibid., 254). The clearest definition of sheaf I’ve found is given by Plotnitsky (2012: 362-3):</p>
-<blockquote>
-A sheaf is a particular kind of arrow space, Y ⇒ X, over (projected onto) a given space, X, associating a space A, to each point of X, which is why it is called a ‘sheaf’, a sheaf of spaces over a given space, which can, again, be a single point. By making each topos a whole <em>category</em> of sheaves and thus <em>spaces</em> (plural) over and indeed defining a given space, the concept topos ‘multiplies’ this concept into an immensely rich architecture, again, even if X is a single point.
-</blockquote>
-<p>More concisely, a sheaf is “just two topological spaces related by a projection with a good local behaviour” (Zalamea, 2018: 253). These sheaves can be glued together or restricted to produce processes coupled across levels (Sallach, 2015: 42). Much like relativity theory, sheaves act like reference frames, where each sheaf in a topos has its own local logic (ibid., 44).</p>
-<p>This is the sense in which Badiou draws upon topoi to express ‘logics of worlds’. A topos can encode a logic, such as fuzzy logic where truth values occur along the interval [0,1], or paraconsistent logic “where we can have local contradictions without forcing global contradictions, which would destroy the system” (Zalamea, 2018: 254). Curiously, Badiou leans heavily on this logical interpretation of topoi, while adopting a more spatial perspective allows us to talk about a plurality of possible ontologies, rather than only a plurality of logics (Plotnitsky, 2018: 361). Rather than a universe of sets, we can move to a multiverse of topoi, each with its own dialectic of wholes and parts (Bhattacharyya, 2012: 17).</p>
-<p>In this light, Sallach (2015: 46-7) raises a compelling example of the kind of new insights that topos theory can bring to social science. Since a topos allows local definition of truth, each social actor can have their own private method of attributing truth, which can differ by power relations, ingroup/ outgroup status, or hierarchical scale. Hence, topos theory should make it possible to simulate the aggregate effects of diverse truth-attribution practices among agents. Adding more quantitative machinery, it should even be possible to study statistical distributions of truth-attribution.</p>
-<p>All this sounds promising as a way to formalize social theories that are currently only expressed in a qualitative way. The baby examples that Sallach provides aren’t quite enough to sway a skeptic, but I hope to have shown that the overall idea is sound. Topos theory opens up new questions of elasticity versus rigidity of social transformations, or continuity versus separation of societal fields, and offers “a dynamical study of dynamics” (Zalamea, 2018: 254) with the immense power of abstraction that social theory needs.</p>
-<h3 id="conclusion">Conclusion</h3>
-<p>Sallach has been radio-silent since about 2016 — which could mean he’s working on a treatise that will revolutionize social science, or that he’s retired. I’m always excited to hear about new types of math being applied in social science, and am confident that such a powerful formalism can generate radical new ideas. It just hasn’t yet. While I’m not in a position to give substantive criticism, Sallach’s project clearly suffers a lot from a lack of collaboration with mathematicians, as well as his desire to reconstruct social theory from scratch rather than work with what’s already there.</p>
-<p>While topos-theoretic social science still lacks any killer applications, it could just be that the idea is too far ahead of its time. A recent book by Schultz &amp; Spivak (<a href="https://arxiv.org/pdf/1710.10258">2019</a>) uses topos theory to develop a ‘temporal type theory’ that can analyze and compare systems with both continuous dynamics (e.g. differential equations) or discrete dynamics (e.g. jumps). One highly practical application has been to construct a provably correct air traffic control system, and I hope there is much more to come.</p>
-<hr />
-<h3 id="references"><br />
-References</h3>
-<ul>
-<li>Awodey, S. (<a href="https://www.andrew.cmu.edu/user/awodey/preprints/siu.pdf">2014</a>). “Structuralism, Invariance, and Univalence.” <em>Philosophia Mathematica</em> 22(1), pp. 1-11</li>
-<li>Bhattacharyya, A. (<a href="https://bat020.files.wordpress.com/2014/03/setcat.pdf">2012</a>). “Sets, Categories and Topoi: approaches to ontology in Badiou’s later work.” Working Paper.</li>
-<li>de Bruijn, N. (<a href="http://alexandria.tue.nl/repository/freearticles/597627.pdf">2005</a>). “On the roles of types in mathematics,” in de Groote, P. (Ed.). <em>The Curry-Howard isomorphism</em>. Academia-Bruyland: Université Catholique de Louvain, pp. 27-54</li>
-<li>Doxiadis, A. &amp; Papadimitriou, P. (2009). <em>Logicomix</em>. New York: Bloomsbury.</li>
-<li>Leslie-Hurd, J. &amp; Haworth, G. (<a href="http://centaur.reading.ac.uk/33158/1/HoTT.pdf">2013</a>). “Computer Theorem Proving and HoTT.” <em>ICGA Journal</em> 36(2). pp. 100-103</li>
-<li>Plotnitsky, A. (<a href="https://web.ics.purdue.edu/~plotnits/PDFs/ap%20exp%20with%20ontologies.pdf">2012</a>). “Experimenting with ontologies: sets, spaces, and topoi with Badiou and Grothendieck.” <em>Environment and Planning D: Society and Space</em> 30, pp. 351-68</li>
-<li>Sallach, D. (<a href="http://www.mat.uc.pt/~ct2011/talks/Sallach.pdf">2011</a>). “Categorial Social Analysis.” Paper presented at the International Category Theory Conference, Vancouver.</li>
-<li>Sallach, D. (<a href="https://www.researchgate.net/publication/275584554_Categorical_Social_Science_Theory_Methodology_and_Design">2012a</a>). “Categorical Social Science: Theory, Methodology &amp; Design.” Working Paper.</li>
-<li>Sallach, D. (<a href="https://www.researchgate.net/publication/276206642_Social_Coordination_Toward_a_Category-Theoretical_Synthesis">2012b</a>). “Social Coordination: Toward a Category-Theoretical Synthesis.” Proceedings of the World Congress on Social Simulation, Taipei.</li>
-<li>Sallach, D. (<a href="http://www2.econ.iastate.edu/tesfatsi/Sallach2013RecogLogicSocialConflictTopos.AESCS.pdf">2013</a>). “Recognition-Based Logic and Social Conflict: Toward a Topos Model.” 8th International Workshop on Agent-based Approach in Economic and Social Complex Systems.</li>
-<li>Sallach, D. (<a href="https://www.researchgate.net/publication/276206925_Theoretical_Mathematics_and_Endogenous_Social_Models">2014</a>). “Theoretical Mathematics and Endogenous Social Models.” Working Paper.</li>
-<li>Sallach, D. (<a href="https://link.springer.com/chapter/10.1007/978-4-431-55236-9_4">2015</a>). “Topos Modeling of Social Conflict: Theory and Methods,” in Nakai, Y., Koyama, Y. &amp; Terano, T. (2015). <em>Agent-Based Approaches in Economic and Social Complex Systems VIII</em>. Heidelberg: Springer, pp. 39-51</li>
-<li>Sallach, D. (<a href="https://apps.dtic.mil/dtic/tr/fulltext/u2/1025131.pdf">2016a</a>). “Homotopy Types and Social Theory: Theoretical Foundations of Strategic Dynamics.” Defense Technical Information Center, Technical Report AD1025131.</li>
-<li>Sallach, D. (<a href="https://www.researchgate.net/publication/276207807_Universal_Constraints_on_Social_Order_A_Formal_Foundation">2016b</a>). “Universal Constraints on Social Order: A Formal Foundation.” Working Paper.</li>
-<li>Urbach, P. (1980). “Social Propensities.” <em>British Journal for the Philosophy of Science</em> 31(4), pp. 317-28</li>
-<li>Zalamea, F. (<a href="https://outernationale.memoryoftheworld.org/Maria%20Voyatzaki/Architectural%20Materialisms_%20Nonhuma%20(6976)/Architectural%20Materialisms_%20Non%20-%20Maria%20Voyatzaki.pdf">2018</a>). “Grothendieck Toposes: Architectural and Plastic Imagination beyond Material Number and Space,” in Voyatzaki, M. (Ed.). (2018). <em>Architectural Materialisms: Nonhuman Creativity</em>. Edinburgh: Edinburgh University Press, pp. 251-66</li>
-</ul>
-<hr />
-<ul>
-</ul>
-</div>
-</div>
-</div>
-</article>
-<hr />
-</div>
-<div id="footer">
-
-</div>
-<!-- Footer -->
-<footer>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<ul>
-<li><a href="https://gjoncas.github.io/rss.xml" id="clickme" class="reload"><span class="fa-stack fa-lg"> <em></em> <em></em> </span></a></li>
-<li><a href="https://twitter.com/gjncs" id="clickme" class="reload"><span class="fa-stack fa-lg"> <em></em> <em></em> </span></a></li>
-<li><a href="https://github.com/gjoncas"><span class="fa-stack fa-lg"> <em></em> <em></em> <em></em> </span></a></li>
-<li><a href="https://instagram.com/tesseractics"><span class="fa-stack fa-lg"> <em></em> <em></em> <em></em> </span></a></li>
-</ul>
-<p>All text � Graham Joncas (<a href="https://creativecommons.org/licenses/by/2.5/ca/">CC BY</a>).<br />
-<br />
-</p>
-<div class="col-md-12">
-<p>site: <a href="https://jaspervdj.be/hakyll">hakyll</a> | theme: <a href="https://github.com/dindi-jekyll/CleanMagicMedium-Jekyll">lg</a> | code: <a href="https://github.com/katychuang/CleanMagic-hakyll">kc</a></p>
-</div>
-</div>
-</div>
-</div>
-</footer>
-<!-- jQuery -->
-<script src="https://gjoncas.github.io/static/js/jquery.min.js"></script>
-<script src="https://gjoncas.github.io/static/js/spaceg.stylesheets.min.js"></script>
-<script src="https://gjoncas.github.io/static/js/bootstrap.min.js"></script>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-<script src="https://gjoncas.github.io/static/js/scripts.js"></script>]]></summary>
 </entry>
 <entry>
     <title>Experimental Qwernomics</title>
@@ -937,321 +433,6 @@ Le, V. (<a href="https://bridges.monash.edu/articles/One_Two_Many_On_Nick_Land_s
 Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebowit/keys1.html">1990</a>). “The Fable of the Keys.” <em>Journal of Law &amp; Economics</em> 33, pp. 1-25
 </li>
 </ul>]]></summary>
-</entry>
-<entry>
-    <title>2020-07-08-experimental-qwernomics</title>
-    <link href="http://gjoncas.github.io/posts/2020-07-08-experimental-qwernomics.html" />
-    <id>http://gjoncas.github.io/posts/2020-07-08-experimental-qwernomics.html</id>
-    <published>2020-07-08T00:00:00Z</published>
-    <updated>2020-07-08T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<!--<div id="preloader">
-        <div id="status">
-
-        </div>
-    </div>--> <!-- Navigation --> <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-<div class="container-fluid">
-<!-- Brand and toggle get grouped for better mobile display -->
-<div class="navbar-header page-scroll">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-</button>
-<a href="https://gjoncas.github.io" id="blog-title-left-top" class="navbar-brand"><span style="color:gray"><span style="font-family:candara;">oneironomics</span></span></a>
-</div>
-<!-- Collect the nav links, forms, and other content for toggling -->
-<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-<ul>
-<li><a href="#portfolioModal2"><em></em></a>
-<ul>
-</ul></li>
-<li><!-- <a href="https://instagram.com/tesseractics/" target="_blank"><i class="fa fa-instagram" id="icon-top"></i></a>--></li>
-<li><!-- <a href="https://linkedin.com/in/graham-joncas/" target="_blank"><i class="fa fa-linkedin" id="icon-top"></i></a>--></li>
-<li><a href="https://gjoncas.github.io/About.html">About</a></li>
-<li><a href="https://gjoncas.github.io/Research.html">Research</a></li>
-<li><a href="https://gjoncas.github.io/Projects.html">Projects</a></li>
-<li><a href="https://gjoncas.github.io/blog.html">Blog</a></li>
-<li><a href="https://www.twitter.com/gjncs" id="roundbutton"><em></em>gjncs</a></li>
-</ul>
-</div>
-<!-- /.navbar-collapse -->
-</div>
-<!-- /.container --> </nav> <!-- Portfolio Modals -->
-<div id="portfolioModal1" class="portfolio-modal modal fade" tabindex="-1" data-role="dialog" data-aria-hidden="true" style="padding-right:0px; overflow: hidden;">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
-
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="modal-body">
-<h1 id="graham-joncas" class="font-style-inline-small-h1">Graham Joncas</h1>
-<hr />
-<img src="https://github.com/gjoncas/Artsy-Diagrams/raw/master/pics/metatron.png" class="img-responsive img-centered" />
-<p>I live in Canada, and do research on computational economics and formal philosophy.<br />
-This is my personal website and blog. The best way to contact me is via <a href="https://www.twitter.com/gjncs">Twitter</a>.<br />
-<a href="https://www.github.com/gjoncas"><em></em></a> <a href="https://www.twitter.com/gjncs"><em></em></a> <a href="https://www.instagram.com/tesseractics"><em></em></a> <a href="https://www.linkedin.com/in/graham-joncas"><em></em></a></p>
-<button type="button" class="btn btn-default" data-dismiss="modal">
-<em></em> Close
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Menu Modals Add New Sa.21.Feb.2015 03:22:25 -->
-<div id="portfolioModal2" class="portfolio-modal modal fade" tabindex="-1" data-role="dialog" data-aria-hidden="true" style="padding-right:0px; overflow: hidden;">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
-
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="modal-body">
-<h1 id="oneironomics" class="font-style-inline-small-h1">oneironomics</h1>
-<hr />
-<p class="font-style-inline-small">
-Computational economics<br />
-Conceptual engineering<br />
-Surrationalism<br />
-<a href="https://www.github.com/gjoncas"><em></em></a> <a href="https://www.twitter.com/gjncs"><em></em></a> <a href="https://www.instagram.com/tesseractics"><em></em></a> <a href="https://www.linkedin.com/in/graham-joncas"><em></em></a>
-<li>
-<a href="https://gjoncas.github.io/">Home</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/Research.html">Research</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/Projects.html">Projects</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/blog.html">Blog</a>
-</li>
-</p>
-<button type="button" class="btn btn-default" data-dismiss="modal">
-<em></em> Close
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="content" data-align="justify">
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('https://gjoncas.github.io/static/img/tasvicze.jpg')" alt title>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<div class="post-heading">
-<h1 id="experimental-qwernomics"><span style="color:white">Experimental Qwernomics</span></h1>
-<h2 id="trans-semiotic-algebra" class="subheading">Trans-Semiotic Algebra</h2>
-<span class="meta" style="color:white"> July 8, 2020 </span>
-</div>
-</div>
-</div>
-</div>
-</header>
-<!-- Post Content -->
-<article>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" data-align="justify">
-<p>It’s a part of popular myth that the Qwerty keyboard was designed to keep old-fashioned keys from jamming, and was thus a deliberately worse design that became standard. Based on this metaphor, the object of qwernomics is “the historical, technological, and economic process of ‘lock-in’ through positive feedback”, studying ‘qwerty-worlds’ dominated by suboptimal local maxima (Land, <a href="https://thenewcentre.org/archive/qwernomics-path-dependency-semiotic-fatality">2016</a>).</p>
-<p>Of course, it’s deeply controversial whether this account of Qwerty is true, but this controversy is itself a core part of qwernomics — whether it is possible, within a path-dependent regime, to identify global criteria (such as ergonomics) that let us objectively determine if we are in a suboptimal state.</p>
-<p>What if Qwerty isn’t the exception, but the rule? David (1985: 336) points to various other examples in economic history, and the metaphor ties in nicely with economic accounts of market failure, as well as extending to subject matter such as vestigial structures in evolutionary biology.</p>
-<p>Nick Land’s more recent thoughts try to take the idea even further by reading the keyboard through <a href="https://equivalentexchange.blog/2010/11/29/hjelmslevs-net/">Hjelmslev</a>’s quadripartite semiotics, as a paradigmatic example that can take Deleuze &amp; Guattari’s stratoanalysis from pure theory into a workable discipline. This search for nuance often amounts to a paranoiac cryptoanalysis of the keyboard’s geography, culminating in the ‘extreme qwernomic thesis’ that a future alien civilization could reconstruct all human knowledge from Qwerty alone.</p>
-<p>My own interest in qwernomics stems from the idea of computationally simulating a sign-system (cf. <a href="https://gjoncas.github.io/posts/2019-12-08-tulpalgorithms.html">egregorics</a>). In this view, qwernomics gives a self-contained semiosis we can understand in detail. Below I’ll elaborate on this using a program to translate from Qwerty to Dvorak, revealing overlaps and invariances. Then we can examine this translation process itself through iteration, to locate even further structure. Last, I’ll explore qwernomics more deeply, and suggest further avenues to explore.</p>
-<h3 id="semiotic-fixpoints">Semiotic Fixpoints</h3>
-<p>A qwernomic puzzle by <a href="https://twitter.com/cyborg_nomade/status/1157262388879601664">@cyborg_nomade</a>: suppose we transpose the alphabet onto the Qwerty keyboard in order: ‘q’=‘a’, ‘w’=‘b’, and so on; which keystrokes will yield English words on both the Qwerty and alphabetic keyboard? More interesting: are any words the same on both keyboards?</p>
-<p>The latter is actually quite easy to answer — all we have to do is write the letters in a list. Let’s also throw in the Dvorak keyboard to make things interesting.</p>
-<div id="cb1" class="sourceCode">
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1">alpha  <span class="fu">=</span> [<span class="ch">&#39;a&#39;</span><span class="fu">..</span><span class="ch">&#39;z&#39;</span>]</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">qwerty <span class="fu">=</span> [<span class="ch">&#39;q&#39;</span>,<span class="ch">&#39;w&#39;</span>,<span class="ch">&#39;e&#39;</span>,<span class="ch">&#39;r&#39;</span>,<span class="ch">&#39;t&#39;</span>,<span class="ch">&#39;y&#39;</span>,<span class="ch">&#39;u&#39;</span>,<span class="ch">&#39;i&#39;</span>,<span class="ch">&#39;o&#39;</span>,<span class="ch">&#39;p&#39;</span>, </a>
-<a class="sourceLine" id="cb1-3" data-line-number="3">          <span class="ch">&#39;a&#39;</span>,<span class="ch">&#39;s&#39;</span>,<span class="ch">&#39;d&#39;</span>,<span class="ch">&#39;f&#39;</span>,<span class="ch">&#39;g&#39;</span>,<span class="ch">&#39;h&#39;</span>,<span class="ch">&#39;j&#39;</span>,<span class="ch">&#39;k&#39;</span>,<span class="ch">&#39;l&#39;</span>,</a>
-<a class="sourceLine" id="cb1-4" data-line-number="4">          <span class="ch">&#39;z&#39;</span>,<span class="ch">&#39;x&#39;</span>,<span class="ch">&#39;c&#39;</span>,<span class="ch">&#39;v&#39;</span>,<span class="ch">&#39;b&#39;</span>,<span class="ch">&#39;n&#39;</span>,<span class="ch">&#39;m&#39;</span>]</a>
-<a class="sourceLine" id="cb1-5" data-line-number="5">dvorak <span class="fu">=</span> [<span class="ch">&#39;p&#39;</span>,<span class="ch">&#39;y&#39;</span>,<span class="ch">&#39;f&#39;</span>,<span class="ch">&#39;g&#39;</span>,<span class="ch">&#39;c&#39;</span>,<span class="ch">&#39;r&#39;</span>,<span class="ch">&#39;l&#39;</span>,</a>
-<a class="sourceLine" id="cb1-6" data-line-number="6">          <span class="ch">&#39;a&#39;</span>,<span class="ch">&#39;o&#39;</span>,<span class="ch">&#39;e&#39;</span>,<span class="ch">&#39;u&#39;</span>,<span class="ch">&#39;i&#39;</span>,<span class="ch">&#39;d&#39;</span>,<span class="ch">&#39;h&#39;</span>,<span class="ch">&#39;t&#39;</span>,<span class="ch">&#39;n&#39;</span>,<span class="ch">&#39;s&#39;</span>,</a>
-<a class="sourceLine" id="cb1-7" data-line-number="7">          <span class="ch">&#39;q&#39;</span>,<span class="ch">&#39;j&#39;</span>,<span class="ch">&#39;k&#39;</span>,<span class="ch">&#39;x&#39;</span>,<span class="ch">&#39;b&#39;</span>,<span class="ch">&#39;m&#39;</span>,<span class="ch">&#39;w&#39;</span>,<span class="ch">&#39;v&#39;</span>,<span class="ch">&#39;z&#39;</span>]</a></code></pre></div>
-</div>
-<p>If we put all the keys in a single line, we can see just by eyeballing that in Qwerty and Dvorak, the ‘x’, ‘o’, and ‘d’ keys are in the same position. Thus, words such as ‘do’, ‘ox’, ‘odd’, ‘dodo’ and ‘doxx’ are all <em>fixpoints</em>, taking the <em>n</em>th keys in both systems. (Note that these aren’t the same physical keys.)</p>
-<p>We can confirm this by writing a Haskell function to do exactly what we would do in eyeballing, only more thoroughly. Reading from right to left, it takes two lists (e.g. <code>xs</code>=alpha and <code>ys</code>=qwerty), then <code>zip</code> puts them in pairs, like <code>('a','q')</code>. We want to know that the two elements are equal, which is what the lambda function does (<code>\(x,y) -&gt; x==y</code>). Last, <code>filter</code> gives us only the pairs that satisfy that equality, and <code>map fst</code> gives us the first element of each such pair.</p>
-<div id="cb2" class="sourceCode">
-<div class="sourceCode" id="cb2"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb2-1" data-line-number="1">fixpoints xs ys <span class="fu">=</span> map fst <span class="fu">$</span> filter (\(x,y) <span class="ot">-&gt;</span> x<span class="fu">==</span>y) <span class="fu">$</span> zip xs ys</a></code></pre></div>
-</div>
-<p>From this we find that the alphabetic and Dvorak keyboard only have ‘z’ in the same place. Last, <code>alpha</code> and <code>qwerty</code> have no pairs: no words are the same on both keyboards. We can visualize these correspondences as follows, going clockwise from 90°.</p>
-<center>
-<img src="../static/img/blog-posts/keyboard-ring.png" />
-</center>
-<p>For finding ‘revolving pairs’ between alphabetic and Qwerty, <a href="https://twitter.com/eccehetero/status/1157640471335899138">@eccehetero</a> has already done this in Java (<a href="https://pastebin.com/GZGtydeY">code</a>; <a href="https://pastebin.com/aY9pA8Ya">results</a>). Notably, he points out its similarity to cryptography, such as the Caesar cipher. Since alpha-to-Qwerty translation is taken care of, here I’d like to experiment with Qwerty-to-Dvorak.</p>
-<p>To compare whole words, we’ll need a function to convert from one keyboard to another. Note that this requires functions from the Data.List and Data.Maybe libraries.</p>
-<div id="cb3" class="sourceCode">
-<div class="sourceCode" id="cb3"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb3-1" data-line-number="1">convert xs ys []     <span class="fu">=</span> []</a>
-<a class="sourceLine" id="cb3-2" data-line-number="2">convert xs ys (z<span class="fu">:</span>zs) <span class="fu">=</span> (toEnum (fromEnum z <span class="fu">+</span> shift)<span class="ot"> ::</span> <span class="dt">Char</span>) <span class="fu">:</span> convert xs ys zs</a>
-<a class="sourceLine" id="cb3-3" data-line-number="3">                        <span class="kw">where</span> kNums <span class="fu">=</span> zipWith (<span class="fu">-</span>) (map fromEnum ys) (map fromEnum xs)</a>
-<a class="sourceLine" id="cb3-4" data-line-number="4">                              shift <span class="fu">=</span> kNums <span class="fu">!!</span> fromJust (elemIndex z xs)</a></code></pre></div>
-</div>
-<p>Our function <code>convert</code> takes two lists — the one we’re starting from (<code>xs</code>), and the one we want to convert it to (<code>ys</code>). It also takes a string <code>(z:zs)</code>, where <code>z</code> is the head or first letter of that string. The core idea is just to convert letters to numbers (<code>fromEnum</code>), add a ‘shift’ factor, and then convert back to letters (<code>toEnum</code>). We get this shift factor by pairing up letters, converting them to numbers, and subtracting. Then for a given letter <code>z</code> (the <em>n</em>th on the keyboard) we just find the corresponding shift.</p>
-<p>To translate key-wise from Qwerty to Dvorak, we can just use <code>map (convert qwerty dvorak) words</code>, where <code>words</code> is a list of strings. One list of 58K words is available <a href="http://www.mieliestronk.com/corncob_lowercase.txt">here</a>.</p>
-<p>First, however, <code>convert</code> isn’t super-efficient, since we’re reconstructing this list of shift factors over and over again for each letter. To go through an entire dictionary, it’s better to define this list separately and take it as an argument to the function. This is actually really easy, but less general:</p>
-<div id="cb4" class="sourceCode">
-<div class="sourceCode" id="cb4"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb4-1" data-line-number="1">qwertyToDvorak <span class="fu">=</span> zipWith (<span class="fu">-</span>) (map fromEnum dvorak) (map fromEnum qwerty)</a>
-<a class="sourceLine" id="cb4-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb4-3" data-line-number="3">convert&#39; xs shifts []     <span class="fu">=</span> []</a>
-<a class="sourceLine" id="cb4-4" data-line-number="4">convert&#39; xs shifts (z<span class="fu">:</span>zs) <span class="fu">=</span> (toEnum (fromEnum z <span class="fu">+</span> shift)<span class="ot"> ::</span> <span class="dt">Char</span>) <span class="fu">:</span> convert&#39; xs shifts zs</a>
-<a class="sourceLine" id="cb4-5" data-line-number="5">                                     <span class="kw">where</span> shift <span class="fu">=</span> shifts <span class="fu">!!</span> fromJust (elemIndex z xs)</a></code></pre></div>
-</div>
-<p>With this done, the crucial function to use is the following, which converts the words and then filters out those that aren’t in the dictionary.</p>
-<div id="cb5" class="sourceCode">
-<div class="sourceCode" id="cb5"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb5-1" data-line-number="1">filter (\word <span class="ot">-&gt;</span> word <span class="ot">`elem`</span> dictionary) <span class="fu">$</span> map (convert&#39; qwerty qwertyToDvorak) dictionary</a></code></pre></div>
-</div>
-<p>After back-translating the result to Qwerty, we get this list of words, in the format <code>(qwerty,dvorak)</code>:</p>
-<p><code>[(&quot;bid&quot;,&quot;wad&quot;),(&quot;bids&quot;,&quot;wadi&quot;),(&quot;bob&quot;,&quot;wow&quot;),(&quot;boo&quot;,&quot;woo&quot;),(&quot;bop&quot;,&quot;woe&quot;),(&quot;cad&quot;,&quot;bud&quot;),(&quot;car&quot;,&quot;bug&quot;),(&quot;caw&quot;,&quot;buy&quot;),(&quot;cob&quot;,&quot;bow&quot;),(&quot;coo&quot;,&quot;boo&quot;),(&quot;copy&quot;,&quot;boer&quot;),(&quot;cor&quot;,&quot;bog&quot;),(&quot;coup&quot;,&quot;bole&quot;),(&quot;cow&quot;,&quot;boy&quot;),(&quot;cox&quot;,&quot;box&quot;),(&quot;dad&quot;,&quot;dud&quot;),(&quot;did&quot;,&quot;dad&quot;),(&quot;do&quot;,&quot;do&quot;),(&quot;dodo&quot;,&quot;dodo&quot;),(&quot;dog&quot;,&quot;dot&quot;),(&quot;doh&quot;,&quot;don&quot;),(&quot;dopy&quot;,&quot;doer&quot;),(&quot;dor&quot;,&quot;dog&quot;),(&quot;dot&quot;,&quot;doc&quot;),(&quot;ear&quot;,&quot;fug&quot;),(&quot;fag&quot;,&quot;hut&quot;),(&quot;far&quot;,&quot;hug&quot;),(&quot;fig&quot;,&quot;hat&quot;),(&quot;fir&quot;,&quot;hag&quot;),(&quot;fob&quot;,&quot;how&quot;),(&quot;fog&quot;,&quot;hot&quot;),(&quot;food&quot;,&quot;hood&quot;),(&quot;fop&quot;,&quot;hoe&quot;),(&quot;for&quot;,&quot;hog&quot;),(&quot;gaga&quot;,&quot;tutu&quot;),(&quot;gig&quot;,&quot;tat&quot;),(&quot;go&quot;,&quot;to&quot;),(&quot;goo&quot;,&quot;too&quot;),(&quot;ha&quot;,&quot;nu&quot;),(&quot;hag&quot;,&quot;nut&quot;),(&quot;hic&quot;,&quot;nab&quot;),(&quot;ho&quot;,&quot;no&quot;),(&quot;hob&quot;,&quot;now&quot;),(&quot;hod&quot;,&quot;nod&quot;),(&quot;hog&quot;,&quot;not&quot;),(&quot;if&quot;,&quot;ah&quot;),(&quot;irish&quot;,&quot;again&quot;),(&quot;jap&quot;,&quot;sue&quot;),(&quot;job&quot;,&quot;sow&quot;),(&quot;jog&quot;,&quot;sot&quot;),(&quot;lag&quot;,&quot;jut&quot;),(&quot;log&quot;,&quot;jot&quot;),(&quot;low&quot;,&quot;joy&quot;),(&quot;moo&quot;,&quot;zoo&quot;),(&quot;odd&quot;,&quot;odd&quot;),(&quot;of&quot;,&quot;oh&quot;),(&quot;oh&quot;,&quot;on&quot;),(&quot;ox&quot;,&quot;ox&quot;),(&quot;pig&quot;,&quot;eat&quot;),(&quot;pro&quot;,&quot;ego&quot;),(&quot;rag&quot;,&quot;gut&quot;),(&quot;raw&quot;,&quot;guy&quot;),(&quot;rid&quot;,&quot;gad&quot;),(&quot;rocs&quot;,&quot;gobi&quot;),(&quot;rod&quot;,&quot;god&quot;),(&quot;roo&quot;,&quot;goo&quot;),(&quot;soh&quot;,&quot;ion&quot;),(&quot;tag&quot;,&quot;cut&quot;),(&quot;tap&quot;,&quot;cue&quot;),(&quot;tic&quot;,&quot;cab&quot;),(&quot;tog&quot;,&quot;cot&quot;),(&quot;too&quot;,&quot;coo&quot;),(&quot;tow&quot;,&quot;coy&quot;),(&quot;toy&quot;,&quot;cor&quot;),(&quot;yap&quot;,&quot;rue&quot;),(&quot;yogi&quot;,&quot;rota&quot;)]</code></p>
-<p>This gives 76 words out of 58,110, or 0.13%. Note the prevalence of words featuring ‘o’ and ‘d’, our semiotic fixpoints from before. There’s nothing too eldritch, I’m afraid — the longest is irish/again. If anyone feels brave, there’s also a dictionary of 466K words <a href="https://github.com/dwyl/english-words">here</a>, to root out more obscure pairings.</p>
-<p>I’ve put my code in a <a href="https://github.com/gjoncas/Qwernomics">GitHub repository</a>, which includes both 58K-word and 466K-word dictionaries, which can be imported as a module. The code could be improved in a lot of ways — notably, it breaks if it encounters a non-alphabetic character, like an apostrophe. I’d like to come back to it once I’ve learned more about data structures and parallelism, to see if my poor laptop can handle 466K words. The repo also has Ti<em>k</em>Z code for the diagrams in this post, which may be fun to experiment with. The arcs below are inspired by a much prettier version by <a href="http://www.xenosystems.net/qwernomics">Amy Ireland</a>.</p>
-<center>
-<img src="../static/img/blog-posts/alpha-qwerty-arcs.png" />
-</center>
-<center>
-<img src="../static/img/blog-posts/whitespace50.png" />
-</center>
-<center>
-<img src="../static/img/blog-posts/alpha-dvorak-arcs.png" />
-</center>
-<center>
-<img src="../static/img/blog-posts/whitespace50.png" />
-</center>
-<h3 id="forbidden-keyboards">Forbidden Keyboards</h3>
-<p>Elsewhere, <a href="https://twitter.com/8051Enthusiast/status/1279802890618626049">@8051Enthusiast</a> pointed out that changing from Qwerty to Dvorak is a permutation operation that can be repeated to give a Dvorak² — far more powerful than mere Dvorak¹.</p>
-<p>All we need for this is to iterate our <code>convert</code> function from before. In <code>convert qwerty dvorak qwerty</code>, the first two arguments create a permutation from the Qwerty keyboard to a Dvorak keyboard, while the third argument (<code>qwerty</code> again) uses the whole Qwerty keyboard as material. Thus, to get Dvorak-squared, we can just do <code>convert qwerty dvorak (convert qwerty dvorak qwerty)</code>.</p>
-<p>This gives the keys <code>&quot;erhtbgjuofladncvipsqxwzymk&quot;</code>, and the following diagram shows clearly that these permutations are the same.</p>
-<center>
-<img src="../static/img/blog-posts/qwerty-dvorak-dvorak2-big.png" />
-</center>
-<p>We can write this in a more sophisticated way using the <code>iterate</code> function, which repeats the <code>convert</code> operation as many times as we want.</p>
-<div id="cb6" class="sourceCode">
-<div class="sourceCode" id="cb6"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb6-1" data-line-number="1">forbiddenDvorak n</a>
-<a class="sourceLine" id="cb6-2" data-line-number="2">  <span class="fu">|</span> (n<span class="fu">&lt;=</span><span class="dv">0</span>)    <span class="fu">=</span> iterate (convert dvorak qwerty) dvorak <span class="fu">!!</span> (abs n <span class="fu">+</span> <span class="dv">1</span>)</a>
-<a class="sourceLine" id="cb6-3" data-line-number="3">  <span class="fu">|</span> otherwise <span class="fu">=</span> iterate (convert qwerty dvorak) dvorak <span class="fu">!!</span> (n<span class="fu">-</span><span class="dv">1</span>)</a></code></pre></div>
-</div>
-<p>Thus we can get Dvorak-cubed, up to any power <code>n</code> that we want. Notice that I’ve included the case where <code>n</code> is less than zero. This acts as an inverse function, or the reverse permutation (here from Dvorak back to Qwerty).</p>
-<center>
-<img src="../static/img/blog-posts/dvorak-inverse.png" />
-</center>
-<p>Perhaps the most curious aspect is that if we keep iterating our function, we’ll eventually get back to where we started. We can check this by creating a list of Dvorak<sup>n</sup> keyboards for increasingly higher powers, and seeing if any besides the first are the same as Dvorak. (The <code>fmap (+2)</code> is because indexing starts at zero, plus we’re excluding Dvorak¹ = Dvorak.)</p>
-<div id="cb7" class="sourceCode">
-<div class="sourceCode" id="cb7"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb7-1" data-line-number="1">fmap (<span class="fu">+</span><span class="dv">2</span>) <span class="fu">$</span> elemIndex dvorak <span class="fu">$</span> map forbiddenDvorak [<span class="dv">2</span><span class="fu">..</span><span class="dv">250</span>]</a></code></pre></div>
-</div>
-<p>This outputs <code>Just 211</code>, and as we can plug in and confirm, <code>forbiddenDvorak 211</code> gives the Dvorak keyboard. You can likewise confirm that <code>forbiddenDvorak 210</code> gives Qwerty, which of course follows.</p>
-<p>We can make an analogous function permuting alphabetical order into Qwerty:</p>
-<div id="cb8" class="sourceCode">
-<div class="sourceCode" id="cb8"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb8-1" data-line-number="1">forbiddenQwerty n</a>
-<a class="sourceLine" id="cb8-2" data-line-number="2">  <span class="fu">|</span> (n<span class="fu">&lt;=</span><span class="dv">0</span>)    <span class="fu">=</span> iterate (convert qwerty alpha) qwerty <span class="fu">!!</span> (abs n <span class="fu">+</span> <span class="dv">1</span>)</a>
-<a class="sourceLine" id="cb8-3" data-line-number="3">  <span class="fu">|</span> otherwise <span class="fu">=</span> iterate (convert alpha qwerty) qwerty <span class="fu">!!</span> (n<span class="fu">-</span><span class="dv">1</span>)</a></code></pre></div>
-</div>
-<p>This one cycles after only 42 iterations. If the obvious association just came to mind, that’s a taste of the mix between wild coincidence and transcendental conspiracy that defines CCRU humour.</p>
-<p>As an exercise, make a <code>forbiddenAlpha</code> function that converts from alphabetic to Dvorak. This one also has a cycle — it’s quite a bit larger than 250, but it’s there, and you can find it on your laptop.</p>
-<p>I know very little about abstract algebra, but this opens up numerous interesting questions. I didn’t include punctuation for each keyboard layout, but how would these cycles change if we added it? Why does <code>forbiddenQwerty</code> cycle so much sooner than the others, and is there a metric to measure how ‘close’ a permutation is? Last, I can’t help but wonder if this group-theoretic structure is an artifact of our simple example, or whether it can be found in more complex sign-systems.</p>
-<center>
-<img src="../static/img/blog-posts/qwernomic-intensities.png" />
-</center>
-<h3 id="qwerno-materialism">Qwerno-materialism</h3>
-<p>For Le (2019: 100-1), qwernomics represents how “the demands of capital accumulation led the technology of the keyboard to develop down a de-anthropomorphising path from which we could not diverge.” That is, assuming Qwerty’s inferiority, companies’ myopic refusal to train their workers in a better typographic system is “exemplary of technocapitalism’s way of locking us into a trajectory that will ultimately dehumanise us.” (Though dehumanization isn’t necessarily a bad thing!) While this may be a fair reading of Land’s original essay, in light of his 2016 lectures it’s far too glib.</p>
-<p>Consider Nash equilibrium, where no agent can benefit by unilaterally changing their strategy. It may be, as in the Prisoner’s dilemma, that if all players changed their strategy, all could benefit, but none can on their own. Conversely, qwernomics presents a situation where any one player can unilaterally benefit from changing their strategy (e.g. a firm switching from Qwerty to Dvorak), but the societal transaction costs are so large that — across different games — they nullify this advantage.</p>
-<p>This parallels the notion of patchwork, where normally a larger country is more efficient due to economies of scale, but now the transaction costs associated with large political institutions are so immense as to outweigh all these benefits, so on net it’s more efficient just to have a smaller state.</p>
-<p>Choosing a keyboard is a non-ergodic process, in that we cannot freely wander through the space of possibilities toward a global optimum, where Qwerty has come out best from untrammeled market experimentation. An ergodic process tends toward a fixpoint or equilibrium, while non-ergodic systems do not, but exhibit path dependency, where states far in the past can influence states far into the future. Land perceptively notes that this division of ergodic versus non-ergodic is similar to molar (tending toward an average) versus molecular (centrifugally tending away from an average).</p>
-<p>If Qwerty represents a ‘market solution’, Dvorak represents ‘rational planning’ from top-down. Yet, we can also imagine a centrally-planned society unwilling to escape from Qwerty lock-in, where the benefits of Dvorak are judged as not worth the cost of retraining and retooling. Thus, qwernomics is not limited to this simple opposition of interventionism versus spontaneity. In either system, transaction costs have built up over time, so that Qwerty becomes a self-installing law.</p>
-<p>Just as Keynesian economics claims that markets get stuck in a low-employment equilibrium, which we can identify from a superior frame, we want to know by what criteria we could evaluate our path as suboptimal from a rational, Archimedean point. Ergonomics seems like the best candidate for Qwerty, but is that all a keyboard really is? The deeper notion here is that a Schelling point — an arbitrary but handy standard, like driving on the right side of the road — creates the possibility space by which we can retroactively judge it. At a certain point, the standard consumes the horizon.</p>
-<p>As another example, Land explicitly compares Qwerty’s hegemony to that of decimal numeracy, and some mathematicians claim octal numbers are superior. Conversely, vestigial tails are evocative, but key to qwernomics is plasticity of agents’ behaviour: they’re free to use a different keyboard if they want to, but don’t — rather than having a suboptimal state biologically baked into them.</p>
-<p>Thus, the main flaw in Le’s account is workers’ lack of agency. Moreover, instead of emphasizing suboptimality as ‘dehumanizing’, Land’s main interest is in Qwerty as a causal loop, like the <a href="https://en.wikipedia.org/wiki/Causal_loop">bootstrap paradox</a> in time travel. Qwerty as a code represents a radically alien form of immanence: it is authoritative because it has made itself occur.</p>
-<center>
-<img src="../static/img/blog-posts/qwernomic-decoding.png" />
-</center>
-<h3 id="stratoanalysis">Stratoanalysis</h3>
-<p>Land goes on to use the Qwerty keyboard as a hermeneutic device to understand Deleuze &amp; Guattari’s “Geology of Morals”. There, stratoanalysis is introduced as a synonym for D&amp;G’s project, alongside rhizomatics, nomadology, schizoanalysis, pragmatics, and so on. In general, stratoanalysis is very seldom invoked, but it’s actually quite rich as a framework.</p>
-<p>The basic idea is that the world is made up of relatively autonomous codes, such as the genetic code versus body language. The system of oppositions that defines a code takes place on an independent layer or stratum. Strata interact horizontally via <em>parastrata</em> (codes presupposed by another code of the same order, such as the prison system and legal system) — or vertically via <em>epistrata</em> (codes presupposed by another code of a different order, such as the legal system relying on language, biochemistry, and so on). An example of parastrata in Qwerty is using keys in a game for movement.</p>
-<p>A keyboard lends itself as a paradigmatic example because it combines so many forms of code, at so many levels. There are linguistic codes (letters in English words), physical codes (limitations of human hands), and mechanical codes (technical specifications). Further, a keyboard embodies various semiotic distinctions, such as code vs. territory or form vs. substance. Qwerty takes the alphabet out of its ‘territory’, as ordered in the ABCs song; likewise, the fingers of the typist are deterritorialized onto the keyboard. In this sense, Qwerty is an abstract diagram of stratification.</p>
-<p>While typical semiotics deals with signifiers and signifieds, Deleuze &amp; Guattari draw from Hjelmslev’s quadripartition. In a verbal language, expression-substance is the continuum of sounds producible by the human vocal apparatus; expression-form is its differentiation into phonemes (signifiers); content-substance is sphere of concepts; and content-form is its differentiation into signifieds [<a href="http://enl.auth.gr/gramma/gramma12/B.2.pdf">via</a>].</p>
-<p>Analogously, if substance is the physical aspect, then a physical keyboard is content-substance, while Qwerty is an expression-substance. Likewise, the expression-form is the signifier being typed, while content-form is the signified. (Don’t quote me on this, I’m sure I mangled it.) The main point is that variations such as Azerty keyboards for Francophones can be localized onto one of these planes.</p>
-<p>Therefore, more broadly, qwernomics is an analysis of stratification or capture, as Qwerty directs codes’ flows of intensities. Audaciously, we can say that qwerty is a cultural genome, with knowledge geologically deposited into it. By way of a quasi-diagrammatic analysis of the keyboard through stratograms, we can hack the cryptographic protocol that the qwerty apocalypse has delivered to us.</p>
-<center>
-<img src="../static/img/blog-posts/qwernomic-axiomatics.png" />
-</center>
-<h3 id="the-extreme-qwernomic-thesis">The Extreme Qwernomic Thesis</h3>
-<p>If all this sounds increasingly weird, then good. It gets weirder.</p>
-<p>Above I stressed qwernomics’ skepticism towards global criteria for optimality, and we can radicalize this still further. One form has shown up in empirical studies: that even prior to Qwerty there was already a pool of typing competence that settled the arrangement of Qwerty. Hence, Qwerty has no localizable origin, and the entire geopolitical structure of world history is Qwerty-shaped.</p>
-<p>Thus the ‘extreme qwernomic thesis’ can perhaps be most cogently stated as follows:</p>
-<blockquote>
-the highly obscure historical stratodynamic process from which we have inherited the keyboard is the same process that has provided us with all the cognitive resources that we could conceivably gain access [to] in investigating our object&quot; [2016, VII, around 41:00]
-</blockquote>
-<p>We can restate this in various other ways. (I’m mostly just plagiarizing Land here.)</p>
-<p>The core idea is that of an immanent cognitive horizon: if qwerty is the machine talking about itself, there is no meta-discourse on the machine that we’re ever going to find. There is no position of purchase or overview or superior perspective, because the function of overviewing is itself a product of a stratic mechanism, a symptom of stratic embeddedness. Hence there is no <em>possible</em> that isn’t already within the processing system. The overview position itself is structured inside that strata.</p>
-<p>Qwerty is the revelation of a transcendental cognitive engine, in that the cognitive machinery we are trying to put into play has to come out of our object. Faced with the immanence of all criteria, there is no way out, but only through — mining parts of the keyboard for parts of our theory, in the form of “delirialized, wild particles of conception” such as the <code>Ctrl</code> key as zone of transference between dimensional systems, or Qabbalistic resonances of the <code>Esc</code> key. The purpose of these schizoid parts of qwernomics is to explore the extent to which qwerty is a transcendental cognitive resource.</p>
-<center>
-<img src="../static/img/blog-posts/qwernomic-territory.png" />
-</center>
-<h3 id="conclusion">Conclusion</h3>
-<p>Most of these statements sound absurd when applied to the keyboard, but the same considerations come into play for concrete problems where we don’t have nearly as much of a conceptual foothold.</p>
-<p>The ultimate stakes of qwernomics are to delineate the meaning of a ‘critique’ of capitalism, in the Kantian sense of a global tribunal of reason. Many people will be sympathetic to the notion that there is no such universal position; yet, even by calling something a local optimum at all, we’re already implying the existence of some position of transcendent criticism. At a bare minimum, qwernomics makes us aware of the ‘spectre of the universal’ by which we criticize standards.</p>
-<p>While I still haven’t digested all this, it seems that simulation offers an interesting counterpoint. Instead of looking at our path from some external position and saying it was wrong, simulations immanently generate a multiplicity of paths to which we can compare our own. We don’t need an Archimedean point, but only to differentiate the various strata as manifested in parameters that can undergo variations. Instead of a global perspective, we generate a garden of forking paths to populate the search space with purely local theories. This seems entirely compatible with the points made above. In a word, we can radicalize qwernomics still further into computational stratoanalysis.</p>
-<hr />
-<h3 id="references"><br />
-References</h3>
-<ul>
-<li>David, P. (<a href="https://econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf">1985</a>). “Clio &amp; the Economics of QWERTY.” <em>American Economic Review</em> 75(2), pp. 332-7</li>
-<li>Land, N. (<a href="http://hyperstition.abstractdynamics.org/archives/004613.html">2004</a>, Dec 23). Intro to Qwernomics. Hyperstition blog.</li>
-<li>Land, N. (<a href="https://www.youtube.com/playlist?list=PLPs4TRYh1Unpf9t5BgA_6VHr-Oyw2Cy8m">2016</a>). Qwernomics: Path Dependency &amp; Semiotic Fatality, Sessions I-VIII.</li>
-<li>Le, V. (<a href="https://bridges.monash.edu/articles/One_Two_Many_On_Nick_Land_s_Numbering_Practices/7914494">2019</a>). “One Two Many: On Nick Land’s Numbering Practices”. <em>Colloquy</em> 37, pp. 80–105</li>
-<li>Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebowit/keys1.html">1990</a>). “The Fable of the Keys.” <em>Journal of Law &amp; Economics</em> 33, pp. 1-25</li>
-</ul>
-<hr />
-<ul>
-</ul>
-</div>
-</div>
-</div>
-</article>
-<hr />
-</div>
-<div id="footer">
-
-</div>
-<!-- Footer -->
-<footer>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<ul>
-<li><a href="https://gjoncas.github.io/rss.xml" id="clickme" class="reload"><span class="fa-stack fa-lg"> <em></em> <em></em> </span></a></li>
-<li><a href="https://twitter.com/gjncs" id="clickme" class="reload"><span class="fa-stack fa-lg"> <em></em> <em></em> </span></a></li>
-<li><a href="https://github.com/gjoncas"><span class="fa-stack fa-lg"> <em></em> <em></em> <em></em> </span></a></li>
-<li><a href="https://instagram.com/tesseractics"><span class="fa-stack fa-lg"> <em></em> <em></em> <em></em> </span></a></li>
-</ul>
-<p>All text � Graham Joncas (<a href="https://creativecommons.org/licenses/by/2.5/ca/">CC BY</a>).<br />
-<br />
-</p>
-<div class="col-md-12">
-<p>site: <a href="https://jaspervdj.be/hakyll">hakyll</a> | theme: <a href="https://github.com/dindi-jekyll/CleanMagicMedium-Jekyll">lg</a> | code: <a href="https://github.com/katychuang/CleanMagic-hakyll">kc</a></p>
-</div>
-</div>
-</div>
-</div>
-</footer>
-<!-- jQuery -->
-<script src="https://gjoncas.github.io/static/js/jquery.min.js"></script>
-<script src="https://gjoncas.github.io/static/js/spaceg.stylesheets.min.js"></script>
-<script src="https://gjoncas.github.io/static/js/bootstrap.min.js"></script>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-<script src="https://gjoncas.github.io/static/js/scripts.js"></script>]]></summary>
 </entry>
 <entry>
     <title>Twitter Moments</title>
@@ -2861,155 +2042,515 @@ References</h3>
 </table>]]></summary>
 </entry>
 <entry>
-    <title>2020-06-19-twitter-moments</title>
-    <link href="http://gjoncas.github.io/posts/2020-06-19-twitter-moments.html" />
-    <id>http://gjoncas.github.io/posts/2020-06-19-twitter-moments.html</id>
-    <published>2020-06-19T00:00:00Z</published>
-    <updated>2020-06-19T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<!--<div id="preloader">
-        <div id="status">
-
-        </div>
-    </div>--> <!-- Navigation --> <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-<div class="container-fluid">
-<!-- Brand and toggle get grouped for better mobile display -->
-<div class="navbar-header page-scroll">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-</button>
-<a href="https://gjoncas.github.io" id="blog-title-left-top" class="navbar-brand"><span style="color:gray"><span style="font-family:candara;">oneironomics</span></span></a>
-</div>
-<!-- Collect the nav links, forms, and other content for toggling -->
-<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-<ul>
-<li><a href="#portfolioModal2"><em></em></a>
-<ul>
-</ul></li>
-<li><!-- <a href="https://instagram.com/tesseractics/" target="_blank"><i class="fa fa-instagram" id="icon-top"></i></a>--></li>
-<li><!-- <a href="https://linkedin.com/in/graham-joncas/" target="_blank"><i class="fa fa-linkedin" id="icon-top"></i></a>--></li>
-<li><a href="https://gjoncas.github.io/About.html">About</a></li>
-<li><a href="https://gjoncas.github.io/Research.html">Research</a></li>
-<li><a href="https://gjoncas.github.io/Projects.html">Projects</a></li>
-<li><a href="https://gjoncas.github.io/blog.html">Blog</a></li>
-<li><a href="https://www.twitter.com/gjncs" id="roundbutton"><em></em>gjncs</a></li>
-</ul>
-</div>
-<!-- /.navbar-collapse -->
-</div>
-<!-- /.container --> </nav> <!-- Portfolio Modals -->
-<div id="portfolioModal1" class="portfolio-modal modal fade" tabindex="-1" data-role="dialog" data-aria-hidden="true" style="padding-right:0px; overflow: hidden;">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
-
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="modal-body">
-<h1 id="graham-joncas" class="font-style-inline-small-h1">Graham Joncas</h1>
+    <title>EasyPlot in Haskell</title>
+    <link href="http://gjoncas.github.io/posts/2020-06-14-easyplot-in-haskell.html" />
+    <id>http://gjoncas.github.io/posts/2020-06-14-easyplot-in-haskell.html</id>
+    <published>2020-06-14T00:00:00Z</published>
+    <updated>2020-06-14T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<p>EasyPlot is a simple Haskell library for drawing graphs. I wouldn’t call them beautiful by any stretch, but it’s excellent for quick-and-dirty visualizations. The main appeal is being able to use idiomatic tricks like list comprehensions: define a set of tuples, and Haskell will get you all points in that set.</p>
+<p>However, <a href="https://old.reddit.com/r/haskell/comments/2v0odx/error_message_when_trying_to_use_plotfunc_from/">lots of people</a> have encountered hitches to installing it (at least in Windows). Worse, most online resources only say how to install it on Linux, which is super-easy. Here, I just want to spell everything out, since even though it’s not super-fancy, you can still do some fun things with EasyPlot.</p>
+<h3 id="installing-in-windows">Installing in Windows</h3>
+<p>EasyPlot is based on gnuplot, a fairly retro program dating back to the ’80s. Interestingly, the open-source econometrics package Gretl uses gnuplot. You can install it by <a href="">downloading</a> a nice .exe file, which makes everything easy. The most recent version (currently 5.2.8) worked fine for me.</p>
+<p>With this installed, the first hitch is that you need to update your <code>%PATH%</code> variable, so that your computer can find the file. In Windows 10, you can just put “environment variables” in the searchbar. The longer way is: <code>Control Panel &gt; System and Security &gt; System &gt; Advanced System Settings</code>.</p>
+<p>Click on the button that says ‘Environment Variables’. Under ‘System Variables’ there should be one called <code>Path</code>. Highlight it, click ‘Edit’, click ‘New’, and add the folder that gnuplot.exe is in. For me, it’s: <code>C:\Program Files\gnuplot\bin</code>. Then click OK, OK, OK, and we’re done that part.</p>
+<p>Then we need to install it on Haskell. For 8.10.2, putting <code>cabal new-install easyplot</code> in the command line worked for me. For 8.6.5, I needed to use the older <code>cabal install easyplot</code>.</p>
+<p>There’s a very similar package <code>gnuplot</code>, which you can install too if you want. The hitch with this is that it keeps throwing an error message asking for <code>pgnuplot</code>, which is <a href="https://old.reddit.com/r/haskell/comments/2v0odx/error_message_when_trying_to_use_plotfunc_from/">deprecated</a>. To fix this, you just need to make a copy of <code>gnuplot.exe</code> and name it <code>pgnuplot.exe</code>. The syntax for <a href="https://hackage.haskell.org/package/gnuplot">Gnuplot</a> is very similar, but far more customizable. Let’s leave that aside for now.</p>
+<p>If EasyPlot is installed correctly, you should be able to <code>import Graphics.EasyPlot</code> from GHCi or WinGHCi. If it’s still not working, try using <code>stack install easyplot</code> or <code>cabal new-install easyplot</code>.</p>
+<p>The second hitch is actually using it. The documentation kindly offers some <a href="https://hackage.haskell.org/package/easyplot">example plots</a>, but they don’t work in Windows without some editing. Let’s take one example:</p>
+<p><code>plot X11 $ Function2D [Title &quot;Sine and Cosine&quot;] [] (\x -&gt; sin x * cos x)</code></p>
+<p>First, <code>X11</code> specifies that it’s meant for Linux, so for Windows we need to change this to <code>Windows</code>, or for Mac change it to <code>Aqua</code>. However, if we put this into the terminal, our chart pops up for a split second, then erases, leaving behind <code>True</code> to show that it ‘worked’.</p>
+<p>The solution, thanks to the <a href="https://mail.haskell.org/pipermail/beginners/2018-May/018154.html">mailing list</a>, is to enclose our plot in a monad, namely a <code>do</code> statement. This makes sense if you’re vaguely familiar with monads, since making a plot is an IO action.</p>
+<p>Next, instead of <code>plot</code> we have to use <code>plot' [Interactive]</code>. Here’s a version that will actually work:</p>
+<p><code>do plot' [Interactive] Windows $ Function2D [Title &quot;Sine * Cosine&quot;] [] (\x -&gt; sin x * cos x)</code></p>
+<p>Here, <code>[Interactive]</code> specifies that we want a window we can adjust. This is quite nice, actually: we just resize the window and the diagram stretches and shrinks along with it.</p>
+<p>Alternatively, if we want to print out an image we use the following syntax:</p>
+<p><code>do plot (PNG &quot;test.png&quot;) $ Gnuplot2D [Color Blue] [] &quot;2**cos(x)&quot;</code></p>
+<p>Note that we’re using <code>plot</code> with no apostrophe, and that we’re replacing <code>[Interactive] Windows</code>. It can also make PDFs (like so: <code>(PDF &quot;test.pdf&quot;)</code>), which are vector images, so won’t get blurry if you zoom in on them. Still, since EasyPlot doesn’t let you set the axes beforehand (and the printed PNG often looks coarser), most of the time I’d rather adjust the window by hand and take a screenshot.</p>
+<p>One last hitch, and this is a weird one. Suppose we save one of our plots to a variable, like so:</p>
+<p><code>test = do plot' [Interactive] Windows $ Gnuplot2D [Color Blue] [] &quot;2**cos(x)&quot;</code></p>
+<p>Then when we put <code>test</code> into the terminal, it makes the plot we want, but the next line looks like this:</p>
+<p><code>gnuplot &gt;</code></p>
+<p>This happens because Haskell is calling the program gnuplot, and hasn’t left that program yet. So you need to manually type <code>quit</code> in the terminal. Once you know you have to do this, it’s easy enough, but it also means you can’t make automated plots, which is a drag. Furthermore, if you’re doing this on WinGHCi it doesn’t even show the <code>gnuplot &gt;</code> line, so it’s even more confusing.</p>
+<p>All that was a huge pain to figure out, but from there everything else is easy. Wahey! Now let’s go on to see some examples of stuff we can make.</p>
+<h3 id="easyplot-examples">EasyPlot Examples</h3>
+<p>Here are some EasyPlot examples I found on various sites in French, Spanish, and Russian(!).</p>
+<p>First, here’s one I made of a logarithmic spiral (where you can save the code as spiralplot.hs):</p>
+<center>
+<img src="/static/img/blog-posts/easyplot-spiral.png" />
+</center>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">module</span> <span class="dt">SpiralPlot</span> <span class="kw">where</span></a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">import</span> <span class="dt">Graphics.EasyPlot</span></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">spiral <span class="fu">=</span> [(x,y) <span class="fu">|</span> t <span class="ot">&lt;-</span> [<span class="dv">0</span>,<span class="fl">0.01</span><span class="fu">..</span><span class="dv">4</span>], </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">        <span class="kw">let</span> x <span class="fu">=</span> a <span class="fu">*</span> exp t <span class="fu">*</span> cos (b<span class="fu">*</span>t), </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">        <span class="kw">let</span> y <span class="fu">=</span> a <span class="fu">*</span> exp t <span class="fu">*</span> sin (b<span class="fu">*</span>t)]</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7">        <span class="kw">where</span> a <span class="fu">=</span> <span class="fl">0.1</span> ; b <span class="fu">=</span> <span class="dv">4</span></a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"></a>
+<a class="sourceLine" id="cb1-9" data-line-number="9">main <span class="fu">=</span> <span class="kw">do</span> plot&#39; [<span class="dt">Interactive</span>] <span class="dt">Windows</span> <span class="fu">$</span> <span class="dt">Data2D</span> [<span class="dt">Title</span> <span class="st">&quot;Logarithmic Spiral&quot;</span>, <span class="dt">Style</span> <span class="dt">Lines</span>] [] spiral</a></code></pre></div>
+<p>For the parameters we can also pattern-match like <code>where (a,b) = (0.1,4)</code>, but as such it’s fine. Another example <a href="http://0not.net/programming/2015/02/26/first-steps-with-haskell.html">here</a> (<a href="https://gist.github.com/0not/09dce776d3b4d6158b6d">code</a>) plots radioactive decay; just don’t forget to change the <code>plot X11</code> part.</p>
+<p>The main drawback is that functions need to be expressed explicitly in the form <code>z = f(x,y)</code> or <code>y = f(x)</code> (i.e. the dependent variable can’t be part of the equation), while <a href="https://mzrg.com/math/graphs.shtml">apparently</a> other math software lets you plot implicit functions like <span class="math inline">\(\sin(y^2 * x^3) = \cos(y^3 * x^2)\)</span>. A cool project might be to write a program that makes an implicit function into an explicit one and feeds it into EasyPlot.</p>
+<h4 id="d-plots">3D Plots</h4>
+<p>Next, here’s a 3D plot from the documentation:</p>
+<center>
+<img src="/static/img/blog-posts/easyplot-3d.png" />
+</center>
+<center>
+<code>do plot' [Interactive] Windows $ Gnuplot3D [Color Magenta] [] &quot;x ** 2 + y ** 3&quot;</code>
+</center>
+<p>This is where EasyPlot shines relative to other software; in Ti<em>k</em>Z this would probably take hours to do. Judging from a quick <a href="https://twitter.com/hamidebadi/status/649866661726654464">search</a>, it’s possible with gnuplot to color in the mesh, making it even snazzier.</p>
+<h4 id="calculus">Calculus</h4>
+<p>One user on a French forum wanted to know if we can diagram Taylor polynomials without formally using calculus in Haskell. That is, we want to approximate an equation using its Taylor expansion:</p>
+<p><span class="math display">\[T_{n,0}(x) = \frac{x^0}{0!}\cdot f^{(0)}(0) + \frac{x^1}{1!}\cdot f^{(1)}(0) + \frac{x^2}{2!}\cdot f^{(2)}(0) + \cdots\]</span></p>
+<p>To do this, we’ll create two infinite lists: one for <span class="math inline">\(\left[ \frac{x^0}{0!}, \frac{x^1}{1!}, \frac{x^2}{2!}, \cdots \right]\)</span> and one for <span class="math inline">\(\left[ f^{(0)}(0), f^{(1)}(0), \cdots \right]\)</span>.</p>
+<p>The idea is to graph both the true function and its approximation, showing how the latter becomes better as our Taylor polynomial increases in degree. This is how it’s supposed to look like:</p>
+<center>
+<img src="/static/img/blog-posts/easyplot-taypoly.png" />
+</center>
+<p>However, I can’t get it working. My best guess is, it’s because of either <code>polyTaylor (snd tf) n</code> or <code>fst tf</code>, or both. I played around with it, but no luck. Below I’ll put a translated version of the code, and if anyone is able to fix it, do <a href="https://github.com/gjoncas/gjoncas.github.io/issues">let me know</a>. I’ll make a StackExchange question about this problem later.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">module</span> <span class="dt">TaylorPolynomials</span> <span class="kw">where</span></a>
+<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="kw">import</span> <span class="dt">Graphics.EasyPlot</span></a>
+<a class="sourceLine" id="cb2-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb2-4" data-line-number="4"><span class="co">-- Returns the vector [1, x, x^2/2!, x^3/3!, ..]</span></a>
+<a class="sourceLine" id="cb2-5" data-line-number="5"><span class="ot">vecTaylor ::</span> <span class="dt">Double</span> <span class="ot">-&gt;</span> [<span class="dt">Double</span>]</a>
+<a class="sourceLine" id="cb2-6" data-line-number="6">vecTaylor    x      <span class="fu">=</span>  scanl (\ acc k <span class="ot">-&gt;</span> acc <span class="fu">*</span> x <span class="fu">/</span> k) <span class="fl">1.0</span> [<span class="dv">1</span> <span class="fu">..</span> ]</a>
+<a class="sourceLine" id="cb2-7" data-line-number="7"></a>
+<a class="sourceLine" id="cb2-8" data-line-number="8"><span class="co">-- Basic functions</span></a>
+<a class="sourceLine" id="cb2-9" data-line-number="9"><span class="co">-- fonction :: Double -&gt; Double</span></a>
+<a class="sourceLine" id="cb2-10" data-line-number="10">invPlus  <span class="fu">=</span> (\ x <span class="ot">-&gt;</span> <span class="dv">1</span> <span class="fu">/</span> (<span class="dv">1</span> <span class="fu">+</span> x))</a>
+<a class="sourceLine" id="cb2-11" data-line-number="11">invMinus <span class="fu">=</span> (\ x <span class="ot">-&gt;</span> <span class="dv">1</span> <span class="fu">/</span> (<span class="dv">1</span> <span class="fu">-</span> x))</a>
+<a class="sourceLine" id="cb2-12" data-line-number="12">logPlus  <span class="fu">=</span> (\ x <span class="ot">-&gt;</span> log (<span class="dv">1</span> <span class="fu">+</span> x))</a>
+<a class="sourceLine" id="cb2-13" data-line-number="13">rootPlus <span class="fu">=</span> (\ x <span class="ot">-&gt;</span> sqrt (<span class="dv">1</span> <span class="fu">+</span> x))</a>
+<a class="sourceLine" id="cb2-14" data-line-number="14"></a>
+<a class="sourceLine" id="cb2-15" data-line-number="15"><span class="co">{- We return the tuple (functions, list of its successive derivatives in 0)</span></a>
+<a class="sourceLine" id="cb2-16" data-line-number="16"><span class="co">   We usually look for a recurrence formula and use scanl</span></a>
+<a class="sourceLine" id="cb2-17" data-line-number="17"><span class="co">   Otherwise, we repeat patterns</span></a>
+<a class="sourceLine" id="cb2-18" data-line-number="18"><span class="co">tTruc :: (Double -&gt; Double, [Double]) -}</span></a>
+<a class="sourceLine" id="cb2-19" data-line-number="19">tExp      <span class="fu">=</span> (exp,      repeat <span class="fl">1.0</span>)</a>
+<a class="sourceLine" id="cb2-20" data-line-number="20">tinvMinus <span class="fu">=</span> (invMinus, scanl (\ acc k <span class="ot">-&gt;</span> acc <span class="fu">*</span> k   )             <span class="fl">1.0</span> [<span class="dv">1</span> <span class="fu">..</span> ])</a>
+<a class="sourceLine" id="cb2-21" data-line-number="21">tInvPlus  <span class="fu">=</span> (invPlus,  scanl (\ acc k <span class="ot">-&gt;</span> acc <span class="fu">*</span> (<span class="fu">-</span>k))             <span class="fl">1.0</span> [<span class="dv">1</span> <span class="fu">..</span> ])</a>
+<a class="sourceLine" id="cb2-22" data-line-number="22">tRoot     <span class="fu">=</span> (rootPlus, scanl (\ acc k <span class="ot">-&gt;</span> acc <span class="fu">*</span> (<span class="fu">-</span><span class="fl">0.5</span>) <span class="fu">*</span> (<span class="dv">2</span><span class="fu">*</span>k <span class="fu">-</span> <span class="dv">1</span>)) <span class="fl">1.0</span> [<span class="dv">0</span> <span class="fu">..</span> ])</a>
+<a class="sourceLine" id="cb2-23" data-line-number="23">tLogPlus  <span class="fu">=</span> (logPlus,  <span class="fl">0.0</span> <span class="fu">:</span> (snd tInvPlus))</a>
+<a class="sourceLine" id="cb2-24" data-line-number="24">tSin      <span class="fu">=</span> (sin,      cycle [<span class="fl">0.0</span>,<span class="fl">1.0</span>,<span class="fl">0.0</span>,<span class="fu">-</span><span class="fl">1.0</span>])</a>
+<a class="sourceLine" id="cb2-25" data-line-number="25">tCos      <span class="fu">=</span> (cos,      cycle [<span class="fl">1.0</span>,<span class="fl">0.0</span>,<span class="fu">-</span><span class="fl">1.0</span>,<span class="fl">0.0</span>])</a>
+<a class="sourceLine" id="cb2-26" data-line-number="26"></a>
+<a class="sourceLine" id="cb2-27" data-line-number="27"><span class="co">{- Returns the evaluation of the Taylor polynomial of degree n in x of the function</span></a>
+<a class="sourceLine" id="cb2-28" data-line-number="28"><span class="co">   whose derivatives are given in 0 -}</span></a>
+<a class="sourceLine" id="cb2-29" data-line-number="29"><span class="ot">polyTaylor ::</span> [<span class="dt">Double</span>]   <span class="ot">-&gt;</span> <span class="dt">Int</span> <span class="ot">-&gt;</span> <span class="dt">Double</span> <span class="ot">-&gt;</span> <span class="dt">Double</span> </a>
+<a class="sourceLine" id="cb2-30" data-line-number="30">polyTaylor    listDerivatives n      x      <span class="fu">=</span></a>
+<a class="sourceLine" id="cb2-31" data-line-number="31">    sum <span class="fu">$</span> take (n <span class="fu">+</span> <span class="dv">1</span>) <span class="fu">$</span> zipWith (<span class="fu">*</span>) (vecTaylor x) listDerivatives</a>
+<a class="sourceLine" id="cb2-32" data-line-number="32">    </a>
+<a class="sourceLine" id="cb2-33" data-line-number="33"><span class="co">-- We draw on the same graph the function and its Taylor polynomial on [a, b] with a step of 1/2 ^ 8</span></a>
+<a class="sourceLine" id="cb2-34" data-line-number="34"><span class="ot">compareDL ::</span> <span class="dt">Double</span> <span class="ot">-&gt;</span> <span class="dt">Double</span> <span class="ot">-&gt;</span> ((<span class="dt">Double</span> <span class="ot">-&gt;</span> <span class="dt">Double</span>) , [<span class="dt">Double</span>]) <span class="ot">-&gt;</span> <span class="dt">Int</span> <span class="ot">-&gt;</span> <span class="dt">IO</span> <span class="dt">Bool</span></a>
+<a class="sourceLine" id="cb2-35" data-line-number="35">compareDL    a         b         tf                                 n   <span class="fu">=</span> </a>
+<a class="sourceLine" id="cb2-36" data-line-number="36">  <span class="kw">do</span> plot&#39; [<span class="dt">Interactive</span>] <span class="dt">Windows</span> <span class="fu">$</span></a>
+<a class="sourceLine" id="cb2-37" data-line-number="37">     [<span class="dt">Function2D</span> [<span class="dt">Title</span> (<span class="st">&quot;n = &quot;</span> <span class="fu">++</span> (show n)), <span class="dt">Color</span> <span class="dt">Blue</span>] [<span class="dt">Range</span> a b, <span class="dt">Step</span> (<span class="dv">2</span><span class="fu">**</span>(<span class="fu">-</span><span class="dv">8</span>))] </a>
+<a class="sourceLine" id="cb2-38" data-line-number="38">      (polyTaylor (snd tf) n),</a>
+<a class="sourceLine" id="cb2-39" data-line-number="39">      <span class="dt">Function2D</span> [<span class="dt">Title</span> <span class="st">&quot;True function&quot;</span>, <span class="dt">Color</span> <span class="dt">Red</span>] [<span class="dt">Range</span> a b, <span class="dt">Step</span> (<span class="dv">2</span><span class="fu">**</span>(<span class="fu">-</span><span class="dv">8</span>))] (fst tf)] </a>
+<a class="sourceLine" id="cb2-40" data-line-number="40">      <span class="co">-- this is the part that I can&#39;t get to work</span></a>
+<a class="sourceLine" id="cb2-41" data-line-number="41"></a>
+<a class="sourceLine" id="cb2-42" data-line-number="42">main <span class="fu">=</span> compareDL (<span class="fu">-</span><span class="fl">0.8</span>) <span class="fl">1.2</span> tLogPlus <span class="dv">4</span></a></code></pre></div>
+<p>As another calculus example, one Finnish <a href="https://www.ohjelmointiputka.net/koodivinkit/28842-haskell-eulerin-menetelm%C3%A4-easyplot-kirjastolla">blog</a> has an example of Euler’s method for approximating differential equations, but the results are underwhelming. (Spoiler: it’s just a diagonal line.)</p>
+<h4 id="statistics">Statistics</h4>
+<p>My favorite example is linear regression by <a href="https://www.glc.us.es/~jalonso/exercitium/regresion-lineal/">José A. Alonso</a>, whose <a href="https://twitter.com/Jose_A_Alonso">twitter</a> you should totally follow. This one is in Gnuplot; someone in the <a href="https://www.glc.us.es/~jalonso/exercitium/regresion-lineal/#comment-2594">comments</a> did an EasyPlot version, but I can’t get it to work.</p>
+<center>
+<img src="/static/img/blog-posts/easyplot-reg.png" />
+</center>
+<div class="sourceCode" id="cb3"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw">import</span> <span class="dt">Data.List</span> (genericLength)</a>
+<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="kw">import</span> <span class="dt">Graphics.Gnuplot.Simple</span></a>
+<a class="sourceLine" id="cb3-3" data-line-number="3"> </a>
+<a class="sourceLine" id="cb3-4" data-line-number="4">varX,<span class="ot"> varY ::</span> [<span class="dt">Double</span>]</a>
+<a class="sourceLine" id="cb3-5" data-line-number="5">varX <span class="fu">=</span> [<span class="dv">5</span>,  <span class="dv">7</span>, <span class="dv">10</span>, <span class="dv">12</span>, <span class="dv">16</span>, <span class="dv">20</span>, <span class="dv">23</span>, <span class="dv">27</span>, <span class="dv">19</span>, <span class="dv">14</span>]</a>
+<a class="sourceLine" id="cb3-6" data-line-number="6">varY <span class="fu">=</span> [<span class="dv">9</span>, <span class="dv">11</span>, <span class="dv">15</span>, <span class="dv">16</span>, <span class="dv">20</span>, <span class="dv">24</span>, <span class="dv">27</span>, <span class="dv">29</span>, <span class="dv">22</span>, <span class="dv">20</span>]</a>
+<a class="sourceLine" id="cb3-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb3-8" data-line-number="8"><span class="ot">linearRegression ::</span> [<span class="dt">Double</span>] <span class="ot">-&gt;</span> [<span class="dt">Double</span>] <span class="ot">-&gt;</span> (<span class="dt">Double</span>,<span class="dt">Double</span>)</a>
+<a class="sourceLine" id="cb3-9" data-line-number="9">linearRegression xs ys <span class="fu">=</span> (a,b)</a>
+<a class="sourceLine" id="cb3-10" data-line-number="10">    <span class="kw">where</span> n     <span class="fu">=</span> genericLength xs</a>
+<a class="sourceLine" id="cb3-11" data-line-number="11">          sumX  <span class="fu">=</span> sum xs</a>
+<a class="sourceLine" id="cb3-12" data-line-number="12">          sumY  <span class="fu">=</span> sum ys</a>
+<a class="sourceLine" id="cb3-13" data-line-number="13">          sumX2 <span class="fu">=</span> sum (zipWith (<span class="fu">*</span>) xs xs)</a>
+<a class="sourceLine" id="cb3-14" data-line-number="14">          sumY2 <span class="fu">=</span> sum (zipWith (<span class="fu">*</span>) ys ys)</a>
+<a class="sourceLine" id="cb3-15" data-line-number="15">          sumXY <span class="fu">=</span> sum (zipWith (<span class="fu">*</span>) xs ys)</a>
+<a class="sourceLine" id="cb3-16" data-line-number="16">          b     <span class="fu">=</span> (n<span class="fu">*</span>sumXY <span class="fu">-</span> sumX<span class="fu">*</span>sumY) <span class="fu">/</span> (n<span class="fu">*</span>sumX2 <span class="fu">-</span> sumX<span class="fu">^</span><span class="dv">2</span>)</a>
+<a class="sourceLine" id="cb3-17" data-line-number="17">          a     <span class="fu">=</span> (sumY <span class="fu">-</span> b<span class="fu">*</span>sumX) <span class="fu">/</span> n</a>
+<a class="sourceLine" id="cb3-18" data-line-number="18"> </a>
+<a class="sourceLine" id="cb3-19" data-line-number="19"><span class="ot">mygraph ::</span> [<span class="dt">Double</span>] <span class="ot">-&gt;</span> [<span class="dt">Double</span>] <span class="ot">-&gt;</span> <span class="dt">IO</span> ()</a>
+<a class="sourceLine" id="cb3-20" data-line-number="20">mygraph xs ys <span class="fu">=</span> </a>
+<a class="sourceLine" id="cb3-21" data-line-number="21">    plotPathsStyle </a>
+<a class="sourceLine" id="cb3-22" data-line-number="22">      [<span class="dt">YRange</span> (<span class="dv">0</span>,<span class="dv">10</span><span class="fu">+</span>mY)] </a>
+<a class="sourceLine" id="cb3-23" data-line-number="23">      [(defaultStyle {plotType <span class="fu">=</span> <span class="dt">Points</span>,</a>
+<a class="sourceLine" id="cb3-24" data-line-number="24">                      lineSpec <span class="fu">=</span> <span class="dt">CustomStyle</span> [<span class="dt">LineTitle</span> <span class="st">&quot;Data points&quot;</span>,</a>
+<a class="sourceLine" id="cb3-25" data-line-number="25">                                              <span class="dt">PointType</span> <span class="dv">2</span>,</a>
+<a class="sourceLine" id="cb3-26" data-line-number="26">                                              <span class="dt">PointSize</span> <span class="fl">2.5</span>]},</a>
+<a class="sourceLine" id="cb3-27" data-line-number="27">                     zip xs ys),</a>
+<a class="sourceLine" id="cb3-28" data-line-number="28">       (defaultStyle {plotType <span class="fu">=</span> <span class="dt">Lines</span>,</a>
+<a class="sourceLine" id="cb3-29" data-line-number="29">                      lineSpec <span class="fu">=</span> <span class="dt">CustomStyle</span> [<span class="dt">LineTitle</span> <span class="st">&quot;Regression line&quot;</span>,</a>
+<a class="sourceLine" id="cb3-30" data-line-number="30">                                              <span class="dt">LineWidth</span> <span class="dv">2</span>]},</a>
+<a class="sourceLine" id="cb3-31" data-line-number="31">                     [(x,a<span class="fu">+</span>b<span class="fu">*</span>x) <span class="fu">|</span> x <span class="ot">&lt;-</span> [<span class="dv">0</span><span class="fu">..</span>mX]])]</a>
+<a class="sourceLine" id="cb3-32" data-line-number="32">    <span class="kw">where</span> (a,b) <span class="fu">=</span> linearRegression xs ys                      </a>
+<a class="sourceLine" id="cb3-33" data-line-number="33">          mX    <span class="fu">=</span> maximum xs</a>
+<a class="sourceLine" id="cb3-34" data-line-number="34">          mY    <span class="fu">=</span> maximum ys</a>
+<a class="sourceLine" id="cb3-35" data-line-number="35"></a>
+<a class="sourceLine" id="cb3-36" data-line-number="36">main <span class="fu">=</span> mygraph varX varY</a></code></pre></div>
+<p>I’d be willing to switch to Haskell for time-series if it had a nice way for handling dates on the <em>x</em>-axis. Even in R, this is a huge pain in the ass and looks terrible. As of now, it seems not — the typical method (via <a href="https://www.cyberforum.ru/haskell/thread1157638.html">here</a>) seems to be having a list of <code>values</code> on the <em>y</em>-axis, and then using <code>zip [1..] values</code> to make a list of tuples. I’d much rather think in days and months rather than “point #3000”.</p>
+<h4 id="further-possibilities">Further Possibilities</h4>
+<p>There’s a <em>really</em> beautiful and elaborate example on <a href="https://rosettacode.org/wiki/Pythagoras_tree#Haskell">Rosetta Code</a>: a Pythagoras tree. However, not only does it fail to work, but every time I try to run it, it makes 1,023 .dat files in my current directory! If anyone else can get it working, I’ll be super-excited, but reader beware.</p>
+<p>Since Gnuplot has been around for a while, there are lots of groovy examples that you can try reproducing. As you learn more possible features, you’ll likely ‘graduate’ to the <code>gnuplot</code> library. Moreover, it <a href="https://ndreynolds.com/posts/2019-02-05-learning-haskell-via-advent-of-code.html">seems</a> that you can take the .dat file generated by Haskell, and plug it right into gnuplot to configure it on the command line.</p>
+<p>A nice exercise to start off with is this <a href="http://www.hg.schaathun.net/FPIA/week01se3.html">brief tutorial</a> on studying functions. The <a href="https://hackage.haskell.org/package/easyplot-1.0/docs/Graphics-EasyPlot.html">documentation</a> is quite friendly as well, and outlines various customizations such as adjusting the colors, range, or style. Last, ch. 4 of Church’s <em>Learning Haskell Data Analysis</em> uses EasyPlot for financial time-series.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>In and of itself, EasyPlot isn’t too special, but once the installation is done it’s quite easy to integrate with anything else you’re doing in Haskell. I expect it can be very helpful in studying empirical data to look for outliers, or as an accessible learning aid for calculus (especially multivariable calculus).</p>
+<p>Its main flaw is its limited features, but this is solved by Gnuplots, which I haven’t had a chance to try out yet in detail. I also came across <a href="https://github.com/DSLsofMath/Hatlab">Hatlab</a>, likewise based on gnuplot but with very different syntax. Last, I’ve heard good things about <a href="https://hackage.haskell.org/package/Chart">Chart</a>, and hope to experiment with it in a future post.</p>
+<p>Overall, I’d take this over a fugly Excel chart any day.</p>]]></summary>
+</entry>
+<entry>
+    <title>The Associativity Law for Monads</title>
+    <link href="http://gjoncas.github.io/posts/2020-05-30-monad-associativity-law.html" />
+    <id>http://gjoncas.github.io/posts/2020-05-30-monad-associativity-law.html</id>
+    <published>2020-05-30T00:00:00Z</published>
+    <updated>2020-05-30T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<p>During quarantine, I’ve been pursuing a goal I’ve had for years: to grok monads. In a word, monads are the <a href="https://en.wikipedia.org/wiki/Pons_asinorum">pons asinorum</a> of functional programming: once you get them, you’re part of the ‘club’.</p>
+<p>A pithy <a href="https://stackoverflow.com/questions/17590842">definition</a> I’ve found is that monads are a “type for output impurity”. Even from this we can see how much the concept is tied to the functional programming paradigm, and makes little sense outside of it. Within that paradigm, however, monads are a deeply elegant solution to a variety of problems, and continually give new ‘aha’ moments as one progresses deeper and deeper.</p>
+<p>This post documents one such moment — a tiny one, but one that tripped me up for quite a while. To follow along, the reader should have read and understood the <a href="https://en.wikibooks.org/wiki/Haskell/Understanding_monads">Haskell wikibook</a> page on monads.</p>
 <hr />
-<img src="https://github.com/gjoncas/Artsy-Diagrams/raw/master/pics/metatron.png" class="img-responsive img-centered" />
-<p>I live in Canada, and do research on computational economics and formal philosophy.<br />
-This is my personal website and blog. The best way to contact me is via <a href="https://www.twitter.com/gjncs">Twitter</a>.<br />
-<a href="https://www.github.com/gjoncas"><em></em></a> <a href="https://www.twitter.com/gjncs"><em></em></a> <a href="https://www.instagram.com/tesseractics"><em></em></a> <a href="https://www.linkedin.com/in/graham-joncas"><em></em></a></p>
-<button type="button" class="btn btn-default" data-dismiss="modal">
-<em></em> Close
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Menu Modals Add New Sa.21.Feb.2015 03:22:25 -->
-<div id="portfolioModal2" class="portfolio-modal modal fade" tabindex="-1" data-role="dialog" data-aria-hidden="true" style="padding-right:0px; overflow: hidden;">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
-
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="modal-body">
-<h1 id="oneironomics" class="font-style-inline-small-h1">oneironomics</h1>
+<p>Associativity means it doesn’t matter what order we evaluate a statement, typically written as:</p>
+<p><code>(a ∘ b) ∘ c = a ∘ (b ∘ c)</code></p>
+<p>However, in Haskell the associativity law is written as follows:</p>
+<p><code>(𝑚 &gt;&gt;= f) &gt;&gt;= g  =  𝑚 &gt;&gt;= (\x -&gt; f x &gt;&gt;= g)</code></p>
+<p>Yeesh. It’s not at all obvious that these are the same. For this reason, many people prefer the Kleisli composition operator (or ‘fish’), which lets us write the above as:</p>
+<p><code>(f &gt;=&gt; g) &gt;=&gt; h  =  f &gt;=&gt; (g &gt;=&gt; h)</code></p>
+<p>This gives us the structure we want, but just hides the whole problem within the definition of &gt;=&gt;, which is just as hairy, namely: <code>f &gt;=&gt; g = \x -&gt; f x &gt;&gt;= g</code>. Gag me with a spoon.</p>
+<p>Here I want to explain my Eureka moment in finally getting the associativity law for bind.</p>
 <hr />
-<p class="font-style-inline-small">
-Computational economics<br />
-Conceptual engineering<br />
-Surrationalism<br />
-<a href="https://www.github.com/gjoncas"><em></em></a> <a href="https://www.twitter.com/gjncs"><em></em></a> <a href="https://www.instagram.com/tesseractics"><em></em></a> <a href="https://www.linkedin.com/in/graham-joncas"><em></em></a>
-<li>
-<a href="https://gjoncas.github.io/">Home</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/Research.html">Research</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/Projects.html">Projects</a>
-</li>
-<li>
-<a href="https://gjoncas.github.io/blog.html">Blog</a>
-</li>
-</p>
-<button type="button" class="btn btn-default" data-dismiss="modal">
-<em></em> Close
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="content" data-align="justify">
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('https://gjoncas.github.io/static/img/tasvicze.jpg')" alt title>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<div class="post-heading">
-<h1 id="twitter-moments"><span style="color:white">Twitter Moments</span></h1>
-<h2 id="a-heteroglossic-archive" class="subheading">A Heteroglossic Archive</h2>
-<span class="meta" style="color:white"> June 19, 2020 </span>
-</div>
-</div>
-</div>
-</div>
-</header>
-<!-- Post Content -->
-<article>
-<div class="container">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" data-align="justify">
-<p>Beyond its 140-character limit, Twitter’s next most-prominent feature is its linearity, chronologically posting tweets that gradually sink into the memory hole. Twitter’s algorithms have tried to shake up its temporal structure, but as <a href="https://twitter.com/ThePatanoiac/status/1155701114626383874">some</a> have pointed out, this tends to drown out less-known authors.</p>
-<p>Enter <a href="https://twitter.com/gjncs/moments">Moments</a>. Moments are like eavesdropping on hundreds of conversations at precisely the most interesting point. As opposed to obtrusive tweetstorms based on searching a keyword (as I did in my early days, riffing off <a href="https://twitter.com/youtopos">@youtopos</a>), Moments provide a handy cubbyhole for tweets you want to return to later, whether 10 years old or 10 minutes. It’s the closest you can get to meta-tweeting.</p>
-<p>I’m obviously what programmers call an ‘edge case’ here — someone who uses a software feature in a way the programmer never anticipated. Yet, an interesting mathematical fact is that in an <em>n</em>-dimensional hypercube, most of the volume occurs at the edges, unlike with 2 or 3 dimensions <a href="https://twitter.com/hillelogram/status/1259191868509863937">(h/t)</a>. This is precisely the ‘pataphysical space that programmers occupy, where the exception is the rule.</p>
-<p>I’ve made 481 Moments, mostly on philosophy or math. My favorite aspect is how they encompass a mosaic of often contradictory perspectives on the same concept — heteroglossia. Scouring twitter is also a surprisingly effective way to get the core of an idea, shorn of all unneeded verbosity. Last, it’s a backstage pass to the <em>lore</em> of a (sub-sub-)discipline, like the deep grad school conversations that I never got to have, or the mysterious origins of zygohistomorphic prepromorphisms.</p>
-<p>After Twitter’s last major upgrade, I used an app to keep the old layout, which had a simple button for adding tweets to a Moment. On June 1, Twitter removed support for this. In short, it’s an order of magnitude more difficult to make them, so I have little choice but to move on. Still, I deserved any flack I got for curating other people’s ideas instead of my own, and now plan to blog more instead.</p>
-<p>Some of my favorites came from conferences, compiling reams of hyper-erudite thought-crystals. (Though I’m told these authors optimized precisely for pithy tweets — rather than, say, substance.)</p>
-<table style="width:99%;">
+<p>First, note that the type signature for bind (&gt;&gt;=) is as follows:</p>
+<p><code>(&gt;&gt;=) :: Monad m =&gt; m a -&gt; (a -&gt; m b) -&gt; m b</code></p>
+<p>So when used as an infix, the left-hand argument must be a monadic object, while the right-hand argument must be a function that takes a non-monadic object, and makes it into a monadic object. (Note that 𝑚 is not the same as m.)</p>
+<p>In the left-association <code>(𝑚 &gt;&gt;= f) &gt;&gt;= g</code>, the bracketed part gives the two arguments we need for bind: <code>𝑚 :: m a</code>, and <code>f :: (a -&gt; m b)</code>. Evaluating these gives a new term <code>𝑥 :: m b</code>. This is a monadic object, which is exactly what we expect on the left-hand side of the next bind. Therefore the next step is to apply g to 𝑥, giving a new monadic object, and then we’re done. Easy.</p>
+<p>Right-association, on the other hand, is a pain in the ass. Again:</p>
+<p><code>𝑚 &gt;&gt;= (\x -&gt; f x &gt;&gt;= g)</code></p>
+<p>To understand why we have to write it this monstrous way, let’s see how it would look if we didn’t:</p>
+<p><code>a &gt;&gt;= (b &gt;&gt;= c)</code></p>
+<p>Here, b is a monadic object, and c is a function. Applying bind to these gives a new monadic object 𝑦. Then the next step is to evaluate <code>a &gt;&gt;= 𝑦</code>.</p>
+<p>Here we have a problem, because 𝑦 needs to be both a monadic object (as output of <code>b &gt;&gt;= c</code>) and a function (as input to <code>a &gt;&gt;= 𝑦</code>), which doesn’t really make sense.</p>
+<p>To understand right-association (<code>𝑚 &gt;&gt;= (\x -&gt; f x &gt;&gt;= g)</code>), let’s start from the first bind. We know the left-hand side 𝑚 is a monadic object. We also know that the right-hand side needs to be a function, which is satisfied due to the lambda-term (i.e. <code>\x -&gt;</code>).</p>
+<p>In evaluating <code>𝑚:: m a</code>, the first bind ‘unwraps’ the 𝑎 from its monadic wrapper, and feeds it to the function on the right-hand side. So this 𝑎 is an ordinary non-monadic object, and we’re using it as an input for our function, which has type <code>(a -&gt; m b)</code>.</p>
+<p>But this 𝑎 is precisely the argument x that is called for in the lambda-function \x. Once it gets that argument, we can just ignore the function part (<code>\x -&gt;</code>), and only need to deal with <code>f x &gt;&gt;= g</code>.</p>
+<p>Well, f has type <code>(a -&gt; m b)</code>, so it takes this argument 𝑎 (or x) to produce a monadic object m b, which is what we expect on the left-hand side. Then we unwrap the b and pass it to the function g, which is likewise typed <code>(a -&gt; m b)</code> in general, or in this case <code>(b -&gt; m c)</code>. Thus, the end result of this double bind is a monadic object <code>m c</code>. Hooray!</p>
+<hr />
+<p>To recap: with left-associativity <code>(𝑚 &gt;&gt;= f) &gt;&gt;= g</code>, things are easy because we can simply evaluate the expression in brackets, and then feed the result as an argument to the remaining expression.</p>
+<p>With right-associativity <code>𝑚 &gt;&gt;= (\x -&gt; f x &gt;&gt;= g)</code>, we can’t quite do that, because of this pesky \x. Instead, the 𝑎 term from <code>𝑚 :: m a</code> is used as the x argument, and <em>then</em> we can evaluate the bracketed part independently.</p>
+<p>I’ve reread the monad laws many times, and this eluded me up until now. This is likely one of those things that will seem ‘obvious’ going forward, but even as I wrote this post I almost lost the main insight, due to a minor confusion about 𝑚. (My mistake was: I briefly thought the first bind passed all of 𝑚 to \x, not just the 𝑎 term.)</p>
+<p>Given how garrulous this post was, it’s no wonder most treatments of the monad laws just glance over associativity. The step I was missing was so profoundly simple, but easily lost among the mess of symbols. Therefore I hope this post helps not only ‘advanced beginners’ like myself, but also reminds experienced coders how to think of monads from the ground up.</p>]]></summary>
+</entry>
+<entry>
+    <title>Quantifier Elimination in Economics</title>
+    <link href="http://gjoncas.github.io/posts/2020-05-18-quantifier-elimination-in-economics.html" />
+    <id>http://gjoncas.github.io/posts/2020-05-18-quantifier-elimination-in-economics.html</id>
+    <published>2020-05-18T00:00:00Z</published>
+    <updated>2020-05-18T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<p>Viewed abstractly, formal verification sounds deeply conservative: we want software to work the way we intend, without any unexpected bugs. To those with more worldly experience, let’s pause. Imagine a world where bureaucrats can’t hide behind a faulty computer to divest themselves of personal responsibility. Imagine having to spell out the exact assumptions for the model behind a business decision — giving both the freedom to change one’s mind, and accountability for error. Now we see the <em>real</em> reason no-one uses formal methods.</p>
+<p>There may be a day when formal proof is a gold standard, separating those who tell people what they want to hear, from those who tell it like it is. That’s a ways away. Yet, just as we smirk at poor Milton Friedman taking hours to run a regression using punch cards, so shall we be condescended for assuming that if an idea makes sense in our head, this is evidence for its correctness.</p>
+<p>Here, I would like to examine a very specific project led by Casey B. Mulligan at the University of Chicago, on automated reasoning in economics using quantifier elimination — a tool from logic for systematically proving statements about polynomial inequalities of real variables, which can prove theorems, generate counterexamples, and automate counterfactual statements on economic policy.</p>
+<h3 id="quantifier-elimination">Quantifier Elimination</h3>
+<p>Suppose we want to find the set of coefficients for parabolas with real roots — values of <em>b</em> and <em>c</em> that solve the equation for a u-shaped curve, where <em>x</em> is a real number: {(<em>b</em>,<em>c</em>) ∈ ℝ² | ∃𝑥(x² + <em>b</em>x + <em>c</em> = 0)}.</p>
+<p>This is easy if we remember the quadratic formula, namely the part √(<em>b</em>² − 4<em>ac</em>). If 4<em>ac</em> is bigger than <em>b</em>², then we’re taking the square root of a negative number, so the value of <em>x</em> is not real anymore. Therefore the answer to our question is {(<em>b</em>,<em>c</em>) ∈ ℝ²: <em>b</em>² ≥ 4<em>ac</em>}, where <em>a</em>=1 by assumption.</p>
+<p>Notice that our entire deduction takes the form of eliminating the quantifier ∃𝑥. If ∃x is a question, then x without ∃ is the answer. If we want to check if a parabola is in the set, with the quantified definition we would have to check all possible values of <em>x</em>, but with the quantifier-free definition we just need to see if <em>b</em> and <em>c</em> satisfy the inequality (2016: 2).</p>
+<p>We can also think of quantifier elimination by analogy with Boolean satisfiability (SAT), which takes a logic formula made up of variables that can be <code>True</code> or <code>False</code>, and finds values for the variables so the formula evaluates to <code>True</code>. This was one of the first problems to be proven NP-complete, i.e. we don’t have a general algorithm to solve all such problems, but we do have lots of smaller ones.</p>
+<p>Satisfiability modulo theories (SMT) are a step up that allows inequalities (e.g. <em>a</em> ≥ <em>b</em>), which lets us tackle far richer questions with numbers. (This is similar to <a href="https://gjoncas.github.io/posts/2019-11-07-a-rose-for-emily.html">constraint solving</a>.) Quantifier elimination is a type of SMT that involves polynomials like <em>a</em>x² + <em>b</em>x + <em>c</em>, or with even higher powers.</p>
+<p>So the main ‘unit’ in quantifier elimination is Tarski formulas: boolean combinations of polynomial equalities and inequalities. We input a Tarski formula, and quantifier elimination gives us <code>True</code>, <code>False</code>, or (if there are any unquantified variables, as above) an equivalent quantifier-free formula.</p>
+<h3 id="cylindrical-algebraic-decomposition">Cylindrical Algebraic Decomposition</h3>
+<p>Now we get what quantifier elimination is. Now let’s look at how it works.</p>
+<p>Broadly, we want to show that for all values of a set of variables, our assumptions under those variables imply our hypothesis: ∀v, A(v) → H(v). Possible results can be tabulated as follows.</p>
+<table style="width:74%;">
 <colgroup>
-<col style="width: 1%" />
-<col style="width: 49%" />
-<col style="width: 49%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 17%" />
+<col style="width: 20%" />
+<col style="width: 16%" />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td></td>
-<td><ul>
-<li><a href="https://twitter.com/i/moments/1147699464695627777">Necrosemantics</a></li>
-<li><a href="https://twitter.com/i/moments/1175420454045212673">Eternal Feeding</a></li>
-<li><a href="https://twitter.com/i/moments/1158185558931378176">Tuning Speculation (1)</a></li>
-<li><a href="https://twitter.com/i/moments/1158191678701875202">Tuning Speculation (2)</a></li>
-<li><a href="https://twitter.com/i/moments/1158196742522834944">Tuning Speculation (3)</a></li>
-<li><a href="https://twitter.com/i/moments/1158201757786398725">Tuning Speculation (4)</a></li>
-<li><a href="https://twitter.com/i/moments/1158207693494149120">Tuning Speculation (5)</a></li>
-<li><a href="https://twitter.com/i/moments/1195834821618089984">Tuning Speculation 7</a></li>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;">~∃v(A ^ ~H)</td>
+<td style="text-align: center;"><div class="line-block">∃v(A ∧ ¬H)</div></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: right;">∃v(A ^ H)</td>
+<td style="text-align: center;"><div class="line-block">True</div></td>
+<td style="text-align: center;"><div class="line-block">Mixed</div></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: right;">~∃v(A ^ H)</td>
+<td style="text-align: center;"><div class="line-block">Contradiction</div></td>
+<td style="text-align: center;"><div class="line-block">False</div></td>
+</tr>
+</tbody>
+</table>
+<p>If all values support H and none support ¬H, then H is <code>True</code>; if the other way around, H is <code>False</code>. More likely, some values will support the hypothesis, while some will support its negation (<code>Mixed</code>). Last, if our assumptions are contradictory, any implication is vacuously true (<code>Contradiction</code>).</p>
+<p>If we want to prove a hypothesis is <code>True</code>, we just show that (A ∧ ¬H) is false for all v. Once we have a <code>True</code> result, we can try to weaken it by removing assumptions, and finding any that are irrelevant. Likewise, for a <code>Mixed</code> result we can add assumptions until it becomes <code>True</code> or <code>False</code>.</p>
+<p>There is also a clever way to generate examples or counterexamples (Mulligan, 2018: 5, fn. 9):</p>
+<blockquote>
+<span style="color:#909090"> Existentially quantify N−1 of the variables in the Tarski formula leaving free, say, x₁, and then eliminate quantifiers. The result is a formula in x₁ alone. Choose a real number for x₁ that satisfies the formula and substitute that value into the original N-variable Tarski formula, making it an (N−1)-variable Tarski formula. Repeat the process for x₂, etc., until real numbers are assigned to all N variables. </span>
+</blockquote>
+<p>Now we can see how quantifier elimination lets us investigate theories, not just play with formulas.</p>
+<p>The main algorithm behind quantifier elimination is cylindrical algebraic decomposition (CAD). The steps of a CAD are themselves a proof (2016: 35), and the fewer steps it takes, the shorter and more intelligible the proof. CAD actually has a nice geometric interpretation — in a word: “Removing existential quantifiers from the formula defining a set in ℝⁿ is the algebraic equivalent of projecting that set into the space of free variables”, or on the origin if there are no free variables (2018: 6).</p>
+<p>For the gory details, the most cogent explanation I’ve found is from Caviness &amp; Johnson (<a href="https://link.springer.com/chapter/10.1007/978-3-7091-9459-1_1">1998</a>: 2):</p>
+<blockquote>
+<span style="color:#909090"> The CAD method for QE can be briefly described as a method that extracts the polynomials occurring in the input formula (having first trivially reduced all atomic formulas to the forms A = 0 and A &gt; 0) and then constructs a decomposition of real <em>r</em>-dimensional space, where <em>r</em> is the number of variables in the formula, into a finite number of connected regions, called cells, in which each polynomial is invariant in sign. Moreover these cells are arranged in a certain cylindrical manner. From this cylindrical decomposition it is then quite straightforward to apply the quantifiers by using a sample point from each cell to determine the (invariant) truth value of the input formula in that cell. This application of quantifiers reveals which cells in the subspace of the free variables are true. It then remains to construct an equivalent quantifier-free formula from this knowledge. In Collins’ original QE method this problem was solved by a method called augmented projection that provided a quantifier-free formula for each of the true cells. </span>
+</blockquote>
+<p>Don’t worry if you didn’t get all that. The main takeaway is the rather beautiful idea that SMT solvers in computer science and projection in algebraic geometry are just different perspectives of the same automated reasoning problem (Mulligan, 2018: 8).</p>
+<p>The main reason quantifier elimination is seldom used its that its complexity is double-exponential <br>(<span class="math inline">\(\mathcal{O}[d^{2^{(2n+8)}} \!* m^{2^{(n+6)}}]\)</span>), where <em>d</em> is the highest power (degree) in the polynomial, and we see that its exponent has an exponent, meaning processing time increases <strong>really</strong> fast as <em>d</em> gets larger.</p>
+<p>Yet, computational complexity measures worst-case behaviour, which can be much better in practice — especially when most economic problems have low degree (x³ at worst). Order of variables also matters for CAD’s time and proof length, and since the number of combinations is <em>n</em>!, we can only check a few. Interestingly, recent research uses <a href="https://arxiv.org/abs/1404.6369v1">machine learning</a> to find an order that will work well.</p>
+<p>The CAD algorithm can be improved by ignoring irrelevant cases (cells), constructing a ‘partial CAD’. Other tricks take advantage of repeating substructures. Virtual term substitution sounds especially promising for economic problems, whose degree tends to be low, and which are ‘sparse’, i.e. “most variables are absent from most of the polynomials in the Tarski formula” (Mulligan, 2018: 22).</p>
+<h3 id="automated-deduction-in-economics">Automated Deduction in Economics</h3>
+<p>We saw above that deductive reasoning can be thought of as a process of quantifier elimination; likewise, if–then statements are implicitly just eliminating ‘for all’ quantifiers from a <code>True</code> sentence ∀x[P(x) → Q(x)] (Mulligan, 2018: 1 &amp; 28). Quantifier elimination goes well with economic theory because much of economics is counterfactuals about polynomial equations and inequalities.</p>
+<p>Mulligan and his coauthors have assembled over 45 problems that can be solved in this way, ranging from the Laffer curve to arguments about the gender gap for wages (nonparametric <a href="https://en.wikipedia.org/wiki/Roy_model">Roy model</a>). While above I focused on the implementation, their goal is to create a domain-specific language so economists can simply plug in theorems and test them. They use <a href="http://models.economicreasoning.com/pdfdownloads.html">Mathematica</a> because it has a nicer visual display for calculus, but also have <a href="https://zenodo.org/record/1226892">code</a> for other SMT solvers such as Z3, Redlog, and Maple.</p>
+<p>Mulligan makes a provocative claim that “Published theoretical results should be coded and made available[, just] as empirical economists are already expected to do with data-processing code” (<a href="youtu.be/Ewd_V8YodQg">here</a>, around 44:20). He also frequently compares theorem-provers to matrix inversion — many famous economists such as Paul Samuelson got RA jobs that were simply inverting matrices, which (happily!) is now entirely done by computers, and no-one would even think to verify them by hand.</p>
+<p>In fact, Mulligan is writing a grad-level textbook that leans heavily on quantifier elimination. I think this is amazing, and may be the start of a really important change in how economics is done.</p>
+<p>Curiously, <a href="https://en.wikipedia.org/wiki/Revealed_preference">revealed preference</a> arguments — very tedious to do on paper — are far more amenable to quantifier elimination than the more standard pedagogical method of inspecting first-order conditions (‘local analysis’). Likewise, more ‘global’ forms of analysis are often easier to deal with, while specific functional forms are intractable. Statements about Cobb-Douglas production functions (of the form ANᵅKᵅᐨ¹) are polynomial inequalities, but it’s often easier to treat them using functional forms like <em>f</em>(<em>n</em>), since the CAD algorithm doesn’t work if α is a variable, and fractional exponents can take immense amounts of time (5 times longer with <span class="math inline">\(n^\frac{5}{8}\)</span>, 3000 times longer with <span class="math inline">\(n^\frac{23}{30}\)</span>).</p>
+<p>From the other direction, solving these problems led to some new tricks for encoding integrals, and vectors with an indeterminate number of elements (e.g. number of goods in an economy) via statements about their dot product. The pollination may well go both ways.</p>
+<p>A paper as recent as 2014 claimed that five variables were a practical limit for quantifier elimination methods. By contrast, Mulligan’s problems have on average 19.2 polynomials and 17.2 variables (Mulligan et al., <a href="https://arxiv.org/abs/1806.11447v1">2018</a>: 10). That said, at least one problem with 18 variables couldn’t be solved even in 5 days of processing (2016: 29-30), illustrating just how bad double-exponential complexity can be.</p>
+<p>Most compelling for me is the other avenues that quantifier elimination in economics could open up. By adding slack variables to our Tarski formula, quantifier elimination lends itself to polynomial optimization: maximizing a polynomial subject to polynomial inequality constraints (Caviness &amp; Johnson, 1998: 1). Further, it can handle complex scheduling problems, where some machines can process several tasks in parallel, or some jobs require more than one machine in parallel. Even more curiously, it allows <em>hierarchical</em> scheduling, where in two steps “a second objective function is optimized under the assumption of an optimal solution wrt. a first objective function” (Dolzmann, Sturm, &amp; Weispfenning, 1999: 237-8). Quantifier elimination may well turn out to be a gateway drug.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Mulligan’s favorite example is from <a href="https://krugman.blogs.nytimes.com/2012/11/03/soup-kitchens-caused-the-great-depression">Paul Krugman</a> in the <em>New York Times</em>, to the effect that whenever taxes on labor supply are primarily responsible for a recession, then wages increase. With much schadenfreude, Mulligan shows by running this through a theorem prover that this is only so when “labor supply is at least as sensitive to wages as labor demand” (Mulligan et al., <a href="https://arxiv.org/abs/1804.10037v2">2018</a>: 3-4).</p>
+<p>Cursory familiarity with economics culture drives it home that this will only catch on if it has an idiot-proof point-and-click interface. It’s hard enough to get economists to use LaTeX or anything more advanced than Stata, and even this is orders of magnitude better than elsewhere. Ideally, it should be just as easy for a theorist to verify a theorem as it is for an applied economist to run a regression.</p>
+<p>A formal proof means the difference between reading a paper by an independent scholar and having faith in the results, versus relying on the brand names of academic old boys’ clubs. It means clarity: thinking from the bottom up. And my favorite, mechanized proof is an intellectual foundation for cognition-curdling fuckery that would otherwise be dismissed purely out of boorishness.</p>
+<hr />
+<h3 id="references"><br>References</h3>
+<ul>
 <li>
+Caviness, B. &amp; Johnson, J. (Eds.). (<a href="https://link.springer.com/book/10.1007/978-3-7091-9459-1">1998</a>). <em>Quantifier Elimination and Cylindrical Algebraic Decomposition</em>. New York: SpringerWienNewYork.
+</li>
+<li>
+Dolzmann, A., Sturm, T., Weispfenning, V. (<a href="https://link.springer.com/chapter/10.1007%2F978-3-642-59932-3_11">1999</a>). “Real Quantifier Elimination in Practice,” in Matzat, B., Greuel, G., Hiss, G. (Eds.). (1999). <em>Algorithmic Algebra and Number Theory</em>. Heidelberg: Springer, pp. 221-47
+</li>
+<li>
+Mulligan, C. (<a href="https://www.nber.org/papers/w22922">2016</a>). “Automated Economic Reasoning with Quantifier Elimination.” NBER Working Paper No. 22922.
+</li>
+<li>
+Mulligan, C. (<a href="https://www.nber.org/papers/w24601">2018</a>). “Quantifier Elimination for Deduction in Econometrics.” NBER Working Paper No. 24601
+</li>
+<li>
+Mulligan, C., Bradford, R., Davenport, J., England, M., &amp; Tonks, Z. (<a href="https://arxiv.org/abs/1806.11447v1">2018</a>). “Non-linear Real Arithmetic Benchmarks derived from Automated Reasoning in Economics,” in Bigatti, A. &amp; Brain, M. (Eds.). (2018). <em>Proceedings of the 3rd Workshop on Satisfiability Checking and Symbolic Computation</em>. Oxford, UK: University of Oxford, pp. 48-60
+</li>
+<li>
+Mulligan, C., Bradford, R., Davenport, J., England, M., &amp; Tonks, Z. (<a href="https://arxiv.org/abs/1804.10037v2">2018</a>). “Quantifier Elimination for Reasoning in Economics.” Working Paper.
+</li>
+<li>
+Mulligan, C., Davenport, J. &amp; England, M. (<a href="https://arxiv.org/abs/1806.11447v1">2018</a>). “TheoryGuru: A Mathematica Package to Apply Quantifier Elimination Technology to Economics,” in Davenport, J., Kauers, M., Labahn, G., Urban, J. (2018). <em>Mathematical Software – ICMS 2018</em>. Heidelberg: Springer, pp. 369-78
+</li>
+</ul>]]></summary>
+</entry>
+<entry>
+    <title>A Week of Envy</title>
+    <link href="http://gjoncas.github.io/posts/2020-03-21-week-of-envy.html" />
+    <id>http://gjoncas.github.io/posts/2020-03-21-week-of-envy.html</id>
+    <published>2020-03-21T00:00:00Z</published>
+    <updated>2020-03-21T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<p>My interest in data visualization comes in part from the idea that far before explicitly formalizing a model, we begin with some sort of picture, however simplistic — complete with fuzzy parts, or vague spatial metaphors for how one thing affects another (often literal handwaving). Yet, once we actively spell out an idea through shapes, colors, and relative positions, we see just how much information we can pack into this one concept: its ‘degrees of freedom’.</p>
+<p>On <a href="https://twitter.com/deepchimera">@deepchimera</a>’s recommendation, I came to discover the data visualizations of <a href="http://giorgialupi.com">Giorgia Lupi</a>. In her book <em>Dear Data</em>, she and a coauthor send postcards with elaborate graphs about some feature of their past week. My favorite part was following along and tracing out in my head how I might replicate each graph in code. I’ve gotten some flack for making diagrams in Ti<em>k</em>Z rather than using a staple like Tableau, but non-standard diagrammatics is where Ti<em>k</em>Z really shines.</p>
+<p>For this graph, the author recorded her feelings of envy. Here is the original, minus the legend:</p>
+<center>
+<img src="/static/img/blog-posts/lupi-envy-original.jpg" />
+</center>
+<p>And here is my reproduction (pdf <a href="/static/img/blog-posts/lupi-envy.pdf">here</a>):</p>
+<center>
+<img src="/static/img/blog-posts/lupi-envy-tikz.png" />
+</center>
+<p>
+My Ti<em>k</em>Z code is available <a href="https://github.com/gjoncas/Artsy-Diagrams/blob/master/lupi-envy.tex">here</a>, so anyone who wants can make their own version. The biggest pain is that your topics of envy will differ from the author’s, so you’ll have to choose new colors and labels.
+</p>
+Beyond that, the main data points you will need are the following:
+<ul>
+<li>
+Person being envied — either specific (you), or a category (coworker)
+</li>
+<li>
+Thing being envied — highly idiosyncratic, but nice for showing recurring themes
+</li>
+<li>
+Lesson learned from it — often slightly redundant, but still interesting
+</li>
+<li>
+Degree of this feeling of envy (continuous scale from 1.5 to 5; smaller than 1.5 looks bad)
+</li>
+<li>
+Weekly frequency of coveting this thing (continuous scale from 1 to 20)
+</li>
+<li>
+How attainable the coveted thing is (continuous scale from 1 to 12)
+</li>
+</ul>
+<p>What I mean by ‘continuous scale’ is that it can include decimals, like 5.25. So if it’s easier, scales from 1 to 10 are fine, and you can normalize it afterwards (multiply by 2 or 1.2). Both 20 and 12 are multiples of 4; this way, with 4 levels for frequency and attainability, they fit on a grid (not shown).</p>
+<p>The spirals are mostly an artistic flourish (circles would be fine), but give it style. I like how the <em>x</em>-axis focuses on frequency rather than order. The most creative part is the <em>y</em>-axis (attainability), which makes the graph far more poignant. In the bottom-left quadrant, the author fleetingly covets some feature of a celebrity who she can never measure up to. In the top-left quadrant (note the leftmost whitespace), she sees a nice article of clothing that she could just buy herself. The bottom-right is largely dissatisfaction with her personality, and the top-right is mainly her English.</p>
+I thought of a few possible variations to make the chart even more elaborate, if desired.
+<ul>
+<li>
+Angle for the line where the spiral begins — just change <code>rotate=-90</code> to any angle you want
+</li>
+<li>
+The tick marks can also have any angle — maybe for the degree of insight from one’s lesson
+</li>
+<li>
+Archimedean spirals for envy (coveting), and logarithmic spirals for jealousy (fear of loss)
+</li>
+<li>
+Dots can have different sizes, or even be a pie chart (percent of people who elicit this feeling)
+</li>
+</ul>
+<p>I’m too shy to do my own version, but if anyone else is brave enough, give me a <a href="https://twitter.com/gjncs">shout</a> and I’ll post it!</p>]]></summary>
+</entry>
+<entry>
+    <title>Tulpalgorithms</title>
+    <link href="http://gjoncas.github.io/posts/2019-12-08-tulpalgorithms.html" />
+    <id>http://gjoncas.github.io/posts/2019-12-08-tulpalgorithms.html</id>
+    <published>2019-12-08T00:00:00Z</published>
+    <updated>2019-12-08T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<p>I just started my first real job, which is lovely and I like it a lot, but it’s pretty overwhelming to enter into a new social network, especially since throughout my life I haven’t known many people. Curiously, this dovetails with a recent <em>idée fixe</em> of mine, namely: tulpas.</p>
+<p>The idea starts from <a href="https://en.wikipedia.org/wiki/Dunbar%27s_number">Dunbar’s number</a>, extrapolated from brain size of primates, that human social networks can sustain up to 150 people, and beyond this get too complex to handle.</p>
+<p>A <em>tulpa</em> is an internal representation of another person.<br> The key from Dunbar’s number is that human minds can only support a finite number of them.</p>
+<p>Thus, tulpas operate at a level between the (largely arbitrary) distinction between psychology / individuals and sociology / groups, where this division is precisely what’s at issue.</p>
+<p>Further, if tulpas are a scarce resource, this raises many economic questions about how to optimally allocate them. Yet, one tulpa can be assigned to multiple people (&quot;You’re just like my sister&quot;). This brings to the forefront the ‘<a href="https://twitter.com/youtopos/status/1187040993037692928">tulpalgorithms</a>’ we use to compress and even transmit tulpas.</p>
+<p>This theme has long been a staple on weird twitter, but I think we can actually represent tulpas using mathematics. Here I’d like to conjecture what a formal science of tulpas might look like.</p>
+<h3 id="economics-of-tulpas">Economics of Tulpas</h3>
+<p>If supply of tulpas is limited, then they implicitly have a price.</p>
+<p>Tulpas aren’t only for real people, mind you. In philosophy, it’s crucial to have high-fidelity tulpas for various famous philosophers. Fiction-writing is essentially manufacturing tulpas. Religion, especially polytheism (e.g. the various saints in Catholicism), is another example.</p>
+<p>This view helps explain empirical links between philosophers and solitude. Likewise with readers of fiction. The most cogent way to think about introversion vs. extroversion is in terms of ‘energy’, where introverts lose energy from interactions and extroverts gain it — hearkening back to Freud’s libidinal economy, now considered passé. Tulpas give a finer view of this divide, where extroverts enjoy shuffling their internal social representations, while introverts focus more on high-fidelity.</p>
+<p>Of course, tulpas are dynamic: anyone meets new people, or switches social circles. Keeping social links has costs, often high. Choices have to be made, which account for these costs, as well as returns. It’s hardly farfetched to posit some kind of optimizing behaviour here.</p>
+<p>The core question is ‘tulpa-worthiness’. By what criteria do we allocate a tulpa-slot? There’s a fun parallel to this in economics, which nicely illustrates how we can bring math to bear on this issue.</p>
+<p>In an episode of <em>Seinfeld</em>, Elaine’s favorite contraceptive stops being sold, and now for every potential lover she has to weigh in whether he is ‘spongeworthy’. An economics professor at Princeton wrote a paper on this, and it was actually published in <em>Economic Inquiry</em> (Dixit, <a href="http://gen.lib.rus.ec/scimag/10.1111%2Fj.1465-7295.2011.00377.x">2012</a>).</p>
+<p>In a nutshell, Elaine has to decide how to allocate a scarce resource among time periods in the presence of uncertainty (about quality of men and so on). Mutatis mutandis, that’s what people do when they allocate income throughout their lifetime. So this is actually a classic economic problem; hence, given a decent specification (e.g. how impatient Elaine is), we can use mainstream tools such as dynamic programming to find numerical solutions — at least after a few minor tweaks.</p>
+<p>Unlike a sponge, we can reuse a tulpa, albeit with some kind of mental processing cost. Like with Elaine, we have to decide whether to assign a tulpa-slot now, or wait until someone better comes along. Another curious difference is that in a sense, there exists a market for tulpas, though its completeness depends on how fine-grained we want to get.</p>
+<p>The main problem is that internal costs aren’t observable (time discounting, processing cost, etc.). Nor is the general value that someone can bring to a relationship, though it would be interesting to experiment with different indexes here.</p>
+<p>This is the sort of situation where simulations are invaluable. The idea is to replicate various situations involving tulpas, experimenting to see which parameters match each outcome. One of my current goals is to learn dynamic programming, which is precisely the kind of math that’s needed here, so I think it’s actually feasible in the near future to pull this off.</p>
+<h3 id="data-structures-compression">Data Structures &amp; Compression</h3>
+<p>By analogy with sponges, we treated tulpas as discrete, but that’s too simple. Tulpas overlap, as anyone can attest. I once worked with an awful woman who looked just like a professor I was fond of, so I was far nicer to her than she deserved. I’m sure there’s a whole subliminal network of irrational behaviour that tulpas account for.</p>
+<p>The simple fact is that all of us will encounter more than 150 people. Some of us do every day. Most of us don’t actually have to <em>know</em> everybody enough to have an internal representation of them, but others (like diplomats) are professional networkers, forced into elaborate mnemotechnic encodings.</p>
+<p>Personality typologies are a nice example of this. With Myers-Briggs we have four sets of binary oppositions, leading to 2<sup>4</sup> = 16 personality types, such as INTJ (me) or ESFP. That’s quite a lossy compression, with 134 tulpas to spare.</p>
+<p>My own favorite is the Enneagram — probably the craziest thing I believe, but it works. Here, there are nine types arranged in a circle, and each type has an adjacent number as a ‘wing’, in the form 5w4 (me), 1w9, and so on, for <code>9*2 = 18</code> types. (Myers-Briggs maps onto the enneagram in a straightforward way, but excludes the 3s.)</p>
+<p>There’s a related typology I pair it with: instinctual subtypes. Briefly, there are three instincts: self-preservation (SP), social (SO), and pleasure (or sexual: SX). These are arranged in order, where the first one is literal, the second one is abstract, and the third is dormant. So SP/_/_ means the person might be very sensitive (or very insensitive) to cold or diet; SX/_/_ means the person pursues physical pleasures like food. Similarly, for _/SX/_ the person prefers more abstract pleasures like music; or for _/SO/_ someone prefers people in the abstract to people in the concrete (which would be SO/_/_).</p>
+<p>This gives <code>3! = 3*2*1 = 6</code> combinations, so paired with the enneagram it’s <code>6*18 = 108</code>. That’s a reasonable degree of fidelity, with 42 tulpas left over for Deleuze and my mum or whatever.</p>
+<p>The latter two typologies mesh nicely because there’s no overlap. In general, we can’t count on this. This is where computer science comes in, notably its rich resources on compression such as error-correcting codes.</p>
+<p>I hesitate to say much about this, as it’s not a kind of math I know well. In a sense that’s the charm — our ‘tulpalgorithms’ for handling overlap deeply impact how we optimize, differently from any other commodity. Information theory should be crucial here, with tools such as Kolmogorov complexity to judge whether one encoding is better than another. Unsurprisingly these are seldom used in economics, but they would help ground in theory what would otherwise be disparate simulations.</p>
+<h3 id="computational-egregorics">Computational Egregorics</h3>
+<p>So far, tulpas have mapped onto humans — concrete like my mum, or abstract like Deleuze (whose books I can read, but I’ll obviously never meet him) or fictional characters.</p>
+<p>We’re already making lots of arbitrary distinctions. Is there really a qualitative difference to a tulpa if I’ve met that person in meatspace? What about a tulpa for my dog, who certainly has some kind of personality? (Parenthetically, I find that the instinctual subtypes help for animals.) Is my self-concept a tulpa? What about higher-order tulpas, like what I think you think of me?</p>
+<p>Within this conceptual framework there is another closely-related notion: egregores. Egregores don’t necessarily map onto humans. Rather than a hard-and-fast distinction, it’s more helpful to think of tulpas as a subtype of egregores, perhaps of the highest intensity.</p>
+<p>This is because egregores leech off of our tulpas. They are artificial entities that feel real (like actual beings), precisely because they’re parasitic. So brands, for instance, are egregores. An organization (workplace) or symbol (flag) or abstract idea can be egregoric. Fictional characters seem like tulpas insofar as they’re ‘people’, but they’re also egregores in that they’re not ‘real’.</p>
+<p>I think it’s bad to hard-code a distinction between ‘real’ and ‘not-real’ into a conceptual system. One can imagine only ever communicating with someone via letters, and yet they feel far more real than most people around you; you may even discover that the whole time, your interlocutor was a neural network. So it’s far simpler to take egregores as the main unit, and tulpas as just a shorthand for anthropomorphic egregores, more intense because we encounter them more often.</p>
+<p>Crucially, Dunbar’s number brings to light a deeply insidious aspect to brands and symbols. At face value, it corresponds somewhat with banal critiques of ‘media society’ subtracting from ‘real human relationships’ and so on. The flip-side of this is xenofeminist praise of tulpa-decentralization, an alienation of internal representations away from the anthropomorphic.</p>
+<p>The notion of compression adds far more nuance. Suppose a fictional character reminds me of my friend; by watching a movie, I feel like I’m hanging out with my friend, helping me to maintain that tulpa even if I haven’t seen them for years. So large social networks create tulpa externalities which can be positive or negative.</p>
+<p>Further, media personalities might crowd out acquaintances in meatspace, but on the other hand, there are such legions of them that they create myriad new distinctions, which might motivate me to meiotically split a tulpa that otherwise would have contained several diverse people.</p>
+<p>Most fascinating of all is the idea that social networks force us to develop more efficient ways to mnemotechnically encode conflicting tulpas. Are there different methods of reaching equilibrium (whatever that means here), analogous to regret minimization as compared to Nash equilibrium? Can we show that some methods are bad and we shouldn’t use them? Can we use egregorics to explain the persistence of seemingly irrational types of behaviour?</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>The sort of simulations I have in mind are entirely feasible, akin to iterated prisoner’s dilemma or Schelling’s model of segregation. As hard as it would be to translate any insights from this into actionable results, I can imagine textual analysis of ad copy into separate categories in order to identify opportunities for parasitism, or comparing lexical choices of various people in one’s twitter feed as a barometer of egregoro-dynamics.</p>
+<p>One could even actively engineer one’s egregoric ecology by creating sensory associations of certain people with exotic animals or landmarks. People surely use such strategies already, in more or less watered-down ways. Tulpas are even exchanged through gossip, and acculturation into a new society takes the form of ‘tulpa-mining’ as we catch up with common knowledge.</p>
+<p>Just as we accept that our bodies are composed of myriad cellular organisms with a high degree of autonomy, egregorics provides a multi-agent view of the self where, moreover, these agents are distributed among members of society. Unlike semiotics where symbols are simply ‘given’, or memetics where memes spread through you like a virus, egregores are feeding on you as we speak. Egregorics must be computational, so machines can tell us what our tulpas don’t want us to know.</p>]]></summary>
+</entry>
+<entry>
+    <title>A Rose for Emily</title>
+    <link href="http://gjoncas.github.io/posts/2019-11-07-a-rose-for-emily.html" />
+    <id>http://gjoncas.github.io/posts/2019-11-07-a-rose-for-emily.html</id>
+    <published>2019-11-07T00:00:00Z</published>
+    <updated>2019-11-07T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<p>One of my more recent code projects replicated a paper by Burg, Boyle &amp; Lang (<a href="https://gen.lib.rus.ec/scimag/10.2307%2F30204830">2000</a>), which used constraint-solving to analyze the non-linear timeline in Faulkner’s story “<a href="https://xroads.virginia.edu/~drbr/wf_rose.html">A Rose for Emily</a>”.</p>
+<p>I like this paper because it’s quirky. Most digital humanities is confined to a handful of tools, such as statistically analyzing a corpus, or mapping characters’ social networks. Constraint-solving is a brand new tool, so the paper is evocative not only for its results, but also for the new possibilities it hints at.</p>
+<p>First I’ll go over the code part, then what it means for the story, then some speculative conclusions.</p>
+<h3 id="non-linear-chronology">Non-linear Chronology</h3>
+<p>Here I’m giving an informal overview of what the code does, which the reader can skim quickly to understand the results. For those more interested in the code, this <a href="https://github.com/gjoncas/A-Rose-for-Emily">repository</a> is the place to look.</p>
+<p>Here’s a table of the main events in the story. (It’s fine to just skim it for now.)</p>
+<center>
+<img src="/static/img/blog-posts/rose-events.png" />
+</center>
+<p>These events are given in the order they appear in the story, which clearly is highly nonlinear. However, Faulkner also includes various inter-temporal references. We can encode these as equations or inequalities — if <strong>A</strong> occurred 6 years before <strong>B</strong>, we get: <code>A+6=B</code>. All these references are listed in the table below. (I highly recommend skipping, but it will help later on.)</p>
+<center>
+<img src="/static/img/blog-posts/rose-intertemporal.png" />
+</center>
+<p>What the constraint solver does is to test possible years when each event could have occurred, which must satisfy the constraints, i.e. the series of intertemporal equations or inequalities. If the constraints are inconsistent, the program identifies the ‘minimal conflict set’, where removing any one will make the rest consistent (Burg, Boyle &amp; Lang, 2000: 385). If the constraints can be satisfied, the program outputs the range of years in which each event could have consistently occurred.</p>
+<p>If it helps, I think of constraint-solving by analogy with linear programming, a common tool in economics to allocate resources with different values (e.g. prices of goods being delivered, nutrients in a diet) subject to a budget constraint (travel costs, cost of each food item). The difference is that with constraint-solving we’re not trying to maximize anything, we just want consistency.</p>
+<p>To illustrate the possible chronologies given by the program, I made a little diagram.</p>
+<center>
+<img src="/static/img/blog-posts/rose-diagram.png" />
+</center>
+<p>The top two lines are the order of events given in the story, versus a possible chronological ordering. The third line just rearranges the second line; it’s the order that would make all the red lines vertical. The bottom two lines illustrate possible orderings of events; there are 10 in all, but they’re quite repetitive. Among these, the only events whose order completely flips are <strong>E</strong> and <strong>F</strong>, hence the red X. The small blue brackets mean that these two events (could have) occurred in the same year.</p>
+<h3 id="computational-hermeneutics">Computational Hermeneutics</h3>
+<p>Now let’s see what this all means for how we interpret the story.</p>
+<p>The first thing to jump out when we run the code is that the following statements are inconsistent:</p>
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 13%" />
+<col style="width: 83%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>D - E &gt;= 8</td>
+<td>Eight or ten years pass between Emily’s last lessons and deputation visit</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>B &gt;= D</td>
+<td>Last time anyone else sees inside house is after or during deputation visit</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>E = B</td>
+<td>After China painting lessons end, no one but manservant sees inside house</td>
+</tr>
+</tbody>
+</table>
+<p>The first constraint comes from the sentence: “A deputation...knocked at the door [<strong>D</strong>] through which no visitor had passed since she ceased giving china-painting lessons [<strong>E</strong>] eight or ten years earlier” (1930: §1). The latter gives <code>D - E &gt;= 8</code>.</p>
+<p>However, later the story notes: “The front door closed upon the last [painting pupil] and remained closed for good” (1930: §4), with ‘for good’ implying <code>E = B</code>.</p>
+<p>There are several ways to reconcile these claims. One is that the deputation entered (or pupils exited) a door other than the front door. Another possibility is that there was an unspecified visit to the house following the deputation visit, and this person was the last to see inside the house.</p>
+<p>The original authors opt to remove the constraint <code>E = B</code> from the program, since this is the least specific temporal reference of the three, and may even have been an error on Faulkner’s part. This adjustment causes the program to work.</p>
+<p>Recalling the diagram above, the main variations among the different chronologies are whether the tax remission (<strong>C</strong>) occurs at the beginning of Emily’s china-painting lessons (<code>C = N</code>), in the middle (<code>N &lt; C &lt; E</code>), or at the end (<code>C = E</code>); whether Colonel Sartoris dies while Emily is still giving lessons (<code>F &lt;= E</code>) or after (<code>E &lt;= F</code>); and whether the deputation are the last people to see inside Emily’s house (<code>B = D</code>), or whether someone else is (<code>B &lt;= D</code>).</p>
+<p>More interestingly, it turns out that there’s a big debate in Faulkner scholarship about whether the year Emily’s taxes were remitted (<strong>C</strong>) is the same as the year of her father’s death (<code>C = H</code>), or whether the tax remission occurs at the time of the china-painting lessons (<code>N =&lt; C =&lt; E</code>). Burg, Boyle &amp; Lang’s (2000) program unequivocally supports the latter interpretation.</p>
+<p>Lastly, in an early draft of the story, Faulkner included the sentence “that day in 1904 when Colonel Sartoris...remitted her taxes dating from the death of her father 16 years back, on into perpetuity” (in Burg, Boyle &amp; Lang, 2000: 387). The authors set <code>C = 1904</code> in their program, but find it inconsistent. However, leaving <code>C = 1894</code>, they find that Emily’s father could have died 16 years before, i.e. <code>H = 1878</code> is consistent.</p>
+<h3 id="the-simplex-of-meaning">The Simplex of Meaning</h3>
+<p>In the rest of their paper, the authors try to narrow down the timeline to a single interpretation. The other time constraints imply that Emily must have been born between 1842 and 1856 (<code>1842 &lt;= K &lt;= 1856</code>), and the authors surmise that Faulkner set the story during 1924, the year he wrote it (2000: 385). This gives a birth date of <code>K = 1850</code>, from which they infer various other dates.</p>
+<p>Curiously, this fails to replicate in my version of the code. The main difference between my program and theirs is that mine uses integers (for years) and theirs uses real numbers. Yet, this in itself doesn’t explain the failure. I still haven’t managed to pin down the exact reason. Here’s a nice place to tinker with the <a href="https://github.com/gjoncas/A-Rose-for-Emily">code</a>, if the reader is so inclined.</p>
+<p>More crucially, I think the idea of using a computer program to find the unique meaning of a text is an impoverished view of what the program <em>actually</em> does. Rather, the truly novel element of Burg, Boyle &amp; Lang’s approach is that they can model the <em>space of contested meanings</em> within a text.</p>
+<p>In the mathematical theory of linear programming, such a space is called a <em>simplex</em>. With only two variables, say Emily’s death (<strong>A</strong>) and birth (<strong>K</strong>), we know that she died at age 74 (Faulker, 1930: §4), so that <code>A = K+74</code>. Thus, our ‘simplex’ here is just a line, where the farther back <strong>K</strong> is, the farther back <strong>A</strong> is in turn. Further, suppose three variables (<em>x</em>, <em>y</em>, <em>z</em>) must add up to 3, and are greater than zero. Then the different combinations (including decimals) take the form of a triangle, whose vertices are (3,0,0), (0,3,0), and (0,0,3).</p>
+<center>
+<img src="/static/img/diagrams/simplex.png" />
+</center>
+<p>With large numbers of constraints, the simplex is an <em>n</em>-dimensional surface far beyond human visualization. In a very real sense, this monstrous geometrical object <em>is</em> the space of possible meaning for Faulkner’s chronology.</p>
+<p>While impossible to represent pictorially, one can imagine a series of dials, one for each constraint. Adjusting the date of one (e.g. Emily’s death <strong>A</strong>) forces all the other dials to adjust in turn. The key to look for would then be <em>discontinuities</em>: in adjusting one constraint, all the other constraints move incrementally, but then one or more suddenly ‘jump’ to a far-away value. Such discontinuities in the space of meaning may likely be what gives rise to conflicting interpretations.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>“A Rose for Emily” is one of Faulkner’s most widely read stories, and it’s difficult to imagine how new insights might still be gleaned about it. Thus it’s a pleasant surprise that simply listing unambiguous temporal references in a computer program can clarify long-standing debates on the storyline.</p>
+<p>Burg, Boyle &amp; Lang (2000: 388) suggest their method may also be applied to <em>The Sound and the Fury</em>, or any story with a non-linear chronology, given enough inter-temporal constraints. Thinking geometrically, it would be fascinating to see if Faulkner’s simplexes have a ‘shape’ distinct from those of other authors.</p>
+<p>Another possibility is encoding multidimensional mathematical objects (e.g. a Klein bottle) as temporal constraints, then writing a story that satisfies them. Still further, one can imagine a detective story in which a temporal inconsistency is the key to solving the case.</p>
+<p>In sum, digital humanities should be a tool for expanding the meaning of a text, rather than identifying a single ‘correct’ meaning. By identifying different and equally valid interpretations of the timeline for “A Rose for Emily”, a digital approach to the text can thereby help foster debate rather than stifle it.</p>]]></summary>
+</entry>
+
+</feed>
