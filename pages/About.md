@@ -1,4 +1,4 @@
-﻿My name is Graham. I studied economics in Canada, then spent two years in China studying the language, and then another two years on an MA in economics in Shanghai. I can speak Chinese, and have  autodidactic interests in philosophy, programming, data visualization, and mathematics.
+﻿My name is Graham. I studied economics in Canada, then spent two years in China studying the language, and then another two years on an MA in economics in Shanghai. I can speak Chinese, and have  autodidactic interests in philosophy, programming, mathematics, and data visualization.
 
 Now I’m in Toronto, working as a business analyst. My main role is brainstorming with incoming immigrants to create high-tech business ideas that can get venture capital support. Much of this involves applied machine learning, where I’m gradually building up expertise in the distinct ‘flavor’ of each algorithm, and how each lends itself to different problems.
 

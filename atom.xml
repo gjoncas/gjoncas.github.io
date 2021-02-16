@@ -8,8 +8,165 @@
         <name>Graham Joncas</name>
         <email></email>
     </author>
-    <updated>2020-12-26T00:00:00Z</updated>
+    <updated>2021-02-16T00:00:00Z</updated>
     <entry>
+    <title>Computational Psychoanalysis</title>
+    <link href="http://gjoncas.github.io/posts/2021-02-16-computational-psychoanalysis.html" />
+    <id>http://gjoncas.github.io/posts/2021-02-16-computational-psychoanalysis.html</id>
+    <published>2021-02-16T00:00:00Z</published>
+    <updated>2021-02-16T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<p>In relating to other people, we have two main strategies. The first, empathy, amounts to simulation: how you would react in the same scenario. Yet, in the absence of analogous experiences, this can go wildly astray, with no self-correcting mechanism. By contrast, sympathy is cognitive modeling — following <em>why</em> someone would feel a certain way, even if they think very differently from you.</p>
+<p>Most of us get through life by mining our past for analogies, but at extremes this breaks down. From historians trying to reconstruct forms of life of the ancient Greeks, to anthropologists meeting tribes untouched by modern society, or psychologists reaching out to patients in the depths of psychosis, sometimes these emotional ‘theories of mind’ are all we have.</p>
+<p>I remember my surprise to hear that such a thing as ‘computational psychoanalysis’ existed. Far from the soft couch on which Freud’s patients, often neurotic Victorian housewives, laid supine, the roots of these ideas came from desperately trying to decipher straitjacketed lunatics shrieking absolute nonsense. We should expect this theory to be completely fucked, and I assure you, it is.</p>
+<p>Much clinical research already exists on Ignacio Matte Blanco’s <em>The Unconscious as Infinite Sets</em> (1975). Here I want to examine its computational side, brought to light only far more recently. First, I’ll give an overview of Matte Blanco’s model of the unconscious as increasing degrees of logical symmetry; next we’ll reframe this through his later emphasis on multi-dimensional cognitive spaces; and finally, all this will be formalized in terms of ultrametric spaces in mathematics, allowing topological insights into Freudian concepts that can be implemented as machine learning algorithms for text-mining.</p>
+<h3 id="the-unconscious-as-in�nite-sets">The Unconscious as Inﬁnite Sets</h3>
+<p>So much of Freud has trickled into popular consciousness that it’s easy to forget just how weird his notion of the unconscious really is. Specifically, Freud notes the following defining characteristics:</p>
+<ol>
+<li>
+<strong>Timelessness</strong> – In recalling a repressed trauma, it’s as if you’re reliving it right now. Likewise, in dreams, people and places from various stages of life appear at once. The unconscious simply doesn’t recognize that a thing is past, and often dredges up memories we thought were lost.
+</li>
+<li>
+<strong>Absence of negation and contradiction</strong> – Freud famously imagines the unconscious as Rome with its various historical stages superposed atop one another, such as a church being in the same place as an ancient temple, with all these contradictory entities existing at once.
+</li>
+<li>
+<strong>Condensation</strong> – In dreams, numerous associations and lines of thought can be expressed in a single symbol, such as multiple people sharing some quality fused into a composite figure.
+</li>
+<li>
+<strong>Displacement</strong> – Feelings linked to one thing are often associated with another, such as projecting feelings about one’s father onto another male authority figure.
+</li>
+<li>
+<strong>Replacement of external by internal reality</strong> – A person may have a negative feeling and project it outwards, looking for something to blame it on; alternatively, a thing might be so closely connected to a bad memory that we can no longer treat it objectively.
+</li>
+</ol>
+<p>These come up again and again in psychoanalysis, but it’s not immediately clear how they’re related. In 1959, a Chilean analyst Ignacio Matte Blanco claimed that these can be reduced to two principles.</p>
+<p>The <em>principle of generalization</em> claims that the mind classifies each thing (person, object, concept) into classes sharing some quality, which in turn belong to more general classes, and so on. This operates in both conscious and unconscious thought, and is commonsensical.</p>
+<p>The <em>principle of symmetry</em> claims that the unconscious treats any relation as identical to its converse, i.e. <span class="math inline">\(xRy\!\iff\!yRx\)</span>. While conscious thought allows asymmetric relations where a part belongs to a whole, or one event occurs before another, in the unconscious the whole also belongs to the part, and any ordering relation disappears. As another example, I am my father’s son and he is my son.</p>
+<p>This sounds crazy, but that’s the point. One of Matte Blanco’s examples is a schizophrenic woman who, after doctors took a blood sample, complained that they had taken her arm away (1975: 137).</p>
+<p>Note how these explain the characteristics of the unconscious (1976: 215). Time is an order-relation, so it disappears. With negation, <span class="math inline">\(p\)</span> and <span class="math inline">\(\neg p\)</span> are generalized into a wider class, and thus get treated as symmetric. Condensation is just generalization, where classes are treated as homogeneous due to symmetry. Displacement occurs when things in a class (e.g. bosses and fathers) are, by symmetry, taken as identical. Last, replacement of external by psychical reality is just a version of displacement.</p>
+<p>Here it’s natural to ask whether there’s any mathematical object where a part can be equal to the whole. In fact, this is a defining property of infinite sets. Take for example the natural numbers <span class="math inline">\(\mathbb{N}\)</span> and the set of even numbers. For each natural number <span class="math inline">\(n\)</span>, there is a unique even number <span class="math inline">\(2n\)</span> corresponding to it. We say that there exists a bijective mapping between the two sets. Counterintuitively, such a mapping implies that both infinite sets are the same size.</p>
+<p>Matte Blanco takes this in a surprisingly practical direction when he notes how emotional life is dominated by infinite quantities. It would be emotionally untruthful for a lover to say “I’ll love you for a finite amount of time.” Likewise, if you feel like a bad person, everything you’ve ever done or will do is not good enough. We could go on and on, especially for pathological thoughts. A huge part of psychoanalysis is to ‘finitize’ these emotions, putting your flaws and limitations in perspective.</p>
+<p>Pathology, in short, is the invasion of unconscious symmetries into thought; e.g. prejudice is to view all members of a social class as the same. For Matte Blanco there is a continuum from conscious to unconscious, marked by increasing degrees of symmetry (1988: 43-5). In conscious thought, we can apprehend individual things in their singularity (first stratum); still consciously, we see how these things are interrelated, and have feelings about them (second stratum). In the third stratum, things are placed into equivalence classes, and this is where emotions of infinite degree can arise.</p>
+<p>In the fourth stratum we reach the ‘unconscious’ proper, where equivalence classes themselves are placed into larger classes. This is where schizophrenics live: one patient said a man was very rich; when asked why, she said “He is very tall” — here the symmetric class in question is ‘things of high degree’ (1988: 44). Another noteworthy phase shift is that intense aggression involves a high degree of asymmetry (e.g. self vs. other), so is confined to the third stratum, while the fourth embodies the unconscious characteristics of lack of negation, and identification of internal and external reality.</p>
+<p>The deepest part of the unconscious is so symmetric as to be inaccessible to asymmetric conscious thought. Everything equals everything else, and all relations between things are contained within any one thing. Hence we actually answer the question “why is the Freudian unconscious unconscious?” rather than just taking it for granted. Beyond this, however, psychoanalytical theory hits a wall.</p>
+<p>This differs from orthodox Freudians, for whom unconscious ‘depth’ corresponds to developmental stages (oral, anal, etc.). Yet, instinct presumes asymmetric divides such as me versus ‘thing in mouth’, so for Matte Blanco it can’t be deepest (1975: 133). Further, in Freud’s later view of the unconscious as ego vs. id, the barrier between conscious and unconscious was explained by repression, whereas Matte Blanco returns to Freud’s original conception of the (mostly) ‘unrepressed unconscious’.</p>
+<p>Matte Blanco’s work is filled with many more clinical examples, but this gives the gist of his theory. His use of mathematics is somewhat shallow, leaving many open questions, though apparently his later (untranslated) work probes the deepest layers of the unconscious by means of large cardinals. He also reframed his ideas geometrically through the notion of multi-dimensional spaces, which is worth exploring to get a more practical feel for his theory’s implications.</p>
+<h3 id="the-���-dimensional-psyche">The 𝑛-dimensional Psyche</h3>
+<p>Matte Blanco called his theory ‘bi-logic’, to denote the disparate logics of conscious vs. unconscious thought. In fact, he was originally experimenting with multi-valued logics, and shifted to geometry as a better way to account for the facts, and this in turn gave rise to the principle of symmetry (1959: 4). Thereafter he still held on to his geometric ideas, but in an uneasy relation to his set-theoretic views.</p>
+<p>Here it helps to start with the math. Suppose we have a triangle made from points A, B, and C. This can also be expressed as the line CABC. Notice how representing a 2D object as a 1D line entails repetition, namely of a zero-dimensional point C. A similar thing happens if we unfold a 3D cube into a 2D cross-shape. This time, not only points but also lines get repeated. In fact, this kind of repetition occurs for any projection of an <span class="math inline">\(n\)</span>-dimensional shape onto a lower-dimensional surface.</p>
+<p>A strikingly similar thing happens in displacement, where the same unconscious class gets manifested in many different objects. Likewise, condensation in dreams compresses disparate ideas all within one symbol, like a cubist painting on a flat canvas. Hence, a dream is a way to represent multi-dimensional mental objects for eyes made to see in a three-dimensional world (1975: 418).</p>
+<p>In this view, the deepest level of the unconscious is an <span class="math inline">\(\infty\)</span>-dimensional structure, and higher strata of the unconscious are lower-dimensional projections of this, bringing multiplicities along in turn.</p>
+<p>We can also use this to think about introjection, or internalizing an object or idea (1988: 254). We’re essentially building a mental model of that thing, which has a certain dimensionality, and thus might fit well or poorly in a given part of the unconscious. If we put a model in an isodimensional stratum, then we’re good to go. It may also happen that we put our model in a certain stratum, but later find that it’s more complex, like a childood memory that a person only appreciates when they’re mature.</p>
+<p>In most cases our mental models are incomplete, having a lower dimension than the object itself. Matte Blanco notes that this gives a new way to interpret the concept of ‘partial object’ (1988: 255).</p>
+<p>The psychoanalyst’s task thereby becomes a process of unfolding or translating symptomatic objects from a high-dimensional space into one that consciousness can grasp (Carvalho, 2010: 234). Sanchez-Cardenas (2011) uses this to justify pluralism: rather than an analyst holding back in fear of imposing their own meaning, any interpretation has value as material to bridge psychic voids.</p>
+<p>Matte Blanco actually uses the term ‘topological psychology’, but is far more down-to-earth than Lacan. When I have a thought or emotion, it occupies the whole of my ego; we know it’s only a part, but at the same time it’s absurd to try to localize this to a specific part. Compared to claiming that the psyche has discrete parts (like id, ego, superego), the idea that these are projections of a more complex object is almost tame in comparison. Further, there is a ‘quantitative’ aspect, where higher-dimensional objects in the psyche are associated with more intense emotions (1988: 197).</p>
+<p>We’ve seen two very different interpretations for the same basic model of the mind, with clear parallels such as dimensionality with degree of symmetry, but striking differences as well that can’t obviously be reconciled. Nevertheless, both approaches are based on clearly-delineated principles. Thus, Matte Blanco lets us think an unconscious that is unattached to any particular person.</p>
+<h3 id="formalizing-bi-logic">Formalizing Bi-Logic</h3>
+<p>As theories go, Matte Blanco’s is quite elegant, and it’s natural to ask why he’s not more well-known. The answer, I think, is terrible writing — most of <em>The Unconscious as Infinite Sets</em> is absolute twaddle, filled with pedantry, self-praise, and saying the same things over and over again. He seems to be much more popular in Latin America than in the Anglophone world, though has a positive reception by clinicians because he offers interpretive rules that can be used again and again among patients.</p>
+<p>Reading Matte Blanco, one feels that he could have gone far deeper, if he only knew more math. In this vein, several attempts have been made to upgrade bi-logic into more advanced formalisms. This section is meant to show what else is out there, but I don’t find any of these approaches compelling. The reader is free to skip to the next section, where I outline a far more exciting formalization.</p>
+<p>Rayner (1995) outlines his collaborative project to frame bi-logic through chaos theory. Matte Blanco (1988: 242) himself posited fractional dimensions of the unconscious between 2D and 3D, which we know today as fractals. Like multidimensional mental objects, chaotic structures often repeat at different scales (1995: 156), and Rayner brings up other parallels such as transitional states (‘bifurcations’ as patients gain insight), and internal objects as strange attractors (1995: 158).</p>
+<p>The problem is that chaos is defined by sensitivity to initial conditions, making it infeasible to model empirical states, let alone something as hard to measure as the mind. Chaos was in vogue in the ’90s, but dried up once people found they couldn’t go any deeper beyond these initial metaphors.</p>
+<p>Iurato (2018) approaches bi-logic through tools used in physics to study symmetry-breaking, or how systems transition from a symmetric to asymmetric state. In mathematics, symmetries take the form of group-theoretic operations; for example, a square is invariant when rotated 90°, so it is rotation-symmetric. Conscious thought is dominated by order-relations (asymmetric), while unconscious thought is dominated by equivalence relations (symmetric), so Iurato claims that groupoids can help us formalize the ‘break’ as unconscious thoughts their lose symmetry and become conscious.</p>
+<p>In fact, it’s Iurato who coined the term ‘computational psychoanalysis’, which hasn’t caught on. The dealbreaker is that his papers consist of long-winded descriptions of any formal tool he can think of, without actually <em>using</em> these to formalize Matte Blanco’s ideas. In short, there is no actual good-faith engagement, such as through sustained examples, but only tossing around undeveloped analogies.</p>
+<p>In yet another approach, Tomic (2020) notes that the main ingredient of quantum logic is subspaces of a Hilbert space. Logical operators are interpreted as interactions between subspaces, such as conjunction (‘and’) as intersection, or negation as a subspace’s complement. Notably, disjunction (‘or’) is defined as the linear closure of two subspaces, or all possible linear combinations of vectors in each subspace. This has the odd corollary that <span class="math inline">\(p \lor q\)</span> can be true even if both <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> are false.</p>
+<p>This means that from <span class="math inline">\(x \lor y \lor z\)</span> we can derive both <span class="math inline">\(p\)</span> and <span class="math inline">\(\neg p\)</span>, giving the principle of symmetry. We can go on to interpret a ‘class’ as a subspace, and condensation as a linear combination of qualities, but unfortunately there’s no elegant way to express the lack of time and space in the unconscious.</p>
+<p>Battilotti (2013, 2014) likewise uses quantum logic, but starts from Matte Blanco’s thesis that 1) all sets are infinite, and 2) all relations are symmetric. The only type of set that satisfies the latter is a singleton (a set with one element), so the key is to find a way that infinite sets can act as singletons. She does this by through the concept of ‘virtual singletons’ (<span class="math inline">\(V\)</span>) translated into logical terms, where</p>
+<p><span class="math display">\[(\forall x \in V)A(x) \equiv (\exists x \in V)A(x)\]</span></p>
+<p>for any formula <span class="math inline">\(A\)</span>. Thus, the set’s single element applies to an infinite number of formulas. From there things get highly technical, but the gist is that this boutique logic has both an asymmetric mode with negation, and a symmetric mode where negation is meaningless, and with no temporal processes, interpreted as logical consequence having no direction (i.e. <span class="math inline">\(A\vdash\!B\!\iff\!B\vdash\!A\)</span>).</p>
+<p>From the viewpoint of building a formal basis for computational psychoanalysis, I feel that quantum logic brings in way too much extra baggage, such as spin operators. This can’t be justified unless we literally believe mental objects follow quantum rules — which is insane, and not in a productive way.</p>
+<p>While Matte Blanco based his theory on a smattering of logic and real analysis, it’s interesting to see the wide range of tools invoked to take it to a deeper level. Still, none of these really lives up to the surreal aura evoked by the term ‘computational psychoanalysis’. What we really want is something that can be implemented on a computer, but which also plugs in to a broader philosophical edifice.</p>
+<h3 id="non-archimedean-philosophy">Non-Archimedean Philosophy</h3>
+<p>The roots of our next approach to computational psychoanalysis come from Lauro-Grotto (2008), originally a theoretical physicist who transitioned to cognitive neuroscience. Her research involved working with dementia patients, trying to measure loss of memory. To do this, she developed a test involving photos of famous people, which the patient would classify in terms of nationality and profession; if they didn’t recognize the person, they were asked to guess.</p>
+<p>The right and wrong answers were used as an index of ‘metric content’, or degree of similarity relations that patients perceived. She found that dementia leads to a loss of information content (as we expect), but at the same time a rise in the metric content. That is, the mind generates clusters of concepts that are internally homogeneous, such as a superclass that makes no distinction between dogs and cats. Mathematically, this is called a transition from a metric space to an ultrametric space.</p>
+<p>Later, Lauro-Grotto encountered Matte Blanco’s book by accident, and saw the same ultrametric structure in his two principles of the unconscious: the generalization principle implies a hierarchy of classes, while the symmetry principle means that all elements of a class are indistinguishable.</p>
+<p>I’ve stressed Lauro-Grotto’s role because of her solid foundation in both math and psychology, which makes me trust the theory far more. She’s since moved on to study mirror neurons through the lens of bi-logic, while ‘ultrametric psychoanalysis’ has been passed on to mathematicians. It turns out that the further we get into the mathematics, the more striking the parallels become. So let’s go deeper.</p>
+<p>Suppose we have a triangle whose base is a line <span class="math inline">\(z\)</span>, and two more lines <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>. In the worst-case scenario, <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> overlap with <span class="math inline">\(z\)</span> to give a straight line, or triangle with zero area. Here, the lengths of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> sum to that of <span class="math inline">\(z\)</span>, which we denote as <span class="math inline">\(d(z) = d(x) + d(y)\)</span>. The right-hand side simplifies to <span class="math inline">\(d(x + y)\)</span>, which is a lower bound for <span class="math inline">\(z\)</span>. In any other case, the combined lengths of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> will always be greater than this. Therefore we get the triangle inequality: <span class="math inline">\(d(x + y) \leq d(x) + d(y)\)</span>.</p>
+<p>The usual way to measure distance between points is the Euclidean metric, where if <span class="math inline">\(x=(x_1,x_2)\)</span> and <span class="math inline">\(y=(y_1,y_2)\)</span>, then the distance between <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> is <span class="math inline">\(d_e(x,y) = \sqrt{(x_1 - y_1)^2 + (x_2 - y_2)^2}\)</span>. Other metrics are possible, such as Manhattan distance, where we can only move along a grid rather than ‘as the crow flies’ like in the Euclidean metric. Here we need to measure the horizontal and vertical distances, and add the two together, or <span class="math inline">\(d_m(x,y) = |x_1 - y_1| + |x_2 - y_2|\)</span>. A still weirder form of distance is the infinity metric, which is the maximum of the vertical and horizontal distances, or <span class="math inline">\(d_\infty(x,y) = \max\{|x_1 - y_1|, |x_2 - y_2|\}\)</span>.</p>
+<p>A way to measure distance is a <em>metric</em>. Many metrics are valid, but each entails a different geometry. An example is the notion of circle, where each point has the same distance from the center [<a href="https://h2g2.com/edited_entry/A1061353">via</a>].</p>
+<center>
+<img src="/static/img/blog-posts/distance-metrics.png" />
+</center>
+<p>Most notions of distance we are familiar with are Archimedean, where distances add up in a way we find natural, e.g. we can keep adding a number to itself until it is greater than 1. This isn’t always so. For example, number systems with infinitesimals are considered non-Archimedean.</p>
+<p>Another non-Archimedean object is an ultrametric space, whose distances obey a stronger version of the triangle inequality, namely: <span class="math inline">\(d(x,z) \leq \max\left(d(x,y),d(y,z)\right)\)</span>. To see how ultrametric spaces defy our normal Archimedean intuitions about space, it’s easiest to illustrate their odd properties.</p>
+<p>Consider a triangle in ultrametric space, and suppose <span class="math inline">\(d(x,y) &lt; d(x,z)\)</span>. Then we know: <span class="math display">\[d(y,z) \leq \max\{d(x,y), d(x,z)\} = d(x,z)\]</span> <span class="math display">\[d(x,z) \leq \max\{d(x,y), d(y,z)\} = d(y,z)\]</span> and therefore, <span class="math inline">\(d(x,z) = d(y,z)\)</span>. In other words, two sides of a triangle will always have the same length, so every triangle in an ultrametric space is isosceles [<a href="https://www2.math.ethz.ch/education/bachelor/seminars/hs2011/p-adic/report1.pdf">via</a>].</p>
+<p>Another curious property is that every point of an ultrametric ball is its centre. In math, a ball is the set of points whose distance from the centre (<span class="math inline">\(a\)</span>) is less than a given radius (<span class="math inline">\(r\)</span>), which we can write as <span class="math inline">\(B(a,r) = \{y\:|\:d(y-a) &lt; r\}\)</span>. Now let’s pick another point <span class="math inline">\(b\)</span> in <span class="math inline">\(B(a,r)\)</span> to be the new center and <span class="math inline">\(x\)</span> in the ball with the new center, namely in <span class="math inline">\(B(b,r)\)</span>. Then <span class="math inline">\(d(y-a)&lt;r\)</span> and <span class="math inline">\(d(x-b)&lt;r\)</span> so that</p>
+<p><span class="math display">\[d(x-a) = d(x - b + b\,−\,a) \leq \max\{d(x - b), d(b\,−\,a)\} &lt; r.\]</span></p>
+<p>That is, the distance of <span class="math inline">\(x\)</span> from the old center <span class="math inline">\(a\)</span> is still less than <span class="math inline">\(r\)</span>, so any <span class="math inline">\(x\)</span> is in <span class="math inline">\(B(a,r)\)</span>, and hence <span class="math inline">\(B(b,r) \subseteq B(a,r)\)</span>. A similar argument lets us conclude <span class="math inline">\(B(a,r) \subseteq B(b,r)\)</span>, from which we get <span class="math inline">\(B(a,r) = B(b,r)\)</span>. So ultrametric spaces destroy our intuition that any shape has a unique centre.</p>
+<p>One last odd property is that an ultrametric ball (or cluster) is both open and closed, or <em>clopen</em>, since these are not topologically exclusive: “the set is closed because objects on its boundary can be members; and it is open because the cluster extremity is defined by what is not a member relative to the external, complement set” (Murtagh, 2014a: 45). Thus a class can be defined by what it is not, which we can interpret as expressing absence of negation in the unconscious (Murtagh, 2012a: 200).</p>
+<p>A major practical application of ultrametric spaces is phylogenetic trees, where evolutionary distance between nodes is measured by the height of their least common ancestor, which satisfies the strong triangle inequality [<a href="https://www.ics.uci.edu/~eppstein/280/tree.html">via</a>]. A simple change in notation shows how this is closely related to clustering in machine learning, where clusters are ‘bags of symmetry’ subject to increasing levels of generality.</p>
+<center>
+<img src="/static/img/blog-posts/trees-clusters.png" />
+</center>
+<p>Murtagh uses this kind of clustering raises some provocative empirical evidence for the theory. One experiment took texts from the Brothers Grimm, Jane Austen, James Joyce, air accident reports, and a database of dream reports to measure their ultrametricity values (2012b). The Brothers Grimm and accidents were lowest, and did not noticeably differ. Jane Austen had a small but distinguishably higher value. The dream reports were still higher, especially when limited to a corpus by one single dreamer; Joyce was higher than the total dream corpus, but lower than the reports by one dreamer. Conversely, the most non-ultrametric forms of time series data are those exhibiting chaos (2014c: 4).</p>
+<p>Murtagh notes that in general, as dimensionality of data increases, distances become increasingly ultrametric — each point more and more equidistant (2020: 7). As higher-dimensional symmetries emerge, these can be exploited in algorithms to gain computational efficiency. He speculates that similar cognitive processes account for the far greater efficiency of unconscious pattern-matching over conscious reasoning (2012a: 202). The main goal in his quantitative approach to psychoanalysis is to measure degrees of condensation, ranking objects by their emotional valence (2014b: 155).</p>
+<p>It’s also possible to build more fine-grained models using <span class="math inline">\(p\)</span>-adic numbers, where <span class="math inline">\(p\)</span> is some prime. As opposed to our usual notion of ‘closeness’ on the real number line, two <span class="math inline">\(p\)</span>-adics are ‘close’ if they can both be divided by a power of <span class="math inline">\(p\)</span>; the higher the power <span class="math inline">\(p^k\)</span>, the closer they are. The <span class="math inline">\(p\)</span>-adics form an ultrametric space, and several papers in the computational psychoanalysis literature (notably by Khrennikov) attempt to build <span class="math inline">\(p\)</span>-adic models of the mind. Yet, the sad fact is that no-one with a deep knowledge of psychoanalysis is familiar with this way of thinking, to enrich it with empirical details.</p>
+<p>Thinking bigger, Rejaibi et al. (2020) use deep learning to diagnose depression based on patients’ speech, and one can imagine psychoanalytic AI identifying unconscious condensations based on transcripts from analysis sessions, and perhaps even creating synthetic dreams that materialize those same complexes through virtual reality, which the analyst and patient could navigate together.</p>
+<p>Computational psychoanalysis as a discipline can contribute to philosophy and other fields a better understanding of abstract distances between ideas. It’s a shining example of just how surreal rationality can get, and how by means of weirdness we can get a conceptual grip on deep problems.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Matte Blanco’s basic model of the mind consists of a nested hierarchy of classes defined by common qualities, with increasingly symmetric relations as we progress to more general superclasses, down to the deepest strata of the unconscious. From a geometric view, we can conceive the core of the unconscious as an <span class="math inline">\(\infty\)</span>-dimensional object, whose projections onto lower-dimensional strata closer to consciousness lead to repeated volumes, manifesting as condensations in pathologies and dreams. This bizarre theory can be elegantly expressed as an ultrametric space, which has close links to machine learning, potentially opening the way for a computational approach to psychoanalysis.</p>
+<p>By typical standards, all this is deeply whacked. Yet, I’d sooner trust a theory that 1) real psychiatrists find useful and 2) is backed up by actual math, rather than the brazen p-hacking that psychologists produce today. From the other direction, if we hope to find new applications for abstract math, we should seek out perverse kinds of reasoning that don’t conform to typical logical rules. Formalized philosophy need not imply sterile repetition — rather, expressing a concept in math means plugging it into an infinite network of entailments, extending it far deeper than its creator ever imagined.</p>
+<hr />
+<h3 id="references"><br>References</h3>
+<ul>
+<li>
+Battilotti, G. (<a href="https://www.math.unipd.it/~giulia/pdf/battilottiQI13july.pdf">2013</a>). “A predicative characterization of quantum states and Matte Blanco’s Bi-logic,” in Atmanspacher, H., Haven, E., Kitto, K., Raine, D. (Eds.) (2014). <em>Quantum Interaction</em>. Heidelberg: Springer, pp. 184-90
+</li>
+<li>
+Battilotti, G. (<a href="https://www.math.unipd.it/~giulia/pdf/comppsychrevmaggio.pdf">2014</a>). “Symmetry in sequent calculus and Matte Blanco’s bi-logic,” in Patel, S., Wang, Y., Kinsner, W., Patel, D., Fariello, G. &amp; Zadeh, L. (Eds.). <em>Proceedings of the 2014 IEEE 13th International Conference on Cognitive Informatics &amp; Cognitive Computing</em>. Los Alamitos, CA: IEEE Computer Society Press, pp. 529-34
+</li>
+<li>
+Carvalho, R. (<a href="http://libgen.rs/scimag/10.1111%2Fj.1752-0118.2010.01190.x">2010</a>). “Matte Blanco and the multidimensional realm of the unconscious.” <em>British Journal of Psychotherapy</em> 26(3), pp. 324-34
+</li>
+<li>
+Iurato, G. (2018). <em>Computational Psychoanalysis and Formal Bi-Logic Frameworks</em>. Hershey, PA: IGI Global
+</li>
+<li>
+Lauro-Grotto, R. (<a href="https://www.researchgate.net/publication/236697092_The_Unconscious_as_an_Ultrametric_Set">2008</a>). “The Unconscious as an Ultrametric Set.” <em>The American Imago</em> 64(4), pp. 52-62
+</li>
+<li>
+Matte Blanco, I. (1959). “Expression in Symbolic Logic of the Characteristics of the System UCS or the Logic of the System UCS.” <em>International Journal of Psycho-Analysis</em> 40(1), pp. 1-5
+</li>
+<li>
+Matte Blanco, I. (<a href="http://libgen.rs/book/index.php?md5=53B715B09AA6310FD20ED96B32D39330">1975</a>). <em>The Unconscious as Infinite Sets</em>. London: Karnac Books.
+</li>
+<li>
+Matte Blanco, I. (<a href="http://libgen.rs/book/index.php?md5=5A7D5BF59345ACE29F432A2774767FA2">1976</a>). “Basic logico-mathematical structures in schizophrenia,” in Kemali, D., Bartholini, G. &amp; Richter, D. (Eds.). (1976.). <em>Schizophrenia Today</em>. Oxford: Pergamon Press, pp. 211-33
+</li>
+<li>
+Matte Blanco, I. (<a href="http://libgen.rs/book/index.php?md5=877EC32B765AF387B41FC9FABE338046">1988</a>). <em>Thinking, Feeling, and Being</em>. New York: Routledge.
+</li>
+<li>
+Murtagh, F. (<a href="https://arxiv.org/abs/1201.2711">2012</a>). “Ultrametric model of mind, I: Review.” <em>p-Adic Numbers, Ultrametric Analysis and Applications</em> 4(3), pp. 193-206
+</li>
+<li>
+Murtagh, F. (<a href="https://arxiv.org/abs/1201.2719">2012</a>). “Ultrametric model of mind, II: Application to text content analysis.” <em>p-Adic Numbers, Ultrametric Analysis and Applications</em> 4(3), pp. 207-221
+</li>
+<li>
+Murtagh, F. (<a href="http://www.language-and-psychoanalysis.com/article/view/1581">2014a</a>). “Mathematical representations of Matte Blanco’s bi-logic, based on metric space and ultrametric or hierarchical topology.” <em>Language and Psychoanalysis</em> 3(2), pp. 40-63
+</li>
+<li>
+Murtagh, F. (<a href="http://libgen.rs/scimag/10.1109%2Ficci-cc.2014.6921455">2014b</a>). “Pattern recognition in mental processes: Determining vestiges of the subconscious through ultrametric component analysis.” <em>IEEE 13th International Conference on Cognitive Informatics &amp; Cognitive Computing</em>, pp. 155-61
+</li>
+<li>
+Murtagh, F. (<a href="http://libgen.rs/scimag/10.4018%2Fijcini.2014100101">2014c</a>). “Pattern Recognition of Subconscious Underpinnings of Cognition using Ultrametric Topological Mapping of Thinking and Memory.” <em>International Journal of Cognitive Informatics and Natural Intelligence</em> 8(4), pp. 1-16
+</li>
+<li>
+Murtagh, F. (<a href="https://pure.hud.ac.uk/files/20313593/ERWmurtach5v2.pdf">2020</a>). “Hierarchy, Symmetry and Scale in Mathematics and Bi-Logic in Psychoanalysis, with Consequences.” <em>European Review</em>, forthcoming
+</li>
+<li>
+Rayner, E. (<a href="https://marcell.memoryoftheworld.org/Eric%20Rayner/Unconscious%20Logic_%20An%20Introduction%20to%20Matte%20Blanco&#39;s%20Bi-Logic%20and%20Its%20Uses%20(462)/Unconscious%20Logic_%20An%20Introduction%20to%20Matte%20Blanco&#39;s%20Bi-Logic%20and%20Its%20Uses%20-%20Eric%20Rayner.pdf">1995</a>). <em>Unconscious Logic: An Introduction to Matte Blanco’s Bi-Logic and Its Uses</em>. New York: Routledge.
+</li>
+<li>
+Rejaibi, E., Komaty, A., Meriaudeau, F., Agrebi, S., Othmani, A. (<a href="https://arxiv.org/abs/1909.07208">2020</a>). “MFCC-based Recurrent Neural Network for Automatic Clinical Depression Recognition and Assessment from Speech.” Working Paper.
+</li>
+<li>
+Sanchez-Cardenas, M. (2011). “Matte Blanco’s thought and epistemological pluralism in psychoanalysis.” <em>The International Journal of Psychoanalysis</em> 92(4), pp. 811-31
+</li>
+<li>
+Tomic, M. (<a href="https://arxiv.org/abs/2010.04550">2020</a>). “Quantum Computational Psychoanalysis: Quantum Logic Approach to Bi-logic.” Working Paper.
+</li>
+</ul>]]></summary>
+</entry>
+<entry>
     <title>Algebraic Semiotics</title>
     <link href="http://gjoncas.github.io/posts/2020-12-26-algebraic-semiotics.html" />
     <id>http://gjoncas.github.io/posts/2020-12-26-algebraic-semiotics.html</id>
@@ -2475,82 +2632,6 @@ Dots can have different sizes, or even be a pie chart (percent of people who eli
 <p>The sort of simulations I have in mind are entirely feasible, akin to iterated prisoner’s dilemma or Schelling’s model of segregation. As hard as it would be to translate any insights from this into actionable results, I can imagine textual analysis of ad copy into separate categories in order to identify opportunities for parasitism, or comparing lexical choices of various people in one’s twitter feed as a barometer of egregoro-dynamics.</p>
 <p>One could even actively engineer one’s egregoric ecology by creating sensory associations of certain people with exotic animals or landmarks. People surely use such strategies already, in more or less watered-down ways. Tulpas are even exchanged through gossip, and acculturation into a new society takes the form of ‘tulpa-mining’ as we catch up with common knowledge.</p>
 <p>Just as we accept that our bodies are composed of myriad cellular organisms with a high degree of autonomy, egregorics provides a multi-agent view of the self where, moreover, these agents are distributed among members of society. Unlike semiotics where symbols are simply ‘given’, or memetics where memes spread through you like a virus, egregores are feeding on you as we speak. Egregorics must be computational, so machines can tell us what our tulpas don’t want us to know.</p>]]></summary>
-</entry>
-<entry>
-    <title>A Rose for Emily</title>
-    <link href="http://gjoncas.github.io/posts/2019-11-07-a-rose-for-emily.html" />
-    <id>http://gjoncas.github.io/posts/2019-11-07-a-rose-for-emily.html</id>
-    <published>2019-11-07T00:00:00Z</published>
-    <updated>2019-11-07T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<p>One of my more recent code projects replicated a paper by Burg, Boyle &amp; Lang (<a href="https://gen.lib.rus.ec/scimag/10.2307%2F30204830">2000</a>), which used constraint-solving to analyze the non-linear timeline in Faulkner’s story “<a href="https://xroads.virginia.edu/~drbr/wf_rose.html">A Rose for Emily</a>”.</p>
-<p>I like this paper because it’s quirky. Most digital humanities is confined to a handful of tools, such as statistically analyzing a corpus, or mapping characters’ social networks. Constraint-solving is a brand new tool, so the paper is evocative not only for its results, but also for the new possibilities it hints at.</p>
-<p>First I’ll go over the code part, then what it means for the story, then some speculative conclusions.</p>
-<h3 id="non-linear-chronology">Non-linear Chronology</h3>
-<p>Here I’m giving an informal overview of what the code does, which the reader can skim quickly to understand the results. For those more interested in the code, this <a href="https://github.com/gjoncas/A-Rose-for-Emily">repository</a> is the place to look.</p>
-<p>Here’s a table of the main events in the story. (It’s fine to just skim it for now.)</p>
-<center>
-<img src="/static/img/blog-posts/rose-events.png" />
-</center>
-<p>These events are given in the order they appear in the story, which clearly is highly nonlinear. However, Faulkner also includes various inter-temporal references. We can encode these as equations or inequalities — if <strong>A</strong> occurred 6 years before <strong>B</strong>, we get: <code>A+6=B</code>. All these references are listed in the table below. (I highly recommend skipping, but it will help later on.)</p>
-<center>
-<img src="/static/img/blog-posts/rose-intertemporal.png" />
-</center>
-<p>What the constraint solver does is to test possible years when each event could have occurred, which must satisfy the constraints, i.e. the series of intertemporal equations or inequalities. If the constraints are inconsistent, the program identifies the ‘minimal conflict set’, where removing any one will make the rest consistent (Burg, Boyle &amp; Lang, 2000: 385). If the constraints can be satisfied, the program outputs the range of years in which each event could have consistently occurred.</p>
-<p>If it helps, I think of constraint-solving by analogy with linear programming, a common tool in economics to allocate resources with different values (e.g. prices of goods being delivered, nutrients in a diet) subject to a budget constraint (travel costs, cost of each food item). The difference is that with constraint-solving we’re not trying to maximize anything, we just want consistency.</p>
-<p>To illustrate the possible chronologies given by the program, I made a little diagram.</p>
-<center>
-<img src="/static/img/blog-posts/rose-diagram.png" />
-</center>
-<p>The top two lines are the order of events given in the story, versus a possible chronological ordering. The third line just rearranges the second line; it’s the order that would make all the red lines vertical. The bottom two lines illustrate possible orderings of events; there are 10 in all, but they’re quite repetitive. Among these, the only events whose order completely flips are <strong>E</strong> and <strong>F</strong>, hence the red X. The small blue brackets mean that these two events (could have) occurred in the same year.</p>
-<h3 id="computational-hermeneutics">Computational Hermeneutics</h3>
-<p>Now let’s see what this all means for how we interpret the story.</p>
-<p>The first thing to jump out when we run the code is that the following statements are inconsistent:</p>
-<table>
-<colgroup>
-<col style="width: 2%" />
-<col style="width: 13%" />
-<col style="width: 83%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>D - E &gt;= 8</td>
-<td>Eight or ten years pass between Emily’s last lessons and deputation visit</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>B &gt;= D</td>
-<td>Last time anyone else sees inside house is after or during deputation visit</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>E = B</td>
-<td>After China painting lessons end, no one but manservant sees inside house</td>
-</tr>
-</tbody>
-</table>
-<p>The first constraint comes from the sentence: “A deputation...knocked at the door [<strong>D</strong>] through which no visitor had passed since she ceased giving china-painting lessons [<strong>E</strong>] eight or ten years earlier” (1930: §1). The latter gives <code>D - E &gt;= 8</code>.</p>
-<p>However, later the story notes: “The front door closed upon the last [painting pupil] and remained closed for good” (1930: §4), with ‘for good’ implying <code>E = B</code>.</p>
-<p>There are several ways to reconcile these claims. One is that the deputation entered (or pupils exited) a door other than the front door. Another possibility is that there was an unspecified visit to the house following the deputation visit, and this person was the last to see inside the house.</p>
-<p>The original authors opt to remove the constraint <code>E = B</code> from the program, since this is the least specific temporal reference of the three, and may even have been an error on Faulkner’s part. This adjustment causes the program to work.</p>
-<p>Recalling the diagram above, the main variations among the different chronologies are whether the tax remission (<strong>C</strong>) occurs at the beginning of Emily’s china-painting lessons (<code>C = N</code>), in the middle (<code>N &lt; C &lt; E</code>), or at the end (<code>C = E</code>); whether Colonel Sartoris dies while Emily is still giving lessons (<code>F &lt;= E</code>) or after (<code>E &lt;= F</code>); and whether the deputation are the last people to see inside Emily’s house (<code>B = D</code>), or whether someone else is (<code>B &lt;= D</code>).</p>
-<p>More interestingly, it turns out that there’s a big debate in Faulkner scholarship about whether the year Emily’s taxes were remitted (<strong>C</strong>) is the same as the year of her father’s death (<code>C = H</code>), or whether the tax remission occurs at the time of the china-painting lessons (<code>N =&lt; C =&lt; E</code>). Burg, Boyle &amp; Lang’s (2000) program unequivocally supports the latter interpretation.</p>
-<p>Lastly, in an early draft of the story, Faulkner included the sentence “that day in 1904 when Colonel Sartoris...remitted her taxes dating from the death of her father 16 years back, on into perpetuity” (in Burg, Boyle &amp; Lang, 2000: 387). The authors set <code>C = 1904</code> in their program, but find it inconsistent. However, leaving <code>C = 1894</code>, they find that Emily’s father could have died 16 years before, i.e. <code>H = 1878</code> is consistent.</p>
-<h3 id="the-simplex-of-meaning">The Simplex of Meaning</h3>
-<p>In the rest of their paper, the authors try to narrow down the timeline to a single interpretation. The other time constraints imply that Emily must have been born between 1842 and 1856 (<code>1842 &lt;= K &lt;= 1856</code>), and the authors surmise that Faulkner set the story during 1924, the year he wrote it (2000: 385). This gives a birth date of <code>K = 1850</code>, from which they infer various other dates.</p>
-<p>Curiously, this fails to replicate in my version of the code. The main difference between my program and theirs is that mine uses integers (for years) and theirs uses real numbers. Yet, this in itself doesn’t explain the failure. I still haven’t managed to pin down the exact reason. Here’s a nice place to tinker with the <a href="https://github.com/gjoncas/A-Rose-for-Emily">code</a>, if the reader is so inclined.</p>
-<p>More crucially, I think the idea of using a computer program to find the unique meaning of a text is an impoverished view of what the program <em>actually</em> does. Rather, the truly novel element of Burg, Boyle &amp; Lang’s approach is that they can model the <em>space of contested meanings</em> within a text.</p>
-<p>In the mathematical theory of linear programming, such a space is called a <em>simplex</em>. With only two variables, say Emily’s death (<strong>A</strong>) and birth (<strong>K</strong>), we know that she died at age 74 (Faulker, 1930: §4), so that <code>A = K+74</code>. Thus, our ‘simplex’ here is just a line, where the farther back <strong>K</strong> is, the farther back <strong>A</strong> is in turn. Further, suppose three variables (<em>x</em>, <em>y</em>, <em>z</em>) must add up to 3, and are greater than zero. Then the different combinations (including decimals) take the form of a triangle, whose vertices are (3,0,0), (0,3,0), and (0,0,3).</p>
-<center>
-<img src="/static/img/diagrams/simplex.png" />
-</center>
-<p>With large numbers of constraints, the simplex is an <em>n</em>-dimensional surface far beyond human visualization. In a very real sense, this monstrous geometrical object <em>is</em> the space of possible meaning for Faulkner’s chronology.</p>
-<p>While impossible to represent pictorially, one can imagine a series of dials, one for each constraint. Adjusting the date of one (e.g. Emily’s death <strong>A</strong>) forces all the other dials to adjust in turn. The key to look for would then be <em>discontinuities</em>: in adjusting one constraint, all the other constraints move incrementally, but then one or more suddenly ‘jump’ to a far-away value. Such discontinuities in the space of meaning may likely be what gives rise to conflicting interpretations.</p>
-<h3 id="conclusion">Conclusion</h3>
-<p>“A Rose for Emily” is one of Faulkner’s most widely read stories, and it’s difficult to imagine how new insights might still be gleaned about it. Thus it’s a pleasant surprise that simply listing unambiguous temporal references in a computer program can clarify long-standing debates on the storyline.</p>
-<p>Burg, Boyle &amp; Lang (2000: 388) suggest their method may also be applied to <em>The Sound and the Fury</em>, or any story with a non-linear chronology, given enough inter-temporal constraints. Thinking geometrically, it would be fascinating to see if Faulkner’s simplexes have a ‘shape’ distinct from those of other authors.</p>
-<p>Another possibility is encoding multidimensional mathematical objects (e.g. a Klein bottle) as temporal constraints, then writing a story that satisfies them. Still further, one can imagine a detective story in which a temporal inconsistency is the key to solving the case.</p>
-<p>In sum, digital humanities should be a tool for expanding the meaning of a text, rather than identifying a single ‘correct’ meaning. By identifying different and equally valid interpretations of the timeline for “A Rose for Emily”, a digital approach to the text can thereby help foster debate rather than stifle it.</p>]]></summary>
 </entry>
 
 </feed>
