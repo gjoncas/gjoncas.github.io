@@ -92,7 +92,7 @@
 <center>
 <img src="/static/img/blog-posts/trees-clusters.png" />
 </center>
-<p>Murtagh uses this kind of clustering raises some provocative empirical evidence for the theory. One experiment took texts from the Brothers Grimm, Jane Austen, James Joyce, air accident reports, and a database of dream reports to measure their ultrametricity values (2012b). The Brothers Grimm and accidents were lowest, and did not noticeably differ. Jane Austen had a small but distinguishably higher value. The dream reports were still higher, especially when limited to a corpus by one single dreamer; Joyce was higher than the total dream corpus, but lower than the reports by one dreamer. Conversely, the most non-ultrametric forms of time series data are those exhibiting chaos (2014c: 4).</p>
+<p>Murtagh uses this kind of clustering to raise some provocative empirical evidence for the theory. One experiment took texts from the Brothers Grimm, Jane Austen, James Joyce, air accident reports, and a database of dream reports to measure their ultrametricity values (2012b). The Brothers Grimm and accidents were lowest, and did not noticeably differ. Jane Austen had a small but distinguishably higher value. The dream reports were still higher, especially when limited to a corpus by one single dreamer; Joyce was higher than the total dream corpus, but lower than the reports by one dreamer. Conversely, the most non-ultrametric forms of time series data are those exhibiting chaos (2014c: 4).</p>
 <p>Murtagh notes that in general, as dimensionality of data increases, distances become increasingly ultrametric — each point more and more equidistant (2020: 7). As higher-dimensional symmetries emerge, these can be exploited in algorithms to gain computational efficiency. He speculates that similar cognitive processes account for the far greater efficiency of unconscious pattern-matching over conscious reasoning (2012a: 202). The main goal in his quantitative approach to psychoanalysis is to measure degrees of condensation, ranking objects by their emotional valence (2014b: 155).</p>
 <p>It’s also possible to build more fine-grained models using <span class="math inline">\(p\)</span>-adic numbers, where <span class="math inline">\(p\)</span> is some prime. As opposed to our usual notion of ‘closeness’ on the real number line, two <span class="math inline">\(p\)</span>-adics are ‘close’ if they can both be divided by a power of <span class="math inline">\(p\)</span>; the higher the power <span class="math inline">\(p^k\)</span>, the closer they are. The <span class="math inline">\(p\)</span>-adics form an ultrametric space, and several papers in the computational psychoanalysis literature (notably by Khrennikov) attempt to build <span class="math inline">\(p\)</span>-adic models of the mind. Yet, the sad fact is that no-one with a deep knowledge of psychoanalysis is familiar with this way of thinking, to enrich it with empirical details.</p>
 <p>Thinking bigger, Rejaibi et al. (2020) use deep learning to diagnose depression based on patients’ speech, and one can imagine psychoanalytic AI identifying unconscious condensations based on transcripts from analysis sessions, and perhaps even creating synthetic dreams that materialize those same complexes through virtual reality, which the analyst and patient could navigate together.</p>
@@ -158,7 +158,7 @@ Rejaibi, E., Komaty, A., Meriaudeau, F., Agrebi, S., Othmani, A. (<a href="https
 Sanchez-Cardenas, M. (2011). “Matte Blanco’s thought and epistemological pluralism in psychoanalysis.” <em>The International Journal of Psychoanalysis</em> 92(4), pp. 811-31
 </li>
 <li>
-Tomic, M. (<a href="https://arxiv.org/abs/2010.04550">2020</a>). “Quantum Computational Psychoanalysis: Quantum Logic Approach to Bi-logic.” Working Paper.
+Tomić, M. (<a href="https://arxiv.org/abs/2010.04550">2020</a>). “Quantum Computational Psychoanalysis: Quantum Logic Approach to Bi-logic.” Working Paper.
 </li>
 </ul>]]></description>
     <pubDate>Tue, 16 Feb 2021 00:00:00 UT</pubDate>
@@ -596,7 +596,7 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
     <description><![CDATA[<p>Beyond its 140-character limit, Twitter’s next most-prominent feature is its linearity, chronologically posting tweets that gradually sink into the memory hole. Twitter’s algorithms have tried to shake up its temporal structure, but as <a href="https://twitter.com/ThePatanoiac/status/1155701114626383874">some</a> have pointed out, this tends to drown out less-known authors.</p>
 <p>Enter <a href="https://twitter.com/gjncs/moments">Moments</a>. Moments are like eavesdropping on hundreds of conversations at precisely the most interesting point. As opposed to obtrusive tweetstorms based on searching a keyword (as I did in my early days, riffing off <a href="https://twitter.com/youtopos">@youtopos</a>), Moments provide a handy cubbyhole for tweets you want to return to later, whether 10 years old or 10 minutes. It’s the closest you can get to meta-tweeting.</p>
 <p>I’m obviously what programmers call an ‘edge case’ here — someone who uses a software feature in a way the programmer never anticipated. Yet, an interesting mathematical fact is that in an <em>n</em>-dimensional hypercube, most of the volume occurs at the edges, unlike with 2 or 3 dimensions <a href="https://twitter.com/hillelogram/status/1259191868509863937">(h/t)</a>. This is precisely the ‘pataphysical space that programmers occupy, where the exception is the rule.</p>
-<p>I’ve made 481 Moments, mostly on philosophy or math. My favorite aspect is how they encompass a mosaic of often contradictory perspectives on the same concept — heteroglossia. Scouring twitter is also a surprisingly effective way to get the core of an idea, shorn of all unneeded verbosity. Last, it’s a backstage pass to the <em>lore</em> of a (sub-sub-)discipline, like the deep grad school conversations that I never got to have, or the mysterious origins of zygohistomorphic prepromorphisms.</p>
+<p>I’ve made 561 Moments, mostly on philosophy or math. My favorite aspect is how they encompass a mosaic of often contradictory perspectives on the same concept — heteroglossia. Scouring twitter is also a surprisingly effective way to get the core of an idea, shorn of all unneeded verbosity. Last, it’s a backstage pass to the <em>lore</em> of a (sub-sub-)discipline, like the deep grad school conversations that I never got to have, or the mysterious origins of zygohistomorphic prepromorphisms.</p>
 <p>After Twitter’s last major upgrade, I used an app to keep the old layout, which had a simple button for adding tweets to a Moment. On June 1, Twitter removed support for this. In short, it’s an order of magnitude more difficult to make them, so I have little choice but to move on. Still, I deserved any flack I got for curating other people’s ideas instead of my own, and now plan to blog more instead.</p>
 <p>Some of my favorites came from conferences, compiling reams of hyper-erudite thought-crystals. (Though I’m told these authors optimized precisely for pithy tweets — rather than, say, substance.)</p>
 <table>
@@ -648,1037 +648,1127 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1171971853117796352">熊十力 / Consciousness-Only</a></td>
-<td>| <a href="https://twitter.com/i/moments/1170902585802465281">ℵ₀</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1098476625337962496">Abilene paradox</a></td>
-<td><a href="https://twitter.com/i/moments/1148225794038259713">Abstract Interpretation (1)</a></td>
-</tr>
-<tr class="even">
-<td></td>
 <td><a href="https://twitter.com/i/moments/1254841210398748673">Acausal Trade</a></td>
-<td><a href="https://twitter.com/i/moments/1148252524899635202">Abstract Interpretation (2)</a></td>
+<td><a href="https://twitter.com/i/events/1307359425963982851">Abductive logic programming</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1163830065177739264">Adorno / Negative Dialectics (1)</a></td>
-<td><a href="https://twitter.com/i/moments/1148273087256891392">Abstract Interpretation (3)</a></td>
+<td><a href="https://twitter.com/i/moments/1098476625337962496">Abilene paradox</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1163843599093493760">Adorno / Negative Dialectics (2)</a></td>
-<td><a href="https://twitter.com/i/moments/1180991215849951232">Algorithmic Botany</a></td>
+<td><a href="https://twitter.com/i/moments/1148225794038259713">Abstract Interpretation (1)</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1177353407474077698">Aesthetics of Failure</a></td>
-<td><a href="https://twitter.com/i/moments/1165288890527363072">Arrow-Debreu Securities</a></td>
+<td><a href="https://twitter.com/i/moments/1148252524899635202">Abstract Interpretation (2)</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1151193176549539841">Agamben / Thanatopolitics</a></td>
-<td><a href="https://twitter.com/i/moments/1099444562676908032">Büchi automata</a></td>
+<td><a href="https://twitter.com/i/moments/1148273087256891392">Abstract Interpretation (3)</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1150507456084230144">Althusser / Aleatory Materialism</a></td>
-<td><a href="https://twitter.com/i/moments/1176587211610951681">Balassa-Samuelson effect</a></td>
+<td><a href="https://twitter.com/i/moments/1180991215849951232">Algorithmic Botany</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1150561082571993095">Althusser / Conjuncture</a></td>
-<td><a href="https://twitter.com/i/moments/1152597428329168896">Bellman-Ford Algorithm</a></td>
+<td><a href="https://twitter.com/i/events/1318401227378597888">A-Normal Form</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1267199910186811396">Althusser / Contradiction</a></td>
-<td><a href="https://twitter.com/i/moments/1147235014452613120">Betti numbers</a></td>
+<td><a href="https://twitter.com/i/moments/1165288890527363072">Arrow-Debreu Securities</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1150503817391292417">Althusser / Encounter</a></td>
-<td><a href="https://twitter.com/i/moments/1266558941598748674">Binary Decision Diagrams</a></td>
+<td><a href="https://twitter.com/i/events/1307156575061245954">Autoepistemic Logic</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1267119566041251844">Althusser / Ideological State Apparatus</a></td>
-<td><a href="https://twitter.com/i/moments/1151351655381766144">Bisimulation</a></td>
+<td><a href="https://twitter.com/i/moments/1176587211610951681">Balassa-Samuelson effect</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1267141882229985281">Althusser / Ideological State Apparatuses</a></td>
-<td><a href="https://twitter.com/i/moments/1145452038832250885">Braess paradox</a></td>
+<td><a href="https://twitter.com/i/events/1344382975094390784">Bayesian persuasion</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1150458910345703425">Althusser / Interpellation</a></td>
-<td><a href="https://twitter.com/i/moments/1156935525342830592">Brandenburger-Keisler Paradox</a></td>
+<td><a href="https://twitter.com/i/moments/1152597428329168896">Bellman-Ford algorithm</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1150441618815750145">Althusser / Overdetermination</a></td>
-<td><a href="https://twitter.com/i/moments/1098286382810886144">Catastrophe semantics</a></td>
+<td><a href="https://twitter.com/i/moments/1147235014452613120">Betti numbers</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1150864637849755648">Althusser / Process without a subject</a></td>
-<td><a href="https://twitter.com/i/moments/1151249077994250240">Chu spaces</a></td>
+<td><a href="https://twitter.com/i/events/1338209505713262594">Bhattacharyya distance</a></td>
 </tr>
 <tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1298747483372154883">Althusser / Reproduction</a></td>
+<td><a href="https://twitter.com/i/moments/1266558941598748674">Binary Decision Diagrams</a></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1266796225761771523">Althusser / Revolution</a></td>
-<td><a href="https://twitter.com/i/moments/1099155894129037313">Church-Rosser</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1267252470515994625">Althusser / Spinoza</a></td>
-<td><a href="https://twitter.com/i/moments/1152300303217287168">Cobordisms</a></td>
+<td><a href="https://twitter.com/i/events/1311456363382480898">Biosemantics</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1150168002811301888">Althusser / Structural Causality</a></td>
-<td><a href="https://twitter.com/i/moments/1098289519630172161">Computational Linguistics \ Prolog</a></td>
+<td><a href="https://twitter.com/i/moments/1267252470515994625">Althusser / Spinoza</a></td>
+<td><a href="https://twitter.com/i/moments/1151351655381766144">Bisimulation</a></td>
 </tr>
 <tr class="odd">
 <td></td>
+<td><a href="https://twitter.com/i/moments/1150168002811301888">Althusser / Structural Causality</a></td>
+<td><a href="https://twitter.com/i/events/1280567486245752839">Bi-univocal</a></td>
+</tr>
+<tr class="even">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1098686371194114049">Anastrophe</a></td>
-<td><a href="https://twitter.com/i/moments/1098278306619760641">Computational origami</a></td>
+<td><a href="https://twitter.com/i/events/1321306740240109569">Blumenberg / Metaphorology</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1357522142741594112">Anthony Wilden /</a></td>
+<td><a href="https://twitter.com/i/moments/1145452038832250885">Braess paradox</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1171551823385321472">Artaud / Suicide</a></td>
-<td><a href="https://twitter.com/i/moments/1098319708602937346">Concrete Mathematics</a></td>
+<td><a href="https://twitter.com/i/moments/1156935525342830592">Brandenburger-Keisler Paradox</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1155195002743664642">Artificial Philosophy</a></td>
-<td><a href="https://twitter.com/i/moments/1261757399385419776">Cylindrical algebraic decomposition</a></td>
+<td><a href="https://twitter.com/i/moments/1099444562676908032">Büchi automata</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1157420394699198465">Asignifying semiotic</a></td>
-<td><a href="https://twitter.com/i/moments/1098293648175837187">Datasets</a></td>
+<td><a href="https://twitter.com/i/moments/1098286382810886144">Catastrophe semantics</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1177955846745186306">Ayache / Contingency</a></td>
-<td><a href="https://twitter.com/i/moments/1158862098925064192">Domain Theory</a></td>
+<td><a href="https://twitter.com/i/moments/1151249077994250240">Chu spaces</a></td>
 </tr>
 <tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1302651515224690688">Badiou / Antiphilosophy</a></td>
+<td><a href="https://twitter.com/i/moments/1099155894129037313">Church-Rosser</a></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1177966488621375489">Badiou / Fidelity</a></td>
-<td><a href="https://twitter.com/i/moments/1164927919229214720">Doxastic logic</a></td>
+<td><a href="https://twitter.com/i/moments/1155322473409318912">Cliometrics (1)</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159992297574031362">Badiou / Forcing</a></td>
-<td><a href="https://twitter.com/i/moments/1262179446917865473">Dynamic time warping (1)</a></td>
+<td><a href="https://twitter.com/i/moments/1155333146130427904">Cliometrics (2)</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159998437103939584">Badiou / Generic</a></td>
-<td><a href="https://twitter.com/i/moments/1166098932822360071">Economics \ Dynamic Programming</a></td>
+<td><a href="https://twitter.com/i/moments/1152300303217287168">Cobordisms</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1178048272562307072">Badiou / Love</a></td>
-<td><a href="https://twitter.com/i/moments/1164207636214009856">Economics \ Hidden Markov Models</a></td>
+<td><a href="https://twitter.com/i/events/1367632285332340741">Colonel Blotto game</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159923569620672512">Badiou / Void</a></td>
-<td><a href="https://twitter.com/i/moments/1098297741619412992">Economics \ Petri nets</a></td>
+<td><a href="https://twitter.com/i/events/1334953131638202368">Combinatorial auctions</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162232777455988737">Bakhtin / Chronotope</a></td>
-<td><a href="https://twitter.com/i/moments/1163908590245040128">Economics \ Wavelets</a></td>
+<td><a href="https://twitter.com/i/moments/1157395622212833283">Computational Aesthetics</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162227028327690240">Bakhtin / Heteroglossia</a></td>
-<td><a href="https://twitter.com/i/moments/1158443296143945730">Ehrenfeucht–Fraïssé games</a></td>
+<td><a href="https://twitter.com/i/moments/1162018428867272704">Computational Demonology</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1163183026135818240">Barthes / Degree Zero</a></td>
-<td><a href="https://twitter.com/i/moments/1146949959427772416">Epistemic game theory</a></td>
+<td><a href="https://twitter.com/i/moments/1155117244566913024">Computational History</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1163875666653151232">Barthes / Semiology</a></td>
-<td><a href="https://twitter.com/i/moments/1146972318545195010">Erotetic logic</a></td>
+<td><a href="https://twitter.com/i/moments/1098289519630172161">Computational Linguistics \ Prolog</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159287069530841088">Bataille / Acephale</a></td>
-<td><a href="https://twitter.com/i/moments/1176520654071508995">Factor-Price Equalization theorem</a></td>
+<td><a href="https://twitter.com/i/moments/1098295801074384896">Computational metaphysics</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1176173926541615104">Bataille / Base Materialism</a></td>
-<td><a href="https://twitter.com/i/moments/1148973364326932481">Fictitious Play</a></td>
+<td><a href="https://twitter.com/i/moments/1154953774005399552">Computational Narratology</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1165829466519719936">Bataille / Evil</a></td>
-<td><a href="https://twitter.com/i/moments/1150079724317806594">Finance \ Lie groups</a></td>
+<td><a href="https://twitter.com/i/moments/1098278306619760641">Computational origami</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1180867963282432000">Bataille / Excretion</a></td>
-<td><a href="https://twitter.com/i/moments/1266838808038948870">Finger Trees</a></td>
+<td><a href="https://twitter.com/i/moments/1155221292267819008">Computational Philosophy</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162914929143373824">Bataille / Heterology</a></td>
-<td><a href="https://twitter.com/i/moments/1098301638316568577">Formal concept analysis</a></td>
+<td><a href="https://twitter.com/i/moments/1156569364180688898">Computational Poetry</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1166009053375533056">Bataille / Sacred</a></td>
-<td><a href="https://twitter.com/i/moments/1147328265058684928">Gödel / Existence of God</a></td>
+<td><a href="https://twitter.com/i/events/1098319708602937346">Concrete Mathematics</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1144737092033007618">Bataille / Sacrifice</a></td>
-<td><a href="https://twitter.com/i/moments/1156326563853586438">Galois Connection</a></td>
+<td><a href="https://twitter.com/i/moments/1098319708602937346">Concrete Mathematics</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1157057053111783429">Bataille / Sovereignty</a></td>
-<td><a href="https://twitter.com/i/moments/1262908861410926593">Geometry of Interaction</a></td>
+<td><a href="https://twitter.com/i/events/1318325278398099466">Continuation-passing style</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1161308133576380416">Bataille / Transgression</a></td>
-<td><a href="https://twitter.com/i/moments/1145378449240076288">Gibbard–Satterthwaite</a></td>
+<td><a href="https://twitter.com/i/events/1338245751768485888">Cubical type theory</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1166067515736375301">Bataille / Unknowing</a></td>
-<td><a href="https://twitter.com/i/moments/1098280862452457472">Goguen / Hidden algebra</a></td>
+<td><a href="https://twitter.com/i/moments/1261757399385419776">Cylindrical algebraic decomposition</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1175503108887252992">Bateson / Dolphins</a></td>
-<td><a href="https://twitter.com/i/moments/1098308134806925312">Gröbner bases</a></td>
+<td><a href="https://twitter.com/i/moments/1098293648175837187">Datasets</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1147306326348967937">Bateson / Double Bind</a></td>
-<td><a href="https://twitter.com/i/moments/1261864508764667906">Gröbner basis</a></td>
+<td><a href="https://twitter.com/i/events/1339764779708264449">Differential games</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1170879968320139269">Bateson / Epistemology</a></td>
-<td><a href="https://twitter.com/i/moments/1098304261186879489">Graph rewriting</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1177404362496401409">Baudrillard / ‘Pataphysics</a></td>
-<td><div class="line-block"><a href="https://twitter.com/i/moments/1099872468578328576">Greedoids</a></div></td>
+<td><a href="https://twitter.com/i/moments/1158862098925064192">Domain Theory</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1165815678043086848">Baudrillard / Eternal Return</a></td>
-<td><a href="https://twitter.com/i/moments/1260334920490274816">Haskell \ Arrows (1)</a></td>
+<td><a href="https://twitter.com/i/moments/1177404362496401409">Baudrillard / ‘Pataphysics</a></td>
+<td>|<a href="https://twitter.com/i/moments/1164927919229214720">Doxastic logic</a></td>
 </tr>
 <tr class="even">
 <td></td>
+<td><a href="https://twitter.com/i/moments/1165815678043086848">Baudrillard / Eternal Return</a></td>
+<td><a href="https://twitter.com/i/moments/1166386511748710400">Dutch Book Argument</a></td>
+</tr>
+<tr class="odd">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1168677688896307200">Baudrillard / Exchange</a></td>
-<td><a href="https://twitter.com/i/moments/1261012763457007616">Haskell \ Arrows (2)</a></td>
+<td><a href="https://twitter.com/i/events/1326936984582033421">Dynamic logic</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1327747534484279297">Baudrillard / Implosion</a></td>
+<td><a href="https://twitter.com/i/moments/1262179446917865473">Dynamic time warping (1)</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1168637914827427842">Baudrillard / Labour</a></td>
-<td><a href="https://twitter.com/i/moments/1255108879165333504">Haskell \ Comonads (1)</a></td>
+<td><a href="https://twitter.com/i/moments/1166098932822360071">Economics \ Dynamic Programming</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1167887343061102594">Benjamin / Aura</a></td>
-<td><a href="https://twitter.com/i/moments/1255127516425134080">Haskell \ Comonads (2)</a></td>
+<td><a href="https://twitter.com/i/moments/1164207636214009856">Economics \ Hidden Markov Models</a></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1288605214363324416">Benveniste / General Linguistics</a></td>
+<td><a href="https://twitter.com/i/moments/1098297741619412992">Economics \ Petri nets</a></td>
+</tr>
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1174470897882845184">Berardi / Poetry</a></td>
-<td><a href="https://twitter.com/i/moments/1253816705303941121">Haskell \ Data Science</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1174700718428758017">Berardi / Semiocapitalism</a></td>
-<td><a href="https://twitter.com/i/moments/1264574060056449034">Haskell \ Dynamic Programming</a></td>
+<td><a href="https://twitter.com/i/moments/1163908590245040128">Economics \ Wavelets</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1187482328815329288">Bergson / Duration</a></td>
-<td><a href="https://twitter.com/i/moments/1264387615882645505">Haskell \ F-Algebra</a></td>
+<td><a href="https://twitter.com/i/moments/1174700718428758017">Berardi / Semiocapitalism</a></td>
+<td><a href="https://twitter.com/i/moments/1158443296143945730">Ehrenfeucht–Fraïssé games</a></td>
 </tr>
 <tr class="even">
 <td></td>
+<td><a href="https://twitter.com/i/moments/1187482328815329288">Bergson / Duration</a></td>
+<td><a href="https://twitter.com/i/moments/1098298409314910209">Eigenface</a></td>
+</tr>
+<tr class="odd">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1159110584698396672">Berry Paradox</a></td>
-<td><a href="https://twitter.com/i/moments/1260724707990650880">Haskell \ Kinds</a></td>
+<td><a href="https://twitter.com/i/moments/1146949959427772416">Epistemic game theory</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1353070071199846403">Bion / Alpha-function</a></td>
+<td>|<a href="https://twitter.com/i/moments/1146972318545195010">Erotetic logic</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1161687570750803970">Blanchot / Death</a></td>
-<td><a href="https://twitter.com/i/moments/1259997472107245571">Haskell \ Kleisli</a></td>
+<td><a href="https://twitter.com/i/moments/1176520654071508995">Factor-Price Equalization theorem</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1147590753293651969">Blanchot / Game</a></td>
-<td><a href="https://twitter.com/i/moments/1263644045030469632">Haskell \ Loeb</a></td>
+<td><a href="https://twitter.com/i/events/1344443618426118144">Farkas’ lemma</a></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1299817293673832448">Blanchot / Writing</a></td>
+<td><a href="https://twitter.com/i/moments/1148973364326932481">Fictitious Play</a></td>
+</tr>
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1169327683857256448">Bourdieu / Linguistic Capital</a></td>
-<td><a href="https://twitter.com/i/moments/1254811187587551238">Haskell \ Monad Laws</a></td>
+<td><a href="https://twitter.com/i/moments/1150079724317806594">Finance \ Lie groups</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159874471907549184">Brassier / Extinction</a></td>
-<td><a href="https://twitter.com/i/moments/1259634301915848704">Haskell \ MonadFix</a></td>
+<td><a href="https://twitter.com/i/moments/1266838808038948870">Finger Trees</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1161501605914693637">Brassier / Nihilism</a></td>
-<td><a href="https://twitter.com/i/moments/1259245976381988872">Haskell \ MonadPlus</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1237870151111864321">B-Theory of Time</a></td>
-<td><a href="https://twitter.com/i/moments/1264627526623690752">Haskell \ Natural Transformation</a></td>
+<td><a href="https://twitter.com/i/events/1322670733626138624">Fixpoint logic</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1160570944643043330">Camus / Suicide</a></td>
-<td><a href="https://twitter.com/i/moments/1253366589241597954">Haskell \ Probability Monad</a></td>
+<td><a href="https://twitter.com/i/moments/1237870151111864321">B-Theory of Time</a></td>
+<td><a href="https://twitter.com/i/moments/1098301638316568577">Formal concept analysis</a></td>
 </tr>
 <tr class="even">
 <td></td>
+<td><a href="https://twitter.com/i/moments/1160570944643043330">Camus / Suicide</a></td>
+<td><a href="https://twitter.com/i/moments/1156326563853586438">Galois Connection</a></td>
+</tr>
+<tr class="odd">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1145782105689010182">Canadian ‘Pataphysics</a></td>
-<td><div class="line-block"><a href="https://twitter.com/i/moments/1253162970428948482">Haskell \ Reader Monad</a></div></td>
+<td>|<a href="https://twitter.com/i/events/1359677498020233216">Game-theoretical semantics</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1297956350933245952">Canguilhem / Pathological</a></td>
+<td><a href="https://twitter.com/i/moments/1262908861410926593">Geometry of Interaction</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1170067758664617988">Carnap / Ramsey sentence</a></td>
-<td><a href="https://twitter.com/i/moments/1259615395306254337">Haskell \ Traversable</a></td>
+<td><a href="https://twitter.com/i/moments/1169659133240467456">Georgescu-Roegen / Thermoeconomics</a></td>
 </tr>
 <tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1178747360861720579">CCRU / Cybergothic</a></td>
-<td><a href="https://twitter.com/i/moments/1253429216214781952">Haskell \ Writer Monad</a></td>
-</tr>
-<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1180650103880769536">Châtelet / Diagram</a></td>
-<td><div class="line-block"><a href="https://twitter.com/i/moments/1254161461737410560">Haskell \ Zippers</a></div></td>
+<td>|<a href="https://twitter.com/i/moments/1145378449240076288">Gibbard–Satterthwaite</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1167990117090246656">Cioran / Death</a></td>
-<td><a href="https://twitter.com/i/moments/1176620281558896640">Heckscher-Ohlin model</a></td>
+<td><a href="https://twitter.com/i/events/1335343721076940804">Gittens index</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1160611960242790400">Cioran / Suicide</a></td>
-<td><a href="https://twitter.com/i/moments/1156278058338459650">Heyting Algebra</a></td>
+<td><a href="https://twitter.com/i/moments/1147328265058684928">Gödel / Existence of God</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1166558000947089409">Cixous / Medusa</a></td>
-<td><a href="https://twitter.com/i/moments/1155985857335087109">Hyperoperator</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1155322473409318912">Cliometrics (1)</a></td>
-<td><a href="https://twitter.com/i/moments/1156691666922823680">π-calculus (1)</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1155333146130427904">Cliometrics (2)</a></td>
-<td><a href="https://twitter.com/i/moments/1156702569835782144">π-calculus (2)</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1157395622212833283">Computational Aesthetics</a></td>
-<td><a href="https://twitter.com/i/moments/1098276235078234112">α-algorithm</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1162018428867272704">Computational Demonology</a></td>
-<td><a href="https://twitter.com/i/moments/1098309216941625344">λ-calculus</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1155117244566913024">Computational History</a></td>
-<td><a href="https://twitter.com/i/moments/1267494130864861185">λProlog</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1098295801074384896">Computational metaphysics</a></td>
-<td><a href="https://twitter.com/i/moments/1156736482507444224">ρ-calculus</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1154953774005399552">Computational Narratology</a></td>
-<td><a href="https://twitter.com/i/moments/1156634752994160640">μ-calculus</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1155221292267819008">Computational Philosophy</a></td>
-<td><a href="https://twitter.com/i/moments/1099457852152971266">Identification strategy</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1156569364180688898">Computational Poetry</a></td>
-<td><a href="https://twitter.com/i/moments/1176695835339513856">Index Number theory</a></td>
+<td><a href="https://twitter.com/i/moments/1098280862452457472">Goguen / Hidden algebra</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162199572460068864">Cthulhucene</a></td>
-<td><a href="https://twitter.com/i/moments/1165019103893098497">Itō calculus</a></td>
+<td><a href="https://twitter.com/i/events/1324476056305324035">Goppa code</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1149081862339534849">Cthulhunomics</a></td>
-<td><a href="https://twitter.com/i/moments/1165027268420415489">Itō’s lemma</a></td>
+<td><a href="https://twitter.com/i/moments/1098304261186879489">Graph rewriting</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1146495763947675649">D&amp;G / Minor Literature</a></td>
-<td><a href="https://twitter.com/i/moments/1165655722148995072">Iterated Prisoner’s Dilemma (1)</a></td>
+<td><a href="https://twitter.com/i/moments/1168567960472084482">D&amp;G / Apparatus of Capture</a></td>
+<td><a href="https://twitter.com/i/moments/1099872468578328576">Greedoids</a></td>
 </tr>
 <tr class="odd">
 <td></td>
+<td><a href="https://twitter.com/i/moments/1179891589902151680">D&amp;G / Black Hole | White Wall</a></td>
+<td><a href="https://twitter.com/i/moments/1098308134806925312">Gröbner bases</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1174493111487254530">D&amp;G / Enunciation</a></td>
+<td><a href="https://twitter.com/i/moments/1261864508764667906">Gröbner basis</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1164248788443324421">D&amp;G / Haecceity</a></td>
+<td><a href="https://twitter.com/i/moments/1260334920490274816">Haskell \ Arrows (1)</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1164297123699023872">D&amp;G / Holey Space</a></td>
+<td><a href="https://twitter.com/i/moments/1261012763457007616">Haskell \ Arrows (2)</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1175522820929064960">D&amp;G / Lobsters</a></td>
+<td><a href="https://twitter.com/i/moments/1255108879165333504">Haskell \ Comonads (1)</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1163280887741591553">D&amp;G / Machinic Phylum</a></td>
+<td><a href="https://twitter.com/i/moments/1255127516425134080">Haskell \ Comonads (2)</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1146495763947675649">D&amp;G / Minor Literature</a></td>
+<td><a href="https://twitter.com/i/moments/1253816705303941121">Haskell \ Data Science</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1163257693873889280">D&amp;G / Music</a></td>
+<td><a href="https://twitter.com/i/moments/1264574060056449034">Haskell \ Dynamic Programming</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1168554625223528454">D&amp;G / Nomadology</a></td>
+<td><a href="https://twitter.com/i/moments/1264387615882645505">Haskell \ F-Algebra</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1164281194990751745">D&amp;G / Plane of Consistency</a></td>
+<td><a href="https://twitter.com/i/moments/1260724707990650880">Haskell \ Kinds</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1164573565720641540">D&amp;G / Plane of Immanence (1)</a></td>
+<td><a href="https://twitter.com/i/moments/1259997472107245571">Haskell \ Kleisli</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1164593308720611328">D&amp;G / Plane of Immanence (2)</a></td>
+<td><a href="https://twitter.com/i/moments/1263644045030469632">Haskell \ Loeb</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1162793695684550662">D&amp;G / Refrain</a></td>
+<td><a href="https://twitter.com/i/moments/1254811187587551238">Haskell \ Monad Laws</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1174773929011023876">D&amp;G / Speed</a></td>
+<td><a href="https://twitter.com/i/moments/1259634301915848704">Haskell \ MonadFix</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1175588099520380929">D&amp;G / Stratoanalysis</a></td>
+<td><a href="https://twitter.com/i/moments/1259245976381988872">Haskell \ MonadPlus</a></td>
+</tr>
+<tr class="even">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1144587536087560192">D&amp;G / Surplus value of code</a></td>
-<td><a href="https://twitter.com/i/moments/1165771807762386945">Iterated Prisoner’s Dilemma (2)</a></td>
+<td><a href="https://twitter.com/i/moments/1264627526623690752">Haskell \ Natural Transformation</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1175199568708984832">D&amp;G / War Machine</a></td>
+<td><a href="https://twitter.com/i/moments/1253366589241597954">Haskell \ Probability Monad</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1179116150564835329">de Castro / Cannibal Metaphysics</a></td>
-<td><a href="https://twitter.com/i/moments/1156033880379424768">Kripke structures</a></td>
+<td><a href="https://twitter.com/i/moments/1253162970428948482">Haskell \ Reader Monad</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159319399943344128">De Man / Allegory</a></td>
-<td><a href="https://twitter.com/i/moments/1145769491520991232">Krohn–Rhodes</a></td>
+<td><a href="https://twitter.com/i/events/1319765452055261184">Haskell \ System F</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1192156361666289664">Debord / Game of War</a></td>
-<td><a href="https://twitter.com/i/moments/1157675999389245440">Löb’s theorem</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1168567960472084482">Deleuze &amp; Guattari / Apparatus of Capture</a></td>
-<td><a href="https://twitter.com/i/moments/1264240091314167809">Lambek calculus</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1179891589902151680">Deleuze &amp; Guattari / Black Hole | White Wall</a></td>
-<td><a href="https://twitter.com/i/moments/1176533502654844928">Laspeyres &amp; Paasche indices</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1174493111487254530">Deleuze &amp; Guattari / Enunciation</a></td>
-<td><a href="https://twitter.com/i/moments/1263212243975626759">Linear logic (1)</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1164248788443324421">Deleuze &amp; Guattari / Haecceity</a></td>
-<td><a href="https://twitter.com/i/moments/1263229694067048448">Linear logic (2)</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1164297123699023872">Deleuze &amp; Guattari / Holey Space</a></td>
-<td><a href="https://twitter.com/i/moments/1263615511407005697">Linear logic (3)</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1175522820929064960">Deleuze &amp; Guattari / Lobsters</a></td>
-<td><a href="https://twitter.com/i/moments/1263630275776376832">Linear logic (4)</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1163280887741591553">Deleuze &amp; Guattari / Machinic Phylum</a></td>
-<td><a href="https://twitter.com/i/moments/1152769500871368704">Ludics</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1163257693873889280">Deleuze &amp; Guattari / Music</a></td>
-<td><a href="https://twitter.com/i/moments/1147208189131333638">Many-worlds | Decision theory</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1168554625223528454">Deleuze &amp; Guattari / Nomadology</a></td>
-<td><a href="https://twitter.com/i/moments/1266087447542276097">Markovianity</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1164281194990751745">Deleuze &amp; Guattari / Plane of Consistency</a></td>
-<td><a href="https://twitter.com/i/moments/1098469095333335041">Maude</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1164573565720641540">Deleuze &amp; Guattari / Plane of Immanence (1)</a></td>
-<td><a href="https://twitter.com/i/moments/1166484051395526656">May’s theorem</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1164593308720611328">Deleuze &amp; Guattari / Plane of Immanence (2)</a></td>
-<td><a href="https://twitter.com/i/moments/1158746508692533248">Mean field games</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1162793695684550662">Deleuze &amp; Guattari / Refrain</a></td>
-<td><a href="https://twitter.com/i/moments/1146572121268727808">Mereotopology</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1174773929011023876">Deleuze &amp; Guattari / Speed</a></td>
-<td><a href="https://twitter.com/i/moments/1098303554786332673">Meta-circular interpreter</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1175588099520380929">Deleuze &amp; Guattari / Stratoanalysis</a></td>
-<td><a href="https://twitter.com/i/moments/1164681222569844748">MV = PY</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1175199568708984832">Deleuze &amp; Guattari / War Machine</a></td>
-<td><a href="https://twitter.com/i/moments/1098281914086105088">Nelson / Zzstructures</a></td>
+<td><a href="https://twitter.com/i/moments/1259615395306254337">Haskell \ Traversable</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1146788035117363200">Deleuze / Aiôn</a></td>
-<td><div class="line-block"><a href="https://twitter.com/i/moments/1261482183199514624">Non-wellfounded sets</a></div></td>
+<td>|<a href="https://twitter.com/i/moments/1253429216214781952">Haskell \ Writer Monad</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1299516070328492033">Deleuze / Apparatus</a></td>
+<td><a href="https://twitter.com/i/moments/1254161461737410560">Haskell \ Zippers</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1288321555697733638">Deleuze / Bergsonism</a></td>
+<td><a href="https://twitter.com/i/moments/1176620281558896640">Heckscher-Ohlin model</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1362836553207328768">Deleuze / Calculus</a></td>
+<td><a href="https://twitter.com/i/events/1338212354526470146">Hellinger distance</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1299706211475042307">Deleuze / Control Society</a></td>
+<td><a href="https://twitter.com/i/events/1337513083242221571">Herbrand model</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1144940508336283648">Deleuze / Dark Precursor</a></td>
-<td><a href="https://twitter.com/i/moments/1098296577364508672">Optimal stopping</a></td>
+<td><a href="https://twitter.com/i/moments/1156278058338459650">Heyting Algebra</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1100250207961448449">Deleuze / Difference &amp; Repetition</a></td>
-<td><a href="https://twitter.com/i/moments/1172691584418275328">Parrondo’s paradox</a></td>
+<td><a href="https://twitter.com/i/moments/1155985857335087109">Hyperoperator</a></td>
 </tr>
 <tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1165088414821158912">Deleuze / Difference-in-Itself</a></td>
+<td><a href="https://twitter.com/i/events/1324482266907709442">Hyperplane arrangements</a></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1166213341167177729">Deleuze / Eternal Return</a></td>
-<td><a href="https://twitter.com/i/moments/1098288550850760704">Petri nets | Concurrency</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1144555598022893568">Deleuze / Flows</a></td>
-<td><a href="https://twitter.com/i/moments/1145438596092125184">Price of Anarchy</a></td>
+<td><a href="https://twitter.com/i/events/1366525165576867845">Hyperstitious</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1144579806312521728">Deleuze / Flux</a></td>
-<td><a href="https://twitter.com/i/moments/1156964744101863425">Process Algebra (1)</a></td>
+<td><a href="https://twitter.com/i/moments/1144555598022893568">Deleuze / Flows</a></td>
+<td><a href="https://twitter.com/i/moments/1099457852152971266">Identification strategy</a></td>
 </tr>
 <tr class="odd">
 <td></td>
+<td><a href="https://twitter.com/i/moments/1144579806312521728">Deleuze / Flux</a></td>
+<td><a href="https://twitter.com/i/events/1368302891895844867">Independence-friendly logic</a></td>
+</tr>
+<tr class="even">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1168396660503982080">Deleuze / Fold</a></td>
-<td><a href="https://twitter.com/i/moments/1156980518107435008">Process Algebra (2)</a></td>
+<td><a href="https://twitter.com/i/moments/1176695835339513856">Index Number theory</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1363286882315026440">Deleuze / Manifold</a></td>
+<td><a href="https://twitter.com/i/moments/1165655722148995072">Iterated Prisoner’s Dilemma (1)</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1253131030187462657">Deleuze / Monads</a></td>
-<td><a href="https://twitter.com/i/moments/1267561837937283073">Prolog \ Modal Logic</a></td>
+<td><a href="https://twitter.com/i/moments/1165771807762386945">Iterated Prisoner’s Dilemma (2)</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1147179747199410178">Deleuze / Problematics (1)</a></td>
-<td><a href="https://twitter.com/i/moments/1098300564016955394">Prolog | Unification</a></td>
+<td><a href="https://twitter.com/i/moments/1165019103893098497">Itō calculus</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1147195194577686528">Deleuze / Problematics (2)</a></td>
-<td><a href="https://twitter.com/i/moments/1098291060160253952">Quantifier elimination</a></td>
+<td><a href="https://twitter.com/i/moments/1165027268420415489">Itō’s lemma</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1150172774037676032">Deleuze / Quasi-cause</a></td>
-<td><a href="https://twitter.com/i/moments/1159906131730472960">Quantum game theory</a></td>
+<td><a href="https://twitter.com/i/events/1366548873573924866">Judgment Aggregation</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1172591604944822281">Deleuze / Stoicism</a></td>
-<td><a href="https://twitter.com/i/moments/1156303575234109441">Quantum Money</a></td>
+<td><a href="https://twitter.com/i/events/1330206298869207041">Karmarkar’s algorithm</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1161079758274387969">Deleuze / Striated Space</a></td>
-<td><a href="https://twitter.com/i/moments/1160254856306810880">Rational Inattention</a></td>
+<td><a href="https://twitter.com/i/moments/1156033880379424768">Kripke structures</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1166824306116087809">Deleuze / Transcendental Empiricism</a></td>
-<td><a href="https://twitter.com/i/moments/1165064133190062080">Real Business Cycle theory</a></td>
+<td><a href="https://twitter.com/i/moments/1145769491520991232">Krohn–Rhodes</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1166843531991932930">Deleuze / Univocity of Being</a></td>
-<td><a href="https://twitter.com/i/moments/1146117873573797889">Recursive games</a></td>
+<td><a href="https://twitter.com/i/moments/1264240091314167809">Lambek calculus</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1262103712258052099">Deleuze / Univocity</a></td>
-<td><a href="https://twitter.com/i/moments/1143940034934005760">Regression Discontinuity</a></td>
+<td><a href="https://twitter.com/i/moments/1176533502654844928">Laspeyres &amp; Paasche indices</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1151230595583729664">Deleuze / Vice-diction</a></td>
-<td><a href="https://twitter.com/i/moments/1098287947261116418">Relational algebra</a></td>
+<td><a href="https://twitter.com/i/events/1330215368875515907">Lattice reduction</a></td>
 </tr>
 <tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1289970134250119168">Derrida / Always-Already</a></td>
+<td><a href="https://twitter.com/i/events/1317998195474092034">Least Fixed Point</a></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1177309246716882945">Derrida / Aporia</a></td>
-<td><a href="https://twitter.com/i/moments/1148783470375776257">Revenue Equivalence</a></td>
+<td><a href="https://twitter.com/i/moments/1263212243975626759">Linear logic (1)</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1150825065778438146">Derrida / Arché-writing</a></td>
-<td><div class="line-block"><a href="https://twitter.com/i/moments/1176357107316285440">Rybczynski theorem</a></div></td>
+<td>|<a href="https://twitter.com/i/moments/1263229694067048448">Linear logic (2)</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1175877188089987072">Derrida / Autoimmunity</a></td>
-<td><a href="https://twitter.com/i/moments/1098472429087805442">Sampling</a></td>
+<td><a href="https://twitter.com/i/moments/1263615511407005697">Linear logic (3)</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159322454482915328">Derrida / Erasure</a></td>
-<td><a href="https://twitter.com/i/moments/1165336467213901824">Schelling Point (1)</a></td>
+<td><a href="https://twitter.com/i/moments/1263630275776376832">Linear logic (4)</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1150898182097911808">Derrida / Hauntology</a></td>
-<td><a href="https://twitter.com/i/moments/1165355448461082624">Schelling Point (2)</a></td>
+<td><a href="https://twitter.com/i/moments/1157675999389245440">Löb’s theorem</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1175594419053039622">Derrida / Hospitality (1)</a></td>
-<td><a href="https://twitter.com/i/moments/1165388240595107841">Schelling Point (3)</a></td>
+<td><a href="https://twitter.com/i/moments/1152769500871368704">Ludics</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1175814838792142854">Derrida / Hospitality (2)</a></td>
-<td><a href="https://twitter.com/i/moments/1167569025850912769">Search Theory</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1150808143213015042">Derrida / Trace</a></td>
-<td><a href="https://twitter.com/i/moments/1145655474487988224">Sen’s liberal paradox</a></td>
+<td><a href="https://twitter.com/i/moments/1147208189131333638">Many-worlds \ Decision theory</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1184654272199381001">Diagrammatology</a></td>
-<td><a href="https://twitter.com/i/moments/1148046998853050369">Shapley value</a></td>
+<td><a href="https://twitter.com/i/moments/1150808143213015042">Derrida / Trace</a></td>
+<td><a href="https://twitter.com/i/events/1347304583320760329">Markov basis</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1165088414821158912">Difference-in-Itself</a></td>
-<td><a href="https://twitter.com/i/moments/1176684879116984320">Sheafification</a></td>
+<td><a href="https://twitter.com/i/moments/1184654272199381001">Diagrammatology</a></td>
+<td><a href="https://twitter.com/i/moments/1266087447542276097">Markovianity</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162412578380943360">Duchamp / Infra-thin</a></td>
-<td><a href="https://twitter.com/i/moments/1145694444731215872">Signaling games (1)</a></td>
+<td><a href="https://twitter.com/i/moments/1098469095333335041">Maude</a></td>
 </tr>
 <tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1166386511748710400">Dutch Book Argument</a></td>
-<td><a href="https://twitter.com/i/moments/1145671408476966912">Signaling games (2)</a></td>
-</tr>
-<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162511162610782209">Economy of Signs</a></td>
-<td><a href="https://twitter.com/i/moments/1099836824556634115">Signaling vs\. Semiotics</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1098298409314910209">Eigenface</a></td>
-<td><a href="https://twitter.com/i/moments/1154066294007664641">Solomonoff induction</a></td>
+<td><a href="https://twitter.com/i/moments/1166484051395526656">May’s theorem</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1171204546032492546">Electrocene</a></td>
-<td><a href="https://twitter.com/i/moments/1177031352748822528">Sonnenschein-Mantel-Debreu theorem</a></td>
+<td><a href="https://twitter.com/i/moments/1158746508692533248">Mean field games</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159126252386754561">Enantiodromia</a></td>
-<td><a href="https://twitter.com/i/moments/1163595590082736133">Spatial Prisoner’s Dilemma</a></td>
+<td><a href="https://twitter.com/i/events/1333944688601157633">Mean-payoff games</a></td>
 </tr>
 <tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1356025990955282434">Ergodic Literature</a></td>
+<td><a href="https://twitter.com/i/moments/1146572121268727808">Mereotopology</a></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1149057046077222912">Existence is not a predicate</a></td>
-<td><a href="https://twitter.com/i/moments/1176502972362235905">Stolper-Samuelson theorem</a></td>
+<td><a href="https://twitter.com/i/moments/1098303554786332673">Meta-circular interpreter</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1170867105585074176">Existential Phenomenology</a></td>
-<td><a href="https://twitter.com/i/moments/1160361680225918981">Structural VARs</a></td>
+<td><a href="https://twitter.com/i/events/1311125804122812416">Metasemantics</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1175535797761642496">Flusser / Vampire Squid</a></td>
-<td><a href="https://twitter.com/i/moments/1167483887502667777">Subgame Perfect Equilibrium</a></td>
+<td><a href="https://twitter.com/i/events/1314354992837517317">Metatheorem</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1163197043831189509">Foucault / Archaeology (1)</a></td>
-<td><a href="https://twitter.com/i/moments/1163566085578338310">Supermodular Games</a></td>
+<td><a href="https://twitter.com/i/events/1339069497127395328">Metric temporal logic</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1163219670276722690">Foucault / Archaeology (2)</a></td>
-<td><a href="https://twitter.com/i/moments/1146136176304304129">Temporal Discounting</a></td>
+<td><a href="https://twitter.com/i/moments/1164681222569844748">MV = PY</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1163121590009290755">Foucault / Genealogy (1)</a></td>
-<td><a href="https://twitter.com/i/moments/1158535338710765568">Topological games</a></td>
+<td><a href="https://twitter.com/i/moments/1098281914086105088">Nelson / Zzstructures</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1163141088477155328">Foucault / Genealogy (2)</a></td>
-<td><a href="https://twitter.com/i/moments/1159932043519770624">Transferable utility</a></td>
+<td><a href="https://twitter.com/i/events/1346917821050216450">Non-Archimedean</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1167818862881992706">Foucault / Heterotopias (1)</a></td>
-<td><a href="https://twitter.com/i/moments/1172539001619828737">Transfinite Induction</a></td>
+<td><a href="https://twitter.com/i/moments/1261482183199514624">Non-wellfounded sets</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1167838265644183553">Foucault / Heterotopias (2)</a></td>
-<td><a href="https://twitter.com/i/moments/1155833967255392257">Tropical Algebra</a></td>
+<td><a href="https://twitter.com/i/events/1334936683415003137">Opetopes</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1174799775331442688">Foucault / Parrhesia</a></td>
-<td><a href="https://twitter.com/i/moments/1144540192973447169">Turing Degrees</a></td>
+<td><a href="https://twitter.com/i/moments/1098296577364508672">Optimal stopping</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1176958992322576384">Foucault / Technologies of the Self</a></td>
-<td><a href="https://twitter.com/i/moments/1183229029610151936">Turing jump</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1169659133240467456">Georgescu-Roegen / Thermoeconomics</a></td>
-<td><a href="https://twitter.com/i/moments/1145058616568942594">Ultrafilters</a></td>
+<td><a href="https://twitter.com/i/events/1317909080959320064">Parity games</a></td>
 </tr>
 <tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1344520700019630080">Freud / Fort-Da</a></td>
+<td><a href="https://twitter.com/i/moments/1172691584418275328">Parrondo’s paradox</a></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1180895940414246912">Girard / Scapegoat</a></td>
-<td><a href="https://twitter.com/i/moments/1257400620375592960">Umbral calculus</a></td>
+<td><a href="https://twitter.com/i/moments/1098288550850760704">Petri nets \ Concurrency</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1179134343777865728">Greimas / Semiotic Square</a></td>
-<td><a href="https://twitter.com/i/moments/1098292272981000194">Universal algebra</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1098306607354703875">Guattari / Schizoanalytic Cartographies</a></td>
-<td><a href="https://twitter.com/i/moments/1250865150183309315">VC-Dimension</a></td>
+<td><a href="https://twitter.com/i/moments/1177243261146193921">Prebisch-Singer hypothesis</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1146100333904584704">Guattari / Tensor</a></td>
-<td><a href="https://twitter.com/i/moments/1160319084690644998">Vector Autoregression</a></td>
+<td><a href="https://twitter.com/i/moments/1098306607354703875">Guattari / Schizoanalytic Cartographies</a></td>
+<td><a href="https://twitter.com/i/moments/1145438596092125184">Price of Anarchy</a></td>
 </tr>
 <tr class="even">
 <td></td>
+<td><a href="https://twitter.com/i/moments/1146100333904584704">Guattari / Tensor</a></td>
+<td><a href="https://twitter.com/i/moments/1156964744101863425">Process Algebra (1)</a></td>
+</tr>
+<tr class="odd">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1259591274111344646">Guattari / Transversality</a></td>
-<td><a href="https://twitter.com/i/moments/1150609824868130822">Wang tiles</a></td>
+<td><a href="https://twitter.com/i/moments/1156980518107435008">Process Algebra (2)</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1358251470727045120">Guattari / Unconscious</a></td>
+<td><a href="https://twitter.com/i/moments/1267561837937283073">Prolog \ Modal Logic</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1144697989857980418">Gunk</a></td>
-<td><a href="https://twitter.com/i/moments/1098474776178376704">Wronskian</a></td>
+<td><a href="https://twitter.com/i/moments/1098300564016955394">Prolog \ Unification</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1144722008137244672">Harman / Overmining</a></td>
-<td><a href="https://twitter.com/i/moments/1161834615797100544">Zooko’s Triangle</a></td>
+<td><a href="https://twitter.com/i/moments/1155474971960971264">Prosopography</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1172193334040940544">Hegel / Concrete Universal</a></td>
-<td><a href="https://twitter.com/i/moments/1177243261146193921">Prebisch-Singer hypothesis</a></td>
+<td><a href="https://twitter.com/i/events/1365123198103277568">Pursuit-evasion games</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1151294810747260930">Hegel / Dasein of Geist</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1098291060160253952">Quantifier elimination</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1158925170393997317">Heidegger / Aletheia</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1159906131730472960">Quantum game theory</a></td>
 </tr>
 <tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1289970134250119168">Heidegger / Always-Already</a></td>
+<td><a href="https://twitter.com/i/moments/1156303575234109441">Quantum Money</a></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1151296616156057602">Heidegger / Being-towards-death (1)</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/events/1336767447882473473">Ramsey pricing</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1151312048954982400">Heidegger / Being-towards-death (2)</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1160254856306810880">Rational Inattention</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1098265331653578752">Heidegger / Beyng</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1165064133190062080">Real Business Cycle theory</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1167279125259833344">Heidegger / Boredom</a></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1163507556523945987">Heidegger / Care</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1146117873573797889">Recursive games</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1158901458542182410">Heidegger / Clearing</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1163507556523945987">Heidegger / Care</a></td>
+<td><a href="https://twitter.com/i/moments/1143940034934005760">Regression Discontinuity</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1098310577615790081">Heidegger / Code</a></td>
+<td><a href="https://twitter.com/i/moments/1158901458542182410">Heidegger / Clearing</a></td>
+<td><a href="https://twitter.com/i/moments/1098287947261116418">Relational algebra</a></td>
+</tr>
+<tr class="odd">
 <td></td>
+<td><a href="https://twitter.com/i/moments/1098310577615790081">Heidegger / Code</a></td>
+<td><a href="https://twitter.com/i/moments/1148783470375776257">Revenue Equivalence</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1296573904480350213">Heidegger / Cybernetics</a></td>
+<td><a href="https://twitter.com/i/moments/1266452144594604032">Robotany</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1158134967257444360">Heidegger / Ek-sistence</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1176357107316285440">Rybczynski theorem</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162560523680014337">Heidegger / Ereignis</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1098472429087805442">Sampling</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1176247514925883393">Heidegger / Eternal Return</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1165336467213901824">Schelling Point (1)</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1158130626987548674">Heidegger / Existentiell</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1165355448461082624">Schelling Point (2)</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1098274348807454725">Heidegger / Fourfold</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1165388240595107841">Schelling Point (3)</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162567838311288832">Heidegger / Gelassenheit</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1167569025850912769">Search Theory</a></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1365428982636765192">Heidegger / Hölderlin</a></td>
+<td>|<a href="https://twitter.com/i/events/1322658785689800704">Semantic Tableaux</a></td>
+</tr>
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162797390686035969">Heidegger / Poetry (1)</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1145655474487988224">Sen’s liberal paradox</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162806358040821760">Heidegger / Poetry (2)</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1148046998853050369">Shapley value</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1149784164373319682">Heidegger / The Nothing nothings</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1176684879116984320">Sheafification</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1167520986922717184">Hocquenghem / Screwball Asses</a></td>
+<td><a href="https://twitter.com/i/moments/1145694444731215872">Signaling games (1)</a></td>
+</tr>
+<tr class="even">
 <td></td>
+<td><a href="https://twitter.com/i/events/1287881521538400259">Husserl / Epochē</a></td>
+<td>|<a href="https://twitter.com/i/moments/1145671408476966912">Signaling games (2)</a></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1300136146668851200">Husserl / Horizon</a></td>
+<td><a href="https://twitter.com/i/moments/1099836824556634115">Signaling vs\. Semiotics</a></td>
+</tr>
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1154554028656906240">Indra’s Net</a></td>
-<td></td>
+<td>|<a href="https://twitter.com/i/events/1280573352034385926">Situation Calculus</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1172302711972188165">Inoue Enryō / Yokai Studies 妖怪学</a></td>
-<td></td>
+<td>|<a href="https://twitter.com/i/events/1365484066162761729">Sobolev spaces</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1175912870212771840">Irigaray / Air</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1154066294007664641">Solomonoff induction</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1166773217320718336">Irigaray / Exchange</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1177031352748822528">Sonnenschein-Mantel-Debreu</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1175615225854345216">Irigaray / Fluidity</a></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1144550119142023168">Jarry / Surface of God</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1163595590082736133">Spatial Prisoner’s Dilemma</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1150982364140580864">Kant / Analytic A Posteriori</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1144550119142023168">Jarry / Surface of God</a></td>
+<td><a href="https://twitter.com/i/moments/1176502972362235905">Stolper-Samuelson theorem</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1166204880903708673">,kataphysics</a></td>
+<td><a href="https://twitter.com/i/moments/1150982364140580864">Kant / Analytic A Posteriori</a></td>
+<td><a href="https://twitter.com/i/moments/1160361680225918981">Structural VARs</a></td>
+</tr>
+<tr class="odd">
 <td></td>
+<td><a href="https://twitter.com/i/events/1325537193075613696">Kant / Ought implies can</a></td>
+<td><a href="https://twitter.com/i/events/1350279424361570305">Subfactorial</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1166204880903708673">kataphysics</a></td>
+<td><a href="https://twitter.com/i/moments/1167483887502667777">Subgame Perfect Equilibrium</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1167940146806714374">Kierkegaard / Despair</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1163566085578338310">Supermodular Games</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1171545548815556608">Kierkegaard / Suicide</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/events/1347016453355155457">Tanglegrams</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159155753468465153">Klossowski / Eternal Return</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1146136176304304129">Temporal Discounting</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1160235235507937282">Klossowski / Living Currency</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/events/1356835869370560515">Theil index</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1160229103770963968">Klossowski / Phantasm</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1158535338710765568">Topological games</a></td>
 </tr>
 <tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1362571289999921152">Kripkenstein</a></td>
+<td><a href="https://twitter.com/i/events/1335374181614010369">Torsors</a></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1166142423812255750">Kristeva / Abject (1)</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1159932043519770624">Transferable utility</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1166154388269871106">Kristeva / Abject (2)</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1172539001619828737">Transfinite Induction</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159247971160076289">Kristeva / Chora</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1155833967255392257">Tropical Algebra</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159261686395756544">Kristeva / Phenotext</a></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1171658643005157376">Kuki Shūzō / Detachment</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1144540192973447169">Turing Degrees</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1167558828659027970">Lévi-Strauss / Exchange</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1171658643005157376">Kuki Shūzō / Detachment</a></td>
+<td>|<a href="https://twitter.com/i/moments/1183229029610151936">Turing jump</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1145845344028307458">Lévi-Strauss / Mytheme</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/events/1313988533468762115">L=A=N=G=U=A=G=E</a></td>
+<td><a href="https://twitter.com/i/moments/1145058616568942594">Ultrafilters</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1158490192753418241">Lacan / Agalma</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/events/1346891716197036037">Ultrametric space</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159204843266936832">Lacan / Borromean knot</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1257400620375592960">Umbral calculus</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1098358936170840065">Lacan / Logical time</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1098292272981000194">Universal algebra</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1098351355499069440">Lacan / objet petit a</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1250865150183309315">VC-Dimension</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1147569211436404738">Lacan / Purloined Letter</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1160319084690644998">Vector Autoregression</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159209440442224641">Lacan / Sinthôme</a></td>
-<td></td>
+<td>|<a href="https://twitter.com/i/moments/1150609824868130822">Wang tiles</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1098271254795206662">Lacan / Topology</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/events/1358887962596024320">Warren’s abstract machine</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1244077454827958273">Land / Abstract Horror</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/events/1338199145732067330">Wasserstein metric</a></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1171073959829393415">Land / Cosmic Trauma</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1098474776178376704">Wronskian</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162132893684121600">Land / Cthelll</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1161834615797100544">Zooko’s Triangle</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1176259137698705408">Land / Eternal Recurrence</a></td>
-<td></td>
+<td><a href="https://twitter.com/i/moments/1178747360861720579">Land / Cybergothic</a></td>
+<td><a href="https://twitter.com/i/moments/1098276235078234112">α-algorithm</a></td>
 </tr>
 <tr class="even">
 <td></td>
+<td><a href="https://twitter.com/i/moments/1176259137698705408">Land / Eternal Recurrence</a></td>
+<td><a href="https://twitter.com/i/moments/1098309216941625344">λ-calculus</a></td>
+</tr>
+<tr class="odd">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1162076672914526208">Land / Geotrauma</a></td>
+<td><a href="https://twitter.com/i/moments/1267494130864861185">λProlog</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1157111678955327488">Land / Lemurian Time War</a></td>
+<td><a href="https://twitter.com/i/events/1320943804766146560">λμ-calculus</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1149344328575344640">Land / Qwernomics</a></td>
+<td><a href="https://twitter.com/i/moments/1156634752994160640">μ-calculus</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1161484468802260992">Land / Shoggothic Materialism</a></td>
+<td><a href="https://twitter.com/i/moments/1156691666922823680">π-calculus (1)</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1152428024631107586">Land / Teleoplexy</a></td>
+<td><a href="https://twitter.com/i/moments/1156702569835782144">π-calculus (2)</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1161492470334676992">Land / Tellurian Insurgency</a></td>
+<td><a href="https://twitter.com/i/moments/1156736482507444224">ρ-calculus</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1152407897529344001">Land / Templexity</a></td>
+<td><a href="https://twitter.com/i/moments/1170902585802465281">ℵ₀</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1172979843102887939">Land / Transcendental Miserablism</a></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1172979843102887939">Land / Transcendental Miserablism</a></td>
+<td><a href="https://twitter.com/i/moments/1098254318380240896">Land / Xenotation</a></td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1172260272926580737">Laruelle / Black Universe</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1363917501931913223">Laruelle / Quantum</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1364800820106174472">Laruelle / Victim</a></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -1703,12 +1793,22 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1157111678955327488">Lemurian Time War</a></td>
+<td><a href="https://twitter.com/i/moments/1162756357906489344">Levinas / Infinity</a></td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1162756357906489344">Levinas / Infinity</a></td>
+<td><a href="https://twitter.com/i/events/1297373766897618951">Levinas / There is</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1167558828659027970">Lévi-Strauss / Exchange</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1145845344028307458">Lévi-Strauss / Mytheme</a></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -1718,27 +1818,37 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1178706508051341313">Lukács / Reification</a></td>
+<td><a href="https://twitter.com/i/events/1355323389389529088">Luhmann / Zettelkasten</a></td>
 <td></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1178706508051341313">Lukács / Reification</a></td>
+<td></td>
+</tr>
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1161786754367709184">Lyotard / Differend</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1175230280426315777">Lyotard / Figure</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1175233571763736577">Lyotard / Inhuman</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1175167272966656002">Lyotard / Libidinal Economy</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1300188586898268160">Lyotard / Sublime</a></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -1753,7 +1863,7 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1146889051326308358">Matte-Blanco / Computational Psychoanalysis</a></td>
+<td><a href="https://twitter.com/i/moments/1146889051326308358">Matte-Blanco / Bi-Logic</a></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -1793,7 +1903,17 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="odd">
 <td></td>
+<td><a href="https://twitter.com/i/events/1297211078791893003">Merleau-Ponty / Flesh</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1161413245166637058">Merleau-Ponty / Hyperdialectic</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1338651418996117504">Merleau-Ponty / Intertwining</a></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -1833,92 +1953,102 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1170501091953430528">Negarestani / Blobjectivity</a></td>
+<td><a href="https://twitter.com/i/events/1297312379278172160">Nancy / Touch</a></td>
 <td></td>
 </tr>
 <tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1170501091953430528">Negarestani / Blobjectivity</a></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1170405228698591236">Negarestani / Decay</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1151180169631227905">Negarestani / Mortiloquist</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1170400781842944000">Negarestani / Xerodrome</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1171107788875030528">Nishida / Absolutely Contradictory Self-Identity</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1171097394060152833">Nishitani / Nothingness</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1150923457225547784">Non-Propositional Knowledge</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1263301075534315521">Object-Oriented {Ontology, Programming}</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1171610881068883975">Parfit / Identity</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1158392258556833793">‘Patadata</a></td>
+<td><a href="https://twitter.com/i/moments/1158392258556833793">Patadata</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1146049859562168326">Pataphor</a></td>
 <td></td>
 </tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1298470928528150533">Peirce / Existential graphs</a></td>
+<td></td>
+</tr>
 <tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1340067568921554952">Peirce / Phaneroscopy</a></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1159948898103943168">Perdurantism</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1166444429202399237">Pessimistic Meta-Induction</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1157843106936565765">Plurivocity</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1155474971960971264">Prosopography</a></td>
+<td><a href="https://twitter.com/i/events/1338301417954668546">Popper / Propensity</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1177426294226784256">Prynne 蒲龄恩 / 诗歌</a></td>
 <td></td>
 </tr>
-<tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1149344328575344640">Qwernomics</a></td>
-<td></td>
-</tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1266452144594604032">Robotany</a></td>
+<td><a href="https://twitter.com/i/events/1300226871729192969">Rancière / Dissensus</a></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -1928,62 +2058,62 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1242261981605724160">Sartre / Nothingness</a></td>
+<td><a href="https://twitter.com/i/events/1300115559292510213">Sartre / Imagination</a></td>
 <td></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1242261981605724160">Sartre / Nothingness</a></td>
+<td></td>
+</tr>
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1171816133898526721">Schopenhauer / Fourfold Root</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1167118419243732993">Schopenhauer / Optimism</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1171535756029874176">Schopenhauer / Suicide</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1172908473371299840">Schopenhauer / Thing-in-Itself</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1172920836103315459">Schopenhauer / Upanishads</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1176147621750214658">Schreber / Solar Anus</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1146475504188493826">Sellars / Myth of the Given</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1161781316108599296">Serres / Angels</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1176857205167067136">Serres / Hermes</a></td>
 <td></td>
 </tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1176865276912197633">Serres / Parasite</a></td>
-<td></td>
-</tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1161484468802260992">Shoggothic Materialism</a></td>
+<td><a href="https://twitter.com/i/moments/1176865276912197633">Serres / Parasite</a></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -1993,7 +2123,27 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="odd">
 <td></td>
+<td><a href="https://twitter.com/i/events/1358225660968321024">Simondon / Hylomorphism</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1172948080574062592">Simondon / Individuation</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1358171325697818626">Simondon / Information</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1358207489385377792">Simondon / Metastable</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/events/1358222918069743620">Simondon / Ontogenesis</a></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -2028,27 +2178,37 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1156214216262656000">Supertasks</a></td>
+<td><a href="https://twitter.com/i/events/1291554350498811914">Stiegler / Hypomnesis</a></td>
 <td></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td><a href="https://twitter.com/i/moments/1156214216262656000">Supertasks</a></td>
+<td></td>
+</tr>
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1177044891110649858">Supervenience (1)</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1177061940503490560">Supervenience (2)</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1177072560070123520">Supervenience (3)</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1162941882827268096">Surrationalism</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1298002022982135810">Tarde / Monad</a></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -2058,37 +2218,27 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1152428024631107586">Teleoplexy</a></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
 <td><a href="https://twitter.com/i/moments/1154766284594262017">Teleosemantics</a></td>
 <td></td>
 </tr>
-<tr class="even">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1161492470334676992">Tellurian Insurgency</a></td>
-<td></td>
-</tr>
 <tr class="odd">
-<td></td>
-<td><a href="https://twitter.com/i/moments/1152407897529344001">Templexity</a></td>
-<td></td>
-</tr>
-<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1160691265266180097">Thacker / Cosmic Pessimism</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1155900239653605379">The Jewel is in the Lotus</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="https://twitter.com/i/moments/1145816624492158981">Toronto Research Group</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1291554350616190977">Trần Đức Thảo / Marxist Phenomenology</a></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -2178,17 +2328,27 @@ Liebowitz, S. &amp; Margolis, S. (<a href="https://personal.utdallas.edu/~liebow
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1098254318380240896">Xenotation</a></td>
+<td><a href="https://twitter.com/i/moments/1171971853117796352">Xiong Shili / Consciousness-Only</a></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="https://twitter.com/i/moments/1160630133981614087">Zapffe / Antinatalism</a></td>
+<td><a href="https://twitter.com/i/events/1338551567415435264">Zalamea / Entangling</a></td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
+<td><a href="https://twitter.com/i/moments/1160630133981614087">Zapffe / Antinatalism</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
 <td><a href="https://twitter.com/i/moments/1170482487623061505">Žižek / Jouissance</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://twitter.com/i/events/1288960685221842949">Žižek / Organs without Bodies</a></td>
 <td></td>
 </tr>
 </tbody>

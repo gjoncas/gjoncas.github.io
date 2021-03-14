@@ -285,7 +285,7 @@ where clusters are ‘bags of symmetry’ subject to increasing levels of genera
 
 <center>![](/static/img/blog-posts/trees-clusters.png)</center>
 
-Murtagh uses this kind of clustering raises some provocative empirical evidence for the theory.
+Murtagh uses this kind of clustering to raise some provocative empirical evidence for the theory.
 One experiment took texts from the Brothers Grimm, Jane Austen, James Joyce, air accident reports, and a database of dream reports to measure their ultrametricity values (2012b).
 The Brothers Grimm and accidents were lowest, and did not noticeably differ. 
 Jane Austen had a small but distinguishably higher value.
@@ -349,5 +349,5 @@ extending it far deeper than its creator ever imagined.
 <li>Rayner, E. ([1995](https://marcell.memoryoftheworld.org/Eric%20Rayner/Unconscious%20Logic_%20An%20Introduction%20to%20Matte%20Blanco's%20Bi-Logic%20and%20Its%20Uses%20(462)/Unconscious%20Logic_%20An%20Introduction%20to%20Matte%20Blanco's%20Bi-Logic%20and%20Its%20Uses%20-%20Eric%20Rayner.pdf)). *Unconscious Logic: An Introduction to Matte Blanco’s Bi-Logic and Its Uses*. New York: Routledge.</li>
 <li>Rejaibi, E., Komaty, A., Meriaudeau, F., Agrebi, S., Othmani, A. ([2020](https://arxiv.org/abs/1909.07208)). “MFCC-based Recurrent Neural Network for Automatic Clinical Depression Recognition and Assessment from Speech.” Working Paper.</li>
 <li>Sanchez-Cardenas, M. (2011). “Matte Blanco’s thought and epistemological pluralism in psychoanalysis.” *The International Journal of Psychoanalysis* 92(4), pp\. 811-31</li>
-<li>Tomic, M. ([2020](https://arxiv.org/abs/2010.04550)). “Quantum Computational Psychoanalysis: Quantum Logic Approach to Bi-logic.” Working Paper.</li>
+<li>Tomić, M. ([2020](https://arxiv.org/abs/2010.04550)). “Quantum Computational Psychoanalysis: Quantum Logic Approach to Bi-logic.” Working Paper.</li>
 </ul>
