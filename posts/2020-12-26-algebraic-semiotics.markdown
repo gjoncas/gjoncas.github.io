@@ -154,7 +154,7 @@ To their surprise, there’s actually a lot — namely 2<sup><small>A</small></s
 As far as I can tell, A=4 and P=3, giving 48 possible blendoids.
 
 To narrow these down, they looked for optimality principles.
-The main challenge is that to automate these, they need to be fully formal, based on structure ather than meaning.
+The main challenge is that to automate these, they need to be fully formal, based on structure rather than meaning.
 Goguen & Harrell (2004: 52-3) ultimately arrived at degrees of commutativity (i.e\. how much the arrows are ‘equal’), 
 degree of axiom preservation (i.e\. how well blends follow the rules),
 and amount of type casting for constants (i.e\. whether a blendoid has an unnatural type).
@@ -252,7 +252,7 @@ These claims sound grandiose to the point of being crankish, but by now I hope t
 
 It’s clear that the tools are in place for a formal science of signs.
 Goguen’s algebraic semiotics was developed with working examples implemented in OBJ code.
-The main barrier has simply been that experts in semiotics have ever even heard of ideas like colimits or universal algebra.
+The main barrier has simply been that experts in semiotics have never even heard of ideas like colimits or universal algebra.
 Again, all of this is realizable right now — all that’s missing is someone willing to do the dirty work.
 
 Radical ideas like ‘cognitive ergonomics’ are often tossed around for selling snake oil, but Goguen opens up the tantalizing thought that foundations for this could truly exist.
