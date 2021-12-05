@@ -58,7 +58,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <link rel="shortcut icon" href="https://gjoncas.github.io/static/img/ico.png" type="image/x-icon" />
     <!-- Blog Title -->
     
-    <title>Oneironomics | Blog Archives</title>
+    <title>Oneironomics | Romanian Semiotics</title>
     
     <!--     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 -->
@@ -187,6 +187,13 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <!-- end Loading front stylesheet here -->
 </head>
 
+    
+    <!-- KaTeX -->
+    <!-- via https://github.com/wei2912/blog-src/blob/master/templates/default.html -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+    <!-- End KaTeX Code -->
     
 
 <body>
@@ -317,12 +324,19 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
     <div id="content" align="justify">
         <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/static/img/tasvicze.jpg')" alt title>
+<header class="intro-header" style="background-image: url('https://gjoncas.github.io/static/img/tasvicze.jpg')" alt title>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1><span style="color:white">Blog Archives</span></h1>
+                    <h1><span style="color:white">Romanian Semiotics</span></h1>
+                    
+                    <h2 class="subheading">A Research Proposal</h2>
+                    
+                    <span class="meta" style="color:white">
+                        
+                        December  5, 2021
+                    </span>
                 </div>
             </div>
         </div>
@@ -333,70 +347,30 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" align="justify">
 
-                Here you can find all my previous posts:
-                <ul>
-    
-    <li>
-        <a href="./posts/2021-12-05-romanian-semiotics.html">Romanian Semiotics</a> &ndash; December  5, 2021
-    </li>
-    
-    <li>
-        <a href="./posts/2021-02-16-computational-psychoanalysis.html">Computational Psychoanalysis</a> &ndash; February 16, 2021
-    </li>
-    
-    <li>
-        <a href="./posts/2020-12-26-algebraic-semiotics.html">Algebraic Semiotics</a> &ndash; December 26, 2020
-    </li>
-    
-    <li>
-        <a href="./posts/2020-12-16-topos-theoretic-social-science.html">Topos-theoretic Social Science</a> &ndash; December 16, 2020
-    </li>
-    
-    <li>
-        <a href="./posts/2020-07-08-experimental-qwernomics.html">Experimental Qwernomics</a> &ndash; July  8, 2020
-    </li>
-    
-    <li>
-        <a href="./posts/2020-06-19-twitter-moments.html">Twitter Moments</a> &ndash; June 19, 2020
-    </li>
-    
-    <li>
-        <a href="./posts/2020-06-14-easyplot-in-haskell.html">EasyPlot in Haskell</a> &ndash; June 14, 2020
-    </li>
-    
-    <li>
-        <a href="./posts/2020-05-30-monad-associativity-law.html">The Associativity Law for Monads</a> &ndash; May 30, 2020
-    </li>
-    
-    <li>
-        <a href="./posts/2020-05-18-quantifier-elimination-in-economics.html">Quantifier Elimination in Economics</a> &ndash; May 18, 2020
-    </li>
-    
-    <li>
-        <a href="./posts/2020-03-21-week-of-envy.html">A Week of Envy</a> &ndash; March 21, 2020
-    </li>
-    
-    <li>
-        <a href="./posts/2019-12-08-tulpalgorithms.html">Tulpalgorithms</a> &ndash; December  8, 2019
-    </li>
-    
-    <li>
-        <a href="./posts/2019-11-07-a-rose-for-emily.html">A Rose for Emily</a> &ndash; November  7, 2019
-    </li>
-    
-    <li>
-        <a href="./posts/2019-11-02-inktober.html">Inktober with Ti𝑘Z</a> &ndash; November  2, 2019
-    </li>
-    
-    <li>
-        <a href="./posts/2019-11-01-intro.html">Introduction</a> &ndash; November  1, 2019
-    </li>
-    
-</ul>
+                <p>I’ve never liked the way philosophy centers around a handful of ‘canonical’ authors. To me it’s a far better sign of good taste to seek out less known authors and show why their ideas are actually good. Of course, most obscure books are obscure for a very good reason, so finding anything good usually requires surmounting high interdisciplinary barriers, but often there are just no incentives to do so.</p>
+<p>In a research jackpot, I recently came across a deeply rich school of thought that’s had zero critical engagement. Inspired by the French structuralists who used formal models to analyze texts, a group of mathematicians in Romania in the 1970s and ’80s applied formal language theory (<em>à la</em> Chomsky) to the fine arts. Far from just a historical curiosity, these ideas have no parallel in digital humanities, and I think they could yield incredible insights if coded up with a modern programming language.</p>
+<p>There should be a book about these ideas. No one else is going to do it, so I will. I thought hard about it, and drew up a proposal for what it would entail to write a decent monograph. You can read the proposal <a href="https://gjoncas.github.io/static/romanian-semiotics-proposal.pdf">here</a>, and I welcome feedback and suggestions for getting this off the ground.</p>
+<p>For a time I worried that someone might try to scoop this idea — but seeing as the project requires learning both algebraic topology and how to read in Romanian, the barriers to entry seem high enough to deter even the most unscrupulous grad student. Here, all my weird scholarly interests come elegantly together, and I feel like no-one else could ever write this in quite the way I envision it.</p>
+<h3 id="a-few-lessons-learned">A Few Lessons Learned</h3>
+<p>As part of making this proposal, I watched Jane Friedman’s lovely course, <a href="https://www.thegreatcourses.com/courses/how-to-publish-your-book">How to Publish your Book</a>. One thing I learned is that publishers like when you list similar books that have been successful, so they have an idea of its market segment. In this case, I see it as somewhere in between Moretti’s <em>Graphs, Maps, Trees</em> and Zalamea’s <em>Synthetic Philosophy of Contemporary Mathematics</em>. Moretti’s book outlines abstract data structures to codify literary texts, and is an early manifesto for digital humanities. Zalamea’s book is a philosophical sketch of higher mathematics — hardly easy reading, but still accessible due to focusing on specific research programmes and broad conceptual themes.</p>
+<p>This course also drove home how publishers want you to have a platform: they’ll do basically nothing to market your book, so you need to bring your own audience. While it makes sense that you should already have a reputation for producing good stuff, the problem is that researchers tend to have a huge amount of disdain for any sort of marketing. We’d like to think that quality speaks for itself, but that’s not always the case, and many strong researchers have remained obscure because of this.</p>
+<p>I was surprised to learn that the publisher decides a book’s title and cover art, as well as whether it’s soft- or hardcover. Still, authors have a high amount of control for online and multimedia promotion. It becomes very clear after dipping your toe into this that dealing with publishers is a skill in itself.</p>
+<p>I also found out just how expensive it is to publish open-access books at a major academic publisher. <a href="https://www.routledge.com/our-products/open-access-books/publishing-oa-books/book-publication-charges">Routledge</a> wants $13,000, <a href="https://www.springernature.com/gp/open-research/journals-books/books/pricing">Springer</a> wants $15K for 400 pages, and <a href="https://brill.com/page/2244">Brill</a> wants $12,200 for 350 pages. Yeesh. However, there are also grants specifically to help pay these costs, which is good to know.</p>
+<p>Finally, I was struck by the close parallels between writing a book and starting a business. Far from scribbling in a garret, a writer today has to research their target audience, actively pitch their book to publishers, and schmooze in the literary community. I’ve often wondered about the lack of major philosophical works published in the last few decades, and this goes a long way in explaining why.</p>
+<h3 id="next-steps">Next Steps</h3>
+<p>This project likely won’t happen for a while, since I need to catch up on the math. Also, with German I’m still only memorizing verbs, while some of the key papers are in German. As a final caveat, squeezing the timeline into a year is probably way too optimistic, but I feel like that’s all I can ask for.</p>
+<p>A few things I’m still not clear about are the grant ecosystem, especially in Romania, as well as what kind of books scholarly publishers look for. I’d also like to make a software package so that researchers can use these ideas in practice, but it’s hard to see ahead of time what this will look like.</p>
+<p>If anyone wants to help out, one way to do so is pointing out grants or other funding opportunities. I’m also looking for experts in related fields, who I can reach out to if I have questions, and who can recommend ways to simplify or generalize these older results. Last, many of these papers are buried in obscure journals that aren’t available in Canada, so a scan of these would make a huge difference.</p>
+<p>Anyway, I tried to make this proposal genuinely snazzy, and I’d like to think it can give other young researchers a template to help focus their thoughts. Notably, the graph on page 6 is called a Gantt chart, and making it really helped crystallize my inchoate idea into a venture with manageable steps. I hope this also shows how the kind of work in an office job can strengthen your creative projects — and, for job-hunting humanities students, how good research habits can be valuable in industry.</p>
 
                 <hr>
+
+                <ul class="pager">
+                    
+                    
+                </ul>
 
             </div>
         </div>

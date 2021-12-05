@@ -37,8 +37,8 @@ http://127.0.0.1:8000
 It's slightly convoluted to go from editing to publishing and vice versa. I'm writing this so I don't forget.
 
 About.md, Project.markdown, Research.markdown and index.html need to be in the main directory when editing.<br>
-When posting, put them in `pages` and replace them with files from `site_` (About, blog, index, Projects, Research).<br>
-When editing, delete html versions of posts; when posting, copy the html posts from `site_` into the posts folder.
+When posting, put them in `pages` and replace them with files from `_site` (About, blog, index, Projects, Research).<br>
+When editing, delete html versions of posts; when posting, copy the html posts from `_site` into the posts folder.
 
 There's probably a more efficient way to do this, but I'm just playing by ear here.
 
