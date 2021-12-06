@@ -8,7 +8,7 @@ katex: true
 In relating to other people, we have two main strategies. 
 The first, empathy, amounts to simulation: how you would react in the same scenario.
 Yet, in the absence of analogous experiences, this can go wildly astray, with no self-correcting mechanism.
-By contrast, sympathy is cognitive modeling: following *why* someone would feel a certain way, even if they think very differently from you.
+By contrast, sympathy is cognitive modeling — following *why* someone would feel a certain way, even if they think very differently from you.
 
 Most of us get through life by mining our past for analogies, but at extremes this breaks down.
 From historians trying to reconstruct forms of life of the ancient Greeks, 
@@ -27,7 +27,7 @@ next we’ll reframe this through his later emphasis on multi-dimensional cognit
 and finally, all this will be formalized in terms of ultrametric spaces in mathematics,
 allowing topological insights into Freudian concepts that can be implemented as machine learning algorithms for text-mining.
 
-### The Unconscious as Inﬁnite Sets
+### The Unconscious as Infinite Sets
 
 So much of Freud has trickled into popular consciousness that it’s easy to forget just how weird his notion of the unconscious really is.
 Specifically, Freud notes the following defining characteristics:
@@ -102,7 +102,7 @@ His use of mathematics is somewhat shallow, leaving many open questions, though 
 probes the deepest layers of the unconscious by means of large cardinals.
 He also reframed his ideas geometrically through the notion of multi-dimensional spaces, which is worth exploring to get a more practical feel for his theory’s implications.
 
-### The 𝑛-dimensional Psyche
+### The *n*-dimensional Psyche
 
 Matte Blanco called his theory ‘bi-logic’, to denote the disparate logics of conscious vs\. unconscious thought.
 In fact, he was originally experimenting with multi-valued logics, and shifted to geometry as a better way to account for the facts,

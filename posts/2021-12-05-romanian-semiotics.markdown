@@ -2,7 +2,6 @@
 title: Romanian Semiotics
 subtitle: A Research Proposal
 tags: mathematics, philosophy, semiotics
-katex: false
 ---
 
 I’ve never liked the way philosophy centers around a handful of ‘canonical’ authors.
