@@ -6,7 +6,7 @@ katex: true
 ---
 
 I’ve never liked the way philosophy centers around a handful of ‘canonical’ authors.
-To me it’s a far better sign of good taste to seek out less known authors and show why their ideas are actually good.
+To me it’s a far better sign of good taste to seek out less-known authors and show why their ideas are actually good.
 Of course, most obscure books are obscure for a very good reason, so finding anything good usually requires surmounting high interdisciplinary barriers,
 but often there are just no incentives to do so.
 
