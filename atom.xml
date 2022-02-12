@@ -8,8 +8,181 @@
         <name>Graham Joncas</name>
         <email></email>
     </author>
-    <updated>2021-12-05T00:00:00Z</updated>
+    <updated>2022-02-12T00:00:00Z</updated>
     <entry>
+    <title>Fixpoint Semantics and Semiotics</title>
+    <link href="http://gjoncas.github.io/posts/2022-02-12-fixpoint-semantics-and-semiotics.html" />
+    <id>http://gjoncas.github.io/posts/2022-02-12-fixpoint-semantics-and-semiotics.html</id>
+    <published>2022-02-12T00:00:00Z</published>
+    <updated>2022-02-12T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<p>[<a href="https://en.wikipedia.org/wiki/Georg_Nees">Georg Nees</a> (1926-2016) is known as a pioneer of computer art, in a profoundly exciting time when mathematics blended seamlessly with art, and computational aesthetics was first being theorized. These ideas were confronted by a milieu of thinkers who today are largely unknown in the English-speaking world — notably Max Bense, to whom this paper was dedicated. The present paper is a tutorial introduction to denotational semantics of programming languages, viewed through the lens of Peircian semiotics. We might think of it as a step up from a certain deeply mediocre book on the semiotics of programming — and written in <a href="https://zkm.de/media/file/de/1980-semiosis-17-18_10-18_nees.pdf">1980</a> no less. Edits to the translation are <a href="https://github.com/gjoncas/gjoncas.github.io/blob/master/posts/2022-02-15-fixpoint-semantics-and-semiotics.markdown">welcome</a>.]</p>
+<h3 id="introduction">1. Introduction</h3>
+<p>In the domain of C.S. Peirce we bring together the work of two thinkers: <a href="https://en.wikipedia.org/wiki/Max_Bense">Max Bense</a> and <a href="https://en.wikipedia.org/wiki/Dana_Scott">Dana Scott</a>. Bense is familiar to us, Scott perhaps less so: he received his Ph.D in 1958 and is now Professor of Mathematical Logic in Oxford, England. As an example of his range, refer to [1]. What we are discussing began in 1969 as a collaboration between Scott and computer scientist Christopher Strachey, who died in 1975 ([2,3,4]). We can only mention in passing the influence of Lawvere ([5]).</p>
+<p>Strachey and Scott were looking for mathematical semantics for programming languages. However, Scott noticed that this question was overshadowed by a more complicated and until then largely unsolved problem, namely, efficient models of λ-calculus ([6,7]). The models that Scott found have a peculiar analogy to real analysis; indeed, they contain rational and transcendent elements ([8]). Scott built a new type of information theory into his semantics ([8,9]).</p>
+<p>Programs can be viewed as imperative clauses or texts, since they are commands to entities. We pick out a subclass from these texts, namely programs, which in turn process texts. From a semantics of text processing we then try to proceed to a Peirce/Bense/Scottian semiotics of text processing. As a follow-up, we list a few epistemological questions.</p>
+<h3 id="text-processing">2. Text Processing</h3>
+<p>Now let’s learn to program! We imagine a word processing machine that has drawers (memory cells). The first 17 drawers are labeled <span class="math inline">\(a\)</span> through <span class="math inline">\(r\)</span>. Then follow <span class="math inline">\(s\)</span>, <span class="math inline">\(t\)</span>, <span class="math inline">\(u\)</span>, <span class="math inline">\(v\)</span>, <span class="math inline">\(w\)</span>. Then follow 1000 drawers each: <span class="math inline">\(x_{\tiny 1}\)</span>, ..., <span class="math inline">\(x_{\tiny 1000}\)</span>, <span class="math inline">\(y_{\tiny 1}\)</span>, ..., <span class="math inline">\(y_{\tiny 1000}\)</span>, <span class="math inline">\(z_{\tiny 1}\)</span>, ..., <span class="math inline">\(z_{\tiny 1000}\)</span>. There is a note with a number in each of the drawers <span class="math inline">\(a\)</span> to <span class="math inline">\(r\)</span>. In all the other drawers there are notes (books) on which a text is written. In technical reality, drawers are replaced by, say, magnetic disks. As variables for cells (drawers) we choose names with at least two characters, e.g. <code>xx</code> or <code>Text4</code>. Our text processor can do the following basic operations:</p>
+<pre><code>\1 Text1 := Text2             -- text in cell Text1 is replaced with a copy of the text in cell Text2
+\2 head(Text1)                -- get first symbol of text in Text1
+\3 tail(Text1)                -- get all symbols except the first in Text1
+\4 print(Text1), read(Text1)</code></pre>
+<p>Notice that we need not make a strict distinction between cells and text, because one also says “Please bring the SEMIOSIS folder” to mean the text in that folder. Application example for /1 ... 3:</p>
+<pre><code>/5 Ta := head(tail(tail(&quot;Tony Meier, male, born 02.03.01&quot;)))</code></pre>
+<p>This triggers the storage of the symbol ‘male’ in cell <code>Ta</code>. As text symbols, we allow words and the special characters “.,;!?” too. The following combination principles for basic operations are (just like /1, 4) commands (instructions) to the computer:</p>
+<pre><code>/6 while B do C        -- as long as B holds, do C
+/7 if B then C else D  -- if B holds, do C, otherwise do D
+/8 C1; C2; ... ; Ck    -- do C1, C2, ..., Ck in sequence</code></pre>
+<p>Application example! Suppose in <span class="math inline">\(x_{\tiny 1}\)</span>, ..., <span class="math inline">\(x_{\tiny 1000}\)</span> personnel files are based on the scheme of the innermost bracket in /5. Then the following program lists the files of all males with surname “Meier”:</p>
+<pre><code>/9.1 n:=1; while n≤1000 do
+  .2 (if head(tail(tail(Xn))) = &quot;male&quot;
+  .3 and tail(tail(Xn)) = &quot;Meier&quot; print Xn else dummy)</code></pre>
+<p>In /9.2, <code>dummy</code> is the dummy operation that does nothing. Here our text processor serves as a personnel database. Surely we all realize how powerful it can be made by layering code on top of itself in a building-block fashion.</p>
+<h3 id="text-semantics">3. Text Semantics</h3>
+<p>Now we have to make friends with mathematics! Our programs are themselves texts. What is the meaning (the object reference) of these texts?</p>
+<p>We start with the concept of function. A function (mapping, morphism) <span class="math inline">\(f\)</span> maps the elements of a set <span class="math inline">\(S_d\)</span> (domain of <span class="math inline">\(f\)</span>) to elements of a set <span class="math inline">\(S_r\)</span> (range of <span class="math inline">\(f\)</span>). One writes:</p>
+<p><span class="math display">\[f(S_d) = S_r \;\;\mathrm{or}\;\; f : S_d \to S_r \;\;\mathrm{or}\;\; S_d \xrightarrow{f} S_r\]</span></p>
+<p>Morphisms (functions) are also called arrows. They are members of categories, but that doesn’t matter right now (Lawvere!). If <span class="math inline">\(S_f\)</span> is a set of family names, <span class="math inline">\(S_g\)</span> a set of given names, let <span class="math inline">\(f\!f\!g\)</span> be the arrow that assigns to each surname <span class="math inline">\(\in\)</span> (in) <span class="math inline">\(S_f\)</span> a set of first names <span class="math inline">\(\in 2^{S_g}\)</span>; here <span class="math inline">\(2^{S_g}\)</span> is the set of subsets (power set) of <span class="math inline">\(S_g\)</span>. A single assignment is denoted by a single arrow, as follows:</p>
+<p><span class="math display">\[\mathrm{Rilke} \;\xrightarrow{ffg}\; (\mathrm{Rainer}, \mathrm{Maria}) \in 2^{S_g}\]</span></p>
+<p>The set of all mappings <span class="math inline">\(f\)</span> from a set <span class="math inline">\(S_1\)</span> to another <span class="math inline">\(S_2\)</span> is called a morphism space <span class="math inline">\(mor(S_1,S_2)\)</span>. If <span class="math inline">\(S_1 = S_2\)</span>, then the morphisms are called endomorphisms.</p>
+<p>We now make a surprising statement: the meaning of a command (see 1/1,4,6,7,8) is an endomorphism of the text processor’s memory. We can digest this step by step: strictly speaking, it is an endomorphism of the space (set) of memory states. A memory state is a function</p>
+<p><span class="math display">\[\mathrm{Cells} \,\xrightarrow{z}\, \mathrm{Text}\]</span></p>
+<p>which tells you which text is in which drawer. A change of state <span class="math inline">\(a\)</span> is then an arrow afterwards:</p>
+<p><span class="math display">\[(\mathrm{Cells} \,\xrightarrow{z_1}\, \mathrm{Text}) \,\xrightarrow{a}\, (\mathrm{Cells} \,\xrightarrow{z_2}\, \mathrm{Text})\]</span></p>
+<p>This is clearly the transition <span class="math inline">\(a\)</span> from a state <span class="math inline">\(z_1\)</span> to a state <span class="math inline">\(z_2\)</span>. However, a command is still more. Let’s look at the assignment command (cf. /1)</p>
+<p><span class="math display">\[\mathrm{Text}_1 := \mathrm{Text}_2\]</span></p>
+<p>Although this assignment only changes the contents of a single drawer, the effect on the overall memory depends on the initial state. So the meaning of <code>:=</code> is an arrow</p>
+<p><span class="math display">\[mor(\mathrm{Cells},\mathrm{Text}) \,\xrightarrow{f}\, mor(\mathrm{Cells},\mathrm{Text})\]</span></p>
+<p>What is this endomorphism <span class="math inline">\(f\)</span>? It is the object of the object reference whose sign is the program text (carefully set in quotation marks) <code>‘Text1 := Text2’</code>.</p>
+<p>The object reference must in turn be produced by a function — let’s call it <span class="math inline">\(Com\)</span> — which makes sense for our previous equation because <code>:=</code> modifies individual memory cells. This can be rewritten in a more verbose way:</p>
+<p><span class="math display">\[mor(\mathrm{Cells},\mathrm{Text})\; \xrightarrow{Com(‘\mathrm{Text}_1\;:=\;\mathrm{Text}_2’)} \;mor(\mathrm{Cells},\mathrm{Text})\]</span></p>
+<p>This is the mathematical semantics of the <code>:=</code> command, also known as value assignment.</p>
+<p><span class="math inline">\(Com\)</span> is a typical semantic function. If commands are anticipated as characters, it supplies for each command in the syntactic reference a function as an object reference. This function describes state changes, i.e. processes. Thirdness will prove extremely complex!</p>
+<p>Let’s move on to the branch command:</p>
+<p><span class="math display">\[Com(‘\mathrm{if}\; B \;\mathrm{then}\; C \;\mathrm{else}\; D’) = \lambda s.Stex(‘B’)s + Com(‘C’)s, Com(‘D’)s\]</span></p>
+<p>Here <span class="math inline">\(Stex\)</span> is <span class="math inline">\(Com\)</span>’s simplified counterpart: just as <span class="math inline">\(Com\)</span> provides the meaning of commands, <span class="math inline">\(Stex\)</span> provides the meaning of <strong>st</strong>ate <strong>ex</strong>pressions. An example of such a description is the sentence “In drawer <span class="math inline">\(w\)</span> is the text ‘Hahn Tower 8th floor’” (how lucky that we have two quotation marks!). However, λ appears in the previous expression.</p>
+<p>λ-expressions describe functions and are directly applicable to arguments. For example:</p>
+<p><span class="math display">\[(\lambda x,\!y.y+x) (4,2) = 2+4 = 6\]</span></p>
+<p>Thus, λ-expressions are evaluated by relating the order of the function variables (here, the λ-variables <span class="math inline">\(x\)</span>,<span class="math inline">\(y\)</span>) to the order of the arguments (2,4), which inserts the arguments at the appropriate places in the λ-body (<span class="math inline">\(y+x\)</span>) and evaluates the body. This is exactly the operational sense of a function: to return a value for arguments (the number 6). In our last two examples, <span class="math inline">\(s\)</span>,<span class="math inline">\(x\)</span>,<span class="math inline">\(y\)</span> are not the memory cells from before, but ‘bound variables’ that establish the variable argument reference.</p>
+<p>Nevertheless, bound variables also hold within a universe of discourse. In the above case, <span class="math inline">\(s\)</span> (object reference!) is a memory state and the body colloquially says: “If <span class="math inline">\(Stex(‘B’)\)</span> applies to state <span class="math inline">\(s\)</span>, then the function <span class="math inline">\(Com(‘C’)\)</span> is applied to <span class="math inline">\(s\)</span> as an argument, otherwise <span class="math inline">\(Com(‘D’)\)</span> forces a state change.” But this is also colloquially understood as the meaning of the command ‘if B then C else D’!</p>
+<h3 id="scotts-information-theory">4. Scott's Information Theory</h3>
+<p>Up to now, everything has been relatively easy. The problem that Scott solved concerns the structure of the Cells, Texts, state and state-change object references (endomorphism categories):</p>
+<p><span class="math display">\[mor(mor(\mathrm{Cells},\mathrm{Text}), mor(\mathrm{Cells},\mathrm{Text}))\]</span></p>
+<p>To put it briefly: one must make these sets so rich in structure that Tarski’s fixed point theorem can be applied to them ([10]). Scott achieves this by considering them as complete functional associations. Complete associations are not difficult to understand. Its elements behave in a similar way to the subsets of sets: you can form the union and intersection of any number of elements. In fact, the subsets of a set form a complete lattice. The complete lattices we are interested in are called domains. Now let’s look at the domain of command-meanings in general:</p>
+<p><span class="math display">\[\begin{aligned} 
+mor(\mathrm{Cells}, \mathrm{Text}) \;\xrightarrow{Com(‘C’)}\; mor(\mathrm{Cells}, \mathrm{Text}) &amp;= Bc\\ 
+C \in \mathrm{Commands}, Com(‘C’) \in \mathrm{Commands} &amp;= Bc \;\;\mathrm{\small (Object\;reference!)}
+  \end{aligned}\]</span></p>
+<p>We need a smallest element for <span class="math inline">\(Bc\)</span>. Let <span class="math inline">\(\bot \in Bc\)</span> be this element. This turns out to be a core difference between computer science and (static) logic: the meaning of <span class="math inline">\(\bot\)</span> (pronounced ‘bottom’ or ‘undefined value’) is the function that does not return a value, as a semantic depiction of a command that puts the computer into an infinite loop. Next we need a membership relation <span class="math inline">\(\sqsubseteq\)</span> for <span class="math inline">\(Bc\)</span> with the important special case</p>
+<p><span class="math display">\[\bot \sqsubseteq x \;\mathrm{for\;all}\; x \in Bc.\]</span></p>
+<p>Since the elements of <span class="math inline">\(Bc\)</span> are functions, it follows that</p>
+<p><span class="math display">\[f \sqsubseteq g \;\equiv\; f(x) \sqsubseteq g(x) \;\mathrm{for\;all}\; x \in dom(f), \;f\!,\!g \in Bc\]</span></p>
+<p>Scott’s information theory is based on the simple statement: “<span class="math inline">\(\bot\)</span> is the lowest information in a domain; <span class="math inline">\(f \sqsubseteq g\)</span> means that <span class="math inline">\(g\)</span> is at least as rich in information as <span class="math inline">\(f\)</span>; <span class="math inline">\(\top\)</span> is informationally overdetermined and <span class="math inline">\(f \sqsubseteq \top\)</span> holds for all <span class="math inline">\(f\)</span> in the domain.” Incidentally, it is interesting to trace possible applications of this theory in aesthetics; about that another time ([11])!</p>
+<p>If <span class="math inline">\(H\)</span> is an endomorphism on <span class="math inline">\(Bc\)</span>, i.e. a function that maps <span class="math inline">\(Bc\)</span> into itself, then Tarski’s fixed point theorem applies:</p>
+<blockquote>
+<span style="color:#909090"> There is at least one <span class="math inline">\(f \in Bc\)</span> with <span class="math inline">\(f = H(f)\)</span>, i.e. at least one element that maps to itself, i.e. at least one fixed point </span>
+</blockquote>
+<p>which we need in the next section. A key difference between Shannon’s and Scott’s information theories is that between <span class="math inline">\(\leq\)</span> and <span class="math inline">\(\sqsubseteq\)</span>.</p>
+<h3 id="a-fixpoint-approach">5. A Fixpoint Approach</h3>
+<p>Missing from our collection of command meanings is:</p>
+<p><span class="math display">\[Com(‘\mathrm{while}\; B \;\mathrm{do}\; C’).\]</span></p>
+<p>Strictly speaking, the unknown <span class="math inline">\(g\)</span> is sought in the semantic arrow:</p>
+<p><span class="math display">\[‘\mathrm{while}\; B \;\mathrm{do}\; C’ \;\xrightarrow{Com}\; g,\; \mathrm{i.e.}\; g = Com(‘\mathrm{while}\; B \;\mathrm{do}\; C’)\]</span></p>
+<p>A typical fixed point approach now follows. Suppose you already have the object g. Then this also applies:</p>
+<p><span class="math display">\[‘\mathrm{if}\; B \;\mathrm{then}\; (C; \;\mathrm{while}\; B \;\mathrm{do}\; C) \;\mathrm{else\;dummy}’ \;\xrightarrow{Com}\; g, \;\mathrm{or}\]</span> <span class="math display">\[g = Com(‘\mathrm{if}\; B \;\mathrm{then}\; (C; \;\mathrm{while}\; B \;\mathrm{do}\; C) \;\mathrm{else\;dummy}’)\]</span></p>
+<p>from which one can immediately colloquially infer the equivalence of “While B do C” with “If B then do the following: As long as B, do C — otherwise do nothing.” With this <span class="math inline">\(g\)</span> can be determined from our previous equation. In our next semantic approach we already know the first rule, while the second maps the empty command to the identity function <span class="math inline">\(I\)</span>, which does not change any state:</p>
+<pre><code>Com(‘if B then C else D’) = λs.Stex(‘B’)S → Com(‘C’)s, Com(‘D’)s
+Com(‘dummy’) = I</code></pre>
+<p>Substituting these rules into our last equation, we obtain:</p>
+<pre><code>g = λs.Stex(‘B’)S → Com(‘C; while B do C’)s, Is</code></pre>
+<p>We eliminate the semicolon with a plausible rule of composition:</p>
+<pre><code>Com(‘C; D’) = Com(‘D’) ∘ Com(‘C’)</code></pre>
+<p>because the meaning of the effect of successively executed commands is composition <span class="math inline">\(\circ\)</span> of functions, i.e. a sequence of arrows:</p>
+<p><span class="math display">\[mor(\cdots) \;\xrightarrow{Com(‘C’)}\; mor(\cdots) \;\xrightarrow{Com(‘D’)}\; mor(\cdots)\]</span></p>
+<p>From the preceding two equations it follows immediately:</p>
+<pre><code>g = λs.Stex(‘B’)S → (Com(‘while B do C’)s ∘ Com(‘C’))s, Is</code></pre>
+<p>If you now go back to the approach at the beginning of this section, you can see that the unknown <span class="math inline">\(g\)</span> is also hidden on the right side of this last equation, so that the latter can be transformed into</p>
+<pre><code>g = λs.Stex(‘B’)S → (g ∘ Com(‘C’))s, Is</code></pre>
+<p>This is a fixpoint equation <span class="math inline">\(g = H(g)\)</span> that can be solved by iteration. One is tempted to ask: “Is it supposed to be that strict here?” The answer in Dana Scott’s sense is: “Unfortunately not more lax!” In any case, the eminently important ‘While B do C’ also has an object reference.</p>
+<h3 id="four-semioses-and-one-retro-pro-semiosis">6. Four Semioses and one Retro-Pro-Semiosis</h3>
+<p>The preceding argument was lengthy, but it was important to us not just to talk, but to show how deep the rabbit hole goes. This brings us to the point that Scott’s handling of character strings is part of a first Hilbertian tradition, which Max Bense mentions in [12, p. 155]. There he quotes Hilbert [13], where he refers to signs as extra-logical discrete objects and describes them as indispensable means for the security of logical reasoning. Since then, signs can now be directly handled by machines, such as for mathematical proofs. Scott mentions in [9] the proof of the four-color theorem, which was recently achieved with machine support.</p>
+<p>Without further ado, let’s jump into the semiotics of Scott’s approach through the following diagram:</p>
+<center>
+<img src="/static/img/blog-posts/nees-fixpoint.png" />
+</center>
+<p>We rely on Bense’s collection of semioses [12, p. 45ff]. There, 25 examples of 27 classes of meaning are listed. A 26th example is the semiosis (legisign)-icon <span class="math inline">\(\to\)</span> rhema in the diagram, which just indicates the neither-true-nor-false of the interpretant entity scanning the icons, be it machine, enzyme, or human. With the (legisign)-symbol, it is convenient to consider the Scottian semantic map as a whole as the object reference of the program-qualisigns.</p>
+<p>The difference between the top and the bottom is that between the programmer as craftsman and the programmer as thinker. Composed in semioses: Quali <span class="math inline">\(\to\)</span> (Legi)-Icon <span class="math inline">\(\to\)</span> Rhema versus Quali <span class="math inline">\(\to\)</span> (Legi)-Symbol <span class="math inline">\(\to\)</span> Argument. This brings to mind my experimental physics professor, who said to us at the beginning of our studies: “Not every radio hobbyist is compelled to be a physicist!” The lower half of the diagram opens the door to mathematical argumentation and thus to further knowledge about programs and program equivalences (symmetries), and as a result to multiplicatively better mastery, such as intelligent word processing.</p>
+<p>With this, a second Hilbertian tradition comes into play, which Max Bense summarized in [12, p. 157] as follows: “Hilbert expressly raised as a methodical requirement the consistency of the concluding clauses of a proof. This indicates the fact that the semiosis of increasing semioticity that is introduced and characteristic of the generation of a proof must not become a retrosemiosis of falling semioticity in any phase of the deductive construction in achieving an argument. If this were to happen, then the purely intellectual process of ‘thirdness’ would fall back into ‘secondness’ or ‘firstness’.” In the same way, Scott’s calculus safeguards against the catastrophe of chaotically cobbled-together programs.</p>
+<p>The third semiosis of our diagram only makes sense together with a fourth, namely the subsumption of all interpretants into a sign that seems to me so formidable that I would like to call it a semiotope — by analogy to a biotope. Incidentally, for this semiotope to be consistent, the machine processing a Scott-reflected language also formally does what the programs demand. (See our mini-language in §2, which still lacks a command for text concatenation, but the reader can easily figure it out.) Incidentally, the proof of consistency can be performed within the framework of non-standard semantics (see [3]).</p>
+<p>The looping-arrow semiosis in the diagram takes the programmer from acting on the icon-programs to contemplating them.</p>
+<h3 id="extension-into-semiotics---a-follow-up">7. Extension into Semiotics - A Follow-up</h3>
+<p>Similar to René Thom, Scott opens up new approaches to exact thinking about becoming (see e.g. [14]). Just as the work of the Stuttgart Semiotics Center also makes use of Thom’s theory, it would likely be fruitful to pursue the semiotics of Scott’s semantics further — all under the keyword ‘process’. Rich encouragement can be found in the <em>Semiosis</em> issues of recent years. Think of Bense’s summary [15]: “The semiotic representation of a system of theoretically connected or connectible entities, i.e. of a theory or discipline, is always realized in a certain set of sign classes or trichotomies (thematics of realization) of the complete sign.”</p>
+<p>Here the complete Scottian sign is probably always given by <em>two</em> text levels, as they are typically e.g. occur in the second equation of §5 (the ‘g’ <em>after</em> the “while B do C”) — see also the papers [16] and [17] by Marty and Walther. The reference of our diagram to those in [18] would have to be established — plunging ever further into its references to Lawvere. Word processing programs belong to word and formula languages at the same time [19]. Finally, it is significant in this connection that Max Bense keeps coming back to the topic of functionality ([20]), which is so closely related to the concept of communication channels for processing data.</p>
+<hr />
+<h3 id="bibliography"><br>Bibliography</h3>
+<ol>
+<li>
+Scott, D. (<a href="https://www.academia.edu/6420918">1970</a>). “Advice on modal logic,” in Lambert, K. (Ed.). (1970). <em>Philosophical Problems in Logic: Some Recent Developments</em>. Dordrecht: D. Reidel Publiching Co., pp. 143-73
+</li>
+<li>
+Scott, D. &amp; Strachey, C. (<a href="https://www.cs.ox.ac.uk/files/3228/PRG06.pdf">1971</a>). “Toward a Mathematical Semantics for Computer Languages,” in Fox, J. (Ed.). (1971). <em>Proceedings of Symposium on Computers and Automata</em>. New York.
+</li>
+<li>
+Stoy, J. (<a href="http://libgen.rs/book/index.php?md5=3B5083DEFD5216E127019222F74B7FE5">1977</a>). <em>Denotational Semantics: The Scott-Strachey Approach to Programming Language Theory</em>. Cambridge, MA: MIT Press.
+</li>
+<li>
+Milne, R. &amp; Strachey, C. (<a href="http://libgen.rs/book/index.php?md5=365509419AB737F7150ACD390E3BBD54">1976</a>). <em>A Theory of Programming Language Semantics</em>, Parts A and B. New York: Halsted Press
+</li>
+<li>
+Wagner, E. (<a href="http://libgen.rs/scimag/10.1145%2F800157.805034">1971</a>). “An Algebraic Theory of Recursive Definitions and Recursive Languages.” Proceedings of the 3rd ACM Symposium on Theory of Computing, pp. 12-23
+</li>
+<li>
+Scott, D. (1972). “Lattice Theory, Data Types and Semantics,” in Rustin, R. (Ed.). (1972). <em>Formal Semantics of Algorithmic Languages</em>. Englewood Cliffs, NJ: Prentice-Hall, pp. 65-106
+</li>
+<li>
+Scott, D. (<a href="http://libgen.rs/scimag/10.1137%2F0205037">1976</a>). “Data Types as Lattices.” <em>SIAM Journal on Computing</em> 5(3), pp. 522-87
+</li>
+<li>
+Scott, D. (<a href="https://www.cs.ox.ac.uk/files/3223/PRG03.pdf">1971</a>). “The Lattice of Flow Diagrams,” in Engeler, R. (Ed.). (1971). <em>Symposium on the Semantics of Algorithmic Languages</em>. Berlin: Springer-Verlag, pp. 311-66
+</li>
+<li>
+Scott, D. (<a href="http://libgen.rs/scimag/10.1145%2F359810.359826">1977</a>). “Logic and Programming Languages.” <em>Communications of the ACM</em> 20(9), pp. 634-41
+</li>
+<li>
+Tarski, A. (<a href="http://libgen.rs/scimag/10.2140%2Fpjm.1955.5.285">1955</a>). “A Lattice-theoretical Fixpoint Theorem and its Applications.” <em>Pacific Journal of Mathematics</em> 5(2), pp. 285-309
+</li>
+<li>
+Nees, G. (to appear). “M. Bense’s Esthetics and D.S. Scott’s Theory of Information.” <em>Semiosis</em>. [editor’s note: this was never published]
+</li>
+<li>
+Bense, M. (1975). <em>Semiotische Prozesse und Systeme</em>. Baden-Baden: Agis-Verlag.
+</li>
+<li>
+Hilbert, D. (<a href="http://libgen.rs/scimag/10.1007%2Fbf01206605">1926</a>). “Über das Unendliche.” <em>Mathematische Annalen</em> 95, pp. 161-90
+</li>
+<li>
+Thom, R. (<a href="https://zkm.de/media/file/de/1978-semiosis-10_05-23_thom.pdf">1978</a>). “Vom Icon zum Symbol.” Semiosis 10, pp. 5-23
+</li>
+<li>
+Bense, M. (<a href="https://zkm.de/media/file/de/1978-semiosis-11_72-74_bense.pdf">1978</a>). “Zeichenklassen und mathematische Grundbegriffe. <em>Semiosis</em> 11, pp. 72-4
+</li>
+<li>
+Marty, R. (<a href="https://zkm.de/media/file/de/1978-semiosis-11_55-66_marty.pdf">1978</a>). “L’ideologie comme processus semiotique.” <em>Semiosis</em> 11, pp. 55-66
+</li>
+<li>
+Walther, E. (<a href="https://zkm.de/media/file/de/1978-semiosis-11_67-71_walther.pdf">1978</a>). “Notiz zur Frage des Zusammenhangs der Zeichenklassen.” <em>Semiosis</em> 11, pp. 67-71
+</li>
+<li>
+Bense, M. (<a href="https://zkm.de/media/file/de/1976-semiosis-04_05-19_bense.pdf">1976</a>). “Semiotische Kategorien und algebraische Kategorien.” <em>Semiosis</em> 4, pp. 5-19
+</li>
+<li>
+Bense, M. (<a href="https://zkm.de/media/file/de/1977-semiosis-08_53-57_bense.pdf">1977</a>). “Wortsprache und Formelsprache.” <em>Semiosis</em> 8, pp. 53-7
+</li>
+<li>
+Bense, M. (<a href="https://zkm.de/media/file/de/1979-semiosis-13_17-28_bense.pdf">1979</a>). “Die funktionale Konzeption der Semiotik.” <em>Semiosis</em> 13, pp. 17-28
+</li>
+</ol>]]></summary>
+</entry>
+<entry>
     <title>Romanian Semiotics</title>
     <link href="http://gjoncas.github.io/posts/2021-12-05-romanian-semiotics.html" />
     <id>http://gjoncas.github.io/posts/2021-12-05-romanian-semiotics.html</id>
@@ -2708,65 +2881,6 @@ Mulligan, C., Bradford, R., Davenport, J., England, M., &amp; Tonks, Z. (<a href
 Mulligan, C., Davenport, J. &amp; England, M. (<a href="https://arxiv.org/abs/1806.11447v1">2018</a>). “TheoryGuru: A Mathematica Package to Apply Quantifier Elimination Technology to Economics,” in Davenport, J., Kauers, M., Labahn, G., Urban, J. (2018). <em>Mathematical Software – ICMS 2018</em>. Heidelberg: Springer, pp. 369-78
 </li>
 </ul>]]></summary>
-</entry>
-<entry>
-    <title>A Week of Envy</title>
-    <link href="http://gjoncas.github.io/posts/2020-03-21-week-of-envy.html" />
-    <id>http://gjoncas.github.io/posts/2020-03-21-week-of-envy.html</id>
-    <published>2020-03-21T00:00:00Z</published>
-    <updated>2020-03-21T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<p>My interest in data visualization comes in part from the idea that far before explicitly formalizing a model, we begin with some sort of picture, however simplistic — complete with fuzzy parts, or vague spatial metaphors for how one thing affects another (often literal handwaving). Yet, once we actively spell out an idea through shapes, colors, and relative positions, we see just how much information we can pack into this one concept: its ‘degrees of freedom’.</p>
-<p>On <a href="https://twitter.com/deepchimera">@deepchimera</a>’s recommendation, I came to discover the data visualizations of <a href="http://giorgialupi.com">Giorgia Lupi</a>. In her book <em>Dear Data</em>, she and a coauthor send postcards with elaborate graphs about some feature of their past week. My favorite part was following along and tracing out in my head how I might replicate each graph in code. I’ve gotten some flack for making diagrams in Ti<em>k</em>Z rather than using a staple like Tableau, but non-standard diagrammatics is where Ti<em>k</em>Z really shines.</p>
-<p>For this graph, the author recorded her feelings of envy. Here is the original, minus the legend:</p>
-<center>
-<img src="/static/img/blog-posts/lupi-envy-original.jpg" />
-</center>
-<p>And here is my reproduction (pdf <a href="/static/img/blog-posts/lupi-envy.pdf">here</a>):</p>
-<center>
-<img src="/static/img/blog-posts/lupi-envy-tikz.png" />
-</center>
-<p>
-My Ti<em>k</em>Z code is available <a href="https://github.com/gjoncas/Artsy-Diagrams/blob/master/lupi-envy.tex">here</a>, so anyone who wants can make their own version. The biggest pain is that your topics of envy will differ from the author’s, so you’ll have to choose new colors and labels.
-</p>
-Beyond that, the main data points you will need are the following:
-<ul>
-<li>
-Person being envied — either specific (you), or a category (coworker)
-</li>
-<li>
-Thing being envied — highly idiosyncratic, but nice for showing recurring themes
-</li>
-<li>
-Lesson learned from it — often slightly redundant, but still interesting
-</li>
-<li>
-Degree of this feeling of envy (continuous scale from 1.5 to 5; smaller than 1.5 looks bad)
-</li>
-<li>
-Weekly frequency of coveting this thing (continuous scale from 1 to 20)
-</li>
-<li>
-How attainable the coveted thing is (continuous scale from 1 to 12)
-</li>
-</ul>
-<p>What I mean by ‘continuous scale’ is that it can include decimals, like 5.25. So if it’s easier, scales from 1 to 10 are fine, and you can normalize it afterwards (multiply by 2 or 1.2). Both 20 and 12 are multiples of 4; this way, with 4 levels for frequency and attainability, they fit on a grid (not shown).</p>
-<p>The spirals are mostly an artistic flourish (circles would be fine), but give it style. I like how the <em>x</em>-axis focuses on frequency rather than order. The most creative part is the <em>y</em>-axis (attainability), which makes the graph far more poignant. In the bottom-left quadrant, the author fleetingly covets some feature of a celebrity who she can never measure up to. In the top-left quadrant (note the leftmost whitespace), she sees a nice article of clothing that she could just buy herself. The bottom-right is largely dissatisfaction with her personality, and the top-right is mainly her English.</p>
-I thought of a few possible variations to make the chart even more elaborate, if desired.
-<ul>
-<li>
-Angle for the line where the spiral begins — just change <code>rotate=-90</code> to any angle you want
-</li>
-<li>
-The tick marks can also have any angle — maybe for the degree of insight from one’s lesson
-</li>
-<li>
-Archimedean spirals for envy (coveting), and logarithmic spirals for jealousy (fear of loss)
-</li>
-<li>
-Dots can have different sizes, or even be a pie chart (percent of people who elicit this feeling)
-</li>
-</ul>
-<p>I’m too shy to do my own version, but if anyone else is brave enough, give me a <a href="https://twitter.com/gjncs">shout</a> and I’ll post it!</p>]]></summary>
 </entry>
 
 </feed>
