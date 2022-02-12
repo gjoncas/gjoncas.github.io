@@ -8,7 +8,7 @@ katex: true
 [[Georg Nees](https://en.wikipedia.org/wiki/Georg_Nees) (1926-2016) is known as a pioneer of computer art, in a profoundly exciting time when mathematics blended seamlessly with art, and computational aesthetics was first being theorized.
 These ideas were confronted by a milieu of thinkers who today are largely unknown in the English-speaking world — notably Max Bense, to whom this paper was dedicated.
 The present paper is a tutorial introduction to denotational semantics of programming languages, viewed through the lens of Peircian semiotics.
-We might think of it as a step up from a certain deeply mediocre book on the semiotics of programming — and written in [1980](https://zkm.de/media/file/de/1980-semiosis-17-18_10-18_nees.pdf) no less. Edits to the translation are [welcome](https://github.com/gjoncas/gjoncas.github.io/blob/master/posts/2022-02-15-fixpoint-semantics-and-semiotics.markdown).]
+We might think of it as a step up from a certain deeply mediocre book on the semiotics of programming — and written in [1980](https://zkm.de/media/file/de/1980-semiosis-17-18_10-18_nees.pdf) no less. Edits to the translation are [welcome](https://github.com/gjoncas/gjoncas.github.io/blob/master/posts/2022-02-12-fixpoint-semantics-and-semiotics.markdown).]
 
 ### 1. Introduction
 
@@ -208,7 +208,7 @@ Strictly speaking, the unknown $g$ is sought in the semantic arrow:
 
 $$‘\mathrm{while}\; B \;\mathrm{do}\; C’ \;\xrightarrow{Com}\; g,\; \mathrm{i.e.}\; g = Com(‘\mathrm{while}\; B \;\mathrm{do}\; C’)$$
 
-A typical fixed point approach now follows. Suppose you already have the object g. Then this also applies:
+A typical fixed point approach now follows. Suppose you already have the object $g$. Then this also applies:
 
 $$‘\mathrm{if}\; B \;\mathrm{then}\; (C; \;\mathrm{while}\; B \;\mathrm{do}\; C) \;\mathrm{else\;dummy}’ \;\xrightarrow{Com}\; g, \;\mathrm{or}$$ 
 $$g = Com(‘\mathrm{if}\; B \;\mathrm{then}\; (C; \;\mathrm{while}\; B \;\mathrm{do}\; C) \;\mathrm{else\;dummy}’)$$
