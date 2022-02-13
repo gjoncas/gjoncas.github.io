@@ -1,6 +1,6 @@
 ---
 title: Fixpoint Semantics and Semiotics
-author: George Nees
+author: Georg Nees
 tags: semiotics, logic, translation
 katex: true
 ---
