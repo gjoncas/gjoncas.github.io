@@ -19,7 +19,7 @@ We can only mention in passing the influence of Lawvere ([5]).
 
 Strachey and Scott were looking for mathematical semantics for programming languages.
 However, Scott noticed that this question was overshadowed by a more complicated and until then largely unsolved problem, namely, efficient models of λ-calculus ([6,7]).
-The models that Scott found have a peculiar analogy to real analysis; indeed, they contain rational and transcendent elements ([8]). 
+The models that Scott found have a peculiar analogy to real analysis; indeed, they contain rational and transcendental elements ([8]). 
 Scott built a new type of information theory into his semantics ([8,9]).
 
 Programs can be viewed as imperative clauses or texts, since they are commands to entities. We pick out a subclass from these texts, namely programs, which in turn process texts. From a semantics of text processing we then try to proceed to a Peirce/Bense/Scottian semiotics of text processing. As a follow-up, we list a few epistemological questions.
